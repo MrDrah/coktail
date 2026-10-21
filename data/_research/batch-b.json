@@ -1,0 +1,1882 @@
+[
+  {
+    "id": "mai-tai",
+    "name": "Mai Tai",
+    "era": "vintage",
+    "yearCreated": 1944,
+    "glass": "Double Rocks (old Fashioned) Or Highball",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "aged-rum",
+        "amount": 60,
+        "unit": "ml",
+        "optional": false,
+        "note": "30 ml amber Jamaican rum + 30 ml Martinique molasses rum (not rhum agricole)"
+      },
+      {
+        "id": "orange-liqueur",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "orange curaçao"
+      },
+      {
+        "id": "orgeat",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lime-juice",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": "freshly squeezed"
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 7.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Pineapple spear, mint leaves and lime peel",
+    "instructions": [
+      "Add all ingredients to a shaker with ice.",
+      "Shake well.",
+      "Strain into a double rocks (old fashioned) or highball glass."
+    ],
+    "history": "Victor Bergeron, better known as Trader Vic, said he came up with the Mai Tai in 1944 at his restaurant in Oakland, California, which he had opened a decade earlier. He served the new mix to two friends visiting from Tahiti, and one of them reportedly reacted with a Tahitian phrase meaning roughly 'out of this world', which gave the drink its name. His original build leaned on a 17-year-old Jamaican rum, lime, orange curaçao, rich sugar syrup and French orgeat.\n\nThe story is not uncontested. Ernest Raymond Beaumont-Gantt, owner of Don the Beachcomber's in Hollywood, also claimed the drink, and some accounts even place its birth in Tahiti; Bergeron firmly rejected both claims in his 1972 writing. The cocktail spread from California to Hawaii in the 1950s, when Bergeron set it up for Matson Line hotel bars, and it went on to become the emblem of the tiki movement.",
+    "tasteProfile": "A rich, rum-forward sour with real depth. Aged rums bring molasses, toffee and funky fruit notes, sharp lime cuts through, and orange curaçao adds bittersweet citrus peel. Orgeat gives a soft, nutty almond sweetness and a slightly creamy texture that rounds everything off. Served over plenty of ice with fragrant mint on top, it tastes tropical without being sugary, balancing boozy warmth against bright acidity.",
+    "tags": [
+      "tiki",
+      "sour",
+      "tropical",
+      "citrus"
+    ],
+    "popularity": 85,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "IBA",
+        "title": "Mai-Tai",
+        "url": "https://iba-world.com/iba-cocktail/mai-tai/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Mai Tai (Trader Vic's)",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1219/mai-tai",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "IBA lists two separate 30 ml rums (amber Jamaican and Martinique molasses rum); merged into one aged-rum line of 60 ml with a note to avoid duplicate ingredient IDs. IBA footnote says Trader Vic's Martinique rum was molasses-based, not agricole. Creation is disputed between Trader Vic (1944) and Don the Beachcomber (Beaumont-Gantt); year follows Bergeron's own claim."
+  },
+  {
+    "id": "manhattan",
+    "name": "Manhattan",
+    "era": "vintage",
+    "yearCreated": null,
+    "glass": "Cocktail Glass",
+    "method": "stir",
+    "ingredients": [
+      {
+        "id": "rye-whiskey",
+        "amount": 50,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "sweet-vermouth",
+        "amount": 20,
+        "unit": "ml",
+        "optional": false,
+        "note": "sweet red vermouth"
+      },
+      {
+        "id": "angostura-bitters",
+        "amount": 1,
+        "unit": "dash",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": "for stirring"
+      }
+    ],
+    "garnish": "Cocktail cherry",
+    "instructions": [
+      "Add all ingredients to a mixing glass with ice cubes.",
+      "Stir well.",
+      "Strain into a chilled cocktail glass."
+    ],
+    "history": "The Manhattan surfaced in New York in the 1860s or 1870s and is often called the first 'modern' cocktail, because it brought sweet vermouth into an Old Fashioned-style whiskey drink. A New York newspaper letter of 1882 described the whiskey, vermouth and bitters mix as newly fashionable, and full recipes appeared in several bar books in 1884.\n\nA long-repeated legend places its invention at an 1874 Manhattan Club banquet for Samuel Tilden, sometimes linked to Lady Randolph Churchill, but historians have shown she was in England giving birth to Winston at the time. Difford's Guide considers the most plausible account the one given by Hoffman House bartender William Mulhall in 1923, which points to a bar owner named Black; research suggests George Black, who ran the Manhattan Inn on Broadway.",
+    "tasteProfile": "Spirit-forward, smooth and gently sweet. Rye whiskey gives a spicy, slightly dry backbone with notes of grain, pepper and oak, while sweet vermouth adds dark fruit, herbs and a soft wine richness. A dash of Angostura ties them together with warm baking spice and a faint bitter edge. Stirred and served very cold, it feels silky and weighty, finishing with a hint of cherry from the garnish.",
+    "tags": [
+      "spirit-forward",
+      "classic",
+      "aperitif"
+    ],
+    "popularity": 88,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "IBA",
+        "title": "Manhattan",
+        "url": "https://iba-world.com/iba-cocktail/manhattan/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Manhattan cocktail – history",
+        "url": "https://www.diffordsguide.com/g/1221/manhattan-cocktail/history",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Exact year unknown (1860s–1870s), so yearCreated is null. Manhattan Club / Churchill story is debunked; George Black / Manhattan Inn attribution is Difford's preferred theory, not certain."
+  },
+  {
+    "id": "margarita",
+    "name": "Margarita",
+    "era": "vintage",
+    "yearCreated": null,
+    "glass": "Cocktail Glass",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "tequila",
+        "amount": 50,
+        "unit": "ml",
+        "optional": false,
+        "note": "100% agave"
+      },
+      {
+        "id": "orange-liqueur",
+        "amount": 20,
+        "unit": "ml",
+        "optional": false,
+        "note": "triple sec"
+      },
+      {
+        "id": "lime-juice",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "freshly squeezed"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": "for shaking"
+      }
+    ],
+    "garnish": "Half salt rim (optional)",
+    "instructions": [
+      "Optionally rim half of a chilled cocktail glass with salt.",
+      "Add all ingredients to a shaker with ice.",
+      "Shake well.",
+      "Strain into the chilled cocktail glass."
+    ],
+    "history": "The Margarita is widely seen as a tequila version of the Daisy, an old family of spirit, citrus and liqueur drinks; 'margarita' is Spanish for daisy. A Tequila Daisy was being promoted in a Tijuana-area saloon by 1936, the 1937 Café Royal Cocktail Book printed a near-identical 'Picador', and a 1939 Tequila Sour with Cointreau, lime and a salted rim came close to the modern drink.\n\nThe name 'Margarita' first appears in print in 1953. Many people have claimed to have invented or named it, including Danny Negrete, Francisco 'Pancho' Morales in Ciudad Juárez, Carlos 'Danny' Herrera at Rancho La Gloria and the socialite Margaret Sames in Acapulco. None of these claims has been proven. A José Cuervo promotional push by distributor Young's Market from 1955 helped make the drink famous across the United States.",
+    "tasteProfile": "Bright, tart and refreshing with an agave core. Tequila brings earthy, vegetal and peppery notes, fresh lime supplies a sharp sour snap, and triple sec adds sweet orange that softens the edges. The optional salt rim lifts the citrus and tames any bitterness, making each sip pop. Served cold and straight up, it is clean, zesty and lively, with a slightly dry, lingering finish.",
+    "tags": [
+      "sour",
+      "citrus",
+      "classic",
+      "refreshing"
+    ],
+    "popularity": 97,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "IBA",
+        "title": "Margarita",
+        "url": "https://iba-world.com/iba-cocktail/margarita/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "History of the Margarita",
+        "url": "https://www.diffordsguide.com/g/1138/margarita-cocktail/origins-and-history",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Creator and year heavily disputed (claims range from 1930 to 1948); yearCreated null. Era set to vintage as all credible claims and print references predate 1960. IBA classifies it under Contemporary Classics."
+  },
+  {
+    "id": "mimosa",
+    "name": "Mimosa",
+    "era": "vintage",
+    "yearCreated": null,
+    "glass": "Flute",
+    "method": "build",
+    "ingredients": [
+      {
+        "id": "orange-juice",
+        "amount": 75,
+        "unit": "ml",
+        "optional": false,
+        "note": "freshly squeezed"
+      },
+      {
+        "id": "sparkling-wine",
+        "amount": 75,
+        "unit": "ml",
+        "optional": false,
+        "note": "Prosecco"
+      }
+    ],
+    "garnish": "Orange twist (optional)",
+    "instructions": [
+      "Pour the orange juice into a flute.",
+      "Gently pour in the Prosecco.",
+      "Stir gently."
+    ],
+    "history": "The Mimosa is often credited to Frank Meier, the bartender at the Ritz Hotel in Paris, with dates given as either the early 1920s or 1925. Meier's 1936 book is the first known publication to list it, calling it the 'Mimosa or Champagne Orange' and serving it over ice in a large wineglass. Oddly, the book does not mark it with the symbol Meier used for his own creations, so his authorship is uncertain.\n\nIts close cousin, the Buck's Fizz, is believed to have been created around 1921 at Buck's Club in London and appears in print earlier, in the 1930 Savoy Cocktail Book. The two are nearly the same mix of orange juice and sparkling wine; traditionally the Buck's Fizz uses more wine, while the Mimosa was the version served with ice. The IBA notes the two names are used interchangeably.",
+    "tasteProfile": "Light, fruity and gently fizzy. Fresh orange juice provides sweet, juicy citrus with a little tang, while dry Prosecco adds crisp bubbles, a touch of green apple and pear, and a refreshing lift. Equal parts keep it low in alcohol and easy to drink, more like sparkling juice than a strong cocktail. The result is bright, breezy and soft, a natural fit for brunch.",
+    "tags": [
+      "sparkling",
+      "brunch",
+      "citrus",
+      "low-abv",
+      "fruity"
+    ],
+    "popularity": 88,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "IBA",
+        "title": "Mimosa",
+        "url": "https://iba-world.com/iba-cocktail/mimosa/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Buck's Fizz & Mimosa cocktails – history & recipes",
+        "url": "https://www.diffordsguide.com/encyclopedia/1244/cocktails/bucks-fizz-and-mimosa-cocktails-history-and-recipes",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Creation date disputed (1921–1923 vs commonly cited 1925), so yearCreated is null. IBA page states Mimosa is also known as Buck's Fizz; Difford's treats them as related but distinct drinks. IBA recipe is served without ice."
+  },
+  {
+    "id": "mint-julep",
+    "name": "Mint Julep",
+    "era": "vintage",
+    "yearCreated": null,
+    "glass": "Julep Cup (stainless Steel)",
+    "method": "muddle-build",
+    "ingredients": [
+      {
+        "id": "bourbon",
+        "amount": 60,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "mint",
+        "amount": 4,
+        "unit": "sprig",
+        "optional": false,
+        "note": "fresh"
+      },
+      {
+        "id": "sugar",
+        "amount": 1,
+        "unit": "barspoon",
+        "optional": false,
+        "note": "powdered sugar (1 teaspoon)"
+      },
+      {
+        "id": "water",
+        "amount": 2,
+        "unit": "barspoon",
+        "optional": false,
+        "note": "2 teaspoons"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": "cracked ice"
+      }
+    ],
+    "garnish": "Mint sprig",
+    "instructions": [
+      "Gently muddle the mint with the sugar and water in a julep cup.",
+      "Fill the cup with cracked ice.",
+      "Add the bourbon and stir until the cup is well frosted."
+    ],
+    "history": "The word 'julep' goes back to the Persian 'gulab', a rosewater syrup, which passed into Arabic and Latin and was later used in Europe for herbal medicinal syrups. The earliest verified reference to the American drink comes from John Davis's 1803 account of his travels, describing Virginians taking a morning dram of spirit steeped with mint. At that point juleps could be based on rum, brandy or whiskey.\n\nJerry Thomas's 1862 guide offered cognac, gin and whiskey versions, and by about 1900 whiskey had become the usual base. The bourbon julep is now tied to the Kentucky Derby at Churchill Downs: it became the race's official drink in 1938, and from 1939 the track commissioned souvenir glasses after many of its glasses were taken home. Around 120,000 are sold over the race weekend.",
+    "tasteProfile": "Cold, aromatic and strong. A heap of crushed ice chills and slowly dilutes the bourbon, whose caramel, vanilla and oak notes come through softly. Fresh mint adds a cool, green perfume that hits the nose before each sip, and a little sugar smooths the spirit's heat. It is simple and sweet-edged rather than sour, with the frosty cup making it feel especially refreshing on a hot day.",
+    "tags": [
+      "classic",
+      "refreshing"
+    ],
+    "popularity": 72,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "IBA",
+        "title": "Mint Julep",
+        "url": "https://iba-world.com/iba-cocktail/mint-julep/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Mint Julep",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1330/mint-julep",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "No single creator or year. Difford's notes earlier claimed dates (1774, 1787) are unattributable; 1803 is the earliest reference the author could verify. IBA teaspoons converted to barspoon."
+  },
+  {
+    "id": "mojito",
+    "name": "Mojito",
+    "era": "vintage",
+    "yearCreated": null,
+    "glass": "Highball",
+    "method": "muddle-build",
+    "ingredients": [
+      {
+        "id": "white-rum",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": "white Cuban rum"
+      },
+      {
+        "id": "lime-juice",
+        "amount": 20,
+        "unit": "ml",
+        "optional": false,
+        "note": "fresh"
+      },
+      {
+        "id": "mint",
+        "amount": 6,
+        "unit": "sprig",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "sugar",
+        "amount": 2,
+        "unit": "barspoon",
+        "optional": false,
+        "note": "white cane sugar (2 teaspoons)"
+      },
+      {
+        "id": "soda-water",
+        "amount": null,
+        "unit": "top",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Mint sprig and lime slice",
+    "instructions": [
+      "Muddle the mint with the sugar and lime juice in the glass.",
+      "Add a splash of soda water and fill the glass with ice.",
+      "Pour in the rum and top with soda water.",
+      "Stir gently to combine."
+    ],
+    "history": "The Mojito's exact origins are unclear. One popular theory links it to the Draque, a medicinal mix of crude cane spirit, sugar, lime and mint said to be named after Sir Francis Drake, who menaced Havana in 1586. Once rum replaced the rough cane spirit in the 1800s, the drink is said to have taken the Mojito name, possibly with encouragement from Bacardi. Another theory points to American visitors bringing the Mint Julep to Cuba.\n\nThe earliest known recipe, a 'Mojo Criollo', appears in a Cuban book from 1927, and the name 'Mojito' turns up on a Sloppy Joe's Bar menu in 1931–32. The famous link to Hemingway and La Bodeguita del Medio in Havana rests on a framed note in the bar, but nothing in Hemingway's known writing mentions the drink.",
+    "tasteProfile": "Fresh, minty and thirst-quenching. Light white rum keeps things clean and gently sweet, while lime juice brings a sharp, zesty tang. Muddled mint releases a cool herbal fragrance that runs through every sip, and the sugar balances the sourness without making it heavy. Topped with soda and lots of ice, it is long, bubbly and light, tasting more like a herbal limeade with a rum backbone.",
+    "tags": [
+      "highball",
+      "refreshing",
+      "citrus"
+    ],
+    "popularity": 96,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "IBA",
+        "title": "Mojito",
+        "url": "https://iba-world.com/iba-cocktail/mojito/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Mojito cocktail history",
+        "url": "https://www.diffordsguide.com/g/1228/mojito-cocktail/mojito-cocktail-history",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "IBA page does not specify a glass; highball chosen as the standard long-drink glass for this build (Difford's Guide serves it in a Collins). Origin disputed (Draque theory vs Mint Julep influence); Hemingway/Bodeguita link is undocumented."
+  },
+  {
+    "id": "moscow-mule",
+    "name": "Moscow Mule",
+    "era": "vintage",
+    "yearCreated": null,
+    "glass": "Copper Mule Mug Or Rocks Glass",
+    "method": "build",
+    "ingredients": [
+      {
+        "id": "vodka",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ginger-beer",
+        "amount": 120,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lime-juice",
+        "amount": 10,
+        "unit": "ml",
+        "optional": false,
+        "note": "fresh"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Lime slice",
+    "instructions": [
+      "Combine the vodka and ginger beer in a mule cup or rocks glass with ice.",
+      "Add the lime juice.",
+      "Stir gently."
+    ],
+    "history": "The Moscow Mule appeared sometime between 1941 and 1946, though where and when exactly is disputed. In 1939 John G. Martin had acquired the Smirnoff vodka rights for Heublein, while his friend Jack Morgan, owner of the Cock 'n' Bull pub on Hollywood's Sunset Strip, was struggling to sell his own ginger beer. One legend has the pair combining their slow-selling products, with a squeeze of lime, during a meeting in New York.\n\nA rival version, reported in a 2007 Wall Street Journal article, credits Cock 'n' Bull head bartender Wes Price, who supposedly invented it to clear surplus ginger beer. The engraved copper mug, linked to a friend of Morgan's who had inherited a copper business, became the drink's trademark, and Martin promoted it by photographing bartenders with Smirnoff and the mug using an early Polaroid camera.",
+    "tasteProfile": "Crisp, spicy and refreshing. Vodka stays neutral in the background, letting the ginger beer take the lead with its peppery heat, gentle sweetness and lively fizz. A splash of fresh lime adds a bright, tart edge that keeps the drink from tasting sugary. Served over ice, traditionally in a chilled copper mug, it feels cold, zesty and easygoing, with a warming ginger tingle on the finish.",
+    "tags": [
+      "highball",
+      "refreshing",
+      "spicy"
+    ],
+    "popularity": 90,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "IBA",
+        "title": "Moscow Mule",
+        "url": "https://iba-world.com/iba-cocktail/moscow-mule/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Moscow Mule",
+        "url": "https://www.diffordsguide.com/encyclopedia/587/cocktails/moscow-mule",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "IBA specifies Smirnoff vodka; generalized to vodka. IBA method text does not explicitly mention ice; ice included as the drink is served over ice in the standard serve (Difford's Guide). Creation date (1941–1946) and inventor disputed (Martin/Morgan vs Wes Price)."
+  },
+  {
+    "id": "negroni",
+    "name": "Negroni",
+    "era": "vintage",
+    "yearCreated": 1919,
+    "glass": "Old Fashioned",
+    "method": "build",
+    "ingredients": [
+      {
+        "id": "gin",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "campari",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "sweet-vermouth",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": "sweet red vermouth"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Half orange slice",
+    "instructions": [
+      "Pour all ingredients directly into a chilled old fashioned glass filled with ice.",
+      "Stir gently."
+    ],
+    "history": "The usual story places the Negroni in Florence around 1919. Count Camillo Negroni, a regular at the Casoni bar, is said to have asked for a stronger Americano, and bartender Fosco Scarselli swapped the soda water for gin. Other customers began ordering 'the Count's drink', and the name stuck. The Americano itself descends from the Milano-Torino, a mix of Milanese Campari and Turin vermouth.\n\nThe tale has its doubters. A descendant of the Negroni family has questioned whether Camillo was ever a count and has promoted a French general, Pascal Olivier de Negroni, as the true inventor. Equal-parts gin, Campari and vermouth also appears as the 'Campari Mixte' in a 1929 French cocktail book, while the earliest recipes under the Negroni name date only from the late 1940s and 1950s.",
+    "tasteProfile": "Bold, bittersweet and aromatic. Campari leads with bitter orange, rhubarb and gentian, while sweet vermouth adds plummy fruit, vanilla and herbal sweetness. Gin's juniper and botanicals give structure and a dry, piney lift. Equal parts keep the three in tension, so the drink feels rich and slightly syrupy at first, then finishes long, dry and pleasantly bitter. Orange on the side brightens the aroma.",
+    "tags": [
+      "bitter",
+      "aperitif",
+      "classic",
+      "spirit-forward"
+    ],
+    "popularity": 92,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "IBA",
+        "title": "Negroni",
+        "url": "https://iba-world.com/iba-cocktail/negroni/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "History of the Negroni",
+        "url": "https://www.diffordsguide.com/encyclopedia/2015-04-16/987/cocktails/the-negroni-cocktail",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "1919 is the commonly cited date of the Count Camillo Negroni / Fosco Scarselli story and is attributed, not proven. Rival claim for General Pascal Olivier de Negroni. Equal-parts recipe printed as 'Campari Mixte' in 1929."
+  },
+  {
+    "id": "old-fashioned",
+    "name": "Old Fashioned",
+    "era": "vintage",
+    "yearCreated": null,
+    "glass": "Old Fashioned",
+    "method": "muddle-build",
+    "ingredients": [
+      {
+        "id": "bourbon",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": "bourbon or rye whiskey"
+      },
+      {
+        "id": "sugar",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": "sugar cube"
+      },
+      {
+        "id": "angostura-bitters",
+        "amount": null,
+        "unit": "dash",
+        "optional": false,
+        "note": "a few dashes"
+      },
+      {
+        "id": "water",
+        "amount": null,
+        "unit": "dash",
+        "optional": false,
+        "note": "a few dashes of plain water"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Orange slice or zest and a cocktail cherry",
+    "instructions": [
+      "Place the sugar cube in an old fashioned glass and saturate it with bitters.",
+      "Add a few dashes of plain water and muddle until the sugar dissolves.",
+      "Fill the glass with ice and add the whiskey.",
+      "Stir gently."
+    ],
+    "history": "The Old Fashioned is a direct descendant of the earliest definition of a 'cock-tail', printed in 1806 as spirit, sugar, water and bitters. Aromatic bitters date back to a London apothecary around 1690, and by the late 1700s Americans were mixing them with whiskey to make the Whiskey Cocktail, served without ice. During the 1800s bartenders dressed it up into 'Fancy' and 'Improved' versions with absinthe, curaçao and other liqueurs.\n\nDrinkers who wanted the plain original began asking for an 'Old-Fashioned' Whiskey Cocktail, and the name stuck along with the heavy tumbler now called an old fashioned glass. During Prohibition, muddled orange and cherry crept in, possibly to hide rough spirit. The cocktail revivals in London in the 1990s and later in the US brought back the simpler, unfruited style.",
+    "tasteProfile": "Rich, mellow and whiskey-led. The bourbon or rye shows caramel, vanilla, oak and spice, softened by a little dissolved sugar that rounds out the alcohol. Angostura adds warm clove and cinnamon notes plus a faint bitterness, and the dilution from stirring over ice opens up the spirit. The citrus garnish brings a fresh orange-oil aroma, so the drink feels both comforting and quietly complex.",
+    "tags": [
+      "spirit-forward",
+      "classic"
+    ],
+    "popularity": 94,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "IBA",
+        "title": "Old Fashioned",
+        "url": "https://iba-world.com/iba-cocktail/old-fashioned/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Old Fashioned cocktail – history",
+        "url": "https://www.diffordsguide.com/g/1198/old-fashioned-cocktail/history",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "IBA allows bourbon or rye; bourbon used as the primary ID with a note. No single creator or year; the name evolved in the late 1800s. Bitters and water given as 'a few dashes' with no exact count, so amount is null."
+  },
+  {
+    "id": "paloma",
+    "name": "Paloma",
+    "era": "modern",
+    "yearCreated": null,
+    "glass": "Highball",
+    "method": "build",
+    "ingredients": [
+      {
+        "id": "tequila",
+        "amount": 50,
+        "unit": "ml",
+        "optional": false,
+        "note": "100% agave"
+      },
+      {
+        "id": "lime-juice",
+        "amount": 5,
+        "unit": "ml",
+        "optional": false,
+        "note": "fresh"
+      },
+      {
+        "id": "salt",
+        "amount": 1,
+        "unit": "pinch",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "grapefruit-soda",
+        "amount": 100,
+        "unit": "ml",
+        "optional": false,
+        "note": "pink grapefruit soda"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Lime slice",
+    "instructions": [
+      "Pour the tequila into a highball glass and squeeze in the lime juice.",
+      "Add ice and a pinch of salt.",
+      "Top with pink grapefruit soda.",
+      "Stir gently."
+    ],
+    "history": "Despite being one of Mexico's favourite tequila drinks, the Paloma has a surprisingly thin paper trail. It almost certainly depends on grapefruit soda: Squirt was created in Arizona in 1938 and began reaching Mexico in the 1950s, and historian David Wondrich suggests the drink took shape around then. However, researchers have not found the Paloma name in print until the late 1990s, with a 1999 trade publication and a 2000 cocktail book among the earliest references.\n\nTwo popular origin stories have been challenged. A widely quoted 1953 pamphlet by 'Evan Harrison' appears to have been an invention added to Wikipedia as a joke, and Don Javier of La Capilla bar in the town of Tequila, often named as the creator, reportedly denied inventing it. The name means 'dove' in Spanish.",
+    "tasteProfile": "Zesty, salty and easy-drinking. Agave tequila provides an earthy, peppery base, while pink grapefruit soda brings sweet-tart citrus with a pleasantly bitter pith note and plenty of fizz. A squeeze of lime sharpens it, and a pinch of salt makes the grapefruit taste brighter and juicier. Long, cold and lightly sweet, it is a more casual and refreshing alternative to the Margarita.",
+    "tags": [
+      "highball",
+      "refreshing",
+      "citrus"
+    ],
+    "popularity": 82,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "IBA",
+        "title": "Paloma",
+        "url": "https://iba-world.com/iba-cocktail/paloma/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Alcademics (Camper English)",
+        "title": "Paloma History – Tracing the Facts and Fiction about this Tequila Cocktail's History",
+        "url": "https://alcademics.com/paloma-history-tracing-the-facts-and-fiction-about-this-tequila-cocktails-history/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Wikipedia",
+        "title": "Paloma (cocktail)",
+        "url": "https://en.wikipedia.org/wiki/Paloma_(cocktail)",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "No verified creator or year. Era set to 'modern' following the IBA New Era category, although Wondrich suggests a 1950s origin (unverified in print). The often-repeated 1953 Evan Harrison pamphlet is considered a hoax. Wikipedia used only for the name meaning."
+  },
+  {
+    "id": "penicillin",
+    "name": "Penicillin",
+    "era": "modern",
+    "yearCreated": 2005,
+    "glass": "Old Fashioned",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "scotch-whisky",
+        "amount": 60,
+        "unit": "ml",
+        "optional": false,
+        "note": "blended Scotch"
+      },
+      {
+        "id": "lemon-juice",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "fresh"
+      },
+      {
+        "id": "honey-syrup",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ginger-root",
+        "amount": 3,
+        "unit": "piece",
+        "optional": false,
+        "note": "2–3 quarter-size slices, muddled"
+      },
+      {
+        "id": "islay-scotch-whisky",
+        "amount": 7.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "Lagavulin 16-year-old, floated on top"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Candied ginger",
+    "instructions": [
+      "Muddle the fresh ginger in a shaker.",
+      "Add the remaining ingredients except the Islay single malt.",
+      "Fill the shaker with ice and shake.",
+      "Fine-strain into a chilled old fashioned glass with ice.",
+      "Float the Islay single malt on top."
+    ],
+    "history": "Sam Ross created the Penicillin in 2005 at Milk & Honey, the influential New York bar. Starting from the Gold Rush, a bourbon, lemon and honey sour already popular at the bar, he switched to blended Scotch, added honey and ginger syrup, and finished the drink with a float of smoky Islay single malt. His original was garnished with crystallised ginger.\n\nThe drink travelled quickly through the Milk & Honey family of bars and on to cocktail bars in the US and London, becoming one of the best-known modern classics of the 21st-century cocktail revival. It was later added to the IBA's official list in the New Era category. Its name plays on the idea of a soothing, medicinal-sounding mix of honey, lemon and ginger.",
+    "tasteProfile": "Warming, spicy and gently smoky. The blended Scotch base gives malt and honeyed grain, lifted by fresh lemon's sour brightness and smoothed by rich honey. Fresh ginger adds a peppery bite that tingles on the tongue. The float of Islay whisky lands first on the nose, wrapping the drink in peat smoke and sea-spray notes, while the body underneath stays balanced, soothing and lightly sweet.",
+    "tags": [
+      "sour",
+      "smoky",
+      "contemporary"
+    ],
+    "popularity": 75,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "IBA",
+        "title": "Penicillin",
+        "url": "https://iba-world.com/iba-cocktail/penicillin/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Penicillin cocktail",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2539/penicillin-cocktail",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "IBA uses muddled fresh ginger plus honey syrup; Sam Ross's original (per Difford's) used a honey-ginger syrup. New ingredient ID 'fresh-ginger' created. IBA's 2–3 slices recorded as 3 pieces with a note. The name explanation is general; sources differ on the exact inspiration."
+  },
+  {
+    "id": "pina-colada",
+    "name": "Piña Colada",
+    "era": "vintage",
+    "yearCreated": 1954,
+    "glass": "Large Glass",
+    "method": "blend",
+    "ingredients": [
+      {
+        "id": "white-rum",
+        "amount": 50,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "coconut-cream",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "pineapple-juice",
+        "amount": 50,
+        "unit": "ml",
+        "optional": false,
+        "note": "fresh; 4 slices of fresh pineapple can be used instead"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Pineapple slice and cocktail cherry",
+    "instructions": [
+      "Blend all ingredients with ice in an electric blender.",
+      "Pour into a large glass.",
+      "Serve with straws."
+    ],
+    "history": "Puerto Rico regards the Piña Colada as its national drink, but three bartenders have claimed it. Ramón 'Monchito' Marrero said he first made it at the Caribe Hilton's Beachcomber Bar in San Juan in 1952, while the hotel itself gives 1954; he used the then-new Coco López cream of coconut. Ricardo Garcia, another Caribe Hilton bartender, also claimed it, and Ramón Portas Mingot said he created it in 1963 at Barrachina in Old San Juan.\n\nDifford's Guide suggests all three may have played a part, with the Caribe Hilton the most likely birthplace. The name, meaning 'strained pineapple', is older: a 1922 Travel magazine piece describes a Cuban Piña Colada of rum, pineapple, lime and sugar with no coconut. The modern drink only reached cocktail books in the late 1960s.",
+    "tasteProfile": "Creamy, sweet and tropical. Coconut cream gives a lush, velvety texture and toasted-coconut richness, while pineapple juice adds juicy, tangy fruit that keeps it from feeling too heavy. Light rum sits quietly underneath, adding gentle warmth and a hint of sugarcane. Blended with ice into a frosty, smooth slush, it tastes like a holiday dessert in a glass, with a mellow, fruity finish.",
+    "tags": [
+      "tropical",
+      "frozen",
+      "creamy",
+      "sweet",
+      "fruity"
+    ],
+    "popularity": 92,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "IBA",
+        "title": "Pina Colada",
+        "url": "https://iba-world.com/iba-cocktail/pina-colada/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Piña Colada history",
+        "url": "https://www.diffordsguide.com/encyclopedia/2014-07-08/469/cocktails/pina-colada-cocktail",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Disputed: Marrero claims 15 Aug 1952, Caribe Hilton says 1954 (used here), Portas Mingot claims 1963. IBA notes a few drops of lime juice were historically added and that fresh pineapple slices can replace juice. IBA names only 'a large glass'."
+  },
+  {
+    "id": "pisco-sour",
+    "name": "Pisco Sour",
+    "era": "vintage",
+    "yearCreated": null,
+    "glass": "Goblet",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "pisco",
+        "amount": 60,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lemon-juice",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": "fresh"
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 20,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "egg-white",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": "1 raw whole egg white"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": "for shaking"
+      }
+    ],
+    "garnish": "A few dashes of Amargo bitters on the foam",
+    "instructions": [
+      "Shake all ingredients with ice.",
+      "Strain into a chilled goblet.",
+      "Add a few dashes of Amargo bitters on top of the foam."
+    ],
+    "history": "The Pisco Sour has long been credited to Victor Morris, an American from Salt Lake City who moved to Peru in 1903 to work for a railway company. Family lore says he swapped whiskey for pisco when supplies ran short at a railway celebration. On 1 April 1916 he opened Morris' Bar in Lima, where his Pisco Sours became famous; a Peruvian magazine credited 'Mister Morris' with the drink in 1921.\n\nAfter the bar closed in 1929, former staff carried the recipe to Lima's Hotel Bolívar and Country Club, and Mario Bruijet is sometimes credited with adding the bitters. However, a 1903 Lima cookbook already contains a pisco, lime, sugar and egg-white 'cocktail', suggesting the drink predates Morris. Peru and Chile both claim it, though Difford's Guide concludes it is Peruvian.",
+    "tasteProfile": "Silky, tart and aromatic. Pisco brings a fragrant, grapey and slightly floral spirit character, cut by bright lemon and softened by sugar syrup. Shaking with egg white creates a thick, velvety foam that makes the drink feel smooth and almost creamy. The drops of Amargo bitters on top add a warm, spicy perfume with every sip, balancing the fresh sourness with a gentle bitter edge.",
+    "tags": [
+      "sour",
+      "foamy",
+      "citrus",
+      "classic"
+    ],
+    "popularity": 76,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "IBA",
+        "title": "Pisco Sour",
+        "url": "https://iba-world.com/iba-cocktail/pisco-sour/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Sour cocktails – Pisco Sour",
+        "url": "https://www.diffordsguide.com/g/1133/sour-cocktails/pisco-sour",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Victor Morris attribution (Morris' Bar, 1916) is undermined by a 1903 Lima recipe, so yearCreated is null. Peru vs Chile origin dispute; the Chilean 'Elliot Stubb 1872' claim actually referred to a Whiskey Sour per Difford's. IBA uses lemon juice (traditional Peruvian versions often use lime)."
+  },
+  {
+    "id": "ramos-gin-fizz",
+    "name": "Ramos Gin Fizz",
+    "era": "vintage",
+    "yearCreated": 1888,
+    "glass": "Highball",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "gin",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lime-juice",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "fresh"
+      },
+      {
+        "id": "lemon-juice",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "fresh"
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "cream",
+        "amount": 60,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "egg-white",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "orange-flower-water",
+        "amount": 3,
+        "unit": "dash",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "vanilla-extract",
+        "amount": 2,
+        "unit": "drop",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "soda-water",
+        "amount": null,
+        "unit": "top",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": "for shaking"
+      }
+    ],
+    "garnish": "None",
+    "instructions": [
+      "Add all ingredients except the soda water to a shaker with ice and shake for two minutes.",
+      "Double-strain, return the liquid to the shaker and shake hard without ice for one minute.",
+      "Strain into a highball glass.",
+      "Top with soda water."
+    ],
+    "history": "Henry Charles Ramos created this drink in 1888 at the Imperial Cabinet Saloon on the corner of Gravier and Carondelet Streets in New Orleans, first calling it the New Orleans Fizz. It needed so much shaking that his bar reportedly employed teams of 'shaker boys' passing shakers down the line, and at the 1915 Mardi Gras even dozens of them reportedly struggled to keep up. In 1907 Ramos moved to the larger Stag Saloon.\n\nWhen Prohibition arrived in 1919, Ramos closed his bar and the recipe stayed secret until a newspaper published it shortly after his death in 1928. Whether vanilla belonged in the original is still argued over. In 1935 the Roosevelt Hotel, now the Fairmont, bought the rights to the name, and Louisiana governor Huey P. Long famously had one of its bartenders train staff in New York.",
+    "tasteProfile": "Light, frothy and cloud-like. Long shaking whips cream and egg white into a tall, airy foam that rises above the glass, giving a texture somewhere between a milkshake and a soufflé. Underneath, gin's botanicals meet a lively mix of lemon and lime, sweetened just enough to taste like citrus meringue. Orange flower water adds a delicate floral perfume, and soda keeps the whole thing surprisingly fresh and bright.",
+    "tags": [
+      "fizz",
+      "creamy",
+      "foamy",
+      "floral",
+      "classic"
+    ],
+    "popularity": 62,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "IBA",
+        "title": "Ramos Fizz",
+        "url": "https://iba-world.com/iba-cocktail/ramos-fizz/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Ramos Gin Fizz",
+        "url": "https://www.diffordsguide.com/encyclopedia/2015-08-07/1021/cocktails/ramos-gin-fizz-cocktail",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "IBA lists it as 'Ramos Fizz'. IBA page names the bar 'Meyer's Table d'Hôtel Internationale' and says 30 bartenders shook for 12 minutes; Difford's names the Imperial Cabinet Saloon and reports around 20 shaker boys (35 at the 1915 Mardi Gras per Stanley Clisby Arthur). Difford's account used. New ingredient IDs: orange-flower-water, vanilla-extract. Vanilla's place in the original is disputed. IBA lists no garnish."
+  },
+  {
+    "id": "rusty-nail",
+    "name": "Rusty Nail",
+    "era": "vintage",
+    "yearCreated": null,
+    "glass": "Old Fashioned",
+    "method": "build",
+    "ingredients": [
+      {
+        "id": "scotch-whisky",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "drambuie",
+        "amount": 25,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Lemon zest",
+    "instructions": [
+      "Pour both ingredients directly into an old fashioned glass filled with ice.",
+      "Stir gently."
+    ],
+    "history": "Scotch and Drambuie make an obvious pairing, and the Rusty Nail's exact birth is hazy. Drambuie, a whisky liqueur sweetened with honey and spices, was first produced commercially in Edinburgh in 1908, so the combination may have been tried long before anyone recorded it. Cocktail historian David Wondrich traced the mix back to 1937, when a drink called the B.I.F. was made for the British Industries Fair.\n\nOther accounts say the drink was created at a bar in Hawaii in 1942 for the artist Theodore Anderson. What is clearer is that it became fashionable in the 1950s at New York's 21 Club, and its two-ingredient simplicity has kept it on back bars ever since. Proportions vary widely according to taste.",
+    "tasteProfile": "Smooth, sweet and warming. Scotch whisky provides malt, oak and a touch of smoke, while Drambuie adds honey, heather, herbal spice and a rich liqueur sweetness. Stirred over ice, the two blend into a mellow, rounded sipper with a soft, syrupy texture. A twist of lemon zest lifts the aroma and keeps the sweetness from feeling cloying, leaving a long, honeyed finish.",
+    "tags": [
+      "spirit-forward",
+      "sweet",
+      "after-dinner",
+      "classic"
+    ],
+    "popularity": 60,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "IBA",
+        "title": "Rusty Nail",
+        "url": "https://iba-world.com/iba-cocktail/rusty-nail/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Rusty Nail",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1721/rusty-nail-cocktail",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Origin uncertain: 1937 B.I.F. (Wondrich) vs Hawaii 1942 claim; popularised at New York's 21 Club in the 1950s. Sources found in search disagree on when the 'Rusty Nail' name was officially adopted, so naming is not covered."
+  },
+  {
+    "id": "sazerac",
+    "name": "Sazerac",
+    "era": "vintage",
+    "yearCreated": null,
+    "glass": "Old Fashioned",
+    "method": "stir",
+    "ingredients": [
+      {
+        "id": "cognac",
+        "amount": 50,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "absinthe",
+        "amount": 10,
+        "unit": "ml",
+        "optional": false,
+        "note": "used to rinse the glass; excess discarded"
+      },
+      {
+        "id": "sugar",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": "sugar cube"
+      },
+      {
+        "id": "peychauds-bitters",
+        "amount": 2,
+        "unit": "dash",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": "crushed ice to chill the glass; ice for stirring"
+      }
+    ],
+    "garnish": "Lemon zest",
+    "instructions": [
+      "Rinse a chilled old fashioned glass with the absinthe, add crushed ice and set aside.",
+      "Stir the cognac, sugar cube and Peychaud's bitters over ice in a mixing glass.",
+      "Discard the ice and excess absinthe from the prepared glass.",
+      "Strain the drink into the glass."
+    ],
+    "history": "The Sazerac grew out of New Orleans' brandy cocktail culture. Pharmacist Antoine Amédée Peychaud, who arrived in the city as a refugee in 1795, created the bitters that still define the drink. Around the 1850s Sewell T. Taylor became local agent for Sazerac de Forge et Fils cognac, and a cocktail of that cognac, Peychaud's bitters and sugar became the house drink at the Exchange Coffee House, later renamed the Sazerac Coffee House.\n\nWhen phylloxera devastated French vineyards from the late 1860s, Thomas Handy, who took over the bar and the bitters, is said to have switched to American rye whiskey, and an absinthe rinse was added around this time. Historian David Wondrich has questioned this traditional account, suggesting it began as a bottled whiskey cocktail. In 2008 it was named the official cocktail of New Orleans.",
+    "tasteProfile": "Bold, aromatic and layered. The cognac base offers dried fruit, vanilla and a soft, rounded warmth, sweetened lightly by the dissolved sugar cube. Peychaud's bitters bring bright anise, cherry and floral notes along with their signature red tint. The absinthe rinse leaves a haunting licorice and herbal aroma that hits before the first sip, and the lemon oil adds a fresh citrus lift over a long, dry finish.",
+    "tags": [
+      "spirit-forward",
+      "herbal",
+      "classic"
+    ],
+    "popularity": 74,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "IBA",
+        "title": "Sazerac",
+        "url": "https://iba-world.com/iba-cocktail/sazerac/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Sazerac (New Orleans style)",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/3390/sazerac-new-orleans-style",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "IBA recipe uses cognac and notes rye replaced cognac after supplies became hard to obtain (IBA says after the American Civil War; Difford's attributes it to phylloxera in the 1870s). Many modern versions use rye. Difford's places creation between 1850 and 1859; traditional story (Stanley Clisby Arthur, 1937) challenged by Wondrich."
+  },
+  {
+    "id": "sidecar",
+    "name": "Sidecar",
+    "era": "vintage",
+    "yearCreated": null,
+    "glass": "Cocktail Glass",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "cognac",
+        "amount": 50,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "orange-liqueur",
+        "amount": 20,
+        "unit": "ml",
+        "optional": false,
+        "note": "triple sec"
+      },
+      {
+        "id": "lemon-juice",
+        "amount": 20,
+        "unit": "ml",
+        "optional": false,
+        "note": "fresh"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": "for shaking"
+      }
+    ],
+    "garnish": "None",
+    "instructions": [
+      "Add all ingredients to a cocktail shaker with ice.",
+      "Shake well.",
+      "Strain into a chilled cocktail glass."
+    ],
+    "history": "The Sidecar emerged around the end of the First World War, and its creator is uncertain. David Embury wrote in 1948 that a friend invented it at a Paris bistro during the war, naming it after the motorcycle sidecar that carried a captain there; many assume he meant Harry's New York Bar. Yet the first printed recipe, in Robert Vermeire's 1922 book, credits Pat MacGarry, bartender at Buck's Club in London.\n\nHarry MacElhone's own book from the same year also first credited MacGarry, though later editions seem to claim the drink for himself. Difford's Guide's best reading is that MacGarry created it in London and MacElhone popularised it in Paris. Early recipes used equal parts brandy, triple sec and lemon; the 1930 Savoy Cocktail Book doubled the brandy, and the sugared rim came later.",
+    "tasteProfile": "Elegant, tart and warming. Cognac gives a rich base of dried fruit, vanilla and oak, while triple sec adds sweet orange peel and a little extra body. Fresh lemon juice cuts through with a crisp sourness that keeps the drink lively. Served very cold and straight up, it balances brandy depth with citrus brightness, finishing dry and slightly bittersweet, like a refined brandy-based relative of the Daiquiri.",
+    "tags": [
+      "sour",
+      "citrus",
+      "classic"
+    ],
+    "popularity": 78,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "IBA",
+        "title": "Sidecar",
+        "url": "https://iba-world.com/iba-cocktail/sidecar/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Sidecar cocktail",
+        "url": "https://www.diffordsguide.com/encyclopedia/2014-08-26/506/cocktails/sidecar-cocktail",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Creator disputed (Pat MacGarry of Buck's Club vs Harry MacElhone; Embury's unnamed Paris bistro). First printed 1922. Proportions disputed (French equal-parts vs English 2:1:1). IBA lists no garnish; no sugar rim in IBA spec."
+  },
+  {
+    "id": "spritz",
+    "name": "Spritz",
+    "era": "vintage",
+    "yearCreated": null,
+    "glass": "Wine Glass",
+    "method": "build",
+    "ingredients": [
+      {
+        "id": "sparkling-wine",
+        "amount": 90,
+        "unit": "ml",
+        "optional": false,
+        "note": "Prosecco"
+      },
+      {
+        "id": "aperol",
+        "amount": 60,
+        "unit": "ml",
+        "optional": false,
+        "note": "Campari, Cynar or Select are used in other versions"
+      },
+      {
+        "id": "soda-water",
+        "amount": null,
+        "unit": "splash",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Orange slice",
+    "instructions": [
+      "Build all ingredients into a wine glass filled with ice.",
+      "Stir gently."
+    ],
+    "history": "The Spritz traces back to the Veneto in north-eastern Italy, which was part of the Austrian Empire in the 1800s. Austrian soldiers stationed there found the local wines strong and often diluted them with water, giving rise to the white wine and soda Spritzer. The name is linked to the German verb 'spritzen', meaning to splash or spray, and in Venetian dialect it is pronounced 'spriss'.\n\nIn time, Venetians added local bitter liqueurs such as Aperol, Campari, Select or Cynar, creating the Spritz al Bitter, also called the Spritz Veneziano. Gruppo Campari estimates that around 300,000 are drunk every day in the Veneto alone. The drink's international boom came much later, with the Aperol version becoming a worldwide favourite in the 2010s.",
+    "tasteProfile": "Light, bubbly and bittersweet. Aperol brings bright orange and rhubarb flavours with a gentle bitterness and a vivid orange colour, while Prosecco adds crisp fruit and lively fizz. A splash of soda stretches it into a long, low-alcohol drink, and plenty of ice keeps it cool. Easy and refreshing, it balances sweetness against a soft bitter finish, ideal as an early-evening aperitivo.",
+    "tags": [
+      "aperitif",
+      "sparkling",
+      "bitter",
+      "low-abv",
+      "refreshing"
+    ],
+    "popularity": 93,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "IBA",
+        "title": "Spritz",
+        "url": "https://iba-world.com/iba-cocktail/spritz/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Spritz – history",
+        "url": "https://www.diffordsguide.com/g/1255/spritz/history",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "IBA lists the drink simply as 'Spritz' (New Era category) with Aperol; also known as Aperol Spritz / Spritz Veneziano. Era set to vintage despite the IBA New Era category, because Difford's dates the Spritz tradition to the 19th-century Veneto; the Aperol version's global popularity is from the 2010s. No precise creation year."
+  },
+  {
+    "id": "stinger",
+    "name": "Stinger",
+    "era": "vintage",
+    "yearCreated": null,
+    "glass": "Cocktail Glass",
+    "method": "stir",
+    "ingredients": [
+      {
+        "id": "cognac",
+        "amount": 50,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "creme-de-menthe",
+        "amount": 20,
+        "unit": "ml",
+        "optional": false,
+        "note": "white crème de menthe"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": "for stirring"
+      }
+    ],
+    "garnish": "Mint leaf (optional)",
+    "instructions": [
+      "Add both ingredients to a mixing glass with ice.",
+      "Stir well.",
+      "Strain into a chilled cocktail glass."
+    ],
+    "history": "The Stinger's roots lie in 1890s New York. According to PUNCH, a shaken mix of cognac and crème de menthe was served around 1890 at a hotel by Madison Square Park as the Bartholdi Cocktail; at the Holland House, George Kappeler added Angostura and called it the Brant. The Stinger name appears around 1910 in a handwritten addition to William Boothby's American Bartender, credited to a San Francisco bar.\n\nJacques Straub printed it in his 1913 bartender's manual, and the drink became a society favourite in the 1920s thanks largely to Reginald Vanderbilt, who mixed them for friends at his New York mansion. It remained a popular after-dinner order through the 1940s and has been revived by several New York bars in recent years.",
+    "tasteProfile": "Cool, smooth and boozy. Cognac provides warmth, dried fruit and a mellow oak depth, while white crème de menthe adds a clean, sweet peppermint flavour that cools the palate. Stirred and served very cold, the two combine into a silky, spirit-forward drink that tastes like a grown-up after-dinner mint. It is sweet but not cloying, with a fresh, minty finish over the brandy's lingering warmth.",
+    "tags": [
+      "after-dinner",
+      "spirit-forward",
+      "classic"
+    ],
+    "popularity": 55,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "IBA",
+        "title": "Stinger",
+        "url": "https://iba-world.com/iba-cocktail/stinger/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "PUNCH",
+        "title": "The Stinger: cocktail history and New York recipes",
+        "url": "https://punchdrink.com/articles/stinger-cocktail-history-new-york-recipes/",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "IBA stirs the drink; early versions were shaken. Exact creation year uncertain (c. 1890 as the Bartholdi per PUNCH); first print appearance under the Stinger name dated around 1910–1914 depending on source (Difford's search snippet cites Straub 1913)."
+  },
+  {
+    "id": "tom-collins",
+    "name": "Tom Collins",
+    "era": "vintage",
+    "yearCreated": null,
+    "glass": "Collins",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "old-tom-gin",
+        "amount": 52.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lemon-juice",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "fresh"
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "rich 2:1 sugar syrup"
+      },
+      {
+        "id": "soda-water",
+        "amount": null,
+        "unit": "top",
+        "optional": false,
+        "note": "about 52.5 ml, chilled"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Orange wheel and maraschino cherry on a skewer",
+    "instructions": [
+      "Pre-chill a Collins glass.",
+      "Shake the gin, lemon juice and sugar syrup with ice.",
+      "Strain into the ice-filled glass.",
+      "Top with soda water and stir briefly.",
+      "Garnish with an orange wheel and cherry."
+    ],
+    "history": "The Collins is usually traced to John Collins, head waiter at Limmer's Hotel on Conduit Street in London, whose coffee house was known for its Gin Punch in the early 1800s. Difford's Guide suggests the Collins evolved from that punch. Harry Johnson's 1882 manual listed a John Collins with Dutch genever and a Tom Collins made with Old Tom gin, a lightly sweetened style of gin.\n\nOther explanations abound, including a bartender at a New York tavern and American claims from San Francisco to New Jersey. In 1874 the 'Great Tom Collins Hoax' swept New York, a prank in which people were told a man called Tom Collins had insulted them and could be found in a nearby bar. Over time the base spirit shifted from genever to Old Tom to London dry gin.",
+    "tasteProfile": "Tall, crisp and lemony. Old Tom gin brings soft juniper and botanicals with a slightly rounder, sweeter texture than London dry. Fresh lemon juice gives a clean sour tang, balanced by sugar syrup into something like a sparkling, grown-up lemonade. A generous top of soda and plenty of ice keep it light and effervescent, and the orange and cherry garnish adds a touch of fruity aroma.",
+    "tags": [
+      "highball",
+      "sour",
+      "citrus",
+      "refreshing",
+      "classic"
+    ],
+    "popularity": 78,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Tom Collins",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1972/tom-collins",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Tom Collins",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1972/tom-collins",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Not an IBA cocktail; recipe from Difford's Guide (Hayman's Old Tom gin, Thomas Henry soda generalized). Soda recorded as 'top' per spec; Difford's gives 52.5 ml. Origin disputed (John Collins of Limmer's vs various US claims). Difford's could not verify the claim that a Collins recipe appears in Haney's 1869 manual."
+  },
+  {
+    "id": "vesper",
+    "name": "Vesper",
+    "era": "vintage",
+    "yearCreated": 1953,
+    "glass": "Cocktail Glass",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "gin",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "vodka",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lillet-blanc",
+        "amount": 7.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": "for shaking"
+      }
+    ],
+    "garnish": "Lemon zest",
+    "instructions": [
+      "Add all ingredients to a shaker with ice.",
+      "Shake well.",
+      "Strain into a chilled cocktail glass."
+    ],
+    "history": "The Vesper comes from fiction rather than a bar. Ian Fleming wrote it into his first James Bond novel, Casino Royale, published in 1953. In the book Bond orders three measures of Gordon's gin, one of vodka and half a measure of Kina Lillet, shaken until ice-cold with a large slice of lemon peel, and announces he will name it once he finds a worthy title. He later names it after Vesper Lynd, who turns out to be a double agent.\n\nFleming drafted the novel at his Goldeneye home in Jamaica in early 1952, where he reportedly served guests a rum drink called 'Vespers'. Difford's Guide also notes the theory that Vesper Lynd was inspired by SOE agent Christine Granville. Because the original Kina Lillet is no longer made, modern versions such as the IBA's use Lillet Blanc.",
+    "tasteProfile": "Crisp, dry and powerful. Gin's juniper and botanicals lead, while the smaller measure of vodka softens and smooths the spirit without adding flavour of its own. Lillet Blanc contributes a gentle honeyed, citrusy and lightly bitter wine note that rounds the edges. Shaken very cold, the drink is clean and bracing, almost crystalline, and the lemon zest adds a bright, oily citrus aroma.",
+    "tags": [
+      "spirit-forward",
+      "dry",
+      "classic"
+    ],
+    "popularity": 70,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "IBA",
+        "title": "Vesper",
+        "url": "https://iba-world.com/iba-cocktail/vesper/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Vesper Dry Martini",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2597/vesper",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "yearCreated set to 1953, the publication year of Casino Royale (Fleming wrote it in 1952). Kina Lillet no longer exists; IBA uses Lillet Blanc. The Dukes Bar inspiration story was debunked per the Oxford Companion (seen in search results only); not included."
+  },
+  {
+    "id": "vieux-carre",
+    "name": "Vieux Carré",
+    "era": "vintage",
+    "yearCreated": 1938,
+    "glass": "Cocktail Glass",
+    "method": "stir",
+    "ingredients": [
+      {
+        "id": "rye-whiskey",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "cognac",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "sweet-vermouth",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "benedictine",
+        "amount": 1,
+        "unit": "barspoon",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "peychauds-bitters",
+        "amount": 2,
+        "unit": "dash",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": "for stirring"
+      }
+    ],
+    "garnish": "Orange zest and maraschino cherry",
+    "instructions": [
+      "Add all ingredients to a mixing glass with ice.",
+      "Stir well.",
+      "Strain into a chilled cocktail glass."
+    ],
+    "history": "The Vieux Carré was created in 1938 by Walter Bergeron, head bartender at the Hotel Monteleone in New Orleans, in the lounge now known as the Carousel Bar. He named it after the city's French Quarter, whose old French name translates as 'old square'. The recipe was published the same year in Stanley Clisby Arthur's book Famous New Orleans Drinks and How to Mix 'Em.\n\nArthur's version combined equal measures of rye whiskey, cognac and Italian vermouth with a little Bénédictine and a dash each of Peychaud's and Angostura bitters, finished with a lemon twist. The drink draws on the city's love of rye and cognac seen in the Sazerac, mixed with the vermouth of a Manhattan, making it a true New Orleans signature.",
+    "tasteProfile": "Rich, spicy and complex. Rye whiskey adds peppery grain, cognac brings soft fruit and roundness, and sweet vermouth contributes dark, wine-like sweetness. A small amount of Bénédictine layers in honey and herbal notes, while Peychaud's bitters add anise and cherry. Stirred and cold, it feels like a deeper, more herbal Manhattan, with a long, warming finish touched by orange from the garnish.",
+    "tags": [
+      "spirit-forward",
+      "herbal"
+    ],
+    "popularity": 60,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "IBA",
+        "title": "Vieux Carré",
+        "url": "https://iba-world.com/iba-cocktail/vieux-carre/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Vieux Carré Cocktail",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2048/vieux-carre",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "IBA serves it straight up in a chilled cocktail glass; Arthur's original and many bars serve it on the rocks. IBA omits the Angostura of the 1938 original and uses orange zest and cherry rather than a lemon twist."
+  },
+  {
+    "id": "whiskey-sour",
+    "name": "Whiskey Sour",
+    "era": "vintage",
+    "yearCreated": null,
+    "glass": "Cobbler Glass (or Old Fashioned On The Rocks)",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "bourbon",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lemon-juice",
+        "amount": 25,
+        "unit": "ml",
+        "optional": false,
+        "note": "fresh"
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 20,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "egg-white",
+        "amount": null,
+        "unit": "drop",
+        "optional": true,
+        "note": "a few drops"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Half orange slice and maraschino cherry (or orange zest)",
+    "instructions": [
+      "Add all ingredients to a shaker filled with ice.",
+      "Shake well (a little harder if using egg white).",
+      "Strain into a cobbler glass, or into an ice-filled old fashioned glass to serve on the rocks."
+    ],
+    "history": "Sours, combining spirit, citrus and sugar, are among the oldest families of mixed drinks, and the Brandy Sour may once have been the more popular member. The earliest known mention of a Whiskey Sour dates from 1870, though no individual creator is known. By 1883 a Chicago bartender was describing customers who expected a float of claret on their sours, a variation now known as the New York Sour.\n\nThe Whiskey Sour came into its own during Prohibition, when it became the best-loved sour of all. Adding egg white is also an old habit: Robert Vermeire's 1922 book recommended a few drops to improve any sour. The drink now even has its own day, celebrated on 25 August.",
+    "tasteProfile": "Balanced, tangy and approachable. Bourbon brings caramel, vanilla and oak, while fresh lemon juice adds a bright, mouth-watering sourness and sugar syrup smooths the edges. With a little egg white the texture turns soft and silky with a light foam on top. The result is sweet-tart and warming at once, with the whiskey's richness still clear and a gentle citrus finish.",
+    "tags": [
+      "sour",
+      "citrus",
+      "classic"
+    ],
+    "popularity": 88,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "IBA",
+        "title": "Whiskey Sour",
+        "url": "https://iba-world.com/iba-cocktail/whiskey-sour/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Sour cocktails – Whiskey Sour",
+        "url": "https://www.diffordsguide.com/g/1133/sour-cocktails/whiskey-sour",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "No known creator. Difford's dates the earliest mention to 1870 but does not name the publication. Other sources (seen in search only) cite Jerry Thomas's 1862 guide for brandy and gin sours; not used. Egg white optional per IBA."
+  },
+  {
+    "id": "white-lady",
+    "name": "White Lady",
+    "era": "vintage",
+    "yearCreated": null,
+    "glass": "Cocktail Glass",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "gin",
+        "amount": 40,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "orange-liqueur",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": "triple sec"
+      },
+      {
+        "id": "lemon-juice",
+        "amount": 20,
+        "unit": "ml",
+        "optional": false,
+        "note": "fresh"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": "for shaking"
+      }
+    ],
+    "garnish": "None",
+    "instructions": [
+      "Add all ingredients to a shaker with ice.",
+      "Shake well.",
+      "Strain into a chilled cocktail glass."
+    ],
+    "history": "The first drink called a White Lady is credited to Harry MacElhone at Ciro's Club in London in 1919, but it was quite different: brandy, crème de menthe and Cointreau. His family later said he reinvented it with gin at Harry's New York Bar in Paris in 1929, though Difford's Guide finds no evidence for this. The Savoy instead credits Harry Craddock of its American Bar, whose 1930 Savoy Cocktail Book printed a gin version.\n\nDifford's Guide favours Victor Cabrin of London's Grosvenor House as the most likely creator of the gin White Lady, citing a 1946 newspaper article that says he invented it in 1929. Early recipes had no egg white; it first appeared in a White Lady recipe in 1936 and in a specialist bar book a decade later.",
+    "tasteProfile": "Clean, crisp and citrusy. Gin gives a dry juniper and botanical backbone, while triple sec adds sweet orange and a smooth, slightly fuller body. Fresh lemon juice brings a sharp, refreshing sourness that keeps the drink bright. Served ice-cold and straight up, it tastes elegant and zesty, a gin-based cousin of the Sidecar, with a dry, lingering orange-lemon finish.",
+    "tags": [
+      "sour",
+      "citrus",
+      "classic"
+    ],
+    "popularity": 62,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "IBA",
+        "title": "White Lady",
+        "url": "https://iba-world.com/iba-cocktail/white-lady/",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "White Lady cocktail",
+        "url": "https://www.diffordsguide.com/encyclopedia/512/cocktails/white-lady-cocktail",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Creator disputed: MacElhone (brandy version 1919; gin version claimed 1929, unsupported), Harry Craddock (Savoy's claim), Victor Cabrin (Difford's preferred, c. 1929). yearCreated null. IBA recipe has no egg white and no garnish."
+  },
+  {
+    "id": "gin-rickey",
+    "name": "Gin Rickey",
+    "era": "vintage",
+    "yearCreated": null,
+    "glass": "Highball (8–10 Oz) Or Fizz Glass",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "gin",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": "London dry gin"
+      },
+      {
+        "id": "lime-juice",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "fresh"
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 10,
+        "unit": "ml",
+        "optional": false,
+        "note": "rich 2:1 sugar syrup"
+      },
+      {
+        "id": "soda-water",
+        "amount": null,
+        "unit": "top",
+        "optional": false,
+        "note": "about 15 ml"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Long ribbon of lime peel",
+    "instructions": [
+      "Pre-chill the glass.",
+      "Shake the gin, lime juice and sugar syrup with ice.",
+      "Strain into an ice-filled glass.",
+      "Top with soda water."
+    ],
+    "history": "The Rickey family of drinks is believed to have been created around 1880 by bartender George A. Williamson at Shoemaker's bar in Washington, D.C. It is named after Colonel Joseph Kyle Rickey, a Democratic lobbyist who reportedly liked to squeeze fresh lime into his whiskey and lengthen it with soda. Rickey later bought Shoemaker's in 1883 and also became a major importer of limes into the United States.\n\nThe gin version appears in print in Harry Johnson's bartender's manual of 1900, which called for Old Tom or Holland gin. The Rickey differs from the Collins mainly in using lime instead of lemon, and it is traditionally served in a smaller glass. One reader note on Difford's Guide recalls that the Colonel preferred his Rickeys without sugar.",
+    "tasteProfile": "Sharp, dry and fizzy. London dry gin gives a crisp juniper and citrus-peel backbone, while fresh lime adds a bright, tart bite that dominates the drink. Only a touch of sugar softens the edges, so it stays much drier than a Collins or Gimlet. Lengthened with soda over ice, it feels light, clean and bracing, a simple, thirst-quenching highball with a zesty lime aroma.",
+    "tags": [
+      "highball",
+      "citrus",
+      "dry",
+      "refreshing",
+      "classic"
+    ],
+    "popularity": 55,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Gin Rickey",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1676/gin-rickey",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Gin Rickey",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1676/gin-rickey",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Not an IBA cocktail; recipe from Difford's Guide (Hayman's gin, Thomas Henry soda generalized). Soda recorded as 'top' per spec; Difford's lists 15 ml. Rickey family c. 1880 (attributed to George A. Williamson); Gin Rickey first printed 1900, so yearCreated is null. Traditional Rickeys were often unsweetened."
+  }
+]
