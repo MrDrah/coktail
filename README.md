@@ -6,6 +6,16 @@ Enter 2–10 ingredients you have and get authentic cocktails (at least 1; up to
 - No backend: a static site with a client-side flat JSON library of 500 cocktails.
 - No AI at runtime: the BA researches real cocktails from reputable sources; the app is deterministic matching logic.
 
+## Run it
+
+```bash
+npm install
+npm run dev            # http://localhost:5173
+npm test               # engine + UI tests
+npm run build          # static site in dist/
+npm run validate:data  # check the cocktail library
+```
+
 ## Project organisation
 
 This project is delivered by four specialised agents, coordinated by an Organisator.

@@ -23,7 +23,16 @@ export interface BestAddition {
 
 export type SearchResult =
   | { status: 'too-few' | 'too-many'; count: number }
-  | { status: 'ok'; count: number; cap: number; matches: Match[]; nearMatches: NearMatch[]; bestAddition: BestAddition | null };
+  | {
+      status: 'ok';
+      count: number;
+      cap: number;
+      matches: Match[];
+      nearMatches: NearMatch[];
+      /** Matches (or near matches, when there are none) before the cap was applied. */
+      total: number;
+      bestAddition: BestAddition | null;
+    };
 
 export interface Matcher {
   search(userIds: Iterable<string>): SearchResult;
@@ -80,7 +89,7 @@ export function createMatcher(library: CocktailLibrary, dict: IngredientDictiona
     // US-E4-02: most of the user's ingredients used, then popularity, then name.
     matches.sort((a, b) => b.matchedIds.length - a.matchedIds.length || b.cocktail.popularity - a.cocktail.popularity || byName(a, b));
     if (matches.length > 0) {
-      return { status: 'ok', count: user.size, cap, matches: matches.slice(0, cap), nearMatches: [], bestAddition: null };
+      return { status: 'ok', count: user.size, cap, matches: matches.slice(0, cap), nearMatches: [], total: matches.length, bestAddition: null };
     }
 
     // Counted over all near matches, before the cap: most recipes unlocked, then pairing weight, then name.
@@ -101,7 +110,7 @@ export function createMatcher(library: CocktailLibrary, dict: IngredientDictiona
         b.cocktail.popularity - a.cocktail.popularity ||
         byName(a, b),
     );
-    return { status: 'ok', count: user.size, cap, matches: [], nearMatches: near.slice(0, cap), bestAddition };
+    return { status: 'ok', count: user.size, cap, matches: [], nearMatches: near.slice(0, cap), total: near.length, bestAddition };
   }
 
   return { search, required: (id) => reqById.get(id) };

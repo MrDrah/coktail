@@ -136,6 +136,7 @@ describe('US-E4 result cap and ranking', () => {
     const r = ok(manyMatcher.search(input));
     expect(r.matches).toHaveLength(shown);
     expect(r.cap).toBe(shown);
+    expect(r.total).toBe(12);
   });
 
   it('US-E4-01 shows a single match', () => {

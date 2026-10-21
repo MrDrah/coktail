@@ -54,5 +54,22 @@ npm run typecheck
 npm run validate:data
 ```
 
-## Next (UI milestone)
-React app scaffold, components from `design/components.md`, `copy.ts` from `design/copy.md`, URL state (`?i=`), Playwright smoke tests, and GitHub Actions CI.
+## UI (`src/ui/`)
+
+| File | Spec |
+|------|------|
+| `App.tsx` | Shell, search flow, URL state `?i=` with back/forward, theme toggle, live regions |
+| `IngredientInput.tsx` + `chips.ts` | C1 combobox: chips, autocomplete, error chips + suggestions, ambiguity chooser, limits |
+| `CocktailCard.tsx` | C3 card and the near-match variant |
+| `Results.tsx` | C5 grid (small-count layouts) and C6 fallback, best addition, empty state |
+| `DetailDialog.tsx` + `format.ts` | C4 native `<dialog>`, servings stepper, assumed ice/water rows |
+| `copy.ts` | Every string from `design/copy.md`, verbatim |
+| `icons.tsx` | Line icons and the 10 glass icons |
+| `app.css` | Styles using only `design/tokens.css` variables |
+
+Known gaps vs the design spec (follow-ups):
+- The ambiguity chooser is a popover at every width; the mobile bottom sheet isn't built.
+- There's no sticky mobile CTA bar and no "how it works" idle strip.
+- The card stagger and amount crossfade animations aren't built.
+- Loading skeletons aren't needed yet, because search is synchronous.
+- Playwright end-to-end tests and GitHub Actions CI are still to do. The UI flows are covered by Testing Library tests in `tests/unit/app.test.tsx`.
