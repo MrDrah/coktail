@@ -1,0 +1,51 @@
+id,name,source_url,url_ok,ingredients_ok,quantities_ok,glass_ok,result,notes
+americano,Americano,https://iba-world.com/iba-cocktail/americano/,yes,yes,yes,yes,PASS,
+aviation,Aviation,https://iba-world.com/iba-cocktail/aviation/,yes,yes,yes,yes,PASS,
+bees-knees,Bee's Knees,https://iba-world.com/iba-cocktail/bees-knees/,yes,yes,yes,yes,PASS,"honey-syrup: source ""2 teaspoons"", record 2 barspoon (equivalent ~5 ml each)"
+bellini,Bellini,https://iba-world.com/iba-cocktail/bellini/,yes,yes,yes,yes,PASS,
+between-the-sheets,Between the Sheets,https://iba-world.com/iba-cocktail/between-the-sheets/,yes,yes,yes,yes,PASS,
+black-russian,Black Russian,https://iba-world.com/iba-cocktail/black-russian/,yes,yes,yes,yes,PASS,
+bloody-mary,Bloody Mary,https://iba-world.com/iba-cocktail/bloody-mary/,yes,yes,yes,yes,PASS,"Tabasco/celery salt/pepper ""up to taste"" -> null amounts with notes (OK)"
+boulevardier,Boulevardier,https://iba-world.com/iba-cocktail/boulevardier/,yes,yes,yes,yes,PASS,
+bramble,Bramble,https://iba-world.com/iba-cocktail/bramble/,yes,yes,yes,yes,PASS,
+caipirinha,Caipirinha,https://iba-world.com/iba-cocktail/caipirinha/,yes,yes,yes,yes,PASS,"sugar: source 4 teaspoons, record 4 barspoon (equivalent); double old fashioned -> Rocks Glass"
+clover-club,Clover Club,https://iba-world.com/iba-cocktail/clover-club/,yes,yes,yes,yes,PASS,"egg-white: source ""few drops"", record null/drop with note (OK)"
+cosmopolitan,Cosmopolitan,https://iba-world.com/iba-cocktail/cosmopolitan/,yes,yes,yes,yes,PASS,
+cuba-libre,Cuba Libre,https://iba-world.com/iba-cocktail/cuba-libre/,yes,yes,yes,yes,PASS,
+daiquiri,Daiquiri,https://iba-world.com/iba-cocktail/daiquiri/,yes,yes,yes,yes,PASS,
+dark-n-stormy,Dark 'n' Stormy,https://iba-world.com/iba-cocktail/dark-n-stormy/,yes,yes,yes,yes,PASS,"""Goslings Rum"" -> dark-rum with note"
+dry-martini,Dry Martini,https://iba-world.com/iba-cocktail/dry-martini/,yes,yes,yes,yes,PASS,
+espresso-martini,Espresso Martini,https://iba-world.com/iba-cocktail/espresso-martini/,yes,yes,yes,yes,PASS,"espresso: source ""1 strong Espresso"", record 1 (no unit) with note (OK)"
+french-75,French 75,https://iba-world.com/iba-cocktail/french-75/,yes,yes,yes,yes,PASS,
+gin-fizz,Gin Fizz,https://iba-world.com/iba-cocktail/gin-fizz/,yes,yes,yes,yes,PASS,"source ""thin tall tumbler"" -> Highball; serve without ice noted"
+gin-rickey,Gin Rickey,https://www.diffordsguide.com/cocktails/recipe/1676/gin-rickey,yes,yes,yes,yes,PASS,"soda-water: source lists 15 ml but method says TOP; record unit top with note ""about 15 ml"" (acceptable). Sugar syrup is rich 2:1 per source, noted. Fizz/Highball glass"
+hemingway-special,Hemingway Special,https://iba-world.com/iba-cocktail/hemingway-special/,yes,yes,yes,yes,PASS,"source says ""Rum""; record white-rum with explanatory note (acceptable)"
+irish-coffee,Irish Coffee,https://iba-world.com/iba-cocktail/irish-coffee/,yes,yes,yes,yes,PASS,
+john-collins,John Collins,https://iba-world.com/iba-cocktail/john-collins/,yes,yes,yes,yes,PASS,
+kir,Kir,https://iba-world.com/iba-cocktail/kir/ ; https://www.diffordsguide.com/cocktails/recipe/1107/kir-aperitif,yes,yes,yes,yes,PASS,"Matches IBA (90 ml wine / 10 ml cassis). IBA names no glass; Difford's says goblet -> Wine Glass OK. NOTE: secondary recipe source (Difford's Kir Aperitif) differs: 150 ml Aligote (75+75), 25 ml cassis, optional 4 drops orange flower water - conflicting cited sources"
+last-word,Last Word,https://iba-world.com/iba-cocktail/last-word/,yes,yes,yes,yes,PASS,
+long-island-iced-tea,Long Island Iced Tea,https://iba-world.com/iba-cocktail/long-island-iced-tea/,yes,yes,yes,yes,PASS,
+mai-tai,Mai Tai,https://iba-world.com/iba-cocktail/mai-tai/,yes,yes,yes,yes,PASS,30 ml amber Jamaican rum + 30 ml Martinique molasses rum merged into aged-rum 60 ml with note (sum matches); orange curacao -> orange-liqueur; double rocks -> Rocks Glass
+manhattan,Manhattan,https://iba-world.com/iba-cocktail/manhattan/,yes,yes,yes,yes,PASS,
+margarita,Margarita,https://iba-world.com/iba-cocktail/margarita/,yes,yes,yes,yes,PASS,
+mimosa,Mimosa,https://iba-world.com/iba-cocktail/mimosa/,yes,yes,yes,yes,PASS,
+mint-julep,Mint Julep,https://iba-world.com/iba-cocktail/mint-julep/,yes,yes,yes,yes,PASS,sugar 1 tsp / water 2 tsp recorded as barspoon (equivalent); stainless julep cup -> Julep Cup
+mojito,Mojito,https://iba-world.com/iba-cocktail/mojito/,yes,yes,yes,yes,PASS,"IBA page names no glass (""fill the glass""); Highball is the reasonable mapping"
+moscow-mule,Moscow Mule,https://iba-world.com/iba-cocktail/moscow-mule/,yes,yes,yes,yes,PASS,Mule cup -> Copper Mug
+negroni,Negroni,https://iba-world.com/iba-cocktail/negroni/,yes,yes,yes,yes,PASS,
+old-fashioned,Old Fashioned,https://iba-world.com/iba-cocktail/old-fashioned/,yes,yes,yes,yes,PASS,"""few dashes"" bitters/water -> null dash with notes (OK)"
+paloma,Paloma,https://iba-world.com/iba-cocktail/paloma/,yes,yes,yes,yes,PASS,
+penicillin,Penicillin,https://iba-world.com/iba-cocktail/penicillin/,yes,yes,yes,yes,PASS,"ginger ""2-3 quarter size slices"" -> 3 piece with note (OK)"
+pina-colada,Piña Colada,https://iba-world.com/iba-cocktail/pina-colada/,yes,yes,yes,yes,PASS,"source ""large glass"" -> Hurricane Glass (reasonable)"
+pisco-sour,Pisco Sour,https://iba-world.com/iba-cocktail/pisco-sour/,yes,yes,yes,yes,PASS,goblet -> Wine Glass
+ramos-gin-fizz,Ramos Gin Fizz,https://iba-world.com/iba-cocktail/ramos-fizz/,yes,yes,yes,yes,PASS,"page title ""Ramos Fizz"" = same cocktail"
+rusty-nail,Rusty Nail,https://iba-world.com/iba-cocktail/rusty-nail/,yes,yes,yes,yes,PASS,
+sazerac,Sazerac,https://iba-world.com/iba-cocktail/sazerac/,yes,yes,yes,yes,PASS,
+sidecar,Sidecar,https://iba-world.com/iba-cocktail/sidecar/,yes,yes,yes,yes,PASS,
+spritz,Spritz,https://iba-world.com/iba-cocktail/spritz/,yes,yes,yes,yes,PASS,
+stinger,Stinger,https://iba-world.com/iba-cocktail/stinger/,yes,yes,yes,yes,PASS,
+tom-collins,Tom Collins,https://www.diffordsguide.com/cocktails/recipe/1972/tom-collins,yes,yes,yes,yes,PASS,"soda-water: source lists 52.5 ml but method says TOP; record unit top with note ""about 52.5 ml"" (acceptable). Collins -> Highball"
+vesper,Vesper,https://iba-world.com/iba-cocktail/vesper/,yes,yes,yes,yes,PASS,
+vieux-carre,Vieux Carré,https://iba-world.com/iba-cocktail/vieux-carre/,yes,yes,yes,yes,PASS,
+whiskey-sour,Whiskey Sour,https://iba-world.com/iba-cocktail/whiskey-sour/,yes,yes,yes,yes,PASS,"source: cobbler glass, or old fashioned glass if on the rocks -> Rocks Glass reasonable; egg white optional matches"
+white-lady,White Lady,https://iba-world.com/iba-cocktail/white-lady/,yes,yes,yes,yes,PASS,
