@@ -36,7 +36,7 @@ In practice the Organisator plays each role directly or sends work to sub-agents
 |------|-------------|-----------|
 | Plan & decisions | BR-01–BR-11, handoff gates, decision log | `docs/00-orchestration-plan.md` |
 | BA | User stories E1–E6 with Given-When-Then; schema; naming standard; **ingredient dictionary v1.2 (170 ingredients, 15 ambiguity groups)**; research brief | `docs/ba/*`, `data/schema/cocktail.schema.md`, `data/ingredients.json` |
-| Library | **300 sourced cocktails.** All pass C1, C3–C9. C2 authenticity: all 50 seed records, plus a 10% sample (30) of the 250 new ones; 12 minor wording/method issues found and fixed | `data/cocktails.json` (built from `data/_research/batch-a.json` … `batch-g.json`) |
+| Library | **300 sourced cocktails.** All pass C1, C3–C9. C2 authenticity: all 50 seed records, plus a 10% sample (30) of the 250 new ones; 12 minor wording/method issues found and fixed. Library-wide wording-overlap audit done for all 250 new records | `data/cocktails.json` (built from `data/_research/batch-a.json` … `batch-g.json`) |
 | UX | "Frost" design system (lime primary, orange secondary, light/dark), 6 component specs, flows, a11y, copy, preview | `design/*` |
 | Dev engine | Normaliser (synonyms, typos, ambiguity), subset matcher, `provides` (fruit → juice, Champagne/Prosecco → sparkling wine), caps 6/8, near matches, best addition, serving scaling | `src/domain/*` |
 | Dev UI | React app implementing C1–C6, URL state `?i=`, theme toggle | `src/ui/*` |
@@ -44,10 +44,10 @@ In practice the Organisator plays each role directly or sends work to sub-agents
 | CI/CD | GitHub Actions CI on every push. GitHub Pages deploys after CI passes on `main` | `.github/workflows/ci.yml`, `deploy.yml` |
 
 ### In progress 🔄 (as of the last update)
-- Nothing running. The 300 library is committed locally; **pushing it to `main` (which redeploys the live site) waits for the product owner's go-ahead.**
+- Nothing running. The 300 library is live, and the library-wide wording audit is done: 147 copied sentences were rewritten (details in the test report). `docs/cocktail-list.txt` is a human-readable list of every cocktail and its ingredients; it is a snapshot and must be regenerated if the library changes.
 
 ### Next 📋
-1. **Wording audit of the 220 unsampled new records.** In the 10% C2 sample, 11 of 30 had sentences too close to their source. Run an automated 5-word-overlap scan of `history`, `tasteProfile` and `shortDescription` against each record's cited pages, then rewrite the hits. Batch files C–G record which skips and reserves each agent used (ranks 316–325, 332–350 and 357–378 are still unused).
+1. Unused candidate ranks for future growth: 316–325, 332–350 and 357–378 in `data/_research/candidates.json`. Any new research batch should go through the same wording-overlap scan before merging.
 2. Data review items from research: grapefruit bitters → `orange-bitters` (Blinker), crème de noyaux → `amaretto` (Pink Squirrel), red chilli → `jalapeno` (Spicy Fifty), Venetian Spritz vs Spritz overlap. Candidates for new IDs: `creme-de-noyaux`, `apricot-eau-de-vie`, a generic chilli.
 3. Open BA observations from QA: Kir's second recipe source disagrees with IBA; Mai Tai's two rums are merged into one line; teaspoon amounts are stored as `barspoon`.
 4. UI gaps vs the design spec: mobile bottom-sheet chooser, sticky mobile CTA, "how it works" idle strip, card stagger animation.
