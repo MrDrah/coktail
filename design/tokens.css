@@ -1,0 +1,311 @@
+/* Cocktail Discovery — Frost design tokens v1.0.0
+ * GENERATED from design/tokens.json. Do not hand-edit values; edit tokens.json and regenerate.
+ * Light theme on :root; dark theme via prefers-color-scheme (unless data-theme="light") and [data-theme="dark"].
+ * Optional font: https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap */
+
+:root {
+  /* color — light */
+  --color-bg: #F4F7FA;
+  --color-surface: #FFFFFF;
+  --color-surface-sunken: #E6ECF2;
+  --color-surface-raised: #FFFFFF;
+  --color-glass: rgba(255,255,255,0.72);
+  --color-glass-border: rgba(255,255,255,0.9);
+  --color-scrim: rgba(15,23,42,0.48);
+  --color-border: #CBD5E1;
+  --color-border-strong: #64748B;
+  --color-ink: #0F172A;
+  --color-ink-2: #334155;
+  --color-ink-muted: #475569;
+  --color-ink-subtle: #5B6B82;
+  --color-ink-disabled: #94A3B8;
+  --color-fill-disabled: #E2E8F0;
+  --color-accent: #B6FF3B;
+  --color-accent-hover: #A6F02A;
+  --color-accent-active: #93DB18;
+  --color-accent-edge: #4D7C0F;
+  --color-accent-strong: #3F6212;
+  --color-accent-soft: #EEFCD3;
+  --color-on-accent: #0F172A;
+  --color-secondary: #FF7A1A;
+  --color-secondary-hover: #F26B0A;
+  --color-secondary-strong: #B93E0A;
+  --color-secondary-soft: #FFEDDC;
+  --color-on-secondary: #0F172A;
+  --color-focus-ring: #0F172A;
+  --color-focus-halo: #B6FF3B;
+  --color-error: #C8243F;
+  --color-error-soft: #FDECEF;
+  --color-error-border: #D2344F;
+  --color-info: #0B66A3;
+  --color-info-soft: #E3F1FB;
+  --color-success: #0B7A55;
+  --color-success-soft: #DEF5EA;
+  --color-highlight: #EEFCD3;
+  --cat-spirit: #4F6B8F;
+  --cat-liqueur: #7C5CC4;
+  --cat-aperitif: #C2410C;
+  --cat-vermouth-fortified: #9D2B5B;
+  --cat-wine: #A23B72;
+  --cat-citrus: #5E8C0A;
+  --cat-fruit: #C2780A;
+  --cat-juice: #D9730D;
+  --cat-syrup-sweetener: #B7791F;
+  --cat-bitters: #8C3B1E;
+  --cat-mixer: #0E8AA8;
+  --cat-dairy-egg: #8A7A5C;
+  --cat-herb-spice: #2F855A;
+  --cat-savory: #6B5E52;
+  --cat-excluded: #94A3B8;
+  --shadow-1: 0 1px 2px rgba(15,23,42,0.06), 0 1px 1px rgba(15,23,42,0.04);
+  --shadow-2: 0 4px 12px -2px rgba(15,23,42,0.08), 0 2px 4px rgba(15,23,42,0.04);
+  --shadow-3: 0 18px 40px -12px rgba(15,23,42,0.22), 0 4px 10px rgba(15,23,42,0.06);
+  --shadow-accent-glow: 0 6px 20px -6px rgba(110,170,10,0.55);
+  color-scheme: light;
+
+  /* typography */
+  --font-sans: 'Manrope', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, 'SFMono-Regular', 'Cascadia Mono', Menlo, monospace;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-heavy: 800;
+  --text-xs-size: 0.75rem;
+  --text-xs-line: 1rem;
+  --text-xs-tracking: 0.01em;
+  --text-sm-size: 0.875rem;
+  --text-sm-line: 1.25rem;
+  --text-sm-tracking: 0;
+  --text-md-size: 1rem;
+  --text-md-line: 1.5rem;
+  --text-md-tracking: 0;
+  --text-lg-size: 1.125rem;
+  --text-lg-line: 1.625rem;
+  --text-lg-tracking: -0.005em;
+  --text-xl-size: 1.375rem;
+  --text-xl-line: 1.75rem;
+  --text-xl-tracking: -0.01em;
+  --text-2xl-size: 1.75rem;
+  --text-2xl-line: 2.125rem;
+  --text-2xl-tracking: -0.015em;
+  --text-3xl-size: clamp(2rem, 1.4rem + 2.6vw, 3rem);
+  --text-3xl-line: 1.1;
+  --text-3xl-tracking: -0.025em;
+  --text-overline-size: 0.6875rem;
+  --text-overline-line: 1rem;
+  --text-overline-tracking: 0.08em;
+
+  /* spacing (4px base) */
+  --space-0: 0;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-0-5: 2px;
+
+  /* radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;
+
+  /* sizes */
+  --size-control: 48px;
+  --size-control-sm: 36px;
+  --size-touch-min: 44px;
+  --size-chip: 32px;
+  --size-chip-remove: 24px;
+  --size-icon-sm: 16px;
+  --size-icon: 20px;
+  --size-icon-lg: 24px;
+  --size-focus-ring: 2px;
+  --size-focus-offset: 2px;
+  --size-content-max: 1200px;
+  --size-input-max: 720px;
+  --size-dialog-max: 720px;
+  --size-card-min: 280px;
+
+  /* frosted glass */
+  --glass-blur: 16px;
+  --glass-saturate: 140%;
+  --glass-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
+
+  /* motion */
+  --duration-instant: 80ms;
+  --duration-fast: 140ms;
+  --duration-base: 200ms;
+  --duration-slow: 320ms;
+  --duration-hint-visible: 4000ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-enter: cubic-bezier(0, 0, 0.2, 1);
+  --ease-exit: cubic-bezier(0.4, 0, 1, 1);
+  --ease-spring: cubic-bezier(0.34, 1.4, 0.64, 1);
+
+  /* z-index */
+  --z-base: 0;
+  --z-sticky: 20;
+  --z-popover: 30;
+  --z-scrim: 40;
+  --z-dialog: 50;
+  --z-toast: 60;
+
+  /* focus (use: box-shadow: var(--focus-shadow)) */
+  --focus-shadow: 0 0 0 var(--size-focus-offset) var(--color-surface), 0 0 0 calc(var(--size-focus-offset) + var(--size-focus-ring)) var(--color-focus-ring), 0 0 0 calc(var(--size-focus-offset) + var(--size-focus-ring) + 3px) var(--color-focus-halo);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-bg: #0B1220;
+    --color-surface: #111A2B;
+    --color-surface-sunken: #0E1626;
+    --color-surface-raised: #17233A;
+    --color-glass: rgba(23,35,58,0.72);
+    --color-glass-border: rgba(203,213,225,0.14);
+    --color-scrim: rgba(2,6,15,0.66);
+    --color-border: #26344D;
+    --color-border-strong: #7B8BA6;
+    --color-ink: #E8EEF6;
+    --color-ink-2: #CBD5E1;
+    --color-ink-muted: #A3B1C6;
+    --color-ink-subtle: #8B9AB2;
+    --color-ink-disabled: #56657E;
+    --color-fill-disabled: #1E2A40;
+    --color-accent: #B6FF3B;
+    --color-accent-hover: #C6FF66;
+    --color-accent-active: #A6F02A;
+    --color-accent-edge: #B6FF3B;
+    --color-accent-strong: #B6FF3B;
+    --color-accent-soft: #22331A;
+    --color-on-accent: #0F172A;
+    --color-secondary: #FF7A1A;
+    --color-secondary-hover: #FF8F3D;
+    --color-secondary-strong: #FF9A4D;
+    --color-secondary-soft: #33231A;
+    --color-on-secondary: #0F172A;
+    --color-focus-ring: #B6FF3B;
+    --color-focus-halo: rgba(182,255,59,0.28);
+    --color-error: #FF7A8F;
+    --color-error-soft: #3A1A24;
+    --color-error-border: #FF7A8F;
+    --color-info: #6CC6FF;
+    --color-info-soft: #132B40;
+    --color-success: #5EE0A0;
+    --color-success-soft: #12301F;
+    --color-highlight: #22331A;
+    --cat-spirit: #8FB0D9;
+    --cat-liqueur: #B79CF2;
+    --cat-aperitif: #FF8A5C;
+    --cat-vermouth-fortified: #F07AAE;
+    --cat-wine: #E88BC0;
+    --cat-citrus: #B6FF3B;
+    --cat-fruit: #FFC24D;
+    --cat-juice: #FFA05C;
+    --cat-syrup-sweetener: #F2C66B;
+    --cat-bitters: #E08A66;
+    --cat-mixer: #5CD6F0;
+    --cat-dairy-egg: #D9CBA8;
+    --cat-herb-spice: #6EE0A0;
+    --cat-savory: #C2B3A3;
+    --cat-excluded: #56657E;
+    --shadow-1: 0 1px 2px rgba(0,0,0,0.4);
+    --shadow-2: 0 6px 16px -4px rgba(0,0,0,0.55);
+    --shadow-3: 0 24px 56px -16px rgba(0,0,0,0.7), 0 0 0 1px rgba(203,213,225,0.06);
+    --shadow-accent-glow: 0 6px 24px -6px rgba(182,255,59,0.45);
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --color-bg: #0B1220;
+  --color-surface: #111A2B;
+  --color-surface-sunken: #0E1626;
+  --color-surface-raised: #17233A;
+  --color-glass: rgba(23,35,58,0.72);
+  --color-glass-border: rgba(203,213,225,0.14);
+  --color-scrim: rgba(2,6,15,0.66);
+  --color-border: #26344D;
+  --color-border-strong: #7B8BA6;
+  --color-ink: #E8EEF6;
+  --color-ink-2: #CBD5E1;
+  --color-ink-muted: #A3B1C6;
+  --color-ink-subtle: #8B9AB2;
+  --color-ink-disabled: #56657E;
+  --color-fill-disabled: #1E2A40;
+  --color-accent: #B6FF3B;
+  --color-accent-hover: #C6FF66;
+  --color-accent-active: #A6F02A;
+  --color-accent-edge: #B6FF3B;
+  --color-accent-strong: #B6FF3B;
+  --color-accent-soft: #22331A;
+  --color-on-accent: #0F172A;
+  --color-secondary: #FF7A1A;
+  --color-secondary-hover: #FF8F3D;
+  --color-secondary-strong: #FF9A4D;
+  --color-secondary-soft: #33231A;
+  --color-on-secondary: #0F172A;
+  --color-focus-ring: #B6FF3B;
+  --color-focus-halo: rgba(182,255,59,0.28);
+  --color-error: #FF7A8F;
+  --color-error-soft: #3A1A24;
+  --color-error-border: #FF7A8F;
+  --color-info: #6CC6FF;
+  --color-info-soft: #132B40;
+  --color-success: #5EE0A0;
+  --color-success-soft: #12301F;
+  --color-highlight: #22331A;
+  --cat-spirit: #8FB0D9;
+  --cat-liqueur: #B79CF2;
+  --cat-aperitif: #FF8A5C;
+  --cat-vermouth-fortified: #F07AAE;
+  --cat-wine: #E88BC0;
+  --cat-citrus: #B6FF3B;
+  --cat-fruit: #FFC24D;
+  --cat-juice: #FFA05C;
+  --cat-syrup-sweetener: #F2C66B;
+  --cat-bitters: #E08A66;
+  --cat-mixer: #5CD6F0;
+  --cat-dairy-egg: #D9CBA8;
+  --cat-herb-spice: #6EE0A0;
+  --cat-savory: #C2B3A3;
+  --cat-excluded: #56657E;
+  --shadow-1: 0 1px 2px rgba(0,0,0,0.4);
+  --shadow-2: 0 6px 16px -4px rgba(0,0,0,0.55);
+  --shadow-3: 0 24px 56px -16px rgba(0,0,0,0.7), 0 0 0 1px rgba(203,213,225,0.06);
+  --shadow-accent-glow: 0 6px 24px -6px rgba(182,255,59,0.45);
+  color-scheme: dark;
+}
+
+/* Breakpoints (for reference; CSS vars cannot be used in media queries):
+ * sm 360px · md 768px · lg 1024px · xl 1440px  — mobile-first: @media (min-width: 768px) etc. */
+
+/* Reduced motion: collapse all durations; components must not rely on animation to convey state. */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-instant: 1ms;
+    --duration-fast: 1ms;
+    --duration-base: 1ms;
+    --duration-slow: 1ms;
+    --ease-spring: linear;
+  }
+}
+
+/* Glass fallback where backdrop-filter is unsupported */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  :root { --color-glass: rgba(255,255,255,0.96); }
+  :root[data-theme="dark"] { --color-glass: rgba(23,35,58,0.97); }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --color-glass: rgba(23,35,58,0.97); } }
+}
+@media (prefers-reduced-transparency: reduce) {
+  :root { --color-glass: var(--color-surface); --glass-filter: none; }
+}

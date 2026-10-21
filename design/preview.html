@@ -1,0 +1,776 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Frost Design System</title>
+<meta name="description" content="Cocktail Discovery design system preview: tokens, contrast audit and component mockups.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* ===== tokens.css (inlined verbatim) ===== */
+/* Cocktail Discovery — Frost design tokens v1.0.0
+ * GENERATED from design/tokens.json. Do not hand-edit values; edit tokens.json and regenerate.
+ * Light theme on :root; dark theme via prefers-color-scheme (unless data-theme="light") and [data-theme="dark"].
+ * Optional font: https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap */
+
+:root {
+  /* color — light */
+  --color-bg: #F4F7FA;
+  --color-surface: #FFFFFF;
+  --color-surface-sunken: #E6ECF2;
+  --color-surface-raised: #FFFFFF;
+  --color-glass: rgba(255,255,255,0.72);
+  --color-glass-border: rgba(255,255,255,0.9);
+  --color-scrim: rgba(15,23,42,0.48);
+  --color-border: #CBD5E1;
+  --color-border-strong: #64748B;
+  --color-ink: #0F172A;
+  --color-ink-2: #334155;
+  --color-ink-muted: #475569;
+  --color-ink-subtle: #5B6B82;
+  --color-ink-disabled: #94A3B8;
+  --color-fill-disabled: #E2E8F0;
+  --color-accent: #B6FF3B;
+  --color-accent-hover: #A6F02A;
+  --color-accent-active: #93DB18;
+  --color-accent-edge: #4D7C0F;
+  --color-accent-strong: #3F6212;
+  --color-accent-soft: #EEFCD3;
+  --color-on-accent: #0F172A;
+  --color-secondary: #FF7A1A;
+  --color-secondary-hover: #F26B0A;
+  --color-secondary-strong: #B93E0A;
+  --color-secondary-soft: #FFEDDC;
+  --color-on-secondary: #0F172A;
+  --color-focus-ring: #0F172A;
+  --color-focus-halo: #B6FF3B;
+  --color-error: #C8243F;
+  --color-error-soft: #FDECEF;
+  --color-error-border: #D2344F;
+  --color-info: #0B66A3;
+  --color-info-soft: #E3F1FB;
+  --color-success: #0B7A55;
+  --color-success-soft: #DEF5EA;
+  --color-highlight: #EEFCD3;
+  --cat-spirit: #4F6B8F;
+  --cat-liqueur: #7C5CC4;
+  --cat-aperitif: #C2410C;
+  --cat-vermouth-fortified: #9D2B5B;
+  --cat-wine: #A23B72;
+  --cat-citrus: #5E8C0A;
+  --cat-fruit: #C2780A;
+  --cat-juice: #D9730D;
+  --cat-syrup-sweetener: #B7791F;
+  --cat-bitters: #8C3B1E;
+  --cat-mixer: #0E8AA8;
+  --cat-dairy-egg: #8A7A5C;
+  --cat-herb-spice: #2F855A;
+  --cat-savory: #6B5E52;
+  --cat-excluded: #94A3B8;
+  --shadow-1: 0 1px 2px rgba(15,23,42,0.06), 0 1px 1px rgba(15,23,42,0.04);
+  --shadow-2: 0 4px 12px -2px rgba(15,23,42,0.08), 0 2px 4px rgba(15,23,42,0.04);
+  --shadow-3: 0 18px 40px -12px rgba(15,23,42,0.22), 0 4px 10px rgba(15,23,42,0.06);
+  --shadow-accent-glow: 0 6px 20px -6px rgba(110,170,10,0.55);
+  color-scheme: light;
+
+  /* typography */
+  --font-sans: 'Manrope', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, 'SFMono-Regular', 'Cascadia Mono', Menlo, monospace;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-heavy: 800;
+  --text-xs-size: 0.75rem;
+  --text-xs-line: 1rem;
+  --text-xs-tracking: 0.01em;
+  --text-sm-size: 0.875rem;
+  --text-sm-line: 1.25rem;
+  --text-sm-tracking: 0;
+  --text-md-size: 1rem;
+  --text-md-line: 1.5rem;
+  --text-md-tracking: 0;
+  --text-lg-size: 1.125rem;
+  --text-lg-line: 1.625rem;
+  --text-lg-tracking: -0.005em;
+  --text-xl-size: 1.375rem;
+  --text-xl-line: 1.75rem;
+  --text-xl-tracking: -0.01em;
+  --text-2xl-size: 1.75rem;
+  --text-2xl-line: 2.125rem;
+  --text-2xl-tracking: -0.015em;
+  --text-3xl-size: clamp(2rem, 1.4rem + 2.6vw, 3rem);
+  --text-3xl-line: 1.1;
+  --text-3xl-tracking: -0.025em;
+  --text-overline-size: 0.6875rem;
+  --text-overline-line: 1rem;
+  --text-overline-tracking: 0.08em;
+
+  /* spacing (4px base) */
+  --space-0: 0;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-0-5: 2px;
+
+  /* radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;
+
+  /* sizes */
+  --size-control: 48px;
+  --size-control-sm: 36px;
+  --size-touch-min: 44px;
+  --size-chip: 32px;
+  --size-chip-remove: 24px;
+  --size-icon-sm: 16px;
+  --size-icon: 20px;
+  --size-icon-lg: 24px;
+  --size-focus-ring: 2px;
+  --size-focus-offset: 2px;
+  --size-content-max: 1200px;
+  --size-input-max: 720px;
+  --size-dialog-max: 720px;
+  --size-card-min: 280px;
+
+  /* frosted glass */
+  --glass-blur: 16px;
+  --glass-saturate: 140%;
+  --glass-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
+
+  /* motion */
+  --duration-instant: 80ms;
+  --duration-fast: 140ms;
+  --duration-base: 200ms;
+  --duration-slow: 320ms;
+  --duration-hint-visible: 4000ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-enter: cubic-bezier(0, 0, 0.2, 1);
+  --ease-exit: cubic-bezier(0.4, 0, 1, 1);
+  --ease-spring: cubic-bezier(0.34, 1.4, 0.64, 1);
+
+  /* z-index */
+  --z-base: 0;
+  --z-sticky: 20;
+  --z-popover: 30;
+  --z-scrim: 40;
+  --z-dialog: 50;
+  --z-toast: 60;
+
+  /* focus (use: box-shadow: var(--focus-shadow)) */
+  --focus-shadow: 0 0 0 var(--size-focus-offset) var(--color-surface), 0 0 0 calc(var(--size-focus-offset) + var(--size-focus-ring)) var(--color-focus-ring), 0 0 0 calc(var(--size-focus-offset) + var(--size-focus-ring) + 3px) var(--color-focus-halo);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-bg: #0B1220;
+    --color-surface: #111A2B;
+    --color-surface-sunken: #0E1626;
+    --color-surface-raised: #17233A;
+    --color-glass: rgba(23,35,58,0.72);
+    --color-glass-border: rgba(203,213,225,0.14);
+    --color-scrim: rgba(2,6,15,0.66);
+    --color-border: #26344D;
+    --color-border-strong: #7B8BA6;
+    --color-ink: #E8EEF6;
+    --color-ink-2: #CBD5E1;
+    --color-ink-muted: #A3B1C6;
+    --color-ink-subtle: #8B9AB2;
+    --color-ink-disabled: #56657E;
+    --color-fill-disabled: #1E2A40;
+    --color-accent: #B6FF3B;
+    --color-accent-hover: #C6FF66;
+    --color-accent-active: #A6F02A;
+    --color-accent-edge: #B6FF3B;
+    --color-accent-strong: #B6FF3B;
+    --color-accent-soft: #22331A;
+    --color-on-accent: #0F172A;
+    --color-secondary: #FF7A1A;
+    --color-secondary-hover: #FF8F3D;
+    --color-secondary-strong: #FF9A4D;
+    --color-secondary-soft: #33231A;
+    --color-on-secondary: #0F172A;
+    --color-focus-ring: #B6FF3B;
+    --color-focus-halo: rgba(182,255,59,0.28);
+    --color-error: #FF7A8F;
+    --color-error-soft: #3A1A24;
+    --color-error-border: #FF7A8F;
+    --color-info: #6CC6FF;
+    --color-info-soft: #132B40;
+    --color-success: #5EE0A0;
+    --color-success-soft: #12301F;
+    --color-highlight: #22331A;
+    --cat-spirit: #8FB0D9;
+    --cat-liqueur: #B79CF2;
+    --cat-aperitif: #FF8A5C;
+    --cat-vermouth-fortified: #F07AAE;
+    --cat-wine: #E88BC0;
+    --cat-citrus: #B6FF3B;
+    --cat-fruit: #FFC24D;
+    --cat-juice: #FFA05C;
+    --cat-syrup-sweetener: #F2C66B;
+    --cat-bitters: #E08A66;
+    --cat-mixer: #5CD6F0;
+    --cat-dairy-egg: #D9CBA8;
+    --cat-herb-spice: #6EE0A0;
+    --cat-savory: #C2B3A3;
+    --cat-excluded: #56657E;
+    --shadow-1: 0 1px 2px rgba(0,0,0,0.4);
+    --shadow-2: 0 6px 16px -4px rgba(0,0,0,0.55);
+    --shadow-3: 0 24px 56px -16px rgba(0,0,0,0.7), 0 0 0 1px rgba(203,213,225,0.06);
+    --shadow-accent-glow: 0 6px 24px -6px rgba(182,255,59,0.45);
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --color-bg: #0B1220;
+  --color-surface: #111A2B;
+  --color-surface-sunken: #0E1626;
+  --color-surface-raised: #17233A;
+  --color-glass: rgba(23,35,58,0.72);
+  --color-glass-border: rgba(203,213,225,0.14);
+  --color-scrim: rgba(2,6,15,0.66);
+  --color-border: #26344D;
+  --color-border-strong: #7B8BA6;
+  --color-ink: #E8EEF6;
+  --color-ink-2: #CBD5E1;
+  --color-ink-muted: #A3B1C6;
+  --color-ink-subtle: #8B9AB2;
+  --color-ink-disabled: #56657E;
+  --color-fill-disabled: #1E2A40;
+  --color-accent: #B6FF3B;
+  --color-accent-hover: #C6FF66;
+  --color-accent-active: #A6F02A;
+  --color-accent-edge: #B6FF3B;
+  --color-accent-strong: #B6FF3B;
+  --color-accent-soft: #22331A;
+  --color-on-accent: #0F172A;
+  --color-secondary: #FF7A1A;
+  --color-secondary-hover: #FF8F3D;
+  --color-secondary-strong: #FF9A4D;
+  --color-secondary-soft: #33231A;
+  --color-on-secondary: #0F172A;
+  --color-focus-ring: #B6FF3B;
+  --color-focus-halo: rgba(182,255,59,0.28);
+  --color-error: #FF7A8F;
+  --color-error-soft: #3A1A24;
+  --color-error-border: #FF7A8F;
+  --color-info: #6CC6FF;
+  --color-info-soft: #132B40;
+  --color-success: #5EE0A0;
+  --color-success-soft: #12301F;
+  --color-highlight: #22331A;
+  --cat-spirit: #8FB0D9;
+  --cat-liqueur: #B79CF2;
+  --cat-aperitif: #FF8A5C;
+  --cat-vermouth-fortified: #F07AAE;
+  --cat-wine: #E88BC0;
+  --cat-citrus: #B6FF3B;
+  --cat-fruit: #FFC24D;
+  --cat-juice: #FFA05C;
+  --cat-syrup-sweetener: #F2C66B;
+  --cat-bitters: #E08A66;
+  --cat-mixer: #5CD6F0;
+  --cat-dairy-egg: #D9CBA8;
+  --cat-herb-spice: #6EE0A0;
+  --cat-savory: #C2B3A3;
+  --cat-excluded: #56657E;
+  --shadow-1: 0 1px 2px rgba(0,0,0,0.4);
+  --shadow-2: 0 6px 16px -4px rgba(0,0,0,0.55);
+  --shadow-3: 0 24px 56px -16px rgba(0,0,0,0.7), 0 0 0 1px rgba(203,213,225,0.06);
+  --shadow-accent-glow: 0 6px 24px -6px rgba(182,255,59,0.45);
+  color-scheme: dark;
+}
+
+/* Breakpoints (for reference; CSS vars cannot be used in media queries):
+ * sm 360px · md 768px · lg 1024px · xl 1440px  — mobile-first: @media (min-width: 768px) etc. */
+
+/* Reduced motion: collapse all durations; components must not rely on animation to convey state. */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-instant: 1ms;
+    --duration-fast: 1ms;
+    --duration-base: 1ms;
+    --duration-slow: 1ms;
+    --ease-spring: linear;
+  }
+}
+
+/* Glass fallback where backdrop-filter is unsupported */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  :root { --color-glass: rgba(255,255,255,0.96); }
+  :root[data-theme="dark"] { --color-glass: rgba(23,35,58,0.97); }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --color-glass: rgba(23,35,58,0.97); } }
+}
+@media (prefers-reduced-transparency: reduce) {
+  :root { --color-glass: var(--color-surface); --glass-filter: none; }
+}
+
+/* ===== preview styles ===== */
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-padding-top:72px}
+body{margin:0;background:var(--color-bg);color:var(--color-ink);font-family:var(--font-sans);font-size:var(--text-md-size);line-height:var(--text-md-line);-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(60% 40% at 85% 0%,color-mix(in srgb,var(--color-accent) 18%,transparent),transparent 70%),radial-gradient(50% 35% at 0% 30%,color-mix(in srgb,var(--cat-mixer) 14%,transparent),transparent 70%)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.ic{width:var(--size-icon);height:var(--size-icon);fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;flex:none}
+:focus-visible{outline:none;box-shadow:var(--focus-shadow)}
+button{font:inherit;color:inherit}
+code{font-family:var(--font-mono);font-size:.85em}
+.wrap{max-width:var(--size-content-max);margin:0 auto;padding:0 var(--space-4)}
+@media(min-width:768px){.wrap{padding:0 var(--space-6)}}
+@media(min-width:1024px){.wrap{padding:0 var(--space-8)}}
+.topbar{position:sticky;top:0;z-index:var(--z-sticky);background:var(--color-glass);backdrop-filter:var(--glass-filter);-webkit-backdrop-filter:var(--glass-filter);border-bottom:1px solid var(--color-border)}
+.topbar .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:var(--space-3)}
+.brand{white-space:nowrap;display:flex;align-items:center;gap:var(--space-2);font-weight:var(--font-weight-heavy);letter-spacing:-.01em}
+.brand i{width:22px;height:22px;border-radius:6px;background:var(--color-accent);box-shadow:inset 0 0 0 1px var(--color-accent-edge);display:inline-block}
+.hide-sm{display:none}@media(min-width:768px){.hide-sm{display:inline}}
+nav.toc{display:none;gap:var(--space-4);font-size:var(--text-sm-size)}
+nav.toc a{color:var(--color-ink-muted);text-decoration:none}nav.toc a:hover{color:var(--color-ink)}
+@media(min-width:1024px){nav.toc{display:flex}}
+.theme-btn{white-space:nowrap;display:inline-flex;align-items:center;gap:var(--space-2);height:var(--size-control-sm);padding:0 var(--space-3);border-radius:var(--radius-pill);border:1px solid var(--color-border-strong);background:var(--color-surface);cursor:pointer;font-size:var(--text-sm-size);font-weight:var(--font-weight-semibold)}
+.hero{padding:var(--space-12) 0 var(--space-8)}
+.hero h1{font-size:var(--text-3xl-size);line-height:var(--text-3xl-line);letter-spacing:var(--text-3xl-tracking);margin:0 0 var(--space-3);font-weight:var(--font-weight-heavy)}
+.hero p{color:var(--color-ink-2);max-width:62ch;margin:0}
+.hero .accentline{display:inline-block;background:var(--color-accent);color:var(--color-on-accent);padding:0 .25em;border-radius:var(--radius-xs)}
+section.block{padding:var(--space-10) 0;border-top:1px solid var(--color-border)}
+.block>h2{font-size:var(--text-2xl-size);line-height:var(--text-2xl-line);letter-spacing:var(--text-2xl-tracking);margin:0 0 var(--space-2);font-weight:var(--font-weight-heavy)}
+.block>.lede{color:var(--color-ink-muted);margin:0 0 var(--space-6);font-size:var(--text-sm-size);max-width:70ch}
+.overline{font-size:var(--text-overline-size);line-height:var(--text-overline-line);letter-spacing:var(--text-overline-tracking);text-transform:uppercase;font-weight:var(--font-weight-bold);color:var(--color-ink-muted)}
+.label{font-size:var(--text-sm-size);font-weight:var(--font-weight-semibold);color:var(--color-ink-2)}
+.panel{background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:var(--space-5);box-shadow:var(--shadow-1)}
+.glasspanel{background:var(--color-glass);backdrop-filter:var(--glass-filter);-webkit-backdrop-filter:var(--glass-filter);border:1px solid var(--color-glass-border);border-radius:var(--radius-xl);box-shadow:var(--shadow-2)}
+.demo-label{display:block;margin:var(--space-6) 0 var(--space-2)}
+
+/* swatches */
+.swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:var(--space-3)}
+.swatch{margin:0;background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-md);overflow:hidden}
+.sw-chip{height:72px;display:flex;align-items:flex-end;padding:var(--space-2) var(--space-3);border-bottom:1px solid var(--color-border);font-weight:var(--font-weight-heavy);font-size:var(--text-xl-size)}
+.swatch figcaption{padding:var(--space-2) var(--space-3) var(--space-3);display:grid;gap:2px;font-size:var(--text-xs-size);line-height:var(--text-xs-line)}
+.swatch figcaption strong{font-size:var(--text-sm-size)}
+.swatch code{color:var(--color-ink-muted)}
+.ratio{color:var(--color-ink-2)}
+.cats{display:flex;flex-wrap:wrap;gap:var(--space-2);margin-top:var(--space-4)}
+.cats span{display:inline-flex;align-items:center;gap:6px;font-size:var(--text-xs-size);padding:2px var(--space-2);border:1px solid var(--color-border);border-radius:var(--radius-pill);background:var(--color-surface)}
+.dot{width:8px;height:8px;border-radius:50%;display:inline-block;flex:none}
+details.audit{margin-top:var(--space-6)}
+details.audit summary{cursor:pointer;font-weight:var(--font-weight-semibold);padding:var(--space-2) 0}
+.tablewrap{overflow-x:auto;border:1px solid var(--color-border);border-radius:var(--radius-md);background:var(--color-surface);margin-top:var(--space-3)}
+table{border-collapse:collapse;width:100%;font-size:var(--text-xs-size);line-height:var(--text-xs-line);min-width:560px}
+th,td{padding:var(--space-2) var(--space-3);text-align:left;border-bottom:1px solid var(--color-border);vertical-align:middle}
+th{background:var(--color-surface-sunken);font-weight:var(--font-weight-bold)}
+td.num{font-family:var(--font-mono);text-align:right}
+td.ok{color:var(--color-success);font-weight:var(--font-weight-bold)}
+td.mit{color:var(--color-secondary-strong);font-weight:var(--font-weight-bold)}
+td.na{color:var(--color-ink-muted)}
+.sw-mini{display:inline-block;width:12px;height:12px;border-radius:3px;border:1px solid var(--color-border);vertical-align:-2px;margin-right:6px}
+.audit-dark{display:none}
+:root[data-theme="dark"] .audit-light{display:none}:root[data-theme="dark"] .audit-dark{display:block}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .audit-light{display:none}:root:not([data-theme="light"]) .audit-dark{display:block}}
+
+/* type */
+.type-row{display:grid;grid-template-columns:1fr;gap:var(--space-1);padding:var(--space-3) 0;border-bottom:1px dashed var(--color-border)}
+@media(min-width:768px){.type-row{grid-template-columns:180px 1fr;align-items:baseline}}
+.type-row code{color:var(--color-ink-muted);font-size:var(--text-xs-size)}
+.spacing{display:flex;flex-wrap:wrap;gap:var(--space-4);align-items:flex-end}
+.spacing div{display:grid;justify-items:center;gap:4px;font-size:var(--text-xs-size);color:var(--color-ink-muted)}
+.spacing i{display:block;background:var(--color-accent);border:1px solid var(--color-accent-edge);border-radius:2px;height:16px}
+
+/* ===== C1 combobox ===== */
+.combo{max-width:var(--size-input-max)}
+.combo-head{display:flex;align-items:baseline;justify-content:space-between;gap:var(--space-3);margin-bottom:var(--space-2);flex-wrap:wrap}
+.counter{font-size:var(--text-sm-size);color:var(--color-ink-muted)}
+.counter b{font-family:var(--font-mono);font-weight:var(--font-weight-bold);color:var(--color-ink)}
+.counter.full,.counter.full b{color:var(--color-secondary-strong)}
+.textbtn{background:none;border:0;padding:var(--space-1);color:var(--color-ink-muted);font-size:var(--text-sm-size);cursor:pointer;border-radius:var(--radius-xs);text-decoration:underline;text-underline-offset:3px}
+.field{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-2);min-height:var(--size-control);padding:var(--space-2) var(--space-3);background:var(--color-glass);backdrop-filter:var(--glass-filter);-webkit-backdrop-filter:var(--glass-filter);border:1px solid var(--color-border-strong);border-radius:var(--radius-lg);box-shadow:var(--shadow-1);position:relative}
+.field.is-focus{border-color:var(--color-ink);box-shadow:var(--focus-shadow)}
+.chips{display:contents;list-style:none;margin:0;padding:0}
+.chip{display:inline-flex;align-items:center;gap:6px;min-height:var(--size-chip);padding:0 var(--space-1) 0 var(--space-3);border-radius:var(--radius-pill);background:var(--color-surface);border:1px solid var(--color-border);font-size:var(--text-sm-size);font-weight:var(--font-weight-medium);line-height:1.1}
+.chip:hover{border-color:var(--color-border-strong)}
+.chip .x{width:var(--size-chip-remove);height:var(--size-chip-remove);border-radius:50%;border:0;background:transparent;display:grid;place-items:center;color:var(--color-ink-muted);cursor:pointer;padding:0}
+.chip .x .ic{width:var(--size-icon-sm);height:var(--size-icon-sm)}
+.chip .x:hover{background:var(--color-surface-sunken);color:var(--color-ink)}
+.chip.armed{background:var(--color-accent-soft);border:1.5px solid var(--color-accent-edge)}
+.chip.err{background:var(--color-error-soft);border:1.5px solid var(--color-error-border);color:var(--color-error);padding-left:var(--space-2)}
+.chip.err .ic.lead{width:16px;height:16px}
+.chip.err .x{color:var(--color-error)}
+.chip.amb{border:1.5px dashed var(--color-secondary-strong);padding-right:var(--space-1);cursor:pointer}
+.chip .q{font-weight:var(--font-weight-heavy);color:var(--color-secondary-strong)}
+.choose{display:inline-flex;align-items:center;gap:2px;background:var(--color-secondary-soft);color:var(--color-secondary-strong);border-radius:var(--radius-pill);padding:2px 6px 2px 8px;font-size:var(--text-xs-size);font-weight:var(--font-weight-bold)}
+.choose .ic{width:14px;height:14px}
+.field input{flex:1 1 8ch;min-width:8ch;border:0;background:transparent;font:inherit;font-size:var(--text-md-size);color:var(--color-ink);padding:var(--space-1) 0;outline:none}
+.field input::placeholder{color:var(--color-ink-subtle)}
+.helper{font-size:var(--text-sm-size);color:var(--color-ink-muted);margin:var(--space-2) 0 0}
+.errmsg{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-2);margin-top:var(--space-3);color:var(--color-error);font-size:var(--text-sm-size);font-weight:var(--font-weight-medium)}
+.errmsg>.ic{width:18px;height:18px}
+.sugg{display:inline-flex;align-items:center;gap:6px;min-height:var(--size-control-sm);padding:0 var(--space-3);border-radius:var(--radius-pill);border:1px solid var(--color-border-strong);background:var(--color-surface);color:var(--color-ink);font-size:var(--text-sm-size);font-weight:var(--font-weight-semibold);cursor:pointer}
+.sugg:hover{background:var(--color-accent-soft)}
+.hint{display:flex;gap:var(--space-2);align-items:flex-start;margin-top:var(--space-3);padding:var(--space-2) var(--space-3);border-radius:var(--radius-sm);background:var(--color-info-soft);color:var(--color-info);font-size:var(--text-sm-size);font-weight:var(--font-weight-medium)}
+.hint .ic{width:18px;height:18px;margin-top:1px}
+.limit{background:var(--color-error-soft);color:var(--color-error)}
+.listbox,.chooser{list-style:none;margin:var(--space-2) 0 0;padding:var(--space-1);background:var(--color-glass);backdrop-filter:var(--glass-filter);-webkit-backdrop-filter:var(--glass-filter);border:1px solid var(--color-glass-border);border-radius:var(--radius-md);box-shadow:var(--shadow-3);max-width:360px}
+.opt{display:flex;align-items:center;gap:var(--space-2);min-height:var(--size-touch-min);padding:0 var(--space-3);border-radius:var(--radius-sm);font-size:var(--text-sm-size);position:relative}
+.opt .cat{margin-left:auto;font-size:var(--text-xs-size);color:var(--color-ink-muted)}
+.opt.active{background:var(--color-accent-soft)}
+.opt.active::before{content:"";position:absolute;left:0;top:8px;bottom:8px;width:3px;border-radius:2px;background:var(--color-accent-edge)}
+.opt.disabled{color:var(--color-ink-disabled)}
+.opt .syn{color:var(--color-ink-muted)}
+.chooser{padding:var(--space-4);max-width:320px}
+.chooser h4{margin:0;font-size:var(--text-md-size)}
+.chooser p{margin:2px 0 var(--space-3);font-size:var(--text-sm-size);color:var(--color-ink-muted)}
+.chooser ul{list-style:none;margin:0;padding:0}
+.chooser .foot{display:flex;justify-content:flex-end;margin-top:var(--space-2)}
+.combo-grid{display:grid;gap:var(--space-6)}
+@media(min-width:1024px){.combo-grid{grid-template-columns:1fr 1fr}}
+
+/* ===== C2 CTA ===== */
+.cta{display:inline-flex;align-items:center;justify-content:center;gap:var(--space-2);min-height:var(--size-control);min-width:200px;padding:0 var(--space-6);border-radius:var(--radius-pill);border:1px solid var(--color-accent-edge);background:var(--color-accent);color:var(--color-on-accent);font-weight:var(--font-weight-bold);font-size:var(--text-md-size);cursor:pointer;box-shadow:var(--shadow-accent-glow);transition:background var(--duration-fast) var(--ease-standard),transform var(--duration-instant) var(--ease-standard),box-shadow var(--duration-fast)}
+.cta:hover,.cta.is-hover{background:var(--color-accent-hover);box-shadow:var(--shadow-2),var(--shadow-accent-glow)}
+.cta:active,.cta.is-active{background:var(--color-accent-active);transform:translateY(1px);box-shadow:none}
+.cta.is-focus{box-shadow:var(--focus-shadow)}
+.cta[aria-disabled="true"]{background:var(--color-fill-disabled);color:var(--color-ink-disabled);border-color:transparent;box-shadow:none;cursor:not-allowed;transform:none}
+.spin{width:16px;height:16px;border-radius:50%;border:2px solid currentColor;border-right-color:transparent;animation:spin var(--duration-slow) linear infinite;animation-duration:calc(var(--duration-slow) * 2.5)}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.spin{animation:none;border-right-color:currentColor;opacity:.5}}
+.cta-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:var(--space-5)}
+.cta-grid figure{margin:0;display:grid;gap:var(--space-2);justify-items:start}
+.cta-grid figcaption{font-size:var(--text-xs-size);color:var(--color-ink-muted)}
+.cta-grid .cta{width:100%}
+.cta-help{font-size:var(--text-sm-size);color:var(--color-ink-muted);margin:0}
+
+/* ===== C3 card ===== */
+.grid{display:grid;gap:var(--space-4);grid-template-columns:1fr;list-style:none;padding:0;margin:0}
+@media(min-width:768px){.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-5)}}
+@media(min-width:1024px){.grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-6)}}
+.grid.two{max-width:calc(var(--size-content-max) * .66);margin-inline:auto}
+@media(min-width:1024px){.grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.card{position:relative;display:flex;flex-direction:column;gap:var(--space-3);min-height:200px;padding:var(--space-4);background:var(--color-surface);border:1px solid var(--color-border);border-radius:var(--radius-lg);box-shadow:var(--shadow-1);cursor:pointer;transition:transform var(--duration-fast) var(--ease-standard),box-shadow var(--duration-fast) var(--ease-standard),border-color var(--duration-fast)}
+@media(min-width:768px){.card{padding:var(--space-5)}}
+@media(hover:hover){.card:hover{transform:translateY(-2px);box-shadow:var(--shadow-2);border-color:var(--color-border-strong)}.card:hover .open-hint .ic{transform:translateX(2px)}}
+@media (prefers-reduced-motion:reduce){.card:hover{transform:none}}
+.card.is-focus{box-shadow:var(--focus-shadow)}
+.card-top{display:flex;justify-content:space-between;align-items:center;gap:var(--space-2)}
+.era{display:inline-flex;align-items:center;gap:6px}
+.era::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--cat-syrup-sweetener)}
+.era-modern::before{background:var(--cat-mixer)}
+.glass{display:inline-flex;align-items:center;gap:4px;font-size:var(--text-xs-size);color:var(--color-ink-muted)}
+.glass .ic{width:var(--size-icon-lg);height:var(--size-icon-lg);stroke-width:1.5}
+.card-body{display:flex;flex-direction:column;gap:var(--space-3);flex:1}
+.card-name{margin:0;font-size:var(--text-xl-size);line-height:var(--text-xl-line);letter-spacing:var(--text-xl-tracking);font-weight:var(--font-weight-bold)}
+.tagline{margin:4px 0 0;font-size:var(--text-sm-size);line-height:var(--text-sm-line);color:var(--color-ink-2);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.pills{display:flex;flex-wrap:wrap;gap:6px;list-style:none;margin:0;padding:var(--space-3) 0 0;border-top:1px solid var(--color-border)}
+.pill{display:inline-flex;align-items:center;gap:4px;min-height:24px;padding:0 var(--space-2);border-radius:var(--radius-pill);font-size:var(--text-xs-size);background:var(--color-surface-sunken);color:var(--color-ink-2)}
+.pill .ic{width:14px;height:14px;stroke-width:2.25}
+.pill.matched{background:var(--color-accent-soft);border:1px solid var(--color-accent-edge);color:var(--color-ink);font-weight:var(--font-weight-semibold)}
+.pill.matched .ic{color:var(--color-accent-strong)}
+.pill.missing{background:var(--color-secondary-soft);border:1px dashed var(--color-secondary-strong);color:var(--color-secondary-strong);font-weight:var(--font-weight-semibold)}
+.optl{font-weight:var(--font-weight-regular)}
+.card-meta{display:flex;justify-content:space-between;align-items:center;font-size:var(--text-xs-size);color:var(--color-ink-muted)}
+.open-hint{display:inline-flex;align-items:center;gap:4px;color:var(--color-accent-strong);font-weight:var(--font-weight-semibold);font-size:var(--text-sm-size)}
+.open-hint .ic{width:16px;height:16px;transition:transform var(--duration-fast)}
+.card-feature{max-width:560px;margin:0 auto}
+@media(min-width:768px){.card-feature .card-body{flex-direction:row;align-items:flex-start;gap:var(--space-6)}.card-feature .card-body>div{flex:1}.card-feature .pills{flex:1;border-top:0;border-left:1px solid var(--color-border);padding:0 0 0 var(--space-5);align-content:flex-start}}
+.results-head h3{margin:0;font-size:var(--text-2xl-size);line-height:var(--text-2xl-line);font-weight:var(--font-weight-heavy)}
+.results-head p{margin:2px 0 var(--space-5);color:var(--color-ink-2)}
+.results-head .muted{color:var(--color-ink-muted);font-size:var(--text-sm-size)}
+.center{text-align:center}
+.skel{pointer-events:none}
+.skel .bar{height:12px;border-radius:var(--radius-pill);background:linear-gradient(90deg,var(--color-surface-sunken) 0%,var(--color-border) 50%,var(--color-surface-sunken) 100%);background-size:200% 100%;animation:shimmer 1.2s linear infinite}
+@keyframes shimmer{to{background-position:-200% 0}}
+@media (prefers-reduced-motion:reduce){.skel .bar{animation:none;background:var(--color-surface-sunken)}}
+
+/* near */
+.card-near{border-top:3px solid var(--color-secondary)}
+.near-strip{display:flex;flex-direction:column;align-items:flex-start;gap:var(--space-1);padding-bottom:var(--space-3);border-bottom:1px dashed var(--color-border)}
+.missing-label{color:var(--color-secondary-strong)}
+.add-btn{position:relative;z-index:1;display:inline-flex;align-items:center;gap:6px;min-height:var(--size-control-sm);padding:0 var(--space-4);border-radius:var(--radius-pill);background:var(--color-secondary);border:1px solid var(--color-secondary-strong);color:var(--color-on-secondary);font-weight:var(--font-weight-bold);font-size:var(--text-sm-size);cursor:pointer;width:100%;justify-content:center}
+@media(min-width:768px){.add-btn{width:auto}}
+.add-btn .dot{outline:1.5px solid var(--color-on-secondary);outline-offset:0}
+.add-btn:hover{background:var(--color-secondary-hover);box-shadow:var(--shadow-2)}
+.add-btn.is-focus{box-shadow:var(--focus-shadow)}
+.add-btn[aria-disabled="true"]{background:var(--color-fill-disabled);color:var(--color-ink-disabled);border-color:transparent;cursor:not-allowed}
+.notice{padding:var(--space-6);text-align:center;max-width:640px;margin:0 auto var(--space-8)}
+@media(min-width:768px){.notice{padding:var(--space-8)}}
+.notice svg.illo{width:96px;height:96px;margin:0 auto var(--space-3);display:block}
+.notice h3{margin:0 0 var(--space-2);font-size:var(--text-2xl-size);line-height:var(--text-2xl-line);font-weight:var(--font-weight-heavy)}
+.notice p{margin:0 auto var(--space-3);color:var(--color-ink-2);max-width:48ch}
+.notice .hint{display:inline-flex;text-align:left;margin:0}
+.near-title{display:flex;align-items:center;gap:var(--space-3);margin:0;font-size:var(--text-xl-size);line-height:var(--text-xl-line);font-weight:var(--font-weight-heavy)}
+.near-title::before{content:"";width:4px;height:24px;border-radius:2px;background:var(--color-secondary)}
+.near-sub{margin:var(--space-1) 0 var(--space-5);color:var(--color-ink-muted);font-size:var(--text-sm-size)}
+.outline-btn{display:inline-flex;align-items:center;min-height:var(--size-touch-min);padding:0 var(--space-5);border-radius:var(--radius-pill);border:1px solid var(--color-border-strong);background:var(--color-surface);font-weight:var(--font-weight-semibold);cursor:pointer}
+.outline-btn:hover{background:var(--color-surface-sunken)}
+
+/* ===== C4 dialog ===== */
+.stage{position:relative;border-radius:var(--radius-xl);padding:var(--space-4) 0;background:var(--color-scrim)}
+@media(min-width:768px){.stage{padding:var(--space-10) var(--space-6)}}
+.dialog{background:var(--color-surface);border-radius:var(--radius-xl);box-shadow:var(--shadow-3);max-width:var(--size-dialog-max);margin:0 auto;overflow:hidden;max-height:none}
+@media(max-width:767px){.stage{padding:var(--space-6) 0 0;background:var(--color-scrim)}.dialog{border-radius:var(--radius-xl) var(--radius-xl) 0 0}}
+.dialog-head{position:sticky;top:0;display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-3);padding:var(--space-4);background:var(--color-glass);backdrop-filter:var(--glass-filter);-webkit-backdrop-filter:var(--glass-filter);border-bottom:1px solid var(--color-border)}
+@media(min-width:768px){.dialog-head{padding:var(--space-4) var(--space-6)}}
+.dialog-head h2{margin:2px 0 0;font-size:var(--text-2xl-size);line-height:var(--text-2xl-line);letter-spacing:var(--text-2xl-tracking);font-weight:var(--font-weight-heavy)}
+.icon-btn{width:var(--size-touch-min);height:var(--size-touch-min);border-radius:50%;border:0;background:transparent;display:grid;place-items:center;color:var(--color-ink-muted);cursor:pointer;flex:none}
+.icon-btn .ic{width:var(--size-icon-lg);height:var(--size-icon-lg)}
+.icon-btn:hover{background:var(--color-surface-sunken);color:var(--color-ink)}
+.dialog-body{padding:var(--space-4) var(--space-4) var(--space-8);display:grid;gap:var(--space-8)}
+@media(min-width:768px){.dialog-body{padding:var(--space-6) var(--space-6) var(--space-10)}}
+.dialog-body h3{margin:0 0 var(--space-3);font-size:var(--text-lg-size);line-height:var(--text-lg-line);font-weight:var(--font-weight-bold)}
+.dialog-body p{margin:0 0 var(--space-3);color:var(--color-ink-2);max-width:68ch}
+.row-between{display:flex;justify-content:space-between;align-items:center;gap:var(--space-3);flex-wrap:wrap;margin-bottom:var(--space-2)}
+.row-between h3{margin:0}
+.stepper{display:inline-flex;align-items:center;gap:var(--space-2)}
+.step{width:var(--size-control-sm);height:var(--size-control-sm);border-radius:50%;border:1px solid var(--color-border-strong);background:var(--color-surface);display:grid;place-items:center;cursor:pointer;color:var(--color-ink)}
+.step:hover:not(:disabled){background:var(--color-accent-soft)}
+.step:active:not(:disabled){background:var(--color-accent);border-color:var(--color-accent-edge);color:var(--color-on-accent)}
+.step:disabled{color:var(--color-ink-disabled);border-color:var(--color-border);cursor:not-allowed}
+.step .ic{width:18px;height:18px}
+.stepper output{font-family:var(--font-mono);font-weight:var(--font-weight-bold);min-width:3ch;text-align:center;font-size:var(--text-lg-size)}
+.ing-list{list-style:none;margin:0;padding:0}
+.ing-row{display:grid;grid-template-columns:20px 11ch 1fr;column-gap:var(--space-3);align-items:baseline;padding:var(--space-2) 0;border-bottom:1px solid var(--color-border)}
+.ing-row .ic{width:18px;height:18px;align-self:center}
+.have-ic{color:var(--color-accent-strong);stroke-width:2.25}
+.amt{font-variant-numeric:tabular-nums;text-align:right;font-weight:var(--font-weight-semibold);white-space:nowrap}
+.iname{font-weight:var(--font-weight-semibold)}
+.note{grid-column:3;font-size:var(--text-sm-size);color:var(--color-ink-muted)}
+@media(min-width:768px){.ing-row{grid-template-columns:20px 12ch auto 1fr}.note{grid-column:auto;text-align:right}}
+.opt-tag{font-size:var(--text-xs-size);font-weight:var(--font-weight-medium);background:var(--color-surface-sunken);border-radius:var(--radius-pill);padding:1px 6px;color:var(--color-ink-2)}
+.facts{display:grid;grid-template-columns:1fr;gap:var(--space-3);margin:var(--space-4) 0 0}
+@media(min-width:768px){.facts{grid-template-columns:1fr 1fr}}
+.facts div{background:var(--color-surface-sunken);border-radius:var(--radius-md);padding:var(--space-3)}
+.facts dt{font-size:var(--text-overline-size);letter-spacing:var(--text-overline-tracking);text-transform:uppercase;font-weight:var(--font-weight-bold);color:var(--color-ink-muted)}
+.facts dd{margin:2px 0 0;font-weight:var(--font-weight-semibold)}
+.method{margin:0;padding:0;list-style:none;counter-reset:s;display:grid;gap:var(--space-3)}
+.method li{counter-increment:s;display:grid;grid-template-columns:24px 1fr;gap:var(--space-3);color:var(--color-ink-2)}
+.method li::before{content:counter(s);width:24px;height:24px;border-radius:50%;background:var(--color-accent-soft);color:var(--color-ink);font-size:var(--text-xs-size);font-weight:var(--font-weight-bold);display:grid;place-items:center;border:1px solid var(--color-accent-edge)}
+.sources{list-style:none;margin:0;padding:0;display:grid;gap:var(--space-2)}
+.sources a{color:var(--color-accent-strong);font-weight:var(--font-weight-semibold);text-underline-offset:3px;display:inline-flex;align-items:center;gap:4px;border-radius:var(--radius-xs)}
+.sources a:hover{text-decoration-thickness:2px}
+.sources .ic{width:14px;height:14px}
+footer.foot{padding:var(--space-10) 0;color:var(--color-ink-muted);font-size:var(--text-sm-size);border-top:1px solid var(--color-border)}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="wrap">
+  <span class="brand"><i aria-hidden="true"></i><span class="hide-sm">Frost · </span>Cocktail Cabinet</span>
+  <nav class="toc" aria-label="Sections"><a href="#palette">Palette</a><a href="#type">Type</a><a href="#input">Input</a><a href="#cta">CTA</a><a href="#cards">Cards</a><a href="#detail">Detail</a><a href="#fallback">Fallback</a></nav>
+  <button class="theme-btn" type="button" id="themeBtn" aria-pressed="false">◐ <span>Theme: auto</span></button>
+</div></header>
+
+<main class="wrap">
+  <section class="hero">
+    <span class="overline">Design system v1.0 · H2 handoff</span>
+    <h1>What’s in your <span class="accentline">cabinet?</span></h1>
+    <p>Frosty slate and ice neutrals with one electric-lime accent (primary actions, focus, matches) and a neon-citrus secondary (near-match “+ Add”). Every value on this page comes from <code>tokens.css</code>, inlined verbatim. Toggle the theme in the top bar, or follow your OS setting.</p>
+  </section>
+
+  <section class="block" id="palette" aria-labelledby="h-palette">
+    <h2 id="h-palette">Palette &amp; contrast</h2>
+    <p class="lede">The swatches render in the current theme. Ratios are computed against the pair shown (☀ light / ☾ dark). Neon fills always carry dark ink and an edge border.</p>
+    <div class="swatches">
+      <figure class="swatch"><div class="sw-chip" style="background:var(--color-bg)"><span style="color:var(--color-ink)">Aa</span></div><figcaption><strong>Page · bg</strong><code>--color-bg</code><span class="ratio">ink / bg<br>☀ 16.60 · ☾ 16.04</span></figcaption></figure>
+      <figure class="swatch"><div class="sw-chip" style="background:var(--color-surface)"><span style="color:var(--color-ink)">Aa</span></div><figcaption><strong>Surface</strong><code>--color-surface</code><span class="ratio">ink / surface<br>☀ 17.85 · ☾ 14.91</span></figcaption></figure>
+      <figure class="swatch"><div class="sw-chip" style="background:var(--color-surface-sunken)"><span style="color:var(--color-ink-muted)">Aa</span></div><figcaption><strong>Sunken</strong><code>--color-surface-sunken</code><span class="ratio">ink-muted / surface-sunken<br>☀ 6.37 · ☾ 8.32</span></figcaption></figure>
+      <figure class="swatch"><div class="sw-chip" style="background:var(--color-ink-2)"><span style="color:var(--color-surface)">Aa</span></div><figcaption><strong>Ink 2</strong><code>--color-ink-2</code><span class="ratio">ink-2 / surface<br>☀ 10.35 · ☾ 11.72</span></figcaption></figure>
+      <figure class="swatch"><div class="sw-chip" style="background:var(--color-ink-muted)"><span style="color:var(--color-surface)">Aa</span></div><figcaption><strong>Ink muted</strong><code>--color-ink-muted</code><span class="ratio">ink-muted / surface<br>☀ 7.58 · ☾ 8.01</span></figcaption></figure>
+      <figure class="swatch"><div class="sw-chip" style="background:var(--color-ink-subtle)"><span style="color:var(--color-surface)">Aa</span></div><figcaption><strong>Placeholder</strong><code>--color-ink-subtle</code><span class="ratio">ink-subtle / surface<br>☀ 5.43 · ☾ 6.10</span></figcaption></figure>
+      <figure class="swatch"><div class="sw-chip" style="background:var(--color-accent)"><span style="color:var(--color-on-accent)">Aa</span></div><figcaption><strong>Accent · lime</strong><code>--color-accent</code><span class="ratio">on-accent / accent<br>☀ 14.75 · ☾ 14.75</span></figcaption></figure>
+      <figure class="swatch"><div class="sw-chip" style="background:var(--color-accent-strong)"><span style="color:var(--color-surface)">Aa</span></div><figcaption><strong>Accent text</strong><code>--color-accent-strong</code><span class="ratio">accent-strong / surface<br>☀ 7.08 · ☾ 14.39</span></figcaption></figure>
+      <figure class="swatch"><div class="sw-chip" style="background:var(--color-accent-soft)"><span style="color:var(--color-ink)">Aa</span></div><figcaption><strong>Accent soft</strong><code>--color-accent-soft</code><span class="ratio">ink / accent-soft<br>☀ 16.58 · ☾ 11.56</span></figcaption></figure>
+      <figure class="swatch"><div class="sw-chip" style="background:var(--color-secondary)"><span style="color:var(--color-on-secondary)">Aa</span></div><figcaption><strong>Secondary · citrus</strong><code>--color-secondary</code><span class="ratio">on-secondary / secondary<br>☀ 6.84 · ☾ 6.84</span></figcaption></figure>
+      <figure class="swatch"><div class="sw-chip" style="background:var(--color-secondary-strong)"><span style="color:var(--color-surface)">Aa</span></div><figcaption><strong>Secondary text</strong><code>--color-secondary-strong</code><span class="ratio">secondary-strong / surface<br>☀ 5.59 · ☾ 8.27</span></figcaption></figure>
+      <figure class="swatch"><div class="sw-chip" style="background:var(--color-error-soft)"><span style="color:var(--color-error)">Aa</span></div><figcaption><strong>Error</strong><code>--color-error-soft</code><span class="ratio">error / error-soft<br>☀ 4.87 · ☾ 6.23</span></figcaption></figure>
+      <figure class="swatch"><div class="sw-chip" style="background:var(--color-info-soft)"><span style="color:var(--color-info)">Aa</span></div><figcaption><strong>Info</strong><code>--color-info-soft</code><span class="ratio">info / info-soft<br>☀ 5.30 · ☾ 7.71</span></figcaption></figure>
+      <figure class="swatch"><div class="sw-chip" style="background:var(--color-success-soft)"><span style="color:var(--color-success)">Aa</span></div><figcaption><strong>Success</strong><code>--color-success-soft</code><span class="ratio">success / success-soft<br>☀ 4.67 · ☾ 8.61</span></figcaption></figure>
+      <figure class="swatch"><div class="sw-chip" style="background:var(--color-border-strong)"><span style="color:var(--color-surface)">Aa</span></div><figcaption><strong>Border strong (UI 3:1)</strong><code>--color-border-strong</code><span class="ratio">border-strong / surface<br>☀ 4.76 · ☾ 5.04</span></figcaption></figure>
+    </div>
+    <div class="cats" aria-label="Ingredient category dots"><span><i class="dot" style="background:var(--cat-spirit)"></i>spirit</span><span><i class="dot" style="background:var(--cat-liqueur)"></i>liqueur</span><span><i class="dot" style="background:var(--cat-aperitif)"></i>aperitif</span><span><i class="dot" style="background:var(--cat-vermouth-fortified)"></i>vermouth-fortified</span><span><i class="dot" style="background:var(--cat-wine)"></i>wine</span><span><i class="dot" style="background:var(--cat-citrus)"></i>citrus</span><span><i class="dot" style="background:var(--cat-fruit)"></i>fruit</span><span><i class="dot" style="background:var(--cat-juice)"></i>juice</span><span><i class="dot" style="background:var(--cat-syrup-sweetener)"></i>syrup-sweetener</span><span><i class="dot" style="background:var(--cat-bitters)"></i>bitters</span><span><i class="dot" style="background:var(--cat-mixer)"></i>mixer</span><span><i class="dot" style="background:var(--cat-dairy-egg)"></i>dairy-egg</span><span><i class="dot" style="background:var(--cat-herb-spice)"></i>herb-spice</span><span><i class="dot" style="background:var(--cat-savory)"></i>savory</span></div>
+    <details class="audit" open><summary>Full contrast audit (current theme)</summary>
+      <div class="tablewrap audit-light"><table><caption class="sr">Light theme contrast audit</caption><thead><tr><th>Foreground</th><th>Background</th><th>Use</th><th>Ratio</th><th>Result</th></tr></thead><tbody><tr><td><span class="sw-mini" style="background:#0F172A"></span><code>ink</code></td><td><span class="sw-mini" style="background:#F4F7FA"></span><code>bg</code></td><td>Body text on page</td><td class="num">16.60</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#0F172A"></span><code>ink</code></td><td><span class="sw-mini" style="background:#FFFFFF"></span><code>surface</code></td><td>Body text on card</td><td class="num">17.85</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#0F172A"></span><code>ink</code></td><td><span class="sw-mini" style="background:#E6ECF2"></span><code>surface-sunken</code></td><td>Text on sunken panel / chip</td><td class="num">15.00</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#0F172A"></span><code>ink</code></td><td><span class="sw-mini" style="background:rgba(255,255,255,0.72)"></span><code>glass@bg</code></td><td>Text on frosted glass (over page)</td><td class="num">17.53</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#334155"></span><code>ink-2</code></td><td><span class="sw-mini" style="background:#FFFFFF"></span><code>surface</code></td><td>Secondary text on card</td><td class="num">10.35</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#334155"></span><code>ink-2</code></td><td><span class="sw-mini" style="background:#F4F7FA"></span><code>bg</code></td><td>Secondary text on page</td><td class="num">9.63</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#475569"></span><code>ink-muted</code></td><td><span class="sw-mini" style="background:#FFFFFF"></span><code>surface</code></td><td>Meta text (era, glass, counter)</td><td class="num">7.58</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#475569"></span><code>ink-muted</code></td><td><span class="sw-mini" style="background:#F4F7FA"></span><code>bg</code></td><td>Helper text on page</td><td class="num">7.05</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#475569"></span><code>ink-muted</code></td><td><span class="sw-mini" style="background:#E6ECF2"></span><code>surface-sunken</code></td><td>Helper text on sunken</td><td class="num">6.37</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#5B6B82"></span><code>ink-subtle</code></td><td><span class="sw-mini" style="background:#FFFFFF"></span><code>surface</code></td><td>Placeholder text in input</td><td class="num">5.43</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#5B6B82"></span><code>ink-subtle</code></td><td><span class="sw-mini" style="background:rgba(255,255,255,0.72)"></span><code>glass@bg</code></td><td>Placeholder on glass input</td><td class="num">5.33</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#0F172A"></span><code>on-accent</code></td><td><span class="sw-mini" style="background:#B6FF3B"></span><code>accent</code></td><td>CTA label on lime</td><td class="num">14.75</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#0F172A"></span><code>on-accent</code></td><td><span class="sw-mini" style="background:#A6F02A"></span><code>accent-hover</code></td><td>CTA label, hover</td><td class="num">12.85</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#0F172A"></span><code>on-accent</code></td><td><span class="sw-mini" style="background:#93DB18"></span><code>accent-active</code></td><td>CTA label, active</td><td class="num">10.53</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#0F172A"></span><code>ink</code></td><td><span class="sw-mini" style="background:#EEFCD3"></span><code>accent-soft</code></td><td>Active/selected chip &amp; matched ingredient highlight</td><td class="num">16.58</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#3F6212"></span><code>accent-strong</code></td><td><span class="sw-mini" style="background:#FFFFFF"></span><code>surface</code></td><td>Accent text / links on card</td><td class="num">7.08</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#3F6212"></span><code>accent-strong</code></td><td><span class="sw-mini" style="background:#F4F7FA"></span><code>bg</code></td><td>Accent text / links on page</td><td class="num">6.58</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#0F172A"></span><code>on-secondary</code></td><td><span class="sw-mini" style="background:#FF7A1A"></span><code>secondary</code></td><td>&quot;+ Add&quot; badge label on orange</td><td class="num">6.84</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#0F172A"></span><code>on-secondary</code></td><td><span class="sw-mini" style="background:#F26B0A"></span><code>secondary-hover</code></td><td>&quot;+ Add&quot; badge hover</td><td class="num">5.85</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#B93E0A"></span><code>secondary-strong</code></td><td><span class="sw-mini" style="background:#FFFFFF"></span><code>surface</code></td><td>&quot;Missing&quot; label text on card</td><td class="num">5.59</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#B93E0A"></span><code>secondary-strong</code></td><td><span class="sw-mini" style="background:#FFEDDC"></span><code>secondary-soft</code></td><td>Missing ingredient row text</td><td class="num">4.90</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#C8243F"></span><code>error</code></td><td><span class="sw-mini" style="background:#FFFFFF"></span><code>surface</code></td><td>Error message text</td><td class="num">5.56</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#C8243F"></span><code>error</code></td><td><span class="sw-mini" style="background:#FDECEF"></span><code>error-soft</code></td><td>Error chip label</td><td class="num">4.87</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#C8243F"></span><code>error</code></td><td><span class="sw-mini" style="background:#F4F7FA"></span><code>bg</code></td><td>Error helper on page</td><td class="num">5.17</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#0B66A3"></span><code>info</code></td><td><span class="sw-mini" style="background:#E3F1FB"></span><code>info-soft</code></td><td>Info hint (water/ice)</td><td class="num">5.30</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#0B66A3"></span><code>info</code></td><td><span class="sw-mini" style="background:#FFFFFF"></span><code>surface</code></td><td>Info text on card</td><td class="num">6.10</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#0B7A55"></span><code>success</code></td><td><span class="sw-mini" style="background:#DEF5EA"></span><code>success-soft</code></td><td>Success text</td><td class="num">4.67</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#0F172A"></span><code>ink</code></td><td><span class="sw-mini" style="background:#EEFCD3"></span><code>highlight</code></td><td>Duplicate-chip flash</td><td class="num">16.58</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#94A3B8"></span><code>ink-disabled</code></td><td><span class="sw-mini" style="background:#E2E8F0"></span><code>fill-disabled</code></td><td>Disabled CTA label (WCAG 1.4.3 exempt; shown for reference)</td><td class="num">2.08</td><td class="na">Exempt</td></tr><tr><td><span class="sw-mini" style="background:#64748B"></span><code>border-strong</code></td><td><span class="sw-mini" style="background:#FFFFFF"></span><code>surface</code></td><td>Input / stepper boundary</td><td class="num">4.76</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#64748B"></span><code>border-strong</code></td><td><span class="sw-mini" style="background:#F4F7FA"></span><code>bg</code></td><td>Input boundary on page</td><td class="num">4.43</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#64748B"></span><code>border-strong</code></td><td><span class="sw-mini" style="background:#E6ECF2"></span><code>surface-sunken</code></td><td>Chip outline on sunken</td><td class="num">4.00</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#0F172A"></span><code>focus-ring</code></td><td><span class="sw-mini" style="background:#F4F7FA"></span><code>bg</code></td><td>Focus ring on page</td><td class="num">16.60</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#0F172A"></span><code>focus-ring</code></td><td><span class="sw-mini" style="background:#FFFFFF"></span><code>surface</code></td><td>Focus ring on card</td><td class="num">17.85</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#0F172A"></span><code>focus-ring</code></td><td><span class="sw-mini" style="background:#B6FF3B"></span><code>accent</code></td><td>Focus ring on CTA fill</td><td class="num">14.75</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#4D7C0F"></span><code>accent-edge</code></td><td><span class="sw-mini" style="background:#F4F7FA"></span><code>bg</code></td><td>CTA edge vs page</td><td class="num">4.64</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#4D7C0F"></span><code>accent-edge</code></td><td><span class="sw-mini" style="background:#FFFFFF"></span><code>surface</code></td><td>CTA edge / selected stepper vs card</td><td class="num">4.99</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#B6FF3B"></span><code>accent</code></td><td><span class="sw-mini" style="background:#F4F7FA"></span><code>bg</code></td><td>Lime CTA fill vs page</td><td class="num">1.13</td><td class="mit">Mitigated</td></tr><tr><td><span class="sw-mini" style="background:#FF7A1A"></span><code>secondary</code></td><td><span class="sw-mini" style="background:#FFFFFF"></span><code>surface</code></td><td>Orange badge fill vs card</td><td class="num">2.61</td><td class="mit">Mitigated</td></tr><tr><td><span class="sw-mini" style="background:#B93E0A"></span><code>secondary-strong</code></td><td><span class="sw-mini" style="background:#FFFFFF"></span><code>surface</code></td><td>Orange badge edge vs card</td><td class="num">5.59</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#D2344F"></span><code>error-border</code></td><td><span class="sw-mini" style="background:#FFFFFF"></span><code>surface</code></td><td>Error chip outline</td><td class="num">4.83</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#D2344F"></span><code>error-border</code></td><td><span class="sw-mini" style="background:#FDECEF"></span><code>error-soft</code></td><td>Error chip outline vs own fill</td><td class="num">4.24</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#475569"></span><code>ink-muted</code></td><td><span class="sw-mini" style="background:#FFFFFF"></span><code>surface</code></td><td>Icons (glass, close ×)</td><td class="num">7.58</td><td class="ok">Pass</td></tr></tbody></table></div>
+      <div class="tablewrap audit-dark"><table><caption class="sr">Dark theme contrast audit</caption><thead><tr><th>Foreground</th><th>Background</th><th>Use</th><th>Ratio</th><th>Result</th></tr></thead><tbody><tr><td><span class="sw-mini" style="background:#E8EEF6"></span><code>ink</code></td><td><span class="sw-mini" style="background:#0B1220"></span><code>bg</code></td><td>Body text on page</td><td class="num">16.04</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#E8EEF6"></span><code>ink</code></td><td><span class="sw-mini" style="background:#111A2B"></span><code>surface</code></td><td>Body text on card</td><td class="num">14.91</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#E8EEF6"></span><code>ink</code></td><td><span class="sw-mini" style="background:#0E1626"></span><code>surface-sunken</code></td><td>Text on sunken panel / chip</td><td class="num">15.49</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#E8EEF6"></span><code>ink</code></td><td><span class="sw-mini" style="background:rgba(23,35,58,0.72)"></span><code>glass@bg</code></td><td>Text on frosted glass (over page)</td><td class="num">14.24</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#CBD5E1"></span><code>ink-2</code></td><td><span class="sw-mini" style="background:#111A2B"></span><code>surface</code></td><td>Secondary text on card</td><td class="num">11.72</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#CBD5E1"></span><code>ink-2</code></td><td><span class="sw-mini" style="background:#0B1220"></span><code>bg</code></td><td>Secondary text on page</td><td class="num">12.61</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#A3B1C6"></span><code>ink-muted</code></td><td><span class="sw-mini" style="background:#111A2B"></span><code>surface</code></td><td>Meta text (era, glass, counter)</td><td class="num">8.01</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#A3B1C6"></span><code>ink-muted</code></td><td><span class="sw-mini" style="background:#0B1220"></span><code>bg</code></td><td>Helper text on page</td><td class="num">8.61</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#A3B1C6"></span><code>ink-muted</code></td><td><span class="sw-mini" style="background:#0E1626"></span><code>surface-sunken</code></td><td>Helper text on sunken</td><td class="num">8.32</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#8B9AB2"></span><code>ink-subtle</code></td><td><span class="sw-mini" style="background:#111A2B"></span><code>surface</code></td><td>Placeholder text in input</td><td class="num">6.10</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#8B9AB2"></span><code>ink-subtle</code></td><td><span class="sw-mini" style="background:rgba(23,35,58,0.72)"></span><code>glass@bg</code></td><td>Placeholder on glass input</td><td class="num">5.83</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#0F172A"></span><code>on-accent</code></td><td><span class="sw-mini" style="background:#B6FF3B"></span><code>accent</code></td><td>CTA label on lime</td><td class="num">14.75</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#0F172A"></span><code>on-accent</code></td><td><span class="sw-mini" style="background:#C6FF66"></span><code>accent-hover</code></td><td>CTA label, hover</td><td class="num">15.21</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#0F172A"></span><code>on-accent</code></td><td><span class="sw-mini" style="background:#A6F02A"></span><code>accent-active</code></td><td>CTA label, active</td><td class="num">12.85</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#E8EEF6"></span><code>ink</code></td><td><span class="sw-mini" style="background:#22331A"></span><code>accent-soft</code></td><td>Active/selected chip &amp; matched ingredient highlight</td><td class="num">11.56</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#B6FF3B"></span><code>accent-strong</code></td><td><span class="sw-mini" style="background:#111A2B"></span><code>surface</code></td><td>Accent text / links on card</td><td class="num">14.39</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#B6FF3B"></span><code>accent-strong</code></td><td><span class="sw-mini" style="background:#0B1220"></span><code>bg</code></td><td>Accent text / links on page</td><td class="num">15.47</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#0F172A"></span><code>on-secondary</code></td><td><span class="sw-mini" style="background:#FF7A1A"></span><code>secondary</code></td><td>&quot;+ Add&quot; badge label on orange</td><td class="num">6.84</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#0F172A"></span><code>on-secondary</code></td><td><span class="sw-mini" style="background:#FF8F3D"></span><code>secondary-hover</code></td><td>&quot;+ Add&quot; badge hover</td><td class="num">7.86</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#FF9A4D"></span><code>secondary-strong</code></td><td><span class="sw-mini" style="background:#111A2B"></span><code>surface</code></td><td>&quot;Missing&quot; label text on card</td><td class="num">8.27</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#FF9A4D"></span><code>secondary-strong</code></td><td><span class="sw-mini" style="background:#33231A"></span><code>secondary-soft</code></td><td>Missing ingredient row text</td><td class="num">7.15</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#FF7A8F"></span><code>error</code></td><td><span class="sw-mini" style="background:#111A2B"></span><code>surface</code></td><td>Error message text</td><td class="num">6.99</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#FF7A8F"></span><code>error</code></td><td><span class="sw-mini" style="background:#3A1A24"></span><code>error-soft</code></td><td>Error chip label</td><td class="num">6.23</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#FF7A8F"></span><code>error</code></td><td><span class="sw-mini" style="background:#0B1220"></span><code>bg</code></td><td>Error helper on page</td><td class="num">7.52</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#6CC6FF"></span><code>info</code></td><td><span class="sw-mini" style="background:#132B40"></span><code>info-soft</code></td><td>Info hint (water/ice)</td><td class="num">7.71</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#6CC6FF"></span><code>info</code></td><td><span class="sw-mini" style="background:#111A2B"></span><code>surface</code></td><td>Info text on card</td><td class="num">9.25</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#5EE0A0"></span><code>success</code></td><td><span class="sw-mini" style="background:#12301F"></span><code>success-soft</code></td><td>Success text</td><td class="num">8.61</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#E8EEF6"></span><code>ink</code></td><td><span class="sw-mini" style="background:#22331A"></span><code>highlight</code></td><td>Duplicate-chip flash</td><td class="num">11.56</td><td class="ok">Pass · AAA</td></tr><tr><td><span class="sw-mini" style="background:#56657E"></span><code>ink-disabled</code></td><td><span class="sw-mini" style="background:#1E2A40"></span><code>fill-disabled</code></td><td>Disabled CTA label (WCAG 1.4.3 exempt; shown for reference)</td><td class="num">2.44</td><td class="na">Exempt</td></tr><tr><td><span class="sw-mini" style="background:#7B8BA6"></span><code>border-strong</code></td><td><span class="sw-mini" style="background:#111A2B"></span><code>surface</code></td><td>Input / stepper boundary</td><td class="num">5.04</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#7B8BA6"></span><code>border-strong</code></td><td><span class="sw-mini" style="background:#0B1220"></span><code>bg</code></td><td>Input boundary on page</td><td class="num">5.43</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#7B8BA6"></span><code>border-strong</code></td><td><span class="sw-mini" style="background:#0E1626"></span><code>surface-sunken</code></td><td>Chip outline on sunken</td><td class="num">5.24</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#B6FF3B"></span><code>focus-ring</code></td><td><span class="sw-mini" style="background:#0B1220"></span><code>bg</code></td><td>Focus ring on page</td><td class="num">15.47</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#B6FF3B"></span><code>focus-ring</code></td><td><span class="sw-mini" style="background:#111A2B"></span><code>surface</code></td><td>Focus ring on card</td><td class="num">14.39</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#B6FF3B"></span><code>focus-ring</code></td><td><span class="sw-mini" style="background:#B6FF3B"></span><code>accent</code></td><td>Focus ring on CTA fill</td><td class="num">1.00</td><td class="mit">Mitigated</td></tr><tr><td><span class="sw-mini" style="background:#B6FF3B"></span><code>accent-edge</code></td><td><span class="sw-mini" style="background:#0B1220"></span><code>bg</code></td><td>CTA edge vs page</td><td class="num">15.47</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#B6FF3B"></span><code>accent-edge</code></td><td><span class="sw-mini" style="background:#111A2B"></span><code>surface</code></td><td>CTA edge / selected stepper vs card</td><td class="num">14.39</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#B6FF3B"></span><code>accent</code></td><td><span class="sw-mini" style="background:#0B1220"></span><code>bg</code></td><td>Lime CTA fill vs page</td><td class="num">15.47</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#FF7A1A"></span><code>secondary</code></td><td><span class="sw-mini" style="background:#111A2B"></span><code>surface</code></td><td>Orange badge fill vs card</td><td class="num">6.67</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#FF9A4D"></span><code>secondary-strong</code></td><td><span class="sw-mini" style="background:#111A2B"></span><code>surface</code></td><td>Orange badge edge vs card</td><td class="num">8.27</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#FF7A8F"></span><code>error-border</code></td><td><span class="sw-mini" style="background:#111A2B"></span><code>surface</code></td><td>Error chip outline</td><td class="num">6.99</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#FF7A8F"></span><code>error-border</code></td><td><span class="sw-mini" style="background:#3A1A24"></span><code>error-soft</code></td><td>Error chip outline vs own fill</td><td class="num">6.23</td><td class="ok">Pass</td></tr><tr><td><span class="sw-mini" style="background:#A3B1C6"></span><code>ink-muted</code></td><td><span class="sw-mini" style="background:#111A2B"></span><code>surface</code></td><td>Icons (glass, close ×)</td><td class="num">8.01</td><td class="ok">Pass</td></tr></tbody></table></div>
+      <p class="helper">“Mitigated” = a non-text fill below 3:1 that is never the sole boundary (edge border or focus gap provided). See a11y-responsive.md §9.</p>
+    </details>
+  </section>
+
+  <section class="block" id="type" aria-labelledby="h-type">
+    <h2 id="h-type">Type, spacing &amp; radii</h2>
+    <p class="lede">Manrope (falls back to the system UI font). The display size is fluid. 4px spacing grid.</p>
+    <div class="type-row"><code>--text-3xl · 800</code><span style="font-size:var(--text-3xl-size);line-height:var(--text-3xl-line);letter-spacing:var(--text-3xl-tracking);font-weight:800">What’s in your cabinet?</span></div><div class="type-row"><code>--text-2xl · 800</code><span style="font-size:var(--text-2xl-size);line-height:var(--text-2xl-line);letter-spacing:var(--text-2xl-tracking);font-weight:800">No direct matches found</span></div><div class="type-row"><code>--text-xl · 700</code><span style="font-size:var(--text-xl-size);line-height:var(--text-xl-line);letter-spacing:var(--text-xl-tracking);font-weight:700">Daiquiri</span></div><div class="type-row"><code>--text-lg · 700</code><span style="font-size:var(--text-lg-size);line-height:var(--text-lg-line);letter-spacing:var(--text-lg-tracking);font-weight:700">Ingredients</span></div><div class="type-row"><code>--text-md · 400</code><span style="font-size:var(--text-md-size);line-height:var(--text-md-line);letter-spacing:var(--text-md-tracking);font-weight:400">Crisp, clean and perfectly simple.</span></div><div class="type-row"><code>--text-sm · 500</code><span style="font-size:var(--text-sm-size);line-height:var(--text-sm-line);letter-spacing:var(--text-sm-tracking);font-weight:500">Press Enter or comma to add.</span></div><div class="type-row"><code>--text-xs · 500</code><span style="font-size:var(--text-xs-size);line-height:var(--text-xs-line);letter-spacing:var(--text-xs-tracking);font-weight:500">Uses 2 of yours</span></div>
+    <div class="type-row"><code>--text-overline</code><span class="overline">Vintage · 1898</span></div>
+    <span class="demo-label label">Spacing</span>
+    <div class="spacing"><div><i style="width:var(--space-1)"></i>1</div><div><i style="width:var(--space-2)"></i>2</div><div><i style="width:var(--space-3)"></i>3</div><div><i style="width:var(--space-4)"></i>4</div><div><i style="width:var(--space-5)"></i>5</div><div><i style="width:var(--space-6)"></i>6</div><div><i style="width:var(--space-8)"></i>8</div><div><i style="width:var(--space-10)"></i>10</div><div><i style="width:var(--space-12)"></i>12</div><div><i style="width:var(--space-16)"></i>16</div></div>
+    <span class="demo-label label">Radii</span>
+    <div class="spacing"><div><i style="width:48px;height:48px;border-radius:var(--radius-xs);background:var(--color-surface-sunken);border-color:var(--color-border-strong)"></i>xs</div><div><i style="width:48px;height:48px;border-radius:var(--radius-sm);background:var(--color-surface-sunken);border-color:var(--color-border-strong)"></i>sm</div><div><i style="width:48px;height:48px;border-radius:var(--radius-md);background:var(--color-surface-sunken);border-color:var(--color-border-strong)"></i>md</div><div><i style="width:48px;height:48px;border-radius:var(--radius-lg);background:var(--color-surface-sunken);border-color:var(--color-border-strong)"></i>lg</div><div><i style="width:48px;height:48px;border-radius:var(--radius-xl);background:var(--color-surface-sunken);border-color:var(--color-border-strong)"></i>xl</div><div><i style="width:48px;height:48px;border-radius:var(--radius-pill);background:var(--color-surface-sunken);border-color:var(--color-border-strong)"></i>pill</div></div>
+  </section>
+
+  <section class="block" id="input" aria-labelledby="h-input">
+    <h2 id="h-input">C1 · Ingredient input</h2>
+    <p class="lede">Valid, armed, error and ambiguous chips. The listbox shows a synonym hit. The chooser is shown open. These are static mockups: no behaviour is wired.</p>
+    <div class="combo-grid">
+      <div class="combo">
+        <div class="combo-head"><label class="label" for="demo-in">Your ingredients</label><span><span class="counter"><b>3</b> / 10 ingredients</span> <button class="textbtn" type="button">Clear all</button></span></div>
+        <div class="field is-focus">
+          <ul class="chips" aria-label="Selected ingredients">
+            <li class="chip"><span class="dot" style="background:var(--cat-spirit)" aria-hidden="true"></span>Gin<button class="x" type="button" aria-label="Remove Gin"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18"/></svg></button></li>
+            <li class="chip"><span class="dot" style="background:var(--cat-vermouth-fortified)" aria-hidden="true"></span>Sweet Vermouth<button class="x" type="button" aria-label="Remove Sweet Vermouth"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18"/></svg></button></li>
+            <li class="chip armed"><span class="dot" style="background:var(--cat-bitters)" aria-hidden="true"></span>Angostura Bitters<button class="x" type="button" aria-label="Remove Angostura Bitters"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18"/></svg></button></li>
+            <li class="chip err"><svg class="ic lead" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 4 2.8 19.5h18.4Z"/><path d="M12 10v4M12 17h.01"/></svg>campary<button class="x" type="button" aria-label="Remove campary"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18"/></svg></button></li>
+            <li class="chip amb"><span class="q" aria-hidden="true">?</span>orange <span class="choose">Choose<svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></span></li>
+          </ul>
+          <input id="demo-in" role="combobox" aria-expanded="true" aria-autocomplete="list" placeholder="Add another…" value="fresh lemon">
+        </div>
+        <ul class="listbox" role="listbox" aria-label="Ingredient suggestions">
+          <li class="opt active" role="option" aria-selected="true"><span class="dot" style="background:var(--cat-citrus)" aria-hidden="true"></span><span><span class="syn">Fresh lemon →</span> <b>Lemon Juice</b></span><span class="cat">citrus</span></li>
+        </ul>
+        <div class="errmsg" id="demo-err"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 4 2.8 19.5h18.4Z"/><path d="M12 10v4M12 17h.01"/></svg>We don’t know “campary”. Did you mean:<button class="sugg" type="button"><span class="dot" style="background:var(--cat-aperitif)" aria-hidden="true"></span>Campari</button></div>
+        <div class="hint" role="status"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>Ice &amp; water are always assumed. No need to add them.</div>
+        <p class="helper">Press Enter or comma to add. Ice and water are always assumed.</p>
+      </div>
+      <div>
+        <div class="chooser" role="dialog" aria-labelledby="amb-h">
+          <h4 id="amb-h">Which “orange” do you mean?</h4>
+          <p>Pick one — they make very different drinks.</p>
+          <ul role="listbox" aria-labelledby="amb-h">
+            <li class="opt" role="option" aria-selected="false"><span class="dot" style="background:var(--cat-juice)" aria-hidden="true"></span>Orange Juice<span class="cat">juice</span></li><li class="opt active" role="option" aria-selected="true"><span class="dot" style="background:var(--cat-liqueur)" aria-hidden="true"></span>Orange Liqueur<span class="cat">liqueur</span></li><li class="opt" role="option" aria-selected="false"><span class="dot" style="background:var(--cat-bitters)" aria-hidden="true"></span>Orange Bitters<span class="cat">bitters</span></li>
+          </ul>
+          <div class="foot"><button class="textbtn" type="button">Remove “orange”</button></div>
+        </div>
+        <span class="demo-label label">At the limit (US-E1-04)</span>
+        <div class="combo-head"><span class="label">Your ingredients</span><span class="counter full"><b>10</b> / 10 ingredients</span></div>
+        <div class="hint limit" role="alert"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 4 2.8 19.5h18.4Z"/><path d="M12 10v4M12 17h.01"/></svg>You’ve hit the 10-ingredient limit. Remove one to add Mint.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="cta" aria-labelledby="h-cta">
+    <h2 id="h-cta">C2 · Primary CTA</h2>
+    <p class="lede">Lime fill with dark ink (14.75:1) and a 1px edge for the 3:1 boundary. Disabled uses <code>aria-disabled</code>, so it stays focusable and explains why.</p>
+    <div class="cta-grid">
+      <figure><button class="cta" type="button"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg>Find cocktails</button><figcaption>default</figcaption></figure>
+      <figure><button class="cta is-hover" type="button"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg>Find cocktails</button><figcaption>hover</figcaption></figure>
+      <figure><button class="cta is-focus" type="button"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg>Find cocktails</button><figcaption>focus-visible</figcaption></figure>
+      <figure><button class="cta is-active" type="button"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg>Find cocktails</button><figcaption>active</figcaption></figure>
+      <figure><button class="cta" type="button" aria-disabled="true" aria-describedby="cta-h1"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></svg>Find cocktails</button><p class="cta-help" id="cta-h1">Add 1 more ingredient to search.</p><figcaption>disabled</figcaption></figure>
+      <figure><button class="cta" type="button" aria-busy="true"><span class="spin" aria-hidden="true"></span>Finding cocktails…</button><figcaption>loading</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="block" id="cards" aria-labelledby="h-cards">
+    <h2 id="h-cards">C3 + C5 · Cards &amp; results grid</h2>
+    <p class="lede">With exactly one result, the card is centred and set horizontally so it looks intentional. Below that are the standard grid, the focus state and the skeleton. The user had Gin, Campari and Sweet Vermouth (then Daiquiri’s ingredients for the second row).</p>
+    <div class="results-head center"><h3>Your cocktails</h3><p>1 cocktail you can make right now<br><span class="muted">Just one — but it’s a good one.</span></p></div>
+    <article class="card card-feature" data-testid="card-negroni" aria-labelledby="n-negronif">
+  
+  <div class="card-top"><span class="overline era era-vintage">Vintage · 1919</span><span class="glass"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 7h14l-1.4 12.2a2 2 0 0 1-2 1.8H8.4a2 2 0 0 1-2-1.8Z"/><path d="M6 12h12"/></svg>Old Fashioned</span></div>
+  <div class="card-body"><div><h3 id="n-negronif" class="card-name">Negroni</h3><p class="tagline">Bold, bittersweet and aromatic.</p></div>
+  <ul class="pills" aria-label="Ingredients"><li class="pill matched"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Gin<span class="sr">, you have it</span></li><li class="pill matched"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Campari<span class="sr">, you have it</span></li><li class="pill matched"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Sweet Vermouth<span class="sr">, you have it</span></li></ul></div>
+  <div class="card-meta"><span>Uses 3 of yours</span><span class="open-hint">View recipe <svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+</article>
+    <span class="demo-label label">Grid · default / focus-visible / loading</span>
+    <ul class="grid">
+      <li><article class="card" data-testid="card-daiquiri" aria-labelledby="n-daiquirig">
+  
+  <div class="card-top"><span class="overline era era-vintage">Vintage · 1898</span><span class="glass"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 4h16c0 5-3.6 8-8 8s-8-3-8-8Z"/><path d="M12 12v7M8 20h8"/></svg>Cocktail Glass</span></div>
+  <div class="card-body"><div><h3 id="n-daiquirig" class="card-name">Daiquiri</h3><p class="tagline">Crisp, clean and perfectly simple.</p></div>
+  <ul class="pills" aria-label="Ingredients"><li class="pill matched"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>White Rum<span class="sr">, you have it</span></li><li class="pill matched"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Lime Juice<span class="sr">, you have it</span></li><li class="pill matched"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Sugar<span class="sr">, you have it</span></li></ul></div>
+  <div class="card-meta"><span>Uses 3 of yours</span><span class="open-hint">View recipe <svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+</article></li>
+      <li><article class="card is-focus" data-testid="card-negroni" aria-labelledby="n-negronig">
+  
+  <div class="card-top"><span class="overline era era-vintage">Vintage · 1919</span><span class="glass"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 7h14l-1.4 12.2a2 2 0 0 1-2 1.8H8.4a2 2 0 0 1-2-1.8Z"/><path d="M6 12h12"/></svg>Old Fashioned</span></div>
+  <div class="card-body"><div><h3 id="n-negronig" class="card-name">Negroni</h3><p class="tagline">Bold, bittersweet and aromatic.</p></div>
+  <ul class="pills" aria-label="Ingredients"><li class="pill matched"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Gin<span class="sr">, you have it</span></li><li class="pill matched"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Campari<span class="sr">, you have it</span></li><li class="pill matched"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Sweet Vermouth<span class="sr">, you have it</span></li></ul></div>
+  <div class="card-meta"><span>Uses 3 of yours</span><span class="open-hint">View recipe <svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+</article></li>
+      <li><article class="card skel" aria-hidden="true"><div class="bar" style="width:30%"></div><div class="bar" style="width:60%;height:20px"></div><div class="bar" style="width:90%"></div><div style="display:flex;gap:6px;margin-top:auto"><div class="bar" style="width:22%;height:22px"></div><div class="bar" style="width:22%;height:22px"></div><div class="bar" style="width:22%;height:22px"></div></div></article></li>
+    </ul>
+  </section>
+
+  <section class="block" id="detail" aria-labelledby="h-detail">
+    <h2 id="h-detail">C4 · Detail dialog</h2>
+    <p class="lede">It's a modal on desktop and a full-screen sheet on mobile. The header is glass and sticky. The servings stepper rescales amounts live (try it). Shown inline over a scrim.</p>
+    <div class="stage"><div class="dialog" role="dialog" aria-modal="false" aria-labelledby="detail-title" data-testid="detail-dialog">
+  <header class="dialog-head"><div><span class="overline">Vintage · 1898 · Shaken</span><h2 id="detail-title" tabindex="-1">Daiquiri</h2></div><button class="icon-btn" type="button" aria-label="Close" data-testid="detail-close"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18"/></svg></button></header>
+  <div class="dialog-body">
+    <section><div class="row-between"><h3>Ingredients</h3>
+      <div class="stepper" role="group" aria-labelledby="servings-label"><span id="servings-label" class="label">Servings</span>
+      <button type="button" class="step" data-step="-1" aria-label="Fewer servings" data-testid="servings-decrease"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14"/></svg></button><output id="servings-value" aria-live="polite" data-testid="servings-value">1</output><button type="button" class="step" data-step="1" aria-label="More servings" data-testid="servings-increase"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg></button></div></div>
+      <ul class="ing-list" id="detail-ingredients"><li class="ing-row have" data-base="60" data-unit="ml"><svg class="ic have-ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span class="sr">You have this: </span><span class="amt">60 ml</span><span class="iname">White Rum</span><span class="note">White Cuban rum</span></li><li class="ing-row have" data-base="20" data-unit="ml"><svg class="ic have-ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span class="sr">You have this: </span><span class="amt">20 ml</span><span class="iname">Lime Juice</span><span class="note"></span></li><li class="ing-row have" data-base="2" data-unit="barspoon"><svg class="ic have-ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span class="sr">You have this: </span><span class="amt">2 barspoons</span><span class="iname">Sugar</span><span class="note">Superfine sugar</span></li></ul>
+      <dl class="facts"><div><dt>Glass</dt><dd>Cocktail Glass</dd></div><div><dt>Garnish</dt><dd>No garnish</dd></div></dl>
+    </section>
+    <section><h3>Method</h3><ol class="method"><li>Add all ingredients to a cocktail shaker and stir to dissolve the sugar.</li><li>Add ice and shake.</li><li>Strain into a chilled cocktail glass.</li></ol></section>
+    <section><h3>How it tastes</h3><p>Crisp, clean and perfectly simple. Light rum provides a gentle sugarcane sweetness and subtle vanilla, fresh lime brings vivid, mouth-watering sourness, and fine sugar rounds off the edges. Shaken hard and served very cold, it is bright and refreshing, with sweet and sour in close balance and no single flavour dominating. It is a benchmark for how good a three-ingredient sour can be.</p></section>
+    <section><h3>The story</h3><p>The Daiquiri is credited to Jennings Stockton Cox, an American mining engineer working near the small town of Daiquirí in southeastern Cuba around 1898. Difford's Guide reports that he experimented with the local Bacardi rum, mixing it with limes and sugar. A fellow engineer, Francesco Pagliuchi, later wrote a letter in 1948 backing Cox's claim.</p><p>The drink is closely related to the older Cuban Canchanchara. US Admiral Lucius Johnson tasted it with Cox in 1909 and brought it to the Army &amp; Navy Club in Washington. Its first appearance in a recipe book was Jacques Straub's 1914 Drinks.</p></section>
+    <section><h3>Sources</h3><ul class="sources"><li><a href="https://iba-world.com/iba-cocktail/daiquiri/" target="_blank" rel="noopener noreferrer">IBA: Daiquiri<svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg><span class="sr"> (opens in a new tab)</span></a></li><li><a href="https://www.diffordsguide.com/g/1083/daiquiri-cocktail/story" target="_blank" rel="noopener noreferrer">Difford's Guide: Daiquiri cocktail story<svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg><span class="sr"> (opens in a new tab)</span></a></li></ul></section>
+  </div></div></div>
+  </section>
+
+  <section class="block" id="fallback" aria-labelledby="h-fallback">
+    <h2 id="h-fallback">C6 · Zero match → Near Matches</h2>
+    <p class="lede">Real result for White Rum + Lime Juice: 0 primary matches. Near matches are ranked by the missing ingredient’s pairingWeight (Sugar 0.95, Cola 0.8).</p>
+    <div class="notice glasspanel" data-testid="fallback">
+      <svg class="illo" viewBox="0 0 96 96" aria-hidden="true" fill="none" stroke="var(--color-ink-muted)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 26h60c0 18-13.4 30-30 30S18 44 18 26Z"/><path d="M48 56v24M34 82h28"/><rect x="38" y="30" width="16" height="16" rx="3" fill="var(--color-accent)" stroke="var(--color-accent-edge)" transform="rotate(-12 46 38)"/><path d="M70 14l4 -4M76 20h5M64 10V5" stroke="var(--color-accent-edge)"/></svg>
+      <h3>No direct matches found</h3>
+      <p>Nothing in our library uses only what you have — but you’re close.</p>
+      <div class="hint"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>Tip: adding Sugar unlocks the most drinks here.</div>
+    </div>
+    <h3 class="near-title">Near Matches — missing 1 ingredient</h3>
+    <p class="near-sub">Add the missing ingredient and we’ll search again.</p>
+    <ul class="grid two">
+      <li><article class="card card-near" data-testid="near-card-daiquiri" aria-labelledby="n-daiquirin">
+  <div class="near-strip"><span class="overline missing-label">Missing</span><button class="add-btn" type="button" aria-label="Add Sugar to your ingredients and search again"><span class="dot" style="background:var(--cat-syrup-sweetener)" aria-hidden="true"></span>+ Add Sugar</button></div>
+  <div class="card-top"><span class="overline era era-vintage">Vintage · 1898</span><span class="glass"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 4h16c0 5-3.6 8-8 8s-8-3-8-8Z"/><path d="M12 12v7M8 20h8"/></svg>Cocktail Glass</span></div>
+  <div class="card-body"><div><h3 id="n-daiquirin" class="card-name">Daiquiri</h3><p class="tagline">Crisp, clean and perfectly simple.</p></div>
+  <ul class="pills" aria-label="Ingredients"><li class="pill matched"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>White Rum<span class="sr">, you have it</span></li><li class="pill matched"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Lime Juice<span class="sr">, you have it</span></li><li class="pill missing"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg>Sugar</li></ul></div>
+  <div class="card-meta"><span>Uses 2 of yours</span><span class="open-hint">View recipe <svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+</article></li>
+      <li><article class="card card-near" data-testid="near-card-cuba-libre" aria-labelledby="n-cuba-libren">
+  <div class="near-strip"><span class="overline missing-label">Missing</span><button class="add-btn is-focus" type="button" aria-label="Add Cola to your ingredients and search again"><span class="dot" style="background:var(--cat-mixer)" aria-hidden="true"></span>+ Add Cola</button></div>
+  <div class="card-top"><span class="overline era era-vintage">Vintage · 1900</span><span class="glass"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 3h10l-1 18H8Z"/><path d="M7.4 9h9.2"/></svg>Highball</span></div>
+  <div class="card-body"><div><h3 id="n-cuba-libren" class="card-name">Cuba Libre</h3><p class="tagline">Easy, refreshing and familiar.</p></div>
+  <ul class="pills" aria-label="Ingredients"><li class="pill matched"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>White Rum<span class="sr">, you have it</span></li><li class="pill missing"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg>Cola</li><li class="pill matched"><svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg>Lime Juice<span class="sr">, you have it</span></li></ul></div>
+  <div class="card-meta"><span>Uses 2 of yours</span><span class="open-hint">View recipe <svg class="ic " viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+</article></li>
+    </ul>
+    <span class="demo-label label">Empty of everything (US-E6-05)</span>
+    <div class="notice glasspanel" data-testid="empty-state">
+      <svg class="illo" viewBox="0 0 96 96" aria-hidden="true" fill="none" stroke="var(--color-ink-muted)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 26h60c0 18-13.4 30-30 30S18 44 18 26Z"/><path d="M48 56v24M34 82h28"/><path d="M30 34h36" stroke-dasharray="3 5"/></svg>
+      <h3>Nothing to pour… yet</h3>
+      <p>We couldn’t find a cocktail that uses these, even with one more ingredient.</p>
+      <p>Try a base spirit (gin, rum, whiskey), a citrus juice and a sweetener — that combo opens hundreds of classics.</p>
+      <button class="outline-btn" type="button">Start over</button>
+    </div>
+  </section>
+</main>
+<footer class="foot"><div class="wrap">Recipe text: IBA, Difford's Guide (see data/cocktails.json sources). Specs: components.md · flows.md · a11y-responsive.md · copy.md.</div></footer>
+<script>
+(function(){
+  var root=document.documentElement,btn=document.getElementById('themeBtn'),modes=['auto','light','dark'],i=0;
+  try{var s=localStorage.getItem('frost-theme');if(s&&modes.indexOf(s)>-1)i=modes.indexOf(s);}catch(e){}
+  function apply(){var m=modes[i];if(m==='auto')root.removeAttribute('data-theme');else root.setAttribute('data-theme',m);btn.querySelector('span').textContent='Theme: '+m;btn.setAttribute('aria-pressed',m!=='auto');try{localStorage.setItem('frost-theme',m);}catch(e){}}
+  btn.addEventListener('click',function(){i=(i+1)%3;apply();});apply();
+  var out=document.getElementById('servings-value'),n=1;
+  function fmt(a,u,s){if(u==='top')return 'Top up';if(u==='splash')return 'A splash';if(a==='')return 'To taste';var v=+a*s;v=Math.round(v*2)/2;var t=(v%1===0)?String(v):v.toFixed(1);
+    if(u==='ml')return t+' ml';if(u==='barspoon')return t+' barspoon'+(v===1?'':'s');if(u==='dash')return t+' dash'+(v===1?'':'es');if(u==='piece')return t+' ×';return t+' '+u;}
+  function render(){out.textContent=n;document.querySelectorAll('.ing-row').forEach(function(r){r.querySelector('.amt').textContent=fmt(r.dataset.base,r.dataset.unit,n);});
+    document.querySelector('[data-step="-1"]').disabled=n<=1;document.querySelector('[data-step="1"]').disabled=n>=4;}
+  document.querySelectorAll('.step').forEach(function(b){b.addEventListener('click',function(){n=Math.min(4,Math.max(1,n+(+b.dataset.step)));render();});});
+  render();
+})();
+</script>
+</body>
+</html>
