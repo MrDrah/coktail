@@ -20,7 +20,14 @@ describe('US-E2-01 exact and synonym matches resolve to canonical names', () => 
     ['Cointreau', 'orange-liqueur'],
     ['triple sec', 'orange-liqueur'],
     ['bourbon whiskey', 'bourbon'],
-    ['prosecco', 'sparkling-wine'],
+    ['prosecco', 'prosecco'],
+    ['Champagne', 'champagne'],
+    ['cava', 'sparkling-wine'],
+    ['merlot', 'red-wine'],
+    ['Pernod', 'pastis'],
+    ['coconut milk', 'coconut-milk'],
+    ['raspberries', 'raspberry'],
+    ['oranges', 'orange-fruit'],
     ['gomme', 'simple-syrup'],
     ['Cachaça', 'cachaca'],
     ['cachaca', 'cachaca'],
@@ -82,19 +89,20 @@ describe('US-E2-02 typos get suggestions, never auto-accepted', () => {
 });
 
 describe('US-E2-03 ambiguous terms ask the user to choose', () => {
-  it('"orange" offers juice, liqueur and bitters in dictionary order', () => {
+  it('"orange" offers juice, fruit, liqueur and bitters in dictionary order', () => {
     expect(n('orange')).toEqual({
       status: 'ambiguous',
       raw: 'orange',
       options: [
         { id: 'orange-juice', name: 'Orange Juice' },
+        { id: 'orange-fruit', name: 'Whole Orange' },
         { id: 'orange-liqueur', name: 'Orange Liqueur' },
         { id: 'orange-bitters', name: 'Orange Bitters' },
       ],
     });
   });
 
-  it.each(['vermouth', 'Rum', 'whisky', 'whiskey', 'bitters', 'oranges', 'fresh orange'])('"%s" is ambiguous', (raw) => {
+  it.each(['vermouth', 'Rum', 'whisky', 'whiskey', 'bitters', 'sherry', 'wine', 'sparkling', 'fresh orange'])('"%s" is ambiguous', (raw) => {
     expect(n(raw).status).toBe('ambiguous');
   });
 });
@@ -120,7 +128,8 @@ describe('autocomplete', () => {
 
   it('puts name-prefix matches before synonym matches', () => {
     const ids = normalizer.autocomplete('lim').map((r) => r.id);
-    expect(ids.slice(0, 2).sort()).toEqual(['lime', 'lime-juice'].sort());
+    expect(ids.slice(0, 3)).toEqual(['lime-cordial', 'lime-juice', 'limoncello']);
+    expect(ids.indexOf('lime')).toBeGreaterThan(2); // "Whole Lime" only matches through its synonym "limes"
   });
 
   it('finds by synonym and substring, skipping excluded items', () => {

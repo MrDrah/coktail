@@ -12,7 +12,8 @@ Owner: BA Agent · Version 1.0 · 2026-10-21 · Implements BR-04, Q3 and Q4
 | N4 | **Keep words that change identity.** | `Whole Lemon` ≠ `Lemon Juice` ≠ `Lemon Peel`. `Dry Vermouth` ≠ `Sweet Vermouth`. `White Rum` ≠ `Dark Rum` | — |
 | N5 | **Style qualifiers only when they change matching.** A finer style goes in `RecipeIngredient.note`. | `Tequila` (note: "blanco") | `Blanco Tequila` |
 | N6 | **ASCII ID, native name.** | id `cachaca`, name `Cachaça` | — |
-| N7 | **One sparkling wine.** Champagne, prosecco and cava are synonyms of `Sparkling Wine`, because at home they're interchangeable for matching. | `Sparkling Wine` | `Champagne` |
+| N7 | **Named wines stay distinct; specific covers generic.** `Champagne` and `Prosecco` are their own ingredients and each `provides` `Sparkling Wine`. A recipe that says "sparkling wine" accepts any of them, but a Champagne recipe needs Champagne. Cava, crémant and sekt are synonyms of `Sparkling Wine`. Red, white and rosé wine are separate. | `Champagne`, `Prosecco`, `Sparkling Wine`, `Red Wine` | `Champagne` as a synonym of Sparkling Wine |
+| N9 | **Different products stay apart even when similar.** Pastis ≠ Absinthe, Genever ≠ Gin, Coconut Milk ≠ Coconut Cream, Raspberry (fruit) ≠ Raspberry Syrup ≠ Raspberry Liqueur, Blanc Vermouth ≠ Dry Vermouth. | `Pastis` | `Absinthe` for Pernod |
 | N8 | **Plain water and ice are excluded** (BR-02). Sparkling water is canonical `Soda Water` and counted (BR-03). | `Soda Water` | `Sparkling Water`, `Club Soda` |
 
 ## Descriptor stop-words
@@ -38,15 +39,20 @@ When the user types one of these terms, the UI asks them to pick a meaning (BR-0
 
 | Term | Options |
 |------|---------|
-| orange | Orange Juice · Orange Liqueur · Orange Bitters |
-| vermouth | Sweet Vermouth · Dry Vermouth |
-| rum | White Rum · Aged Rum · Dark Rum |
-| whiskey / whisky | Bourbon · Rye Whiskey · Scotch Whisky · Irish Whiskey |
-| bitters | Angostura Bitters · Orange Bitters · Peychaud's Bitters |
+| orange | Orange Juice · Whole Orange · Orange Liqueur · Orange Bitters |
+| vermouth | Sweet Vermouth · Dry Vermouth · Blanc Vermouth |
+| rum | White Rum · Aged Rum · Dark Rum · Spiced Rum |
+| whiskey / whisky | Bourbon · Rye Whiskey · Scotch Whisky · Irish Whiskey · Tennessee Whiskey · Japanese Whisky |
+| bitters | Angostura Bitters · Orange Bitters · Peychaud's Bitters · Chocolate Bitters |
 | syrup | Simple Syrup · Honey Syrup · Grenadine · Orgeat |
-| wine | Sparkling Wine · Dry White Wine |
+| wine | Red Wine · Dry White Wine · Rosé Wine · Sparkling Wine · Champagne · Prosecco |
 | ginger | Ginger Beer · Ginger Ale · Ginger Syrup |
 | chartreuse | Green Chartreuse · Yellow Chartreuse |
+| sherry | Fino Sherry · Amontillado Sherry · Pedro Ximénez Sherry |
+| sparkling | Sparkling Wine · Champagne · Prosecco · Soda Water |
+| bubbly | Sparkling Wine · Champagne · Prosecco |
+| curacao | Orange Liqueur · Blue Curaçao |
+| anise | Absinthe · Pastis · Sambuca |
 
 `cream` and `coffee` are **not** ambiguity terms, because each is the exact canonical name of an ingredient (`Cream`, `Coffee`). The validator forbids a term that is both a name and an ambiguity term. Autocomplete still surfaces `Coconut Cream`, `Espresso` and `Coffee Liqueur` while the user types.
 

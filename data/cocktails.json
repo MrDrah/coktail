@@ -252,11 +252,11 @@
       "method": "stir",
       "ingredients": [
         {
-          "id": "sparkling-wine",
+          "id": "prosecco",
           "amount": 100,
           "unit": "ml",
           "optional": false,
-          "note": "Prosecco"
+          "note": null
         },
         {
           "id": "peach-puree",
@@ -1304,11 +1304,11 @@
           "note": null
         },
         {
-          "id": "sparkling-wine",
+          "id": "champagne",
           "amount": 60,
           "unit": "ml",
           "optional": false,
-          "note": "Champagne"
+          "note": null
         },
         {
           "id": "ice",
@@ -2224,11 +2224,11 @@
           "note": "freshly squeezed"
         },
         {
-          "id": "sparkling-wine",
+          "id": "prosecco",
           "amount": 75,
           "unit": "ml",
           "optional": false,
-          "note": "Prosecco"
+          "note": null
         }
       ],
       "garnish": "Orange twist (optional)",
@@ -3286,11 +3286,11 @@
       "method": "build",
       "ingredients": [
         {
-          "id": "sparkling-wine",
+          "id": "prosecco",
           "amount": 90,
           "unit": "ml",
           "optional": false,
-          "note": "Prosecco"
+          "note": null
         },
         {
           "id": "aperol",

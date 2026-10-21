@@ -1,15 +1,15 @@
-# Library Content Plan — 500 Authentic Cocktails
+# Library Content Plan — 300 Authentic Cocktails
 
 Owner: BA Agent · Version 1.0 · 2026-10-21 · Implements BR-10 and BR-11
 
 ## 1. Delivery batches
 
+Target revised to **300** on 2026-10-21 (from 500).
+
 | Batch | Size | Content | Gate |
 |-------|------|---------|------|
-| Seed (H1) | 50 | 48 IBA classics plus 2 Difford's highballs (Tom Collins, Gin Rickey). This seed is QA's verification sample. | Done 2026-10-21: validated, see `data/cocktails.json`. Skews vintage (44/6), so B3–B4 must lean modern to reach ~60/40. |
-| B2 | +50 | Remaining IBA official list (~102 total) | |
-| B3 | +200 | Well-documented classics from Difford's, PUNCH, Imbibe and classic bar books | |
-| B4 | +200 | Modern classics (1980–today), each with a documented creator or bar | H1b = 500 total |
+| Seed (H1) | 50 | 48 IBA classics + 2 Difford's highballs. QA's verification sample | Done 2026-10-21 |
+| B2 | +250 | Every remaining IBA cocktail, then the best-documented Difford's Guide classics and modern classics, picked from a URL-verified candidate list (`data/_research/candidates.json`). Researched by 5 parallel agents × 50, with dictionary v1.1 | H1b = 300 total |
 
 ## 2. Target mix
 
@@ -19,7 +19,7 @@ Owner: BA Agent · Version 1.0 · 2026-10-21 · Implements BR-10 and BR-11
 | Family | Sours 25%, spirit-forward 20%, highballs/collins/fizzes 20%, sparkling 8%, tiki 8%, creamy/flip/dessert 7%, other 12% |
 | Base spirit | No single base over 25% (gin and whiskey will lead) |
 | Size | At least 15% of recipes with 2–3 counted ingredients, so small inputs still get results |
-| Soda water | At least 30 recipes (needed for BR-03 tests) |
+| Soda water | At least 20 recipes (needed for BR-03 tests) |
 
 ## 3. Approved sources (in priority order for recipes)
 

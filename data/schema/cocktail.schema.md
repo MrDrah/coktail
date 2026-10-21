@@ -8,7 +8,7 @@ Two flat JSON files ship to the browser:
 | File | Content |
 |------|---------|
 | `data/ingredients.json` | Canonical ingredient dictionary, synonyms, ambiguity groups |
-| `data/cocktails.json` | Cocktail library (seed: 50 recipes; target: 500) |
+| `data/cocktails.json` | Cocktail library (seed: 50 recipes; MVP target: 300) |
 
 ---
 
@@ -32,7 +32,7 @@ Two flat JSON files ship to the browser:
 | `category` | enum | ✔ | `spirit` · `liqueur` · `aperitif` · `vermouth-fortified` · `wine` · `citrus` · `juice` · `fruit` · `syrup-sweetener` · `bitters` · `mixer` · `dairy-egg` · `herb-spice` · `savory` · `excluded` |
 | `classification` | enum | ✔ | `counted` or `excluded`. **Only `ice` and `water` are `excluded`** (BR-02). `soda-water` is `counted` (BR-03). |
 | `synonyms` | string[] | ✔ | Lowercase, trimmed. A synonym may map to **one** ingredient only. Terms with several meanings go in `ambiguityGroups`. May be empty. |
-| `provides` | string[] | – | IDs this ingredient also satisfies when present in the user's set (Q3 refinement: `lime` → `["lime-juice"]`). One level only, no chains. |
+| `provides` | string[] | – | IDs this ingredient also satisfies when present in the user's set. Used for whole fruit → juice (`lime` → `["lime-juice"]`, `orange-fruit` → `["orange-juice"]`) and specific → generic (`champagne`, `prosecco` → `["sparkling-wine"]`; `blue-curacao` → `["orange-liqueur"]`). One level only, no chains. |
 | `pairingWeight` | number 0–1 | ✔ | How common or easy it is as the *missing* near-match ingredient (BR-07). Guide: citrus juice and simple syrup are 0.9–1.0, mixers 0.8, common liqueurs 0.5, niche items 0.1–0.3. Excluded items are 0. |
 
 ### AmbiguityGroup

@@ -1,122 +1,2032 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "ingredients": [
-    { "id": "gin", "name": "Gin", "category": "spirit", "classification": "counted", "synonyms": ["london dry gin", "dry gin", "plymouth gin", "genever", "tanqueray", "beefeater", "bombay sapphire", "hendricks", "gordons"], "pairingWeight": 0.4 },
-    { "id": "old-tom-gin", "name": "Old Tom Gin", "category": "spirit", "classification": "counted", "synonyms": ["old tom"], "pairingWeight": 0.15 },
-    { "id": "sloe-gin", "name": "Sloe Gin", "category": "liqueur", "classification": "counted", "synonyms": ["sloe"], "pairingWeight": 0.15 },
-    { "id": "vodka", "name": "Vodka", "category": "spirit", "classification": "counted", "synonyms": ["citron vodka", "lemon vodka", "absolut", "smirnoff", "grey goose", "stolichnaya", "titos"], "pairingWeight": 0.4 },
-    { "id": "white-rum", "name": "White Rum", "category": "spirit", "classification": "counted", "synonyms": ["light rum", "silver rum", "blanco rum", "cuban rum", "bacardi", "havana club 3"], "pairingWeight": 0.4 },
-    { "id": "aged-rum", "name": "Aged Rum", "category": "spirit", "classification": "counted", "synonyms": ["gold rum", "amber rum", "anejo rum", "jamaican rum", "aged jamaican rum", "appleton"], "pairingWeight": 0.3 },
-    { "id": "dark-rum", "name": "Dark Rum", "category": "spirit", "classification": "counted", "synonyms": ["black rum", "blackstrap rum", "goslings", "goslings black seal", "demerara rum", "navy rum"], "pairingWeight": 0.3 },
-    { "id": "overproof-rum", "name": "Overproof Rum", "category": "spirit", "classification": "counted", "synonyms": ["151 rum", "overproof"], "pairingWeight": 0.1 },
-    { "id": "rhum-agricole", "name": "Rhum Agricole", "category": "spirit", "classification": "counted", "synonyms": ["agricole", "martinique rum", "rhum"], "pairingWeight": 0.1 },
-    { "id": "cachaca", "name": "Cachaça", "category": "spirit", "classification": "counted", "synonyms": ["cachaca", "pinga"], "pairingWeight": 0.2 },
-    { "id": "tequila", "name": "Tequila", "category": "spirit", "classification": "counted", "synonyms": ["blanco tequila", "silver tequila", "tequila blanco", "reposado", "reposado tequila", "100% agave tequila"], "pairingWeight": 0.35 },
-    { "id": "mezcal", "name": "Mezcal", "category": "spirit", "classification": "counted", "synonyms": ["mescal"], "pairingWeight": 0.15 },
-    { "id": "pisco", "name": "Pisco", "category": "spirit", "classification": "counted", "synonyms": ["peruvian pisco", "chilean pisco"], "pairingWeight": 0.15 },
-    { "id": "cognac", "name": "Cognac", "category": "spirit", "classification": "counted", "synonyms": ["vs cognac", "vsop", "vsop cognac", "hennessy", "remy martin"], "pairingWeight": 0.3 },
-    { "id": "brandy", "name": "Brandy", "category": "spirit", "classification": "counted", "synonyms": ["grape brandy", "armagnac"], "pairingWeight": 0.3 },
-    { "id": "calvados", "name": "Calvados", "category": "spirit", "classification": "counted", "synonyms": ["apple brandy", "applejack"], "pairingWeight": 0.15 },
-    { "id": "bourbon", "name": "Bourbon", "category": "spirit", "classification": "counted", "synonyms": ["bourbon whiskey", "bourbon whisky", "kentucky bourbon", "makers mark", "buffalo trace", "wild turkey", "jim beam"], "pairingWeight": 0.4 },
-    { "id": "rye-whiskey", "name": "Rye Whiskey", "category": "spirit", "classification": "counted", "synonyms": ["rye", "rye whisky", "american rye"], "pairingWeight": 0.3 },
-    { "id": "scotch-whisky", "name": "Scotch Whisky", "category": "spirit", "classification": "counted", "synonyms": ["scotch", "blended scotch", "blended scotch whisky", "johnnie walker", "famous grouse"], "pairingWeight": 0.3 },
-    { "id": "islay-scotch-whisky", "name": "Islay Scotch Whisky", "category": "spirit", "classification": "counted", "synonyms": ["islay scotch", "islay whisky", "peated scotch", "smoky scotch", "laphroaig", "ardbeg", "lagavulin"], "pairingWeight": 0.1 },
-    { "id": "irish-whiskey", "name": "Irish Whiskey", "category": "spirit", "classification": "counted", "synonyms": ["irish whisky", "jameson", "bushmills"], "pairingWeight": 0.25 },
-    { "id": "absinthe", "name": "Absinthe", "category": "spirit", "classification": "counted", "synonyms": ["absinth", "pastis", "herbsaint", "pernod"], "pairingWeight": 0.15 },
-
-    { "id": "orange-liqueur", "name": "Orange Liqueur", "category": "liqueur", "classification": "counted", "synonyms": ["triple sec", "cointreau", "grand marnier", "curacao", "orange curacao", "dry curacao", "blue curacao"], "pairingWeight": 0.6 },
-    { "id": "maraschino-liqueur", "name": "Maraschino Liqueur", "category": "liqueur", "classification": "counted", "synonyms": ["maraschino", "luxardo maraschino"], "pairingWeight": 0.25 },
-    { "id": "green-chartreuse", "name": "Green Chartreuse", "category": "liqueur", "classification": "counted", "synonyms": [], "pairingWeight": 0.15 },
-    { "id": "yellow-chartreuse", "name": "Yellow Chartreuse", "category": "liqueur", "classification": "counted", "synonyms": [], "pairingWeight": 0.1 },
-    { "id": "benedictine", "name": "Bénédictine", "category": "liqueur", "classification": "counted", "synonyms": ["benedictine", "dom benedictine", "b and b"], "pairingWeight": 0.15 },
-    { "id": "drambuie", "name": "Drambuie", "category": "liqueur", "classification": "counted", "synonyms": ["honey whisky liqueur"], "pairingWeight": 0.15 },
-    { "id": "coffee-liqueur", "name": "Coffee Liqueur", "category": "liqueur", "classification": "counted", "synonyms": ["kahlua", "tia maria", "mr black"], "pairingWeight": 0.35 },
-    { "id": "creme-de-cassis", "name": "Crème de Cassis", "category": "liqueur", "classification": "counted", "synonyms": ["creme de cassis", "cassis", "blackcurrant liqueur"], "pairingWeight": 0.25 },
-    { "id": "creme-de-violette", "name": "Crème de Violette", "category": "liqueur", "classification": "counted", "synonyms": ["creme de violette", "violet liqueur", "creme yvette"], "pairingWeight": 0.1 },
-    { "id": "creme-de-mure", "name": "Crème de Mûre", "category": "liqueur", "classification": "counted", "synonyms": ["creme de mure", "blackberry liqueur"], "pairingWeight": 0.15 },
-    { "id": "creme-de-menthe", "name": "Crème de Menthe", "category": "liqueur", "classification": "counted", "synonyms": ["creme de menthe", "white creme de menthe", "green creme de menthe", "mint liqueur"], "pairingWeight": 0.15 },
-    { "id": "creme-de-cacao", "name": "Crème de Cacao", "category": "liqueur", "classification": "counted", "synonyms": ["creme de cacao", "white creme de cacao", "dark creme de cacao", "chocolate liqueur"], "pairingWeight": 0.2 },
-    { "id": "amaretto", "name": "Amaretto", "category": "liqueur", "classification": "counted", "synonyms": ["disaronno", "almond liqueur"], "pairingWeight": 0.3 },
-    { "id": "peach-liqueur", "name": "Peach Liqueur", "category": "liqueur", "classification": "counted", "synonyms": ["peach schnapps", "creme de peche"], "pairingWeight": 0.2 },
-    { "id": "galliano", "name": "Galliano", "category": "liqueur", "classification": "counted", "synonyms": ["galliano lautentico"], "pairingWeight": 0.1 },
-    { "id": "elderflower-liqueur", "name": "Elderflower Liqueur", "category": "liqueur", "classification": "counted", "synonyms": ["st germain", "st-germain", "elderflower"], "pairingWeight": 0.2 },
-    { "id": "apricot-liqueur", "name": "Apricot Liqueur", "category": "liqueur", "classification": "counted", "synonyms": ["apricot brandy", "abricotine"], "pairingWeight": 0.15 },
-    { "id": "cherry-liqueur", "name": "Cherry Liqueur", "category": "liqueur", "classification": "counted", "synonyms": ["cherry heering", "cherry brandy", "kirsch liqueur"], "pairingWeight": 0.15 },
-
-    { "id": "campari", "name": "Campari", "category": "aperitif", "classification": "counted", "synonyms": ["bitter aperitivo", "red bitter"], "pairingWeight": 0.4 },
-    { "id": "aperol", "name": "Aperol", "category": "aperitif", "classification": "counted", "synonyms": [], "pairingWeight": 0.35 },
-    { "id": "amaro", "name": "Amaro", "category": "aperitif", "classification": "counted", "synonyms": ["amaro nonino", "italian amaro"], "pairingWeight": 0.15 },
-    { "id": "sweet-vermouth", "name": "Sweet Vermouth", "category": "vermouth-fortified", "classification": "counted", "synonyms": ["red vermouth", "rosso vermouth", "vermouth rosso", "italian vermouth", "martini rosso", "carpano antica"], "pairingWeight": 0.45 },
-    { "id": "dry-vermouth", "name": "Dry Vermouth", "category": "vermouth-fortified", "classification": "counted", "synonyms": ["french vermouth", "white vermouth", "extra dry vermouth", "noilly prat", "martini extra dry"], "pairingWeight": 0.4 },
-    { "id": "lillet-blanc", "name": "Lillet Blanc", "category": "vermouth-fortified", "classification": "counted", "synonyms": ["lillet", "kina lillet", "cocchi americano"], "pairingWeight": 0.15 },
-    { "id": "port", "name": "Port", "category": "vermouth-fortified", "classification": "counted", "synonyms": ["ruby port", "tawny port", "port wine"], "pairingWeight": 0.15 },
-
-    { "id": "sparkling-wine", "name": "Sparkling Wine", "category": "wine", "classification": "counted", "synonyms": ["champagne", "prosecco", "cava", "cremant", "brut champagne"], "pairingWeight": 0.6 },
-    { "id": "dry-white-wine", "name": "Dry White Wine", "category": "wine", "classification": "counted", "synonyms": ["white wine", "aligote", "bourgogne aligote", "sauvignon blanc", "pinot grigio"], "pairingWeight": 0.4 },
-
-    { "id": "lemon-juice", "name": "Lemon Juice", "category": "citrus", "classification": "counted", "synonyms": ["lemon", "fresh lemon", "fresh lemon juice", "freshly squeezed lemon juice"], "pairingWeight": 1.0 },
-    { "id": "lime-juice", "name": "Lime Juice", "category": "citrus", "classification": "counted", "synonyms": ["lime", "fresh lime", "fresh lime juice", "freshly squeezed lime juice"], "pairingWeight": 1.0 },
-    { "id": "lemon", "name": "Whole Lemon", "category": "fruit", "classification": "counted", "synonyms": ["lemons", "lemon wedges", "lemon wedge"], "provides": ["lemon-juice"], "pairingWeight": 0.85 },
-    { "id": "lime", "name": "Whole Lime", "category": "fruit", "classification": "counted", "synonyms": ["limes", "lime wedges", "lime wedge"], "provides": ["lime-juice"], "pairingWeight": 0.85 },
-    { "id": "orange-juice", "name": "Orange Juice", "category": "juice", "classification": "counted", "synonyms": ["oj", "fresh orange juice"], "pairingWeight": 0.9 },
-    { "id": "grapefruit-juice", "name": "Grapefruit Juice", "category": "juice", "classification": "counted", "synonyms": ["grapefruit", "pink grapefruit juice", "fresh grapefruit juice"], "pairingWeight": 0.7 },
-    { "id": "pineapple-juice", "name": "Pineapple Juice", "category": "juice", "classification": "counted", "synonyms": ["pineapple"], "pairingWeight": 0.8 },
-    { "id": "cranberry-juice", "name": "Cranberry Juice", "category": "juice", "classification": "counted", "synonyms": ["cranberry", "cranberry juice cocktail"], "pairingWeight": 0.75 },
-    { "id": "tomato-juice", "name": "Tomato Juice", "category": "juice", "classification": "counted", "synonyms": ["tomato"], "pairingWeight": 0.6 },
-    { "id": "peach-puree", "name": "Peach Purée", "category": "fruit", "classification": "counted", "synonyms": ["peach puree", "white peach puree", "peach nectar", "peach"], "pairingWeight": 0.3 },
-
-    { "id": "simple-syrup", "name": "Simple Syrup", "category": "syrup-sweetener", "classification": "counted", "synonyms": ["sugar syrup", "gomme", "gomme syrup", "syrup de gomme", "bar syrup", "rich simple syrup"], "pairingWeight": 0.95 },
-    { "id": "sugar", "name": "Sugar", "category": "syrup-sweetener", "classification": "counted", "synonyms": ["white sugar", "cane sugar", "caster sugar", "superfine sugar", "granulated sugar", "sugar cube", "sugar cubes", "brown sugar", "powdered sugar"], "pairingWeight": 0.95 },
-    { "id": "honey-syrup", "name": "Honey Syrup", "category": "syrup-sweetener", "classification": "counted", "synonyms": ["honey", "honey water"], "pairingWeight": 0.7 },
-    { "id": "ginger-syrup", "name": "Ginger Syrup", "category": "syrup-sweetener", "classification": "counted", "synonyms": ["ginger honey syrup", "honey ginger syrup"], "pairingWeight": 0.35 },
-    { "id": "raspberry-syrup", "name": "Raspberry Syrup", "category": "syrup-sweetener", "classification": "counted", "synonyms": ["raspberries", "raspberry"], "pairingWeight": 0.35 },
-    { "id": "grenadine", "name": "Grenadine", "category": "syrup-sweetener", "classification": "counted", "synonyms": ["pomegranate syrup", "grenadine syrup"], "pairingWeight": 0.6 },
-    { "id": "orgeat", "name": "Orgeat", "category": "syrup-sweetener", "classification": "counted", "synonyms": ["orgeat syrup", "almond syrup"], "pairingWeight": 0.35 },
-    { "id": "agave-syrup", "name": "Agave Syrup", "category": "syrup-sweetener", "classification": "counted", "synonyms": ["agave nectar", "agave"], "pairingWeight": 0.6 },
-    { "id": "falernum", "name": "Falernum", "category": "syrup-sweetener", "classification": "counted", "synonyms": ["velvet falernum"], "pairingWeight": 0.1 },
-
-    { "id": "angostura-bitters", "name": "Angostura Bitters", "category": "bitters", "classification": "counted", "synonyms": ["angostura", "aromatic bitters"], "pairingWeight": 0.6 },
-    { "id": "orange-bitters", "name": "Orange Bitters", "category": "bitters", "classification": "counted", "synonyms": [], "pairingWeight": 0.4 },
-    { "id": "peychauds-bitters", "name": "Peychaud's Bitters", "category": "bitters", "classification": "counted", "synonyms": ["peychauds", "peychaud", "peychaud bitters", "peychauds bitters"], "pairingWeight": 0.2 },
-
-    { "id": "soda-water", "name": "Soda Water", "category": "mixer", "classification": "counted", "synonyms": ["club soda", "sparkling water", "carbonated water", "seltzer", "seltzer water", "soda", "fizzy water", "sparkling mineral water"], "pairingWeight": 0.85 },
-    { "id": "tonic-water", "name": "Tonic Water", "category": "mixer", "classification": "counted", "synonyms": ["tonic", "indian tonic"], "pairingWeight": 0.8 },
-    { "id": "cola", "name": "Cola", "category": "mixer", "classification": "counted", "synonyms": ["coke", "coca cola", "coca-cola", "pepsi"], "pairingWeight": 0.8 },
-    { "id": "ginger-beer", "name": "Ginger Beer", "category": "mixer", "classification": "counted", "synonyms": ["fever tree ginger beer"], "pairingWeight": 0.75 },
-    { "id": "ginger-ale", "name": "Ginger Ale", "category": "mixer", "classification": "counted", "synonyms": ["canada dry"], "pairingWeight": 0.7 },
-    { "id": "grapefruit-soda", "name": "Grapefruit Soda", "category": "mixer", "classification": "counted", "synonyms": ["pink grapefruit soda", "squirt", "jarritos toronja", "grapefruit soft drink"], "pairingWeight": 0.5 },
-    { "id": "coffee", "name": "Coffee", "category": "mixer", "classification": "counted", "synonyms": ["hot coffee", "brewed coffee", "filter coffee", "black coffee"], "pairingWeight": 0.5 },
-    { "id": "espresso", "name": "Espresso", "category": "mixer", "classification": "counted", "synonyms": ["espresso shot", "fresh espresso"], "pairingWeight": 0.45 },
-
-    { "id": "cream", "name": "Cream", "category": "dairy-egg", "classification": "counted", "synonyms": ["heavy cream", "double cream", "whipping cream", "fresh cream", "single cream", "light cream"], "pairingWeight": 0.6 },
-    { "id": "egg-white", "name": "Egg White", "category": "dairy-egg", "classification": "counted", "synonyms": ["egg whites", "aquafaba"], "pairingWeight": 0.65 },
-    { "id": "egg-yolk", "name": "Egg Yolk", "category": "dairy-egg", "classification": "counted", "synonyms": ["egg yolks"], "pairingWeight": 0.3 },
-    { "id": "coconut-cream", "name": "Coconut Cream", "category": "dairy-egg", "classification": "counted", "synonyms": ["cream of coconut", "coco lopez", "coconut milk"], "pairingWeight": 0.4 },
-
-    { "id": "mint", "name": "Mint", "category": "herb-spice", "classification": "counted", "synonyms": ["fresh mint", "mint leaves", "mint leaf", "spearmint", "mint sprigs"], "pairingWeight": 0.7 },
-    { "id": "ginger-root", "name": "Ginger Root", "category": "herb-spice", "classification": "counted", "synonyms": ["fresh ginger", "ginger slices", "root ginger", "sliced ginger"], "pairingWeight": 0.35 },
-    { "id": "orange-flower-water", "name": "Orange Flower Water", "category": "herb-spice", "classification": "counted", "synonyms": ["orange blossom water", "fleur d'oranger", "orange flower"], "pairingWeight": 0.1 },
-    { "id": "vanilla-extract", "name": "Vanilla Extract", "category": "herb-spice", "classification": "counted", "synonyms": ["vanilla", "vanilla essence"], "pairingWeight": 0.2 },
-    { "id": "worcestershire-sauce", "name": "Worcestershire Sauce", "category": "savory", "classification": "counted", "synonyms": ["worcestershire", "lea and perrins"], "pairingWeight": 0.4 },
-    { "id": "hot-sauce", "name": "Hot Sauce", "category": "savory", "classification": "counted", "synonyms": ["tabasco", "tabasco sauce", "chili sauce"], "pairingWeight": 0.4 },
-    { "id": "celery-salt", "name": "Celery Salt", "category": "savory", "classification": "counted", "synonyms": [], "pairingWeight": 0.3 },
-    { "id": "black-pepper", "name": "Black Pepper", "category": "savory", "classification": "counted", "synonyms": ["pepper", "ground black pepper", "cracked black pepper"], "pairingWeight": 0.5 },
-    { "id": "salt", "name": "Salt", "category": "savory", "classification": "counted", "synonyms": ["sea salt", "table salt", "salt rim", "saline"], "pairingWeight": 0.6 },
-
-    { "id": "ice", "name": "Ice", "category": "excluded", "classification": "excluded", "synonyms": ["ice cubes", "ice cube", "cubed ice", "crushed ice", "cracked ice", "shaved ice", "standard ice", "block ice"], "pairingWeight": 0 },
-    { "id": "water", "name": "Water", "category": "excluded", "classification": "excluded", "synonyms": ["tap water", "plain water", "still water", "cold water", "chilled water", "filtered water", "hot water"], "pairingWeight": 0 }
+    {
+      "id": "gin",
+      "name": "Gin",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "london dry gin",
+        "dry gin",
+        "plymouth gin",
+        "tanqueray",
+        "beefeater",
+        "bombay sapphire",
+        "hendricks",
+        "gordons"
+      ],
+      "pairingWeight": 0.4
+    },
+    {
+      "id": "genever",
+      "name": "Genever",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "jenever",
+        "dutch gin",
+        "bols genever",
+        "holland gin"
+      ],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "old-tom-gin",
+      "name": "Old Tom Gin",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "old tom"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "sloe-gin",
+      "name": "Sloe Gin",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "sloe"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "vodka",
+      "name": "Vodka",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "citron vodka",
+        "lemon vodka",
+        "absolut",
+        "smirnoff",
+        "grey goose",
+        "stolichnaya",
+        "titos"
+      ],
+      "pairingWeight": 0.4
+    },
+    {
+      "id": "white-rum",
+      "name": "White Rum",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "light rum",
+        "silver rum",
+        "blanco rum",
+        "cuban rum",
+        "bacardi",
+        "havana club 3"
+      ],
+      "pairingWeight": 0.4
+    },
+    {
+      "id": "aged-rum",
+      "name": "Aged Rum",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "gold rum",
+        "amber rum",
+        "anejo rum",
+        "jamaican rum",
+        "aged jamaican rum",
+        "appleton"
+      ],
+      "pairingWeight": 0.3
+    },
+    {
+      "id": "dark-rum",
+      "name": "Dark Rum",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "black rum",
+        "blackstrap rum",
+        "goslings",
+        "goslings black seal",
+        "demerara rum",
+        "navy rum"
+      ],
+      "pairingWeight": 0.3
+    },
+    {
+      "id": "spiced-rum",
+      "name": "Spiced Rum",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "captain morgan",
+        "kraken",
+        "sailor jerry"
+      ],
+      "pairingWeight": 0.25
+    },
+    {
+      "id": "overproof-rum",
+      "name": "Overproof Rum",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "151 rum",
+        "overproof"
+      ],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "rhum-agricole",
+      "name": "Rhum Agricole",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "agricole",
+        "martinique rum",
+        "rhum"
+      ],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "cachaca",
+      "name": "Cachaça",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "cachaca",
+        "pinga"
+      ],
+      "pairingWeight": 0.2
+    },
+    {
+      "id": "tequila",
+      "name": "Tequila",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "blanco tequila",
+        "silver tequila",
+        "tequila blanco",
+        "reposado",
+        "reposado tequila",
+        "100% agave tequila"
+      ],
+      "pairingWeight": 0.35
+    },
+    {
+      "id": "mezcal",
+      "name": "Mezcal",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "mescal"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "pisco",
+      "name": "Pisco",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "peruvian pisco",
+        "chilean pisco"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "cognac",
+      "name": "Cognac",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "vs cognac",
+        "vsop",
+        "vsop cognac",
+        "hennessy",
+        "remy martin"
+      ],
+      "pairingWeight": 0.3
+    },
+    {
+      "id": "brandy",
+      "name": "Brandy",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "grape brandy",
+        "armagnac"
+      ],
+      "pairingWeight": 0.3
+    },
+    {
+      "id": "calvados",
+      "name": "Calvados",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "apple brandy",
+        "applejack"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "grappa",
+      "name": "Grappa",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "aquavit",
+      "name": "Aquavit",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "akvavit"
+      ],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "bourbon",
+      "name": "Bourbon",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "bourbon whiskey",
+        "bourbon whisky",
+        "kentucky bourbon",
+        "makers mark",
+        "buffalo trace",
+        "wild turkey",
+        "jim beam"
+      ],
+      "pairingWeight": 0.4
+    },
+    {
+      "id": "rye-whiskey",
+      "name": "Rye Whiskey",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "rye",
+        "rye whisky",
+        "american rye"
+      ],
+      "pairingWeight": 0.3
+    },
+    {
+      "id": "scotch-whisky",
+      "name": "Scotch Whisky",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "scotch",
+        "blended scotch",
+        "blended scotch whisky",
+        "johnnie walker",
+        "famous grouse"
+      ],
+      "pairingWeight": 0.3
+    },
+    {
+      "id": "islay-scotch-whisky",
+      "name": "Islay Scotch Whisky",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "islay scotch",
+        "islay whisky",
+        "peated scotch",
+        "smoky scotch",
+        "laphroaig",
+        "ardbeg",
+        "lagavulin"
+      ],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "irish-whiskey",
+      "name": "Irish Whiskey",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "irish whisky",
+        "jameson",
+        "bushmills"
+      ],
+      "pairingWeight": 0.25
+    },
+    {
+      "id": "tennessee-whiskey",
+      "name": "Tennessee Whiskey",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "jack daniels",
+        "george dickel"
+      ],
+      "pairingWeight": 0.2
+    },
+    {
+      "id": "japanese-whisky",
+      "name": "Japanese Whisky",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "japanese whiskey",
+        "suntory toki",
+        "nikka",
+        "hibiki"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "absinthe",
+      "name": "Absinthe",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "absinth",
+        "herbsaint"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "pastis",
+      "name": "Pastis",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "pernod",
+        "ricard",
+        "pastis 51",
+        "anise liqueur",
+        "ouzo"
+      ],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "orange-liqueur",
+      "name": "Orange Liqueur",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "triple sec",
+        "cointreau",
+        "grand marnier",
+        "orange curacao",
+        "dry curacao"
+      ],
+      "pairingWeight": 0.6
+    },
+    {
+      "id": "blue-curacao",
+      "name": "Blue Curaçao",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "blue curacao",
+        "bols blue"
+      ],
+      "pairingWeight": 0.2,
+      "provides": [
+        "orange-liqueur"
+      ]
+    },
+    {
+      "id": "maraschino-liqueur",
+      "name": "Maraschino Liqueur",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "maraschino",
+        "luxardo maraschino"
+      ],
+      "pairingWeight": 0.25
+    },
+    {
+      "id": "green-chartreuse",
+      "name": "Green Chartreuse",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "yellow-chartreuse",
+      "name": "Yellow Chartreuse",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "benedictine",
+      "name": "Bénédictine",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "benedictine",
+        "dom benedictine",
+        "b and b"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "drambuie",
+      "name": "Drambuie",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "honey whisky liqueur"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "coffee-liqueur",
+      "name": "Coffee Liqueur",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "kahlua",
+        "tia maria",
+        "mr black"
+      ],
+      "pairingWeight": 0.35
+    },
+    {
+      "id": "creme-de-cassis",
+      "name": "Crème de Cassis",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "creme de cassis",
+        "cassis",
+        "blackcurrant liqueur"
+      ],
+      "pairingWeight": 0.25
+    },
+    {
+      "id": "creme-de-violette",
+      "name": "Crème de Violette",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "creme de violette",
+        "violet liqueur",
+        "creme yvette"
+      ],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "creme-de-mure",
+      "name": "Crème de Mûre",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "creme de mure",
+        "blackberry liqueur"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "creme-de-menthe",
+      "name": "Crème de Menthe",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "creme de menthe",
+        "white creme de menthe",
+        "green creme de menthe",
+        "mint liqueur"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "creme-de-cacao",
+      "name": "Crème de Cacao",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "creme de cacao",
+        "white creme de cacao",
+        "dark creme de cacao",
+        "chocolate liqueur"
+      ],
+      "pairingWeight": 0.2
+    },
+    {
+      "id": "amaretto",
+      "name": "Amaretto",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "disaronno",
+        "almond liqueur"
+      ],
+      "pairingWeight": 0.3
+    },
+    {
+      "id": "peach-liqueur",
+      "name": "Peach Liqueur",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "peach schnapps",
+        "creme de peche"
+      ],
+      "pairingWeight": 0.2
+    },
+    {
+      "id": "galliano",
+      "name": "Galliano",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "galliano lautentico"
+      ],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "elderflower-liqueur",
+      "name": "Elderflower Liqueur",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "st germain",
+        "st-germain",
+        "elderflower"
+      ],
+      "pairingWeight": 0.2
+    },
+    {
+      "id": "apricot-liqueur",
+      "name": "Apricot Liqueur",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "apricot brandy",
+        "abricotine"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "cherry-liqueur",
+      "name": "Cherry Liqueur",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "cherry heering",
+        "cherry brandy",
+        "kirsch liqueur"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "raspberry-liqueur",
+      "name": "Raspberry Liqueur",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "chambord",
+        "framboise liqueur",
+        "creme de framboise"
+      ],
+      "pairingWeight": 0.2
+    },
+    {
+      "id": "melon-liqueur",
+      "name": "Melon Liqueur",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "midori"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "banana-liqueur",
+      "name": "Banana Liqueur",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "creme de banane",
+        "giffard banane"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "coconut-rum",
+      "name": "Coconut Rum",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "malibu",
+        "coconut liqueur"
+      ],
+      "pairingWeight": 0.2
+    },
+    {
+      "id": "irish-cream",
+      "name": "Irish Cream",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "baileys",
+        "irish cream liqueur"
+      ],
+      "pairingWeight": 0.25
+    },
+    {
+      "id": "limoncello",
+      "name": "Limoncello",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "lemon liqueur"
+      ],
+      "pairingWeight": 0.2
+    },
+    {
+      "id": "sambuca",
+      "name": "Sambuca",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "hazelnut-liqueur",
+      "name": "Hazelnut Liqueur",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "frangelico"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "vanilla-liqueur",
+      "name": "Vanilla Liqueur",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "licor 43",
+        "cuarenta y tres"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "allspice-dram",
+      "name": "Allspice Dram",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "pimento dram",
+        "st elizabeth allspice dram"
+      ],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "pimms",
+      "name": "Pimm's No. 1",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "pimms",
+        "pimms no 1",
+        "pimms cup"
+      ],
+      "pairingWeight": 0.2
+    },
+    {
+      "id": "kirsch",
+      "name": "Kirsch",
+      "category": "spirit",
+      "classification": "counted",
+      "synonyms": [
+        "kirschwasser",
+        "cherry eau de vie"
+      ],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "campari",
+      "name": "Campari",
+      "category": "aperitif",
+      "classification": "counted",
+      "synonyms": [
+        "bitter aperitivo",
+        "red bitter"
+      ],
+      "pairingWeight": 0.4
+    },
+    {
+      "id": "aperol",
+      "name": "Aperol",
+      "category": "aperitif",
+      "classification": "counted",
+      "synonyms": [],
+      "pairingWeight": 0.35
+    },
+    {
+      "id": "gentian-liqueur",
+      "name": "Gentian Liqueur",
+      "category": "aperitif",
+      "classification": "counted",
+      "synonyms": [
+        "suze",
+        "salers",
+        "aveze"
+      ],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "amaro",
+      "name": "Amaro",
+      "category": "aperitif",
+      "classification": "counted",
+      "synonyms": [
+        "amaro nonino",
+        "italian amaro",
+        "averna",
+        "amaro montenegro",
+        "montenegro",
+        "cynar",
+        "ramazzotti",
+        "amaro lucano"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "fernet-branca",
+      "name": "Fernet-Branca",
+      "category": "aperitif",
+      "classification": "counted",
+      "synonyms": [
+        "fernet",
+        "fernet branca"
+      ],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "sweet-vermouth",
+      "name": "Sweet Vermouth",
+      "category": "vermouth-fortified",
+      "classification": "counted",
+      "synonyms": [
+        "red vermouth",
+        "rosso vermouth",
+        "vermouth rosso",
+        "italian vermouth",
+        "martini rosso",
+        "carpano antica"
+      ],
+      "pairingWeight": 0.45
+    },
+    {
+      "id": "dry-vermouth",
+      "name": "Dry Vermouth",
+      "category": "vermouth-fortified",
+      "classification": "counted",
+      "synonyms": [
+        "french vermouth",
+        "white vermouth",
+        "extra dry vermouth",
+        "noilly prat",
+        "martini extra dry"
+      ],
+      "pairingWeight": 0.4
+    },
+    {
+      "id": "blanc-vermouth",
+      "name": "Blanc Vermouth",
+      "category": "vermouth-fortified",
+      "classification": "counted",
+      "synonyms": [
+        "bianco vermouth",
+        "vermouth blanc",
+        "vermouth bianco",
+        "dolin blanc",
+        "martini bianco"
+      ],
+      "pairingWeight": 0.25
+    },
+    {
+      "id": "lillet-blanc",
+      "name": "Lillet Blanc",
+      "category": "vermouth-fortified",
+      "classification": "counted",
+      "synonyms": [
+        "lillet",
+        "kina lillet"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "cocchi-americano",
+      "name": "Cocchi Americano",
+      "category": "vermouth-fortified",
+      "classification": "counted",
+      "synonyms": [
+        "cocchi americano",
+        "americano bianco",
+        "kina"
+      ],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "port",
+      "name": "Port",
+      "category": "vermouth-fortified",
+      "classification": "counted",
+      "synonyms": [
+        "ruby port",
+        "tawny port",
+        "port wine"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "fino-sherry",
+      "name": "Fino Sherry",
+      "category": "vermouth-fortified",
+      "classification": "counted",
+      "synonyms": [
+        "fino",
+        "manzanilla",
+        "manzanilla sherry",
+        "dry sherry"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "amontillado-sherry",
+      "name": "Amontillado Sherry",
+      "category": "vermouth-fortified",
+      "classification": "counted",
+      "synonyms": [
+        "amontillado",
+        "medium sherry"
+      ],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "pedro-ximenez-sherry",
+      "name": "Pedro Ximénez Sherry",
+      "category": "vermouth-fortified",
+      "classification": "counted",
+      "synonyms": [
+        "pedro ximenez",
+        "px sherry",
+        "px",
+        "sweet sherry",
+        "cream sherry"
+      ],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "madeira",
+      "name": "Madeira",
+      "category": "vermouth-fortified",
+      "classification": "counted",
+      "synonyms": [
+        "madeira wine"
+      ],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "sparkling-wine",
+      "name": "Sparkling Wine",
+      "category": "wine",
+      "classification": "counted",
+      "synonyms": [
+        "cava",
+        "cremant",
+        "sekt",
+        "spumante",
+        "sparkling white wine",
+        "brut sparkling wine"
+      ],
+      "pairingWeight": 0.6
+    },
+    {
+      "id": "champagne",
+      "name": "Champagne",
+      "category": "wine",
+      "classification": "counted",
+      "synonyms": [
+        "brut champagne",
+        "champers"
+      ],
+      "pairingWeight": 0.45,
+      "provides": [
+        "sparkling-wine"
+      ]
+    },
+    {
+      "id": "prosecco",
+      "name": "Prosecco",
+      "category": "wine",
+      "classification": "counted",
+      "synonyms": [
+        "prosecco spumante",
+        "prosecco superiore"
+      ],
+      "pairingWeight": 0.5,
+      "provides": [
+        "sparkling-wine"
+      ]
+    },
+    {
+      "id": "dry-white-wine",
+      "name": "Dry White Wine",
+      "category": "wine",
+      "classification": "counted",
+      "synonyms": [
+        "white wine",
+        "aligote",
+        "bourgogne aligote",
+        "sauvignon blanc",
+        "pinot grigio"
+      ],
+      "pairingWeight": 0.4
+    },
+    {
+      "id": "red-wine",
+      "name": "Red Wine",
+      "category": "wine",
+      "classification": "counted",
+      "synonyms": [
+        "dry red wine",
+        "red",
+        "cabernet sauvignon",
+        "merlot",
+        "pinot noir",
+        "malbec",
+        "shiraz",
+        "syrah",
+        "rioja",
+        "claret"
+      ],
+      "pairingWeight": 0.4
+    },
+    {
+      "id": "rose-wine",
+      "name": "Rosé Wine",
+      "category": "wine",
+      "classification": "counted",
+      "synonyms": [
+        "rose wine",
+        "rosé",
+        "rose"
+      ],
+      "pairingWeight": 0.3
+    },
+    {
+      "id": "beer",
+      "name": "Lager",
+      "category": "wine",
+      "classification": "counted",
+      "synonyms": [
+        "beer",
+        "pilsner",
+        "pale lager",
+        "mexican lager"
+      ],
+      "pairingWeight": 0.4
+    },
+    {
+      "id": "stout",
+      "name": "Stout",
+      "category": "wine",
+      "classification": "counted",
+      "synonyms": [
+        "guinness",
+        "porter"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "cider",
+      "name": "Cider",
+      "category": "wine",
+      "classification": "counted",
+      "synonyms": [
+        "hard cider",
+        "apple cider",
+        "dry cider"
+      ],
+      "pairingWeight": 0.25
+    },
+    {
+      "id": "sake",
+      "name": "Sake",
+      "category": "wine",
+      "classification": "counted",
+      "synonyms": [
+        "nihonshu"
+      ],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "lemon-juice",
+      "name": "Lemon Juice",
+      "category": "citrus",
+      "classification": "counted",
+      "synonyms": [
+        "lemon",
+        "fresh lemon",
+        "fresh lemon juice",
+        "freshly squeezed lemon juice"
+      ],
+      "pairingWeight": 1.0
+    },
+    {
+      "id": "lime-juice",
+      "name": "Lime Juice",
+      "category": "citrus",
+      "classification": "counted",
+      "synonyms": [
+        "lime",
+        "fresh lime",
+        "fresh lime juice",
+        "freshly squeezed lime juice"
+      ],
+      "pairingWeight": 1.0
+    },
+    {
+      "id": "lime-cordial",
+      "name": "Lime Cordial",
+      "category": "syrup-sweetener",
+      "classification": "counted",
+      "synonyms": [
+        "roses lime",
+        "roses lime juice",
+        "roses lime cordial",
+        "sweetened lime juice"
+      ],
+      "pairingWeight": 0.4
+    },
+    {
+      "id": "lemon",
+      "name": "Whole Lemon",
+      "category": "fruit",
+      "classification": "counted",
+      "synonyms": [
+        "lemons",
+        "lemon wedges",
+        "lemon wedge"
+      ],
+      "provides": [
+        "lemon-juice"
+      ],
+      "pairingWeight": 0.85
+    },
+    {
+      "id": "lime",
+      "name": "Whole Lime",
+      "category": "fruit",
+      "classification": "counted",
+      "synonyms": [
+        "limes",
+        "lime wedges",
+        "lime wedge"
+      ],
+      "provides": [
+        "lime-juice"
+      ],
+      "pairingWeight": 0.85
+    },
+    {
+      "id": "orange-fruit",
+      "name": "Whole Orange",
+      "category": "fruit",
+      "classification": "counted",
+      "synonyms": [
+        "oranges",
+        "orange wedges",
+        "orange wedge",
+        "orange slices",
+        "orange slice"
+      ],
+      "pairingWeight": 0.6,
+      "provides": [
+        "orange-juice"
+      ]
+    },
+    {
+      "id": "raspberry",
+      "name": "Raspberry",
+      "category": "fruit",
+      "classification": "counted",
+      "synonyms": [
+        "raspberries",
+        "fresh raspberries"
+      ],
+      "pairingWeight": 0.35
+    },
+    {
+      "id": "blackberry",
+      "name": "Blackberry",
+      "category": "fruit",
+      "classification": "counted",
+      "synonyms": [
+        "blackberries"
+      ],
+      "pairingWeight": 0.3
+    },
+    {
+      "id": "strawberry",
+      "name": "Strawberry",
+      "category": "fruit",
+      "classification": "counted",
+      "synonyms": [
+        "strawberries"
+      ],
+      "pairingWeight": 0.35
+    },
+    {
+      "id": "cucumber",
+      "name": "Cucumber",
+      "category": "fruit",
+      "classification": "counted",
+      "synonyms": [
+        "cucumber slices",
+        "cucumbers"
+      ],
+      "pairingWeight": 0.35
+    },
+    {
+      "id": "orange-juice",
+      "name": "Orange Juice",
+      "category": "juice",
+      "classification": "counted",
+      "synonyms": [
+        "oj",
+        "fresh orange juice"
+      ],
+      "pairingWeight": 0.9
+    },
+    {
+      "id": "grapefruit-juice",
+      "name": "Grapefruit Juice",
+      "category": "juice",
+      "classification": "counted",
+      "synonyms": [
+        "grapefruit",
+        "pink grapefruit juice",
+        "fresh grapefruit juice"
+      ],
+      "pairingWeight": 0.7
+    },
+    {
+      "id": "pineapple-juice",
+      "name": "Pineapple Juice",
+      "category": "juice",
+      "classification": "counted",
+      "synonyms": [
+        "pineapple"
+      ],
+      "pairingWeight": 0.8
+    },
+    {
+      "id": "cranberry-juice",
+      "name": "Cranberry Juice",
+      "category": "juice",
+      "classification": "counted",
+      "synonyms": [
+        "cranberry",
+        "cranberry juice cocktail"
+      ],
+      "pairingWeight": 0.75
+    },
+    {
+      "id": "apple-juice",
+      "name": "Apple Juice",
+      "category": "juice",
+      "classification": "counted",
+      "synonyms": [
+        "cloudy apple juice",
+        "apple"
+      ],
+      "pairingWeight": 0.6
+    },
+    {
+      "id": "passion-fruit",
+      "name": "Passion Fruit",
+      "category": "fruit",
+      "classification": "counted",
+      "synonyms": [
+        "passion fruit puree",
+        "passionfruit",
+        "passion fruit juice",
+        "maracuja"
+      ],
+      "pairingWeight": 0.35
+    },
+    {
+      "id": "coconut-water",
+      "name": "Coconut Water",
+      "category": "juice",
+      "classification": "counted",
+      "synonyms": [],
+      "pairingWeight": 0.3
+    },
+    {
+      "id": "tomato-juice",
+      "name": "Tomato Juice",
+      "category": "juice",
+      "classification": "counted",
+      "synonyms": [
+        "tomato"
+      ],
+      "pairingWeight": 0.6
+    },
+    {
+      "id": "peach-puree",
+      "name": "Peach Purée",
+      "category": "fruit",
+      "classification": "counted",
+      "synonyms": [
+        "peach puree",
+        "white peach puree",
+        "peach nectar",
+        "peach"
+      ],
+      "pairingWeight": 0.3
+    },
+    {
+      "id": "simple-syrup",
+      "name": "Simple Syrup",
+      "category": "syrup-sweetener",
+      "classification": "counted",
+      "synonyms": [
+        "sugar syrup",
+        "gomme",
+        "gomme syrup",
+        "syrup de gomme",
+        "bar syrup",
+        "rich simple syrup"
+      ],
+      "pairingWeight": 0.95
+    },
+    {
+      "id": "demerara-syrup",
+      "name": "Demerara Syrup",
+      "category": "syrup-sweetener",
+      "classification": "counted",
+      "synonyms": [
+        "rich demerara syrup",
+        "brown sugar syrup",
+        "demerara sugar syrup"
+      ],
+      "pairingWeight": 0.5
+    },
+    {
+      "id": "maple-syrup",
+      "name": "Maple Syrup",
+      "category": "syrup-sweetener",
+      "classification": "counted",
+      "synonyms": [
+        "maple"
+      ],
+      "pairingWeight": 0.5
+    },
+    {
+      "id": "cinnamon-syrup",
+      "name": "Cinnamon Syrup",
+      "category": "syrup-sweetener",
+      "classification": "counted",
+      "synonyms": [],
+      "pairingWeight": 0.3
+    },
+    {
+      "id": "vanilla-syrup",
+      "name": "Vanilla Syrup",
+      "category": "syrup-sweetener",
+      "classification": "counted",
+      "synonyms": [
+        "vanilla sugar syrup"
+      ],
+      "pairingWeight": 0.3
+    },
+    {
+      "id": "passion-fruit-syrup",
+      "name": "Passion Fruit Syrup",
+      "category": "syrup-sweetener",
+      "classification": "counted",
+      "synonyms": [
+        "passionfruit syrup"
+      ],
+      "pairingWeight": 0.3
+    },
+    {
+      "id": "elderflower-cordial",
+      "name": "Elderflower Cordial",
+      "category": "syrup-sweetener",
+      "classification": "counted",
+      "synonyms": [
+        "elderflower syrup"
+      ],
+      "pairingWeight": 0.3
+    },
+    {
+      "id": "sugar",
+      "name": "Sugar",
+      "category": "syrup-sweetener",
+      "classification": "counted",
+      "synonyms": [
+        "white sugar",
+        "cane sugar",
+        "caster sugar",
+        "superfine sugar",
+        "granulated sugar",
+        "sugar cube",
+        "sugar cubes",
+        "brown sugar",
+        "powdered sugar"
+      ],
+      "pairingWeight": 0.95
+    },
+    {
+      "id": "honey-syrup",
+      "name": "Honey Syrup",
+      "category": "syrup-sweetener",
+      "classification": "counted",
+      "synonyms": [
+        "honey",
+        "honey water"
+      ],
+      "pairingWeight": 0.7
+    },
+    {
+      "id": "ginger-syrup",
+      "name": "Ginger Syrup",
+      "category": "syrup-sweetener",
+      "classification": "counted",
+      "synonyms": [
+        "ginger honey syrup",
+        "honey ginger syrup"
+      ],
+      "pairingWeight": 0.35
+    },
+    {
+      "id": "raspberry-syrup",
+      "name": "Raspberry Syrup",
+      "category": "syrup-sweetener",
+      "classification": "counted",
+      "synonyms": [],
+      "pairingWeight": 0.35
+    },
+    {
+      "id": "grenadine",
+      "name": "Grenadine",
+      "category": "syrup-sweetener",
+      "classification": "counted",
+      "synonyms": [
+        "pomegranate syrup",
+        "grenadine syrup"
+      ],
+      "pairingWeight": 0.6
+    },
+    {
+      "id": "orgeat",
+      "name": "Orgeat",
+      "category": "syrup-sweetener",
+      "classification": "counted",
+      "synonyms": [
+        "orgeat syrup",
+        "almond syrup"
+      ],
+      "pairingWeight": 0.35
+    },
+    {
+      "id": "agave-syrup",
+      "name": "Agave Syrup",
+      "category": "syrup-sweetener",
+      "classification": "counted",
+      "synonyms": [
+        "agave nectar",
+        "agave"
+      ],
+      "pairingWeight": 0.6
+    },
+    {
+      "id": "falernum",
+      "name": "Falernum",
+      "category": "syrup-sweetener",
+      "classification": "counted",
+      "synonyms": [
+        "velvet falernum"
+      ],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "angostura-bitters",
+      "name": "Angostura Bitters",
+      "category": "bitters",
+      "classification": "counted",
+      "synonyms": [
+        "angostura",
+        "aromatic bitters"
+      ],
+      "pairingWeight": 0.6
+    },
+    {
+      "id": "orange-bitters",
+      "name": "Orange Bitters",
+      "category": "bitters",
+      "classification": "counted",
+      "synonyms": [],
+      "pairingWeight": 0.4
+    },
+    {
+      "id": "peychauds-bitters",
+      "name": "Peychaud's Bitters",
+      "category": "bitters",
+      "classification": "counted",
+      "synonyms": [
+        "peychauds",
+        "peychaud",
+        "peychaud bitters",
+        "peychauds bitters"
+      ],
+      "pairingWeight": 0.2
+    },
+    {
+      "id": "chocolate-bitters",
+      "name": "Chocolate Bitters",
+      "category": "bitters",
+      "classification": "counted",
+      "synonyms": [
+        "mole bitters",
+        "cacao bitters"
+      ],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "soda-water",
+      "name": "Soda Water",
+      "category": "mixer",
+      "classification": "counted",
+      "synonyms": [
+        "club soda",
+        "sparkling water",
+        "carbonated water",
+        "seltzer",
+        "seltzer water",
+        "soda",
+        "fizzy water",
+        "sparkling mineral water"
+      ],
+      "pairingWeight": 0.85
+    },
+    {
+      "id": "tonic-water",
+      "name": "Tonic Water",
+      "category": "mixer",
+      "classification": "counted",
+      "synonyms": [
+        "tonic",
+        "indian tonic"
+      ],
+      "pairingWeight": 0.8
+    },
+    {
+      "id": "cola",
+      "name": "Cola",
+      "category": "mixer",
+      "classification": "counted",
+      "synonyms": [
+        "coke",
+        "coca cola",
+        "coca-cola",
+        "pepsi"
+      ],
+      "pairingWeight": 0.8
+    },
+    {
+      "id": "ginger-beer",
+      "name": "Ginger Beer",
+      "category": "mixer",
+      "classification": "counted",
+      "synonyms": [
+        "fever tree ginger beer"
+      ],
+      "pairingWeight": 0.75
+    },
+    {
+      "id": "ginger-ale",
+      "name": "Ginger Ale",
+      "category": "mixer",
+      "classification": "counted",
+      "synonyms": [
+        "canada dry"
+      ],
+      "pairingWeight": 0.7
+    },
+    {
+      "id": "lemonade",
+      "name": "Lemonade",
+      "category": "mixer",
+      "classification": "counted",
+      "synonyms": [
+        "cloudy lemonade",
+        "sparkling lemonade"
+      ],
+      "pairingWeight": 0.6
+    },
+    {
+      "id": "lemon-lime-soda",
+      "name": "Lemon-Lime Soda",
+      "category": "mixer",
+      "classification": "counted",
+      "synonyms": [
+        "sprite",
+        "7up",
+        "7 up",
+        "lemon lime soda"
+      ],
+      "pairingWeight": 0.6
+    },
+    {
+      "id": "grapefruit-soda",
+      "name": "Grapefruit Soda",
+      "category": "mixer",
+      "classification": "counted",
+      "synonyms": [
+        "pink grapefruit soda",
+        "squirt",
+        "jarritos toronja",
+        "grapefruit soft drink"
+      ],
+      "pairingWeight": 0.5
+    },
+    {
+      "id": "coffee",
+      "name": "Coffee",
+      "category": "mixer",
+      "classification": "counted",
+      "synonyms": [
+        "hot coffee",
+        "brewed coffee",
+        "filter coffee",
+        "black coffee",
+        "cold brew",
+        "cold brew coffee"
+      ],
+      "pairingWeight": 0.5
+    },
+    {
+      "id": "espresso",
+      "name": "Espresso",
+      "category": "mixer",
+      "classification": "counted",
+      "synonyms": [
+        "espresso shot",
+        "fresh espresso"
+      ],
+      "pairingWeight": 0.45
+    },
+    {
+      "id": "cream",
+      "name": "Cream",
+      "category": "dairy-egg",
+      "classification": "counted",
+      "synonyms": [
+        "heavy cream",
+        "double cream",
+        "whipping cream",
+        "fresh cream",
+        "single cream",
+        "light cream"
+      ],
+      "pairingWeight": 0.6
+    },
+    {
+      "id": "milk",
+      "name": "Milk",
+      "category": "dairy-egg",
+      "classification": "counted",
+      "synonyms": [
+        "whole milk",
+        "full fat milk"
+      ],
+      "pairingWeight": 0.5
+    },
+    {
+      "id": "egg-white",
+      "name": "Egg White",
+      "category": "dairy-egg",
+      "classification": "counted",
+      "synonyms": [
+        "egg whites",
+        "aquafaba"
+      ],
+      "pairingWeight": 0.65
+    },
+    {
+      "id": "egg-yolk",
+      "name": "Egg Yolk",
+      "category": "dairy-egg",
+      "classification": "counted",
+      "synonyms": [
+        "egg yolks"
+      ],
+      "pairingWeight": 0.3
+    },
+    {
+      "id": "egg",
+      "name": "Whole Egg",
+      "category": "dairy-egg",
+      "classification": "counted",
+      "synonyms": [
+        "egg",
+        "eggs",
+        "whole eggs"
+      ],
+      "pairingWeight": 0.4
+    },
+    {
+      "id": "coconut-cream",
+      "name": "Coconut Cream",
+      "category": "dairy-egg",
+      "classification": "counted",
+      "synonyms": [
+        "cream of coconut",
+        "coco lopez"
+      ],
+      "pairingWeight": 0.4
+    },
+    {
+      "id": "coconut-milk",
+      "name": "Coconut Milk",
+      "category": "dairy-egg",
+      "classification": "counted",
+      "synonyms": [],
+      "pairingWeight": 0.3
+    },
+    {
+      "id": "mint",
+      "name": "Mint",
+      "category": "herb-spice",
+      "classification": "counted",
+      "synonyms": [
+        "fresh mint",
+        "mint leaves",
+        "mint leaf",
+        "spearmint",
+        "mint sprigs"
+      ],
+      "pairingWeight": 0.7
+    },
+    {
+      "id": "basil",
+      "name": "Basil",
+      "category": "herb-spice",
+      "classification": "counted",
+      "synonyms": [
+        "basil leaves",
+        "fresh basil"
+      ],
+      "pairingWeight": 0.3
+    },
+    {
+      "id": "rosemary",
+      "name": "Rosemary",
+      "category": "herb-spice",
+      "classification": "counted",
+      "synonyms": [
+        "rosemary sprig"
+      ],
+      "pairingWeight": 0.2
+    },
+    {
+      "id": "cinnamon",
+      "name": "Cinnamon",
+      "category": "herb-spice",
+      "classification": "counted",
+      "synonyms": [
+        "cinnamon stick",
+        "ground cinnamon"
+      ],
+      "pairingWeight": 0.25
+    },
+    {
+      "id": "nutmeg",
+      "name": "Nutmeg",
+      "category": "herb-spice",
+      "classification": "counted",
+      "synonyms": [
+        "grated nutmeg"
+      ],
+      "pairingWeight": 0.25
+    },
+    {
+      "id": "jalapeno",
+      "name": "Jalapeño",
+      "category": "herb-spice",
+      "classification": "counted",
+      "synonyms": [
+        "jalapeno",
+        "jalapeno pepper",
+        "green chilli"
+      ],
+      "pairingWeight": 0.2
+    },
+    {
+      "id": "ginger-root",
+      "name": "Ginger Root",
+      "category": "herb-spice",
+      "classification": "counted",
+      "synonyms": [
+        "fresh ginger",
+        "ginger slices",
+        "root ginger",
+        "sliced ginger"
+      ],
+      "pairingWeight": 0.35
+    },
+    {
+      "id": "orange-flower-water",
+      "name": "Orange Flower Water",
+      "category": "herb-spice",
+      "classification": "counted",
+      "synonyms": [
+        "orange blossom water",
+        "fleur d'oranger",
+        "orange flower"
+      ],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "vanilla-extract",
+      "name": "Vanilla Extract",
+      "category": "herb-spice",
+      "classification": "counted",
+      "synonyms": [
+        "vanilla",
+        "vanilla essence"
+      ],
+      "pairingWeight": 0.2
+    },
+    {
+      "id": "worcestershire-sauce",
+      "name": "Worcestershire Sauce",
+      "category": "savory",
+      "classification": "counted",
+      "synonyms": [
+        "worcestershire",
+        "lea and perrins"
+      ],
+      "pairingWeight": 0.4
+    },
+    {
+      "id": "hot-sauce",
+      "name": "Hot Sauce",
+      "category": "savory",
+      "classification": "counted",
+      "synonyms": [
+        "tabasco",
+        "tabasco sauce",
+        "chili sauce"
+      ],
+      "pairingWeight": 0.4
+    },
+    {
+      "id": "celery-salt",
+      "name": "Celery Salt",
+      "category": "savory",
+      "classification": "counted",
+      "synonyms": [],
+      "pairingWeight": 0.3
+    },
+    {
+      "id": "black-pepper",
+      "name": "Black Pepper",
+      "category": "savory",
+      "classification": "counted",
+      "synonyms": [
+        "pepper",
+        "ground black pepper",
+        "cracked black pepper"
+      ],
+      "pairingWeight": 0.5
+    },
+    {
+      "id": "salt",
+      "name": "Salt",
+      "category": "savory",
+      "classification": "counted",
+      "synonyms": [
+        "sea salt",
+        "table salt",
+        "salt rim",
+        "saline"
+      ],
+      "pairingWeight": 0.6
+    },
+    {
+      "id": "ice",
+      "name": "Ice",
+      "category": "excluded",
+      "classification": "excluded",
+      "synonyms": [
+        "ice cubes",
+        "ice cube",
+        "cubed ice",
+        "crushed ice",
+        "cracked ice",
+        "shaved ice",
+        "standard ice",
+        "block ice"
+      ],
+      "pairingWeight": 0
+    },
+    {
+      "id": "water",
+      "name": "Water",
+      "category": "excluded",
+      "classification": "excluded",
+      "synonyms": [
+        "tap water",
+        "plain water",
+        "still water",
+        "cold water",
+        "chilled water",
+        "filtered water",
+        "hot water"
+      ],
+      "pairingWeight": 0
+    }
   ],
   "ambiguityGroups": [
-    { "term": "orange", "options": ["orange-juice", "orange-liqueur", "orange-bitters"] },
-    { "term": "vermouth", "options": ["sweet-vermouth", "dry-vermouth"] },
-    { "term": "rum", "options": ["white-rum", "aged-rum", "dark-rum"] },
-    { "term": "whiskey", "options": ["bourbon", "rye-whiskey", "scotch-whisky", "irish-whiskey"] },
-    { "term": "whisky", "options": ["bourbon", "rye-whiskey", "scotch-whisky", "irish-whiskey"] },
-    { "term": "bitters", "options": ["angostura-bitters", "orange-bitters", "peychauds-bitters"] },
-    { "term": "syrup", "options": ["simple-syrup", "honey-syrup", "grenadine", "orgeat"] },
-    { "term": "wine", "options": ["sparkling-wine", "dry-white-wine"] },
-    { "term": "ginger", "options": ["ginger-beer", "ginger-ale", "ginger-syrup"] },
-    { "term": "chartreuse", "options": ["green-chartreuse", "yellow-chartreuse"] }
+    {
+      "term": "orange",
+      "options": [
+        "orange-juice",
+        "orange-fruit",
+        "orange-liqueur",
+        "orange-bitters"
+      ]
+    },
+    {
+      "term": "vermouth",
+      "options": [
+        "sweet-vermouth",
+        "dry-vermouth",
+        "blanc-vermouth"
+      ]
+    },
+    {
+      "term": "rum",
+      "options": [
+        "white-rum",
+        "aged-rum",
+        "dark-rum",
+        "spiced-rum"
+      ]
+    },
+    {
+      "term": "whiskey",
+      "options": [
+        "bourbon",
+        "rye-whiskey",
+        "scotch-whisky",
+        "irish-whiskey",
+        "tennessee-whiskey",
+        "japanese-whisky"
+      ]
+    },
+    {
+      "term": "whisky",
+      "options": [
+        "bourbon",
+        "rye-whiskey",
+        "scotch-whisky",
+        "irish-whiskey",
+        "tennessee-whiskey",
+        "japanese-whisky"
+      ]
+    },
+    {
+      "term": "bitters",
+      "options": [
+        "angostura-bitters",
+        "orange-bitters",
+        "peychauds-bitters",
+        "chocolate-bitters"
+      ]
+    },
+    {
+      "term": "syrup",
+      "options": [
+        "simple-syrup",
+        "honey-syrup",
+        "grenadine",
+        "orgeat"
+      ]
+    },
+    {
+      "term": "wine",
+      "options": [
+        "red-wine",
+        "dry-white-wine",
+        "rose-wine",
+        "sparkling-wine",
+        "champagne",
+        "prosecco"
+      ]
+    },
+    {
+      "term": "ginger",
+      "options": [
+        "ginger-beer",
+        "ginger-ale",
+        "ginger-syrup"
+      ]
+    },
+    {
+      "term": "chartreuse",
+      "options": [
+        "green-chartreuse",
+        "yellow-chartreuse"
+      ]
+    },
+    {
+      "term": "sherry",
+      "options": [
+        "fino-sherry",
+        "amontillado-sherry",
+        "pedro-ximenez-sherry"
+      ]
+    },
+    {
+      "term": "sparkling",
+      "options": [
+        "sparkling-wine",
+        "champagne",
+        "prosecco",
+        "soda-water"
+      ]
+    },
+    {
+      "term": "bubbly",
+      "options": [
+        "sparkling-wine",
+        "champagne",
+        "prosecco"
+      ]
+    },
+    {
+      "term": "curacao",
+      "options": [
+        "orange-liqueur",
+        "blue-curacao"
+      ]
+    },
+    {
+      "term": "anise",
+      "options": [
+        "absinthe",
+        "pastis",
+        "sambuca"
+      ]
+    }
   ],
-  "descriptorStopWords": ["fresh", "freshly", "squeezed", "chilled", "cold", "good", "quality", "premium", "homemade", "home-made", "organic", "some", "a", "an", "of", "bottle", "splash", "dash", "wedge", "wedges", "slice", "slices", "wheel", "wheels", "chunk", "chunks", "cubes", "leaves", "sprig", "sprigs"]
+  "descriptorStopWords": [
+    "fresh",
+    "freshly",
+    "squeezed",
+    "chilled",
+    "cold",
+    "good",
+    "quality",
+    "premium",
+    "homemade",
+    "home-made",
+    "organic",
+    "some",
+    "a",
+    "an",
+    "of",
+    "bottle",
+    "splash",
+    "dash",
+    "wedge",
+    "wedges",
+    "slice",
+    "slices",
+    "wheel",
+    "wheels",
+    "chunk",
+    "chunks",
+    "cubes",
+    "leaves",
+    "sprig",
+    "sprigs"
+  ]
 }

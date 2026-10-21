@@ -242,11 +242,11 @@
         "note": "freshly squeezed"
       },
       {
-        "id": "sparkling-wine",
+        "id": "prosecco",
         "amount": 75,
         "unit": "ml",
         "optional": false,
-        "note": "Prosecco"
+        "note": null
       }
     ],
     "garnish": "Orange twist (optional)",
@@ -1318,11 +1318,11 @@
     "method": "build",
     "ingredients": [
       {
-        "id": "sparkling-wine",
+        "id": "prosecco",
         "amount": 90,
         "unit": "ml",
         "optional": false,
-        "note": "Prosecco"
+        "note": null
       },
       {
         "id": "aperol",

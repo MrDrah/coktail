@@ -99,6 +99,21 @@ describe('US-E3 subset matching (fixtures)', () => {
     expect(ids(fxMatcher.search(['cachaca', 'lime-juice', 'sugar']))).not.toContain('fx-fruit');
   });
 
+  it('Champagne and Prosecco satisfy a generic sparkling-wine recipe, but not each other', () => {
+    const lib: CocktailLibrary = {
+      version: 'test',
+      cocktails: [
+        fx('generic', ['gin', 'sparkling-wine']),
+        fx('needs-champagne', ['gin', 'champagne']),
+        fx('needs-prosecco', ['gin', 'prosecco']),
+      ],
+    };
+    const m = createMatcher(lib, dictionary);
+    expect(ids(m.search(['gin', 'champagne'])).sort()).toEqual(['generic', 'needs-champagne']);
+    expect(ids(m.search(['gin', 'prosecco'])).sort()).toEqual(['generic', 'needs-prosecco']);
+    expect(ids(m.search(['gin', 'sparkling-wine']))).toEqual(['generic']);
+  });
+
   it('matchedIds lists the satisfied requirements', () => {
     const m = ok(fxMatcher.search(['lime', 'white-rum', 'simple-syrup'])).matches[0]!;
     expect(m.matchedIds.sort()).toEqual(['lime-juice', 'simple-syrup', 'white-rum']);
