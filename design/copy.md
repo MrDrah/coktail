@@ -117,7 +117,9 @@ Consumers: Dev (implement **verbatim** in `src/copy.ts`), QA (assert exact strin
 | `card.era.vintage` | Vintage | Era badge |
 | `card.era.modern` | Modern | Era badge |
 | `card.eraYear` | {era} · {year} | When `yearCreated` not null, e.g. "Vintage · 1898" |
-| `card.glass` | {glass} | Glass label next to icon |
+| `card.glass` | {glass} | Glass label next to its icon: the `glass` enum value verbatim (one of 10) |
+| — | *(data)* `shortDescription` | Shown verbatim under the name. Not a copy key |
+| — | *(data)* `tasteProfile` | Shown verbatim and clamped to about 3 lines on the card, in full in the detail view. Not a copy key |
 | `card.uses_one` | Uses 1 of yours | Meta line |
 | `card.uses_other` | Uses {count} of yours | |
 | `card.matchedSr` | you have it | SR suffix on highlighted ingredients |
@@ -154,7 +156,10 @@ Consumers: Dev (implement **verbatim** in `src/copy.ts`), QA (assert exact strin
 | `detail.servingsSr` | Amounts updated for {count} servings | SR, polite |
 | `detail.youHave` | You have this | Badge on matched ingredient row |
 | `detail.youNeed` | You’ll need this | Badge on missing row (near-match detail only) |
-| `detail.unit.ml` | {amount} ml | |
+| `detail.assumed` | Assumed | Chip on ice and water rows |
+| `detail.assumedAmount` | — | Amount column for ice/water rows (`aria-hidden`) |
+| `detail.assumedSr` | {name}, assumed. You don’t need to add it. | SR name for ice/water rows |
+| `detail.unit.ml` | {amount} ml | ml only. There are no oz strings: the MVP has no unit toggle |
 | `detail.unit.dash_one` | {amount} dash | |
 | `detail.unit.dash_other` | {amount} dashes | |
 | `detail.unit.drop_one` | {amount} drop | |
@@ -178,16 +183,23 @@ Consumers: Dev (implement **verbatim** in `src/copy.ts`), QA (assert exact strin
 |---|---|---|
 | `fallback.title` | No direct matches found | H2 (US-E6-01) |
 | `fallback.body` | Nothing in our library uses only what you have — but you’re close. | |
-| `fallback.tip` | Tip: a citrus juice or a sweetener unlocks the most drinks. | Always shown |
-| `fallback.tipSpecific` | Tip: adding {name} unlocks the most drinks here. | When top near-match ingredient is known |
+| `fallback.tip` | Tip: a citrus juice or a sweetener unlocks the most drinks. | Shown instead of the best-addition callout when `bestAddition` is null or the user has 10 ingredients |
+| `bestAddition.label` | Best addition | Overline in the callout |
+| `bestAddition.text_one` | Add {name} to unlock 1 cocktail | `unlocks` = 1 |
+| `bestAddition.text_other` | Add {name} to unlock {count} cocktails | e.g. "Add Simple Syrup to unlock 4 cocktails" |
+| `bestAddition.button` | + Add {name} | One-tap add, which re-runs the search |
+| `bestAddition.buttonSr` | Add {name} to your ingredients and search again | SR `aria-label` |
+| `bestAddition.liveSr_one` | Adding {name} unlocks 1 cocktail. | Appended to `fallback.liveSr` |
+| `bestAddition.liveSr_other` | Adding {name} unlocks {count} cocktails. | Appended to `fallback.liveSr` |
 | `fallback.liveSr` | No direct matches. {count} near matches found. | SR, polite |
 | `nearMatches.title` | Near Matches — missing 1 ingredient | H2 (US-E6-02) |
 | `nearMatches.subtitle` | Add the missing ingredient and we’ll search again. | |
 | `nearMatches.missingLabel` | Missing | Overline on card above the badge |
 | `nearMatches.addButton` | + Add {name} | Badge/button (US-E6-04) |
 | `nearMatches.addButtonSr` | Add {name} to your ingredients and search again | SR `aria-label` |
-| `nearMatches.addFullSr` | Remove an ingredient first — you’ve hit the 10-ingredient limit. | `aria-describedby` when 10 chips |
 | `nearMatches.addedSr` | {name} added. Searching again. | SR, polite |
+| `nearMatches.adding` | Adding… | Button label while the re-search runs |
+| `nearMatches.missingName` | {name} | Static pill that replaces the hidden "+ Add" at 10 ingredients |
 | `empty.title` | Nothing to pour… yet | H2 (US-E6-05) |
 | `empty.body` | We couldn’t find a cocktail that uses these, even with one more ingredient. | |
 | `empty.tip` | Try a base spirit (gin, rum, whiskey), a citrus juice and a sweetener — that combo opens hundreds of classics. | |

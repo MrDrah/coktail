@@ -47,9 +47,10 @@ Heading order: H1 page, then H2 for Results / Fallback / Near Matches, then H3 f
 | Info hint (water/ice) | Status | `role="status"` (polite). It's always in the DOM and its text content is swapped |
 | Limit error | Alert | Text injected into `#ingredient-limit` with `role="alert"` (assertive) |
 | Results | Region + list | `section aria-labelledby`, `ul role="list"`, `aria-busy` while loading |
-| Card | Article + overlay button | `article aria-labelledby="card-x-name"`; `button aria-haspopup="dialog" aria-describedby="card-x-tagline"` |
-| Near-match "+ Add" | Button | `aria-label="Add Sugar to your ingredients and search again"`, `aria-disabled` at 10 |
-| Detail | **Modal dialog** | native `<dialog>` + `showModal()`, `aria-labelledby="detail-title" aria-describedby="detail-tagline"` |
+| Card | Article + overlay button | `article aria-labelledby="card-x-name"`; `button aria-haspopup="dialog" aria-describedby="card-x-desc"` (shortDescription). The clamped taste profile on the card is `aria-hidden` |
+| Near-match "+ Add" | Button | `aria-label="Add Sugar to your ingredients and search again"`. At 10 ingredients the button is **removed from the DOM**, not disabled. On cards it is replaced by a static "missing" pill, and the best-addition callout is replaced by `fallback.tip` |
+| Best-addition callout | Group + button | `div role="group" aria-labelledby="best-addition-label"`; the button `aria-label` = `bestAddition.buttonSr` |
+| Detail | **Modal dialog** | native `<dialog>` + `showModal()`, `aria-labelledby="detail-title" aria-describedby="detail-desc"` (shortDescription under the H2). Assumed ice/water rows have the accessible name `detail.assumedSr` |
 | Servings stepper | Group of 2 buttons + output | `role="group" aria-labelledby="servings-label"`; `<output id="servings-value" aria-live="polite">`. Buttons have `aria-label` "Fewer servings" / "More servings" and `aria-controls="detail-ingredients"` |
 | Theme toggle | Toggle button | `aria-pressed` and a label from `app.themeToggle.*` |
 
@@ -61,7 +62,7 @@ Heading order: H1 page, then H2 for Results / Fallback / Near Matches, then H3 f
 | `#hint-excluded` (visible) | polite (`role=status`) | `hint.excluded` |
 | `#ingredient-error` (visible) | assertive, once per new error chip | `error.didYouMean` / `error.unrecognised` |
 | `#ingredient-limit` (visible) | assertive (`role=alert`) | `error.tooMany` |
-| `#results-status` (sr-only) | polite, atomic | `results.loadingSr`, then `results.countSr_*` / `fallback.liveSr` / `empty.liveSr` / `nearMatches.addedSr` |
+| `#results-status` (sr-only) | polite, atomic | `results.loadingSr`, then `results.countSr_*` / `fallback.liveSr` (+ `bestAddition.liveSr_*` when the callout shows) / `empty.liveSr` / `nearMatches.addedSr` |
 | `#servings-value` | polite | value change (`detail.servingsSr`) |
 
 Rules: one message per user action. Clear and re-set the text, waiting 50 ms, so repeated identical messages are re-announced. Never put `aria-live` on large containers.
@@ -72,7 +73,7 @@ Rules: one message per user action. Clear and re-set the text, waiting 50 ms, so
 
 | Key | Action |
 |---|---|
-| Tab / Shift+Tab | Order: skip link → theme toggle → input → chips (each chip's buttons, left to right) → Clear all → suggestions/limit messages → CTA → results H2 (not a tab stop; programmatic focus only) → cards → near-match "+ Add" → card open (per card: "+ Add" first, then card) |
+| Tab / Shift+Tab | Order: skip link → theme toggle → input → chips (each chip's buttons, left to right) → Clear all → suggestions/limit messages → CTA → results H2 (not a tab stop; programmatic focus only) → best-addition "+ Add" (zero-match only) → near-match cards (per card: "+ Add" first, then the card; at 10 ingredients the card is the only stop) |
 | `/` | Focus the ingredient input (when focus isn't in a text field). Optional, Should |
 
 ### Ingredient combobox (focus in input)
@@ -134,7 +135,8 @@ Rules: one message per user action. Clear and re-set the text, waiting 50 ms, so
 | Disabled CTA activated | First error/ambiguous chip, else the input |
 | Search completed (results) | `#results-title` H2 (tabindex=-1) |
 | Search completed (zero) | `#fallback-title` / `#empty-title` H2 |
-| "+ Add X" activated | After re-search: `#results-title` (or the fallback title if still zero) |
+| "+ Add X" activated (near-match or best addition) | After re-search: `#results-title` (or the fallback title if still zero) |
+| Chip removed while at 10 (back to 9) | "+ Add" buttons reappear. Focus follows the chip-removal rule and does not jump to them |
 | "Start over" | Input |
 | Card activated | Dialog H2 `#detail-title` (tabindex=-1) |
 | Dialog closed | The card's open button that launched it (store a ref; if the card is gone, use the results H2) |

@@ -15,9 +15,15 @@ export interface NearMatch extends Match {
   missingId: string;
 }
 
+/** The single missing ingredient that would unlock the most near-match recipes (fallback tip). */
+export interface BestAddition {
+  id: string;
+  unlocks: number;
+}
+
 export type SearchResult =
   | { status: 'too-few' | 'too-many'; count: number }
-  | { status: 'ok'; count: number; cap: number; matches: Match[]; nearMatches: NearMatch[] };
+  | { status: 'ok'; count: number; cap: number; matches: Match[]; nearMatches: NearMatch[]; bestAddition: BestAddition | null };
 
 export interface Matcher {
   search(userIds: Iterable<string>): SearchResult;
@@ -73,10 +79,21 @@ export function createMatcher(library: CocktailLibrary, dict: IngredientDictiona
 
     // US-E4-02: most of the user's ingredients used, then popularity, then name.
     matches.sort((a, b) => b.matchedIds.length - a.matchedIds.length || b.cocktail.popularity - a.cocktail.popularity || byName(a, b));
-    if (matches.length > 0) return { status: 'ok', count: user.size, cap, matches: matches.slice(0, cap), nearMatches: [] };
+    if (matches.length > 0) {
+      return { status: 'ok', count: user.size, cap, matches: matches.slice(0, cap), nearMatches: [], bestAddition: null };
+    }
+
+    // Counted over all near matches, before the cap: most recipes unlocked, then pairing weight, then name.
+    const unlocks = new Map<string, number>();
+    for (const m of near) unlocks.set(m.missingId, (unlocks.get(m.missingId) ?? 0) + 1);
+    const pairing = (id: string) => byId.get(id)!.pairingWeight;
+    const best = [...unlocks.entries()].sort(
+      (a, b) => b[1] - a[1] || pairing(b[0]) - pairing(a[0]) || a[0].localeCompare(b[0]),
+    )[0];
+    const bestAddition = best ? { id: best[0], unlocks: best[1] } : null;
 
     // US-E6-03: easiest missing ingredient first, then overlap, popularity, name.
-    const weight = (m: NearMatch) => byId.get(m.missingId)!.pairingWeight;
+    const weight = (m: NearMatch) => pairing(m.missingId);
     near.sort(
       (a, b) =>
         weight(b) - weight(a) ||
@@ -84,7 +101,7 @@ export function createMatcher(library: CocktailLibrary, dict: IngredientDictiona
         b.cocktail.popularity - a.cocktail.popularity ||
         byName(a, b),
     );
-    return { status: 'ok', count: user.size, cap, matches: [], nearMatches: near.slice(0, cap) };
+    return { status: 'ok', count: user.size, cap, matches: [], nearMatches: near.slice(0, cap), bestAddition };
   }
 
   return { search, required: (id) => reqById.get(id) };

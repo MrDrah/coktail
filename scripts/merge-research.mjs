@@ -7,7 +7,7 @@ import { dirname, resolve } from 'node:path';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const dir = resolve(root, 'data/_research');
-const FIELDS = ['id', 'name', 'era', 'yearCreated', 'glass', 'method', 'ingredients', 'garnish', 'instructions', 'history', 'tasteProfile', 'tags', 'popularity', 'sources'];
+const FIELDS = ['id', 'name', 'shortDescription', 'era', 'yearCreated', 'glass', 'method', 'ingredients', 'garnish', 'instructions', 'history', 'tasteProfile', 'tags', 'popularity', 'sources'];
 
 const cocktails = readdirSync(dir)
   .filter((f) => f.endsWith('.json'))

@@ -18,7 +18,7 @@ All values below are **token references**. Write them as `var(--…)` in CSS. Ne
 | hover | Only under `@media (hover: hover)`. Never the only way to find a control. |
 | focus-visible | `--focus-shadow`. Never removed. |
 | active (pressed) | `transform: translateY(1px)` plus the darker fill step. No transform under reduced motion. |
-| disabled | `aria-disabled="true"` (not the `disabled` attribute) on the CTA and "+ Add", so they stay focusable and announce *why* through `aria-describedby`. Use `--color-fill-disabled` and `--color-ink-disabled`, with `cursor: not-allowed`. |
+| disabled | `aria-disabled="true"` (not the `disabled` attribute) on the CTA, so it stays focusable and announce *why* through `aria-describedby`. Use `--color-fill-disabled` and `--color-ink-disabled`, with `cursor: not-allowed`. |
 | error | `--color-error-border` 1.5px outline, `--color-error-soft` fill, `--color-error` text, plus an icon. Never colour alone. |
 | loading | Skeleton or spinner with `aria-busy="true"` on the region. Show it only if the work takes more than 150 ms, so it doesn't flash. |
 
@@ -227,9 +227,13 @@ Story: US-E4-03.
 
 ```
 ┌──────────────────────────────────────────┐
-│ VINTAGE · 1898                  [glass]  │  ← era badge + glass icon + glass label
+│ VINTAGE · 1898     [icon] Cocktail Glass │  ← era badge + glass icon + glass label
 │ Daiquiri                                 │  ← H3 name
-│ Crisp, clean and perfectly simple.       │  ← taste tagline (1 line, ellipsis)
+│ Cuba's crisp three-ingredient classic of │  ← shortDescription (ink-2, max 2 lines)
+│ white rum, lime and sugar, and the …     │
+│ Crisp, clean and perfectly simple. Light │  ← tasteProfile (muted, clamped to 3 lines)
+│ rum provides a gentle sugarcane sweet-   │
+│ ness and subtle vanilla, fresh lime …    │
 │ ──────────────────────────────────────── │
 │ [✓ White Rum] [✓ Lime Juice] [Sugar]     │  ← ingredient pills (matched highlighted)
 │ Uses 2 of yours            View recipe → │  ← meta + affordance
@@ -238,15 +242,31 @@ Story: US-E4-03.
 
 | Part | Spec |
 |---|---|
-| Container | `<article>` with a full-card `<button>` overlay (see ARIA). bg `--color-surface`, border 1px `--color-border`, radius `--radius-lg`, padding `--space-5` (mobile `--space-4`), `--shadow-1`, min-height 200px, flex column, gap `--space-3` |
+| Container | `<article>` with a full-card `<button>` overlay (see ARIA). bg `--color-surface`, border 1px `--color-border`, radius `--radius-lg`, padding `--space-5` (mobile `--space-4`), `--shadow-1`, min-height 260px, equal heights within a grid row (the pills/meta block is pushed to the bottom with `margin-top: auto`), flex column, gap `--space-3` |
 | Era badge | overline: `--text-overline-*`, uppercase, `--font-weight-bold`, `--color-ink-muted`, text `card.eraYear` (or just the era). Vintage gets a 6px dot in `--cat-syrup-sweetener` (amber) and Modern a 6px dot in `--cat-mixer` (cyan). Decorative only |
-| Glass | 24px line icon (`--color-ink-muted`, 1.5px stroke) + `--text-xs-*` label. Icon family is mapped from the free-text `glass` (see table) |
+| Glass | 24px line icon (`--color-ink-muted`, 1.5px stroke) + `--text-xs-*` label showing the `glass` value verbatim. One icon per glass value, 1:1 (see table) |
 | Name | H3 `--text-xl-*`, `--font-weight-bold`, `--color-ink`. Wraps to 2 lines max |
-| Tagline | First sentence of `tasteProfile` (up to the first `.`), `--text-sm-*`, `--color-ink-2`, 1-line clamp on desktop, 2 on mobile. Full text lives in the detail |
+| Short description | `shortDescription` (8–25 words). `--text-sm-*`, `--font-weight-medium`, `--color-ink-2`. Shown in full; a 2-line clamp is only a safety net for the longest values at narrow card widths. `id="card-{id}-desc"` |
+| Taste profile | `tasteProfile`, `--text-sm-*`, `--color-ink-muted`, `-webkit-line-clamp: 3` with ellipsis (≈ 3 lines, about 30–45 words). Full text is in the detail view. The clamp is visual only: the DOM holds the full paragraph, but it is `aria-hidden` on the card so screen readers aren't read a 100-word paragraph per card (they get it in the detail) |
 | Ingredient pills | Counted, non-optional ingredients in recipe order (ice/water omitted, optional ones shown with "(opt.)"). Pill: height 24px, `--radius-pill`, `--text-xs-*`, padding-inline `--space-2`. **Matched:** bg `--color-accent-soft`, border 1px `--color-accent-edge`, ✓ icon, `--font-weight-semibold`, SR suffix `card.matchedSr`. **Not provided by user** (only near-match cards): bg `--color-secondary-soft`, border 1px dashed `--color-secondary-strong`, `+` icon. **Other** (e.g. extra optional): bg `--color-surface-sunken`, `--color-ink-2` |
 | Meta | `card.uses_*` `--text-xs-*` `--color-ink-muted`, and on the right `card.openHint` + → in `--color-accent-strong`, `--font-weight-semibold` |
 
-**Glass icon families** (case-insensitive keyword match on `glass`, first hit wins): `coupe|cocktail|martini` → *coupe*; `flute|champagne` → *flute*; `highball|collins|tall|fizz` → *highball*; `old fashioned|rocks|tumbler` → *rocks*; `mug|julep|cup` → *mug*; `wine|goblet` → *wine*; `irish coffee` → *mug*; otherwise *generic*. The label always shows the raw `glass` value.
+**Glass icons (1:1 with the schema enum).** `glass` is one of exactly 10 values. Dev keys a `Record<Glass, IconComponent>` on the exact string, so the TypeScript union makes a missing icon a compile error. There is no keyword matching and no fallback icon.
+
+| `glass` value | Icon id | Silhouette |
+|---|---|---|
+| Cocktail Glass | `glass-cocktail` | V-shaped martini bowl on a stem |
+| Coupe | `glass-coupe` | shallow rounded bowl on a stem |
+| Rocks Glass | `glass-rocks` | short, wide tumbler with an ice line |
+| Highball | `glass-highball` | tall straight tumbler |
+| Flute | `glass-flute` | narrow tall bowl on a stem |
+| Wine Glass | `glass-wine` | rounded tulip bowl on a stem |
+| Copper Mug | `glass-copper-mug` | barrel mug with a side handle |
+| Julep Cup | `glass-julep-cup` | straight metal cup with a rim band |
+| Hurricane Glass | `glass-hurricane` | tall curvy bowl on a short stem |
+| Irish Coffee Glass | `glass-irish-coffee` | footed glass mug with a handle |
+
+All of them are drawn on the shared 24px grid with a 1.5px stroke and `currentColor`. See the gallery in `preview.html`.
 
 ### States
 
@@ -257,15 +277,15 @@ Story: US-E4-03.
 | focus-visible | `--focus-shadow` on the card (via `:has(:focus-visible)` or the overlay button's outline) |
 | active | translateY(0), `--shadow-1` |
 | disabled | n/a |
-| loading (skeleton) | Same box. Lines are `--color-surface-sunken` rounded bars (overline 30%, name 60%, tagline 90%, 3 pills 20% each). A shimmer gradient sweeps every 1.2 s. Under reduced motion it's static. `aria-hidden="true"`, and the region carries `aria-busy` |
+| loading (skeleton) | Same box. Lines are `--color-surface-sunken` rounded bars (overline 30%, name 60%, description 95% + 70%, taste 3 × 90%, 3 pills 20% each). A shimmer gradient sweeps every 1.2 s. Under reduced motion it's static. `aria-hidden="true"`, and the region carries `aria-busy` |
 | error | n/a |
 | near-match variant | See C6: adds the "Missing" strip and the "+ Add" button |
 
 ### ARIA
 
-`<article aria-labelledby="card-{id}-name">` contains `<h3 id="card-{id}-name">`. The full-card hit target is a `<button>` positioned over the card (`::after inset 0`) with an accessible name equal to the cocktail name and `aria-describedby` pointing at the tagline and `card.open`. It opens C4 (`aria-haspopup="dialog"`). The near-match "+ Add" button is a separate, sibling button above the overlay (`position: relative; z-index: 1`), so it's never nested inside a button.
+`<article aria-labelledby="card-{id}-name">` contains `<h3 id="card-{id}-name">`. The full-card hit target is a `<button>` positioned over the card (`::after inset 0`) with an accessible name equal to the cocktail name and `aria-describedby` pointing at `card-{id}-desc` (the short description) and `card.open`. It opens C4 (`aria-haspopup="dialog"`). The near-match "+ Add" button is a separate, sibling button above the overlay (`position: relative; z-index: 1`), so it's never nested inside a button.
 
-**testid:** `card-{cocktailId}`, `card-open-{cocktailId}`, `card-era-{cocktailId}`, `card-ingredient-{cocktailId}-{ingredientId}` (with `data-matched="true|false"`).
+**testid:** `card-{cocktailId}`, `card-open-{cocktailId}`, `card-era-{cocktailId}`, `card-glass-{cocktailId}`, `card-desc-{cocktailId}`, `card-taste-{cocktailId}`, `card-ingredient-{cocktailId}-{ingredientId}` (with `data-matched="true|false"`).
 
 ---
 
@@ -283,7 +303,8 @@ Stories: US-E5-01 to 03, US-E3-05 and US-NF-05.
 │ Ingredients                      Servings  [–]  2  [+]      │
 │  ✓ 120 ml   White Rum            White Cuban rum            │
 │  ✓  40 ml   Lime Juice                                      │
-│     4 barspoons Sugar            Superfine sugar            │
+│  ✓  4 barspoons Sugar            Superfine sugar            │
+│  ❄    —     Ice  [Assumed]                                  │  ← muted, never scales
 │  (opt.) …                                                   │
 │ Glass  Cocktail Glass     Garnish  No garnish               │
 │ Method                                                       │
@@ -305,15 +326,20 @@ Stories: US-E5-01 to 03, US-E3-05 and US-NF-05.
 | Panel | `--color-surface` (solid for readability; only the header is glass), `--shadow-3`, `--z-dialog`. **Desktop (≥ 768):** centred modal, width `min(100% - 64px, var(--size-dialog-max))`, max-height `calc(100dvh - 64px)`, radius `--radius-xl`. **Mobile (< 768):** full-screen sheet, 100dvw × 100dvh, radius `--radius-xl` on the top corners only, slides up from the bottom |
 | Header | sticky, `--color-glass` + `--glass-filter`, border-bottom 1px `--color-border`, padding `--space-4` `--space-6`. Overline (era · year · technique from `detail.technique.*`), H2 name `--text-2xl-*` `--font-weight-heavy`. Close button 44×44, radius `--radius-pill`, icon `--size-icon-lg` `--color-ink-muted`, hover bg `--color-surface-sunken` |
 | Body | scrolls, padding `--space-6` (mobile `--space-4`), sections separated by `--space-8`. H3 `--text-lg-*` `--font-weight-bold`. Prose `--text-md-*` `--color-ink-2`, max 68ch |
-| Ingredient rows | Grid columns: icon 20px · amount 11–12ch, right-aligned, `font-variant-numeric: tabular-nums` · name · note. Row height 40px, divider 1px `--color-border`. Matched rows show the ✓ icon in `--color-accent-strong` and an SR "You have this". Optional rows get an `chip.optional` tag (`--color-surface-sunken` pill). Notes are `--text-sm-*` `--color-ink-muted`; on mobile they wrap under the name. Ice and water rows are omitted from the list (they're covered by the method) |
-| Servings stepper | label `detail.servings`. Group `[–] value [+]`: buttons 36×36 (`--size-control-sm`, 44 hit area on touch), border 1px `--color-border-strong`, radius `--radius-pill`. Value is `--font-mono` `--font-weight-bold`, min-width 3ch. Range 1–4, default 1. At 1, [–] is disabled; at 4, [+] is disabled. Hover bg `--color-accent-soft`. Active: fill `--color-accent`, edge `--color-accent-edge` |
+| Ingredient rows | Grid columns: icon 20px · amount 11–12ch, right-aligned, `font-variant-numeric: tabular-nums` · name · note. Row height 40px, divider 1px `--color-border`. Matched rows show the ✓ icon in `--color-accent-strong` and an SR "You have this". Optional rows get an `chip.optional` tag (`--color-surface-sunken` pill). Notes are `--text-sm-*` `--color-ink-muted`; on mobile they wrap under the name. Rows stay in recipe order |
+| Assumed rows (ice, water) | Ingredients with `classification: excluded` are **shown**, as muted rows. Each has a ❄ icon (`--color-ink-muted`) in the icon column and `detail.assumedAmount` ("—") in the amount column. The name is `--color-ink-muted` `--font-weight-regular`, followed by a `detail.assumed` chip ("Assumed": `--color-surface-sunken` pill, `--color-ink-muted` text, `--text-xs-*`, 1px `--color-border`). The note, if any (e.g. "a few dashes of plain water"), shows in the note column. These rows **never scale**, never get the ✓ "You have this" mark, and use the SR name `detail.assumedSr` |
+| Servings stepper | label `detail.servings`. Group `[–] value [+]`: buttons 36×36 (`--size-control-sm`, 44 hit area on touch), border 1px `--color-border-strong`, radius `--radius-pill`. Value is `--font-mono` `--font-weight-bold`, min-width 3ch. Range 1–4 (matches the engine's `scaleAmount` clamp), default 1 every time the dialog opens. At 1, [–] is disabled; at 4, [+] is disabled. **Units are ml only: there is no ml/oz toggle.** Hover bg `--color-accent-soft`. Active: fill `--color-accent`, edge `--color-accent-edge` |
 | Glass / Garnish | 2-column definition list (`<dl>`), stacking on mobile |
 | Method | `<ol>`. Numbers in 24px circles `--color-accent-soft` with `--color-ink` text |
 | Sources | links `detail.sourceLink` in `--color-accent-strong`, underlined, ↗ icon, `target="_blank" rel="noopener noreferrer"`, SR suffix `detail.sourceNewTabSr` |
 
 ### Scaling rules (US-E5-02)
 
-`ml`, `dash`, `drop`, `barspoon`, `piece`, `leaf`, `sprig` and `pinch` are multiplied by servings. ml rounds to the nearest 5 when ≥ 30, otherwise to 2.5. Count units round to the nearest 0.5 and display as an integer when whole (e.g. "1½" style is out of scope, so use "1.5"). `top`, `splash` and `null` never scale (`detail.unit.top` / `.splash`). `amount: null` with a countable unit shows `detail.unit.unknown` plus the note. Changing servings announces `detail.servingsSr` (polite) and doesn't move focus. Amounts animate with a number crossfade (`--duration-fast`), or swap instantly under reduced motion.
+The UI displays what the engine's `scaleAmount` returns and doesn't add rounding of its own. Display rules:
+
+- **ml:** `amount × servings`, shown with at most 1 decimal and no trailing ".0" (52.5 ml × 2 = "105 ml", × 3 = "157.5 ml"). Always ml, never oz.
+- **Count units** (`dash`, `drop`, `barspoon`, `piece`, `leaf`, `sprig`, `pinch`): `amount × servings`, rounded to the nearest 0.5, shown as "1.5" (not "1½"), with the singular/plural copy key.
+- **Never change:** `top` ("Top up"), `splash` ("A splash"), any `amount: null` ("To taste" plus the note), and the assumed ice/water rows. Changing servings announces `detail.servingsSr` (polite) and doesn't move focus. Amounts animate with a number crossfade (`--duration-fast`), or swap instantly under reduced motion.
 
 ### States
 
@@ -330,9 +356,9 @@ Stories: US-E5-01 to 03, US-E3-05 and US-NF-05.
 
 ### ARIA & focus
 
-`<dialog>` opened with `showModal()` (native focus trap and inert background) or `role="dialog" aria-modal="true"` with a JS trap. `aria-labelledby` points to the H2 name and `aria-describedby` to the tagline. On open, focus goes to the **H2 (tabindex=-1)**, so screen readers start at the title, not the close ×. Esc, the × and a backdrop click all close it (US-E5-03). Focus returns to the originating card's open button. Body scroll is locked while it's open. The stepper is `role="group" aria-labelledby="servings-label"`, and the value is `<output aria-live="polite">`.
+`<dialog>` opened with `showModal()` (native focus trap and inert background) or `role="dialog" aria-modal="true"` with a JS trap. `aria-labelledby` points to the H2 name. `aria-describedby` points to the short description, which shows under the H2 in the header as `--text-sm-*` `--color-ink-2`. On open, focus goes to the **H2 (tabindex=-1)**, so screen readers start at the title, not the close ×. Esc, the × and a backdrop click all close it (US-E5-03). Focus returns to the originating card's open button. Body scroll is locked while it's open. The stepper is `role="group" aria-labelledby="servings-label"`, and the value is `<output aria-live="polite">`.
 
-**testid:** `detail-dialog`, `detail-title`, `detail-close`, `detail-ingredient-{id}`, `detail-amount-{id}`, `servings-decrease`, `servings-value`, `servings-increase`, `detail-method`, `detail-glass`, `detail-garnish`, `detail-history`, `detail-taste`, `detail-source-{index}`, `detail-add-missing` (near-match only).
+**testid:** `detail-dialog`, `detail-title`, `detail-close`, `detail-ingredient-{id}` (assumed rows add `data-assumed="true"`), `detail-amount-{id}`, `servings-decrease`, `servings-value`, `servings-increase`, `detail-method`, `detail-glass`, `detail-garnish`, `detail-history`, `detail-taste`, `detail-source-{index}`, `detail-add-missing` (near-match only).
 
 ---
 
@@ -362,7 +388,7 @@ CSS: `grid-template-columns: repeat(var(--cols), minmax(0, 1fr))`. Results are *
 
 | Count | Layout (≥ 1024) |
 |---|---|
-| 1 | Single "feature" card, centred, `max-width: 560px`. Horizontal layout: name and tagline on the left, ingredients on the right (≥ 768). Under the count: `results.single` |
+| 1 | Single "feature" card, centred, `max-width: 640px`. Horizontal layout: name, short description and taste profile on the left, ingredients on the right (≥ 768). Under the count: `results.single` |
 | 2 | 2 columns, centred, grid max-width 2/3 of content |
 | 3, 6 | 3 columns, full rows |
 | 4 | 2 × 2 (switch `--cols` to 2, grid max-width 2/3) for a balanced block |
@@ -400,7 +426,10 @@ Stories: US-E6-01 to 05.
 │      (ice-cube-in-empty-coupe illustration, 96px)            │  ← frosted panel
 │      No direct matches found                                 │
 │      Nothing in our library uses only what you have — …      │
-│      ⓘ Tip: adding Sugar unlocks the most drinks here.       │
+│  ┌────────────────────────────────────────────────────────┐  │
+│  │ BEST ADDITION                                          │  │  ← best-addition callout
+│  │ Add Sugar to unlock 1 cocktail      [ + Add Sugar ]    │  │    (only when bestAddition ≠ null
+│  └────────────────────────────────────────────────────────┘  │     and the user has < 10 ingredients)
 └──────────────────────────────────────────────────────────────┘
 
 Near Matches — missing 1 ingredient                    ← H2
@@ -409,9 +438,10 @@ Add the missing ingredient and we’ll search again.
 ┌───────────────────────────┐ ┌───────────────────────────┐
 │ MISSING                   │ │ MISSING                   │
 │ [ + Add Sugar ]  ← orange │ │ [ + Add Cola ]            │
-│ VINTAGE · 1898   [glass]  │ │ VINTAGE          [glass]  │
+│ VINTAGE · 1898   [glass]  │ │ VINTAGE · 1900   [glass]  │
 │ Daiquiri                  │ │ Cuba Libre                │
-│ Crisp, clean and …        │ │ …                         │
+│ Cuba's crisp three-ingr…  │ │ Rum and cola brightened…  │
+│ Crisp, clean and … (3 ln) │ │ Easy, refreshing … (3 ln) │
 │ [✓White Rum][✓Lime][+Sugar]│ │ [✓White Rum][✓Lime][+Cola]│
 │ Uses 2 of yours  View →   │ │ …                         │
 └───────────────────────────┘ └───────────────────────────┘
@@ -419,7 +449,8 @@ Add the missing ingredient and we’ll search again.
 
 | Part | Spec |
 |---|---|
-| Notice panel | `--color-glass` + `--glass-filter`, border 1px `--color-glass-border`, radius `--radius-xl`, padding `--space-8` (mobile `--space-6`), centred text, max-width 640px. Illustration: an inline SVG line drawing (ice cube + coupe) using `--color-ink-muted` strokes and a `--color-accent` ice highlight, `aria-hidden`. Title H2 `--text-2xl-*`. Body `--color-ink-2`. Tip row uses the info style (`--color-info-soft`, `--color-info`) |
+| Notice panel | `--color-glass` + `--glass-filter`, border 1px `--color-glass-border`, radius `--radius-xl`, padding `--space-8` (mobile `--space-6`), centred text, max-width 640px. Illustration: an inline SVG line drawing (ice cube + coupe) using `--color-ink-muted` strokes and a `--color-accent` ice highlight, `aria-hidden`. Title H2 `--text-2xl-*`. Body `--color-ink-2`. Then comes either the best-addition callout or, when `bestAddition` is null or the user has 10 ingredients, the generic tip row `fallback.tip` in the info style (`--color-info-soft`, `--color-info`) |
+| Best-addition callout | Sits **inside the notice panel, directly under the body text**, so it's the first action after the explanation and comes before the near-match list. Left-aligned box: bg `--color-surface`, border 1px `--color-border`, left border 4px `--color-secondary`, radius `--radius-md`, padding `--space-3` `--space-4`. It contains the overline `bestAddition.label` (`--color-secondary-strong`), the sentence `bestAddition.text_*` (`--text-md-*`, `--font-weight-semibold`, ingredient name bold), and a "+ Add" button identical to the near-match button (same tokens and states), labelled `bestAddition.button`. Desktop: text and button on one row, with the button on the right. Mobile: they stack and the button is full width. `unlocks` is the engine's pre-cap count, so it can be higher than the number of near-match cards shown |
 | Section title | H2 `nearMatches.title` `--text-xl-*`, plus a 4px × 24px `--color-secondary` bar before it (decorative) |
 | Near-match card | C3 card, plus a top strip: overline `nearMatches.missingLabel` (`--color-secondary-strong`) and the **+ Add badge-button**. Card border 1px `--color-border`, with the top border 3px `--color-secondary` |
 | "+ Add" button | height 36px (`--size-control-sm`; hit area 44 on touch), radius `--radius-pill`, fill `--color-secondary`, border 1px `--color-secondary-strong`, label `--color-on-secondary` `--font-weight-bold` `--text-sm-*`, text `nearMatches.addButton`, with the category dot of the missing ingredient |
@@ -433,11 +464,11 @@ Add the missing ingredient and we’ll search again.
 | hover | `--color-secondary-hover`, `--shadow-2` |
 | focus-visible | `--focus-shadow` |
 | active | translateY(1px) |
-| loading | After activation: the label becomes a spinner plus "Adding…", the button gets `aria-busy`, and all other "+ Add" buttons get `aria-disabled` until the re-search completes |
-| disabled | At 10 counted ingredients: `aria-disabled="true"`, `--color-fill-disabled`/`--color-ink-disabled`, `aria-describedby` → `nearMatches.addFullSr`. Activating it focuses the chip list |
+| loading | After activation the label becomes a spinner plus `nearMatches.adding` and the button gets `aria-busy`. Every other "+ Add" (including the best-addition button) gets `aria-disabled` until the re-search completes. This is the only time "+ Add" is ever disabled |
+| hidden (10 ingredients) | At 10 counted ingredients **every "+ Add" button is removed from the DOM**: not disabled, and not `visibility:hidden`. This includes the best-addition button, whose whole callout is replaced by the generic `fallback.tip`. On near-match cards the strip keeps the `nearMatches.missingLabel` overline and shows the missing ingredient as a static pill (`nearMatches.missingName`, styled like the card's dashed "missing" pill), so the information isn't lost. The buttons come back as soon as the count drops to 9, with no re-search needed. No explanatory copy is shown |
 | error | n/a |
 
-**Behaviour (US-E6-04):** activating the button adds the chip (normal commit rules), announces `nearMatches.addedSr`, re-runs the search automatically, scrolls to the results top (smooth, or instant under reduced motion) and moves focus to `results-title`. The new chip gets the "entering" animation.
+**Behaviour (US-E6-04, and the best addition):** activating either kind of "+ Add" adds the chip (normal commit rules), announces `nearMatches.addedSr`, re-runs the search automatically, scrolls to the results top (smooth, or instant under reduced motion) and moves focus to `results-title`. The new chip gets the "entering" animation.
 
 ### Empty-of-everything (0 primary, 0 near) — US-E6-05
 
@@ -445,12 +476,12 @@ The notice panel uses the `empty.*` copy: an illustration (empty coupe, no ice),
 
 ### ARIA
 
-The notice is a `<section aria-labelledby="fallback-title">` and the near matches are a `<section aria-labelledby="near-title">`. After search, focus moves to `fallback-title` (tabindex=-1), and the status region announces `fallback.liveSr` or `empty.liveSr`. Each "+ Add" button has `aria-label` = `nearMatches.addButtonSr`.
+The notice is a `<section aria-labelledby="fallback-title">` and the near matches are a `<section aria-labelledby="near-title">`. After search, focus moves to `fallback-title` (tabindex=-1), and the status region announces `fallback.liveSr` or `empty.liveSr`. Each "+ Add" button has `aria-label` = `nearMatches.addButtonSr`. The best-addition callout is a `<div role="group" aria-labelledby="best-addition-label">`, and its button uses `bestAddition.buttonSr`. When the callout is present, `fallback.liveSr` gets `bestAddition.liveSr` appended.
 
-**testid:** `fallback`, `fallback-title`, `fallback-tip`, `near-matches`, `near-matches-title`, `near-card-{cocktailId}`, `near-add-{ingredientId}-{cocktailId}`, `empty-state`, `empty-reset`.
+**testid:** `fallback`, `fallback-title`, `fallback-tip`, `near-matches`, `near-matches-title`, `near-card-{cocktailId}`, `near-add-{ingredientId}-{cocktailId}`, `near-missing-{ingredientId}-{cocktailId}` (static pill at 10), `best-addition`, `best-addition-add`, `empty-state`, `empty-reset`.
 
 ---
 
 ## Iconography
 
-Line icons on a 24px grid with a 1.5px stroke, round caps, and `currentColor`. Set: search, x (close/remove), plus, check, info, alert-triangle, chevron-down, arrow-right, external-link, minus, and glasses (coupe, flute, highball, rocks, mug, wine, generic). Ship them as inline SVG React components (no icon font). Decorative icons are `aria-hidden="true" focusable="false"`.
+Line icons on a 24px grid with a 1.5px stroke, round caps, and `currentColor`. Set: search, x (close/remove), plus, check, info, alert-triangle, chevron-down, arrow-right, external-link, minus, snowflake (assumed rows), and the 10 glass icons listed in C3. Ship them as inline SVG React components (no icon font). Decorative icons are `aria-hidden="true" focusable="false"`.

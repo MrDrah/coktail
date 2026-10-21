@@ -7,6 +7,7 @@ function fx(id: string, req: string[], extra: Partial<Cocktail> & { optional?: s
   return {
     id,
     name: id.toUpperCase(),
+    shortDescription: '',
     era: 'vintage',
     yearCreated: null,
     glass: 'Coupe',
@@ -218,6 +219,48 @@ describe('US-E6 zero match and near matches', () => {
     const r = ok(fxMatcher.search(['port', 'galliano']));
     expect(r.matches).toEqual([]);
     expect(r.nearMatches).toEqual([]);
+    expect(r.bestAddition).toBeNull();
+  });
+
+  describe('US-E6-06 best addition tip', () => {
+    const lib: CocktailLibrary = {
+      version: 'test',
+      cocktails: [
+        fx('a', ['vodka', 'cola']),
+        fx('b', ['vodka', 'ginger-beer']),
+        fx('c', ['vodka', 'mint', 'ginger-beer']),
+        fx('d', ['vodka', 'cranberry-juice']),
+        fx('e', ['vodka', 'tomato-juice']),
+      ],
+    };
+    const m = createMatcher(lib, dictionary);
+
+    it('picks the missing ingredient that unlocks the most recipes', () => {
+      expect(ok(m.search(['vodka', 'mint'])).bestAddition).toEqual({ id: 'ginger-beer', unlocks: 2 });
+    });
+
+    it('counts all near matches, not just the capped list', () => {
+      const many: CocktailLibrary = {
+        version: 'test',
+        cocktails: [
+          ...Array.from({ length: 7 }, (_, i) => fx(`f${i}`, ['gin', 'falernum'], { popularity: 1 })),
+          ...Array.from({ length: 6 }, (_, i) => fx(`s${i}`, ['gin', 'simple-syrup'], { popularity: 99 })),
+        ],
+      };
+      const r = ok(createMatcher(many, dictionary).search(['gin', 'mint']));
+      expect(r.nearMatches.every((x) => x.missingId === 'simple-syrup')).toBe(true); // weight ranks syrup first
+      expect(r.bestAddition).toEqual({ id: 'falernum', unlocks: 7 }); // but falernum unlocks more
+    });
+
+    it('breaks count ties by pairing weight', () => {
+      // One recipe each: cola (0.8) beats cranberry juice (0.75) and tomato juice (0.6).
+      const ties: CocktailLibrary = { version: 'test', cocktails: lib.cocktails.filter((c) => ['a', 'd', 'e'].includes(c.id)) };
+      expect(ok(createMatcher(ties, dictionary).search(['vodka', 'mint'])).bestAddition).toEqual({ id: 'cola', unlocks: 1 });
+    });
+
+    it('is null when there are direct matches', () => {
+      expect(ok(m.search(['vodka', 'cola'])).bestAddition).toBeNull();
+    });
   });
 
   it('caps near matches like primary results', () => {

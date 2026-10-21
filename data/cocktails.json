@@ -4,9 +4,10 @@
     {
       "id": "americano",
       "name": "Americano",
+      "shortDescription": "Campari and sweet vermouth lengthened with soda: a low-strength Italian aperitivo and the forerunner of the Negroni.",
       "era": "vintage",
       "yearCreated": null,
-      "glass": "Old Fashioned",
+      "glass": "Rocks Glass",
       "method": "build",
       "ingredients": [
         {
@@ -82,6 +83,7 @@
     {
       "id": "aviation",
       "name": "Aviation",
+      "shortDescription": "A pre-Prohibition gin sour tinted pale violet by crème de violette, with maraschino adding a floral, cherry-stone edge.",
       "era": "vintage",
       "yearCreated": 1916,
       "glass": "Cocktail Glass",
@@ -166,6 +168,7 @@
     {
       "id": "bees-knees",
       "name": "Bee's Knees",
+      "shortDescription": "A 1920s gin sour sweetened with honey, bright with lemon and a splash of orange juice.",
       "era": "vintage",
       "yearCreated": 1929,
       "glass": "Cocktail Glass",
@@ -242,9 +245,10 @@
     {
       "id": "bellini",
       "name": "Bellini",
+      "shortDescription": "Venice's famous brunch sparkler from Harry's Bar: white peach purée topped with chilled prosecco.",
       "era": "vintage",
       "yearCreated": 1945,
-      "glass": "Champagne Flute",
+      "glass": "Flute",
       "method": "stir",
       "ingredients": [
         {
@@ -304,6 +308,7 @@
     {
       "id": "between-the-sheets",
       "name": "Between the Sheets",
+      "shortDescription": "A strong, cheekily named Sidecar cousin that splits the base between cognac and white rum.",
       "era": "vintage",
       "yearCreated": null,
       "glass": "Cocktail Glass",
@@ -380,9 +385,10 @@
     {
       "id": "black-russian",
       "name": "Black Russian",
+      "shortDescription": "Vodka and coffee liqueur over ice, created in 1949 in Brussels: short, dark and dead simple.",
       "era": "vintage",
       "yearCreated": 1949,
-      "glass": "Old Fashioned",
+      "glass": "Rocks Glass",
       "method": "build",
       "ingredients": [
         {
@@ -441,6 +447,7 @@
     {
       "id": "bloody-mary",
       "name": "Bloody Mary",
+      "shortDescription": "The classic savoury brunch cocktail: vodka and tomato juice seasoned with lemon, Worcestershire, hot sauce and spice.",
       "era": "vintage",
       "yearCreated": null,
       "glass": "Rocks Glass",
@@ -539,6 +546,7 @@
     {
       "id": "boulevardier",
       "name": "Boulevardier",
+      "shortDescription": "The whiskey-based cousin of the Negroni, swapping gin for bourbon for a richer, warmer bittersweet drink.",
       "era": "vintage",
       "yearCreated": 1927,
       "glass": "Cocktail Glass",
@@ -609,9 +617,10 @@
     {
       "id": "bramble",
       "name": "Bramble",
+      "shortDescription": "Dick Bradsell's 1980s London modern classic: a gin sour over crushed ice, drizzled with blackberry liqueur.",
       "era": "modern",
       "yearCreated": null,
-      "glass": "Old Fashioned",
+      "glass": "Rocks Glass",
       "method": "shake",
       "ingredients": [
         {
@@ -685,9 +694,10 @@
     {
       "id": "caipirinha",
       "name": "Caipirinha",
+      "shortDescription": "Brazil's national cocktail: cachaça muddled with fresh lime and sugar, rustic, zesty and powerful.",
       "era": "vintage",
       "yearCreated": null,
-      "glass": "Double Old Fashioned",
+      "glass": "Rocks Glass",
       "method": "muddle-build",
       "ingredients": [
         {
@@ -767,6 +777,7 @@
     {
       "id": "clover-club",
       "name": "Clover Club",
+      "shortDescription": "A silky, pink Philadelphia classic of gin, raspberry, lemon and egg white, named after a journalists' club.",
       "era": "vintage",
       "yearCreated": 1901,
       "glass": "Cocktail Glass",
@@ -844,6 +855,7 @@
     {
       "id": "cosmopolitan",
       "name": "Cosmopolitan",
+      "shortDescription": "The tart, pink vodka sour with cranberry, orange liqueur and lime that defined late-20th-century cocktail culture.",
       "era": "modern",
       "yearCreated": null,
       "glass": "Cocktail Glass",
@@ -921,6 +933,7 @@
     {
       "id": "cuba-libre",
       "name": "Cuba Libre",
+      "shortDescription": "Rum and cola brightened with lime, the easy-going highball tied to Havana around 1900.",
       "era": "vintage",
       "yearCreated": 1900,
       "glass": "Highball",
@@ -989,6 +1002,7 @@
     {
       "id": "daiquiri",
       "name": "Daiquiri",
+      "shortDescription": "Cuba's crisp three-ingredient classic of white rum, lime and sugar, and the benchmark for a balanced sour.",
       "era": "vintage",
       "yearCreated": 1898,
       "glass": "Cocktail Glass",
@@ -1057,6 +1071,7 @@
     {
       "id": "dark-n-stormy",
       "name": "Dark 'n' Stormy",
+      "shortDescription": "Bermuda's national drink: dark rum floated over spicy ginger beer, bold and refreshing.",
       "era": "vintage",
       "yearCreated": null,
       "glass": "Highball",
@@ -1119,9 +1134,10 @@
     {
       "id": "dry-martini",
       "name": "Dry Martini",
+      "shortDescription": "Gin and dry vermouth stirred ice-cold: the bracing, elegant cocktail of uncertain origin that became an icon.",
       "era": "vintage",
       "yearCreated": null,
-      "glass": "Martini Glass",
+      "glass": "Cocktail Glass",
       "method": "stir",
       "ingredients": [
         {
@@ -1182,6 +1198,7 @@
     {
       "id": "espresso-martini",
       "name": "Espresso Martini",
+      "shortDescription": "Dick Bradsell's 1980s pick-me-up of vodka, coffee liqueur and fresh espresso, shaken to a creamy foam.",
       "era": "modern",
       "yearCreated": 1983,
       "glass": "Cocktail Glass",
@@ -1259,9 +1276,10 @@
     {
       "id": "french-75",
       "name": "French 75",
+      "shortDescription": "A celebratory First World War-era classic of gin, lemon and sugar topped with sparkling wine.",
       "era": "vintage",
       "yearCreated": 1915,
-      "glass": "Champagne Flute",
+      "glass": "Flute",
       "method": "shake",
       "ingredients": [
         {
@@ -1335,9 +1353,10 @@
     {
       "id": "gin-fizz",
       "name": "Gin Fizz",
+      "shortDescription": "A 19th-century gin sour shaken hard and lengthened with soda for a clean, tart sparkle.",
       "era": "vintage",
       "yearCreated": 1876,
-      "glass": "Tall Tumbler",
+      "glass": "Highball",
       "method": "shake",
       "ingredients": [
         {
@@ -1413,9 +1432,10 @@
     {
       "id": "gin-rickey",
       "name": "Gin Rickey",
+      "shortDescription": "A sharp, dry highball of gin, lime and soda from the 1880s Rickey family, barely sweetened.",
       "era": "vintage",
       "yearCreated": null,
-      "glass": "Highball (8–10 Oz) Or Fizz Glass",
+      "glass": "Highball",
       "method": "shake",
       "ingredients": [
         {
@@ -1491,6 +1511,7 @@
     {
       "id": "hemingway-special",
       "name": "Hemingway Special",
+      "shortDescription": "El Floridita's Daiquiri variation with grapefruit and maraschino: sharp, dry and citrus-driven.",
       "era": "vintage",
       "yearCreated": null,
       "glass": "Cocktail Glass",
@@ -1574,6 +1595,7 @@
     {
       "id": "irish-coffee",
       "name": "Irish Coffee",
+      "shortDescription": "Hot coffee, Irish whiskey and sugar under a layer of cream, first served at Foynes airport in the 1940s.",
       "era": "vintage",
       "yearCreated": 1944,
       "glass": "Irish Coffee Glass",
@@ -1643,6 +1665,7 @@
     {
       "id": "john-collins",
       "name": "John Collins",
+      "shortDescription": "The tall, crisp gin collins of lemon, sugar and soda that grew out of 19th-century Gin Punch.",
       "era": "vintage",
       "yearCreated": null,
       "glass": "Highball",
@@ -1721,9 +1744,10 @@
     {
       "id": "kir",
       "name": "Kir",
+      "shortDescription": "A light French aperitif of dry white wine with a dash of blackcurrant liqueur.",
       "era": "vintage",
       "yearCreated": 1904,
-      "glass": "Wine Goblet",
+      "glass": "Wine Glass",
       "method": "build",
       "ingredients": [
         {
@@ -1781,6 +1805,7 @@
     {
       "id": "last-word",
       "name": "Last Word",
+      "shortDescription": "An equal-parts Prohibition-era gem of gin, green Chartreuse, maraschino and lime: intense, herbal and balanced.",
       "era": "vintage",
       "yearCreated": 1916,
       "glass": "Cocktail Glass",
@@ -1856,6 +1881,7 @@
     {
       "id": "long-island-iced-tea",
       "name": "Long Island Iced Tea",
+      "shortDescription": "A deceptively easy, very strong 1970s highball of four white spirits, orange liqueur, lemon and cola.",
       "era": "modern",
       "yearCreated": 1972,
       "glass": "Highball",
@@ -1960,9 +1986,10 @@
     {
       "id": "mai-tai",
       "name": "Mai Tai",
+      "shortDescription": "Trader Vic's 1944 tiki classic: aged rum with orange liqueur, orgeat and lime, rich yet tart.",
       "era": "vintage",
       "yearCreated": 1944,
-      "glass": "Double Rocks (old Fashioned) Or Highball",
+      "glass": "Rocks Glass",
       "method": "shake",
       "ingredients": [
         {
@@ -2043,6 +2070,7 @@
     {
       "id": "manhattan",
       "name": "Manhattan",
+      "shortDescription": "Rye whiskey, sweet vermouth and bitters stirred cold: the 19th-century New York template for modern cocktails.",
       "era": "vintage",
       "yearCreated": null,
       "glass": "Cocktail Glass",
@@ -2111,6 +2139,7 @@
     {
       "id": "margarita",
       "name": "Margarita",
+      "shortDescription": "Tequila, orange liqueur and lime in a salt-rimmed glass: the world's favourite tequila sour.",
       "era": "vintage",
       "yearCreated": null,
       "glass": "Cocktail Glass",
@@ -2181,6 +2210,7 @@
     {
       "id": "mimosa",
       "name": "Mimosa",
+      "shortDescription": "Sparkling wine and orange juice in a flute: the light, fruity brunch staple often credited to the Paris Ritz.",
       "era": "vintage",
       "yearCreated": null,
       "glass": "Flute",
@@ -2237,9 +2267,10 @@
     {
       "id": "mint-julep",
       "name": "Mint Julep",
+      "shortDescription": "A cold, aromatic Southern serve of bourbon, mint and sugar packed with crushed ice.",
       "era": "vintage",
       "yearCreated": null,
-      "glass": "Julep Cup (stainless Steel)",
+      "glass": "Julep Cup",
       "method": "muddle-build",
       "ingredients": [
         {
@@ -2311,6 +2342,7 @@
     {
       "id": "mojito",
       "name": "Mojito",
+      "shortDescription": "Cuba's minty highball of white rum, lime, sugar and fresh mint, topped with soda.",
       "era": "vintage",
       "yearCreated": null,
       "glass": "Highball",
@@ -2394,9 +2426,10 @@
     {
       "id": "moscow-mule",
       "name": "Moscow Mule",
+      "shortDescription": "Vodka, lime and spicy ginger beer from the 1940s, traditionally served in a copper mug.",
       "era": "vintage",
       "yearCreated": null,
-      "glass": "Copper Mule Mug Or Rocks Glass",
+      "glass": "Copper Mug",
       "method": "build",
       "ingredients": [
         {
@@ -2462,9 +2495,10 @@
     {
       "id": "negroni",
       "name": "Negroni",
+      "shortDescription": "Equal parts gin, Campari and sweet vermouth: the bold, bittersweet Florentine aperitivo said to date from 1919.",
       "era": "vintage",
       "yearCreated": 1919,
-      "glass": "Old Fashioned",
+      "glass": "Rocks Glass",
       "method": "build",
       "ingredients": [
         {
@@ -2530,9 +2564,10 @@
     {
       "id": "old-fashioned",
       "name": "Old Fashioned",
+      "shortDescription": "Whiskey, sugar, bitters and a little water: the original 'cock-tail' formula, rich, mellow and whiskey-led.",
       "era": "vintage",
       "yearCreated": null,
-      "glass": "Old Fashioned",
+      "glass": "Rocks Glass",
       "method": "muddle-build",
       "ingredients": [
         {
@@ -2605,6 +2640,7 @@
     {
       "id": "paloma",
       "name": "Paloma",
+      "shortDescription": "Mexico's favourite tequila highball: tequila, lime and grapefruit soda with a pinch of salt.",
       "era": "modern",
       "yearCreated": null,
       "glass": "Highball",
@@ -2688,9 +2724,10 @@
     {
       "id": "penicillin",
       "name": "Penicillin",
+      "shortDescription": "Sam Ross's 2005 modern classic of Scotch, lemon, honey and ginger, finished with a smoky Islay float.",
       "era": "modern",
       "yearCreated": 2005,
-      "glass": "Old Fashioned",
+      "glass": "Rocks Glass",
       "method": "shake",
       "ingredients": [
         {
@@ -2772,9 +2809,10 @@
     {
       "id": "pina-colada",
       "name": "Piña Colada",
+      "shortDescription": "Puerto Rico's national drink: white rum, coconut cream and pineapple juice, creamy and tropical.",
       "era": "vintage",
       "yearCreated": 1954,
-      "glass": "Large Glass",
+      "glass": "Hurricane Glass",
       "method": "blend",
       "ingredients": [
         {
@@ -2842,9 +2880,10 @@
     {
       "id": "pisco-sour",
       "name": "Pisco Sour",
+      "shortDescription": "Peru's frothy classic of pisco, lemon, sugar and egg white, finished with drops of bitters.",
       "era": "vintage",
       "yearCreated": null,
-      "glass": "Goblet",
+      "glass": "Wine Glass",
       "method": "shake",
       "ingredients": [
         {
@@ -2918,6 +2957,7 @@
     {
       "id": "ramos-gin-fizz",
       "name": "Ramos Gin Fizz",
+      "shortDescription": "New Orleans' famously long-shaken 1888 fizz of gin, citrus, cream, egg white and orange flower water.",
       "era": "vintage",
       "yearCreated": 1888,
       "glass": "Highball",
@@ -3031,9 +3071,10 @@
     {
       "id": "rusty-nail",
       "name": "Rusty Nail",
+      "shortDescription": "Scotch whisky and Drambuie over ice: a smooth, sweet and warming two-ingredient after-dinner drink.",
       "era": "vintage",
       "yearCreated": null,
-      "glass": "Old Fashioned",
+      "glass": "Rocks Glass",
       "method": "build",
       "ingredients": [
         {
@@ -3092,9 +3133,10 @@
     {
       "id": "sazerac",
       "name": "Sazerac",
+      "shortDescription": "New Orleans' aromatic signature: cognac, sugar and Peychaud's bitters in an absinthe-rinsed glass.",
       "era": "vintage",
       "yearCreated": null,
-      "glass": "Old Fashioned",
+      "glass": "Rocks Glass",
       "method": "stir",
       "ingredients": [
         {
@@ -3168,6 +3210,7 @@
     {
       "id": "sidecar",
       "name": "Sidecar",
+      "shortDescription": "An elegant post-First World War sour of cognac, orange liqueur and lemon, tart and warming.",
       "era": "vintage",
       "yearCreated": null,
       "glass": "Cocktail Glass",
@@ -3236,6 +3279,7 @@
     {
       "id": "spritz",
       "name": "Spritz",
+      "shortDescription": "The Veneto's bubbly aperitivo of prosecco, Aperol and soda: light, bittersweet and low in alcohol.",
       "era": "vintage",
       "yearCreated": null,
       "glass": "Wine Glass",
@@ -3305,6 +3349,7 @@
     {
       "id": "stinger",
       "name": "Stinger",
+      "shortDescription": "Cognac and crème de menthe from 1890s New York: a cool, smooth and boozy after-dinner drink.",
       "era": "vintage",
       "yearCreated": null,
       "glass": "Cocktail Glass",
@@ -3366,9 +3411,10 @@
     {
       "id": "tom-collins",
       "name": "Tom Collins",
+      "shortDescription": "The original tall gin sour of lemon, sugar and soda, traced to London in the early 1800s.",
       "era": "vintage",
       "yearCreated": null,
-      "glass": "Collins",
+      "glass": "Highball",
       "method": "shake",
       "ingredients": [
         {
@@ -3445,6 +3491,7 @@
     {
       "id": "vesper",
       "name": "Vesper",
+      "shortDescription": "James Bond's martini from fiction: gin, vodka and Lillet Blanc, crisp, dry and powerful.",
       "era": "vintage",
       "yearCreated": 1953,
       "glass": "Cocktail Glass",
@@ -3513,6 +3560,7 @@
     {
       "id": "vieux-carre",
       "name": "Vieux Carré",
+      "shortDescription": "Created at New Orleans' Hotel Monteleone in 1938: rye, cognac, sweet vermouth, Bénédictine and bitters.",
       "era": "vintage",
       "yearCreated": 1938,
       "glass": "Cocktail Glass",
@@ -3594,9 +3642,10 @@
     {
       "id": "whiskey-sour",
       "name": "Whiskey Sour",
+      "shortDescription": "Bourbon, lemon and sugar, with optional egg white for a silky texture: the balanced, approachable classic sour.",
       "era": "vintage",
       "yearCreated": null,
-      "glass": "Cobbler Glass (or Old Fashioned On The Rocks)",
+      "glass": "Rocks Glass",
       "method": "shake",
       "ingredients": [
         {
@@ -3669,6 +3718,7 @@
     {
       "id": "white-lady",
       "name": "White Lady",
+      "shortDescription": "A clean, crisp gin sour of orange liqueur and lemon, associated with Harry MacElhone.",
       "era": "vintage",
       "yearCreated": null,
       "glass": "Cocktail Glass",

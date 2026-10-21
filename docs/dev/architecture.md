@@ -25,7 +25,8 @@ normalizer.normalize('crushed ice');   // { status: 'excluded', kind: 'ice' }
 normalizer.autocomplete('verm');       // [{ id: 'dry-vermouth', ... }, { id: 'sweet-vermouth', ... }]
 
 matcher.search(['white-rum', 'lime-juice']);
-// { status: 'ok', count: 2, cap: 6, matches: [], nearMatches: [{ cocktail, matchedIds, missingId: 'sugar' }, ...] }
+// { status: 'ok', count: 2, cap: 6, matches: [], nearMatches: [{ cocktail, matchedIds, missingId: 'sugar' }, ...],
+//   bestAddition: { id: 'sugar', unlocks: 2 } }   // the "+ Add X unlocks n cocktails" tip; null when there are matches
 matcher.search(['gin']);               // { status: 'too-few', count: 1 }
 
 scaleAmount({ id: 'gin', amount: 45, unit: 'ml', optional: false }, 2); // 90

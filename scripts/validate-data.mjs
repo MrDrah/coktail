@@ -18,7 +18,8 @@ const err = (m) => errors.push(m);
 const ID_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const CATEGORIES = new Set(['spirit', 'liqueur', 'aperitif', 'vermouth-fortified', 'wine', 'citrus', 'juice', 'fruit', 'syrup-sweetener', 'bitters', 'mixer', 'dairy-egg', 'herb-spice', 'savory', 'excluded']);
 const METHODS = new Set(['shake', 'stir', 'build', 'blend', 'throw', 'swizzle', 'muddle-build']);
-const UNITS = new Set(['ml', 'dash', 'drop', 'barspoon', 'piece', 'leaf', 'sprig', 'pinch', 'top', 'splash', null]);
+const GLASSES = new Set(['Cocktail Glass', 'Coupe', 'Rocks Glass', 'Highball', 'Flute', 'Wine Glass', 'Copper Mug', 'Julep Cup', 'Hurricane Glass', 'Irish Coffee Glass']);
+const UNITS =new Set(['ml', 'dash', 'drop', 'barspoon', 'piece', 'leaf', 'sprig', 'pinch', 'top', 'splash', null]);
 const TAGS = new Set(['sour', 'highball', 'spirit-forward', 'fizz', 'collins', 'tiki', 'sparkling', 'creamy', 'coffee', 'hot', 'bitter', 'herbal', 'fruity', 'citrus', 'savory', 'classic', 'contemporary', 'iba',
   'aperitif', 'after-dinner', 'low-abv', 'refreshing', 'floral', 'spicy', 'sweet', 'dry', 'smoky', 'brunch', 'frozen', 'tropical', 'foamy', 'strong']);
 const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').trim();
@@ -66,7 +67,11 @@ for (const c of cocktails) {
     if (!Number.isInteger(c.yearCreated)) err(`${at}: yearCreated not integer`);
     else if ((c.yearCreated < 1960) !== (c.era === 'vintage')) err(`${at}: era ${c.era} inconsistent with year ${c.yearCreated}`);
   }
-  if (!c.glass) err(`${at}: missing glass`);
+  if (!GLASSES.has(c.glass)) err(`${at}: glass "${c.glass}" not in the 10 canonical glasses`);
+  const sd = (c.shortDescription ?? '').trim();
+  const sdWords = sd ? sd.split(/\s+/).length : 0;
+  if (sdWords < 8 || sdWords > 25) err(`${at}: shortDescription must be 8–25 words (has ${sdWords})`);
+  if (/\n/.test(sd)) err(`${at}: shortDescription must be a single line`);
   if (!METHODS.has(c.method)) err(`${at}: bad method ${c.method}`);
   if (!Array.isArray(c.instructions) || c.instructions.length < 1 || c.instructions.length > 8) err(`${at}: instructions must be 1–8 steps`);
   if (!('garnish' in c)) err(`${at}: missing garnish field`);

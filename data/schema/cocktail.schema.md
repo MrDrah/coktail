@@ -64,9 +64,10 @@ Two flat JSON files ship to the browser:
 |-------|------|------|------|
 | `id` | string | ✔ | kebab-case, unique, ASCII. |
 | `name` | string | ✔ | Common name as given by the primary recipe source. |
+| `shortDescription` | string | ✔ | One line, 8–25 words, shown on the result card under the name. Summarises what the drink is (key ingredients, style, origin) using only facts already in the record and its sources. |
 | `era` | enum | ✔ | `vintage` = created before 1960. `modern` = 1960 or later. If the year is unknown, use the IBA category (Unforgettables → vintage). |
 | `yearCreated` | integer \| null | ✔ | Earliest documented year. `null` if unknown. Must be consistent with `era`. |
-| `glass` | string | ✔ | Title Case (e.g. `Coupe`, `Highball`, `Rocks`, `Copper Mug`). |
+| `glass` | enum | ✔ | One of exactly 10: `Cocktail Glass` · `Coupe` · `Rocks Glass` · `Highball` · `Flute` · `Wine Glass` · `Copper Mug` · `Julep Cup` · `Hurricane Glass` · `Irish Coffee Glass`. Map source wording: martini → Cocktail Glass; old fashioned/double rocks → Rocks Glass; collins/tall tumbler/fizz → Highball; goblet → Wine Glass; champagne flute → Flute. Note any serving alternative in `instructions`. |
 | `method` | enum | ✔ | `shake` · `stir` · `build` · `blend` · `throw` · `swizzle` · `muddle-build` |
 | `ingredients` | RecipeIngredient[] | ✔ | At least 2 counted, non-optional entries. Order follows the source recipe. |
 | `garnish` | string \| null | ✔ | Free text. **Never used for matching** (Q2). |

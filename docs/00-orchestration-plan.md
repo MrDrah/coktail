@@ -129,3 +129,4 @@ Phase 5  Organisator: release gate review → MVP ready
 | 2026-10-21 | "AI-powered" dropped from the MVP. BR-11 added: BA researches the 500 cocktails online from reputable sources; Dev builds the logic only. | Product owner |
 | 2026-10-21 | Ambiguous input handling (choose-a-meaning step for terms like "orange"; "Did you mean…" for typos) approved. | Product owner |
 | 2026-10-21 | BA Q2–Q5 accepted with proposed defaults (garnish/optional never block; Lemon ≠ Lemon Juice; brands → generics; only water/ice excluded). | Product owner |
+| 2026-10-21 | UX Q1–Q6 resolved: glass normalised to 10 canonical types; card shows name + new `shortDescription` + taste profile; ice/water shown as "Assumed" rows; "+ Add" hidden at 10 ingredients, back at 9; best-addition tip approved (US-E6-06); servings default 1 with −/+ buttons, ml only. | Product owner |

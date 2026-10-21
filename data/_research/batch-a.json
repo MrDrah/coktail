@@ -4,7 +4,7 @@
     "name": "Americano",
     "era": "vintage",
     "yearCreated": null,
-    "glass": "Old Fashioned",
+    "glass": "Rocks Glass",
     "method": "build",
     "ingredients": [
       {
@@ -76,7 +76,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "No firm creation year: Wikipedia (secondary) cites the 1860s at Gaspare Campari's bar in Milan, while Difford's Guide traces the drink to 'vermouth Americano' and cites printed recipes from 1920 and 1936. yearCreated left null."
+    "researchNotes": "No firm creation year: Wikipedia (secondary) cites the 1860s at Gaspare Campari's bar in Milan, while Difford's Guide traces the drink to 'vermouth Americano' and cites printed recipes from 1920 and 1936. yearCreated left null.",
+    "shortDescription": "Campari and sweet vermouth lengthened with soda: a low-strength Italian aperitivo and the forerunner of the Negroni."
   },
   {
     "id": "aviation",
@@ -161,7 +162,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "1916 is the first printed appearance (Ensslin), which Difford's treats as the creation credit. The IBA spec includes crème de violette; the 1930 Savoy version omits it."
+    "researchNotes": "1916 is the first printed appearance (Ensslin), which Difford's treats as the creation credit. The IBA spec includes crème de violette; the 1930 Savoy version omits it.",
+    "shortDescription": "A pre-Prohibition gin sour tinted pale violet by crème de violette, with maraschino adding a floral, cherry-stone edge."
   },
   {
     "id": "bees-knees",
@@ -238,14 +240,15 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "Origin disputed between Frank Meier (Ritz Paris, Cocktails de Paris 1929) and Margaret 'Molly' Brown (1929 Standard Union article); both sources date it to 1929 in Paris. The IBA spec includes orange juice, which Difford's notes was Embury's 1948 addition; the classic version was gin, lemon and honey only."
+    "researchNotes": "Origin disputed between Frank Meier (Ritz Paris, Cocktails de Paris 1929) and Margaret 'Molly' Brown (1929 Standard Union article); both sources date it to 1929 in Paris. The IBA spec includes orange juice, which Difford's notes was Embury's 1948 addition; the classic version was gin, lemon and honey only.",
+    "shortDescription": "A 1920s gin sour sweetened with honey, bright with lemon and a splash of orange juice."
   },
   {
     "id": "bellini",
     "name": "Bellini",
     "era": "vintage",
     "yearCreated": 1945,
-    "glass": "Champagne Flute",
+    "glass": "Flute",
     "method": "stir",
     "ingredients": [
       {
@@ -301,7 +304,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "IBA notes variants: Puccini (mandarin juice), Rossini (strawberry purée), Tintoretto (pomegranate juice). Ice is used only in the mixing glass."
+    "researchNotes": "IBA notes variants: Puccini (mandarin juice), Rossini (strawberry purée), Tintoretto (pomegranate juice). Ice is used only in the mixing glass.",
+    "shortDescription": "Venice's famous brunch sparkler from Harry's Bar: white peach purée topped with chilled prosecco."
   },
   {
     "id": "between-the-sheets",
@@ -378,14 +382,15 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "Creator disputed (Mr Polly of the Berkeley Hotel 1921, Johnny Brooks, Harry MacElhone). First print 1929 (Frank Shay) used gin rather than cognac. yearCreated left null."
+    "researchNotes": "Creator disputed (Mr Polly of the Berkeley Hotel 1921, Johnny Brooks, Harry MacElhone). First print 1929 (Frank Shay) used gin rather than cognac. yearCreated left null.",
+    "shortDescription": "A strong, cheekily named Sidecar cousin that splits the base between cognac and white rum."
   },
   {
     "id": "black-russian",
     "name": "Black Russian",
     "era": "vintage",
     "yearCreated": 1949,
-    "glass": "Old Fashioned",
+    "glass": "Rocks Glass",
     "method": "build",
     "ingredients": [
       {
@@ -440,7 +445,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "IBA method text is slightly redundant (built in the glass, then 'strain into old fashioned glass filled with ice'); treated as a build over ice. IBA notes the White Russian variation with a cream float."
+    "researchNotes": "IBA method text is slightly redundant (built in the glass, then 'strain into old fashioned glass filled with ice'); treated as a build over ice. IBA notes the White Russian variation with a cream float.",
+    "shortDescription": "Vodka and coffee liqueur over ice, created in 1949 in Brussels: short, dark and dead simple."
   },
   {
     "id": "bloody-mary",
@@ -539,7 +545,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "Origin contested: Fernand Petiot (Paris 1920s / St. Regis NYC) vs George Jessel. yearCreated left null. IBA lists Tabasco, celery salt and pepper 'up to taste', so no amounts are given. IBA serves it in a rocks glass without ice, or in a highball over ice on request."
+    "researchNotes": "Origin contested: Fernand Petiot (Paris 1920s / St. Regis NYC) vs George Jessel. yearCreated left null. IBA lists Tabasco, celery salt and pepper 'up to taste', so no amounts are given. IBA serves it in a rocks glass without ice, or in a highball over ice on request.",
+    "shortDescription": "The classic savoury brunch cocktail: vodka and tomato juice seasoned with lemon, Worcestershire, hot sauce and spice."
   },
   {
     "id": "boulevardier",
@@ -610,14 +617,15 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "The 1927 original was equal parts; IBA uses 45/30/30 (3:2:2). Difford's now prefers 2:1:1."
+    "researchNotes": "The 1927 original was equal parts; IBA uses 45/30/30 (3:2:2). Difford's now prefers 2:1:1.",
+    "shortDescription": "The whiskey-based cousin of the Negroni, swapping gin for bourbon for a richer, warmer bittersweet drink."
   },
   {
     "id": "bramble",
     "name": "Bramble",
     "era": "modern",
     "yearCreated": null,
-    "glass": "Old Fashioned",
+    "glass": "Rocks Glass",
     "method": "shake",
     "ingredients": [
       {
@@ -687,14 +695,15 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "Sources give 'mid-1980s' without an exact year, so yearCreated is null. Difford's own spec uses less crème de mûre (12.5 ml) and more lemon than IBA."
+    "researchNotes": "Sources give 'mid-1980s' without an exact year, so yearCreated is null. Difford's own spec uses less crème de mûre (12.5 ml) and more lemon than IBA.",
+    "shortDescription": "Dick Bradsell's 1980s London modern classic: a gin sour over crushed ice, drizzled with blackberry liqueur."
   },
   {
     "id": "caipirinha",
     "name": "Caipirinha",
     "era": "vintage",
     "yearCreated": null,
-    "glass": "Double Old Fashioned",
+    "glass": "Rocks Glass",
     "method": "muddle-build",
     "ingredients": [
       {
@@ -770,7 +779,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "Origin uncertain: PUNCH says mid-19th-century rural Brazil; Difford's and Wikipedia mention early-20th-century folk stories (a Spanish flu remedy, sailors). Wikipedia claims a 1918 São Paulo consensus, but this is not used because the primary sources do not support it. yearCreated null. IBA variants: Caipiroska (vodka), Caipirissima (rum), Caipirão (Licor Beirão)."
+    "researchNotes": "Origin uncertain: PUNCH says mid-19th-century rural Brazil; Difford's and Wikipedia mention early-20th-century folk stories (a Spanish flu remedy, sailors). Wikipedia claims a 1918 São Paulo consensus, but this is not used because the primary sources do not support it. yearCreated null. IBA variants: Caipiroska (vodka), Caipirissima (rum), Caipirão (Licor Beirão).",
+    "shortDescription": "Brazil's national cocktail: cachaça muddled with fresh lime and sugar, rustic, zesty and powerful."
   },
   {
     "id": "clover-club",
@@ -848,7 +858,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "1901 is the earliest known printed reference (New York Press), not a confirmed creation date. IBA lists 'few drops of egg white', while Difford's uses about 15 ml and adds dry vermouth and lime."
+    "researchNotes": "1901 is the earliest known printed reference (New York Press), not a confirmed creation date. IBA lists 'few drops of egg white', while Difford's uses about 15 ml and adds dry vermouth and lime.",
+    "shortDescription": "A silky, pink Philadelphia classic of gin, raspberry, lemon and egg white, named after a journalists' club."
   },
   {
     "id": "cosmopolitan",
@@ -926,7 +937,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "Origin heavily contested: Neal Murray (Minnesota/San Francisco, 1975), Cheryl Cook (Miami, c.1988-89), Melissa Huffsmith/Toby Cecchini (The Odeon, NYC, c.1988-89), and Dale DeGroff as populariser. yearCreated null. IBA specifies 'Vodka Citron'; mapped to vodka with a note instead of creating a new ID."
+    "researchNotes": "Origin heavily contested: Neal Murray (Minnesota/San Francisco, 1975), Cheryl Cook (Miami, c.1988-89), Melissa Huffsmith/Toby Cecchini (The Odeon, NYC, c.1988-89), and Dale DeGroff as populariser. yearCreated null. IBA specifies 'Vodka Citron'; mapped to vodka with a note instead of creating a new ID.",
+    "shortDescription": "The tart, pink vodka sour with cranberry, orange liqueur and lime that defined late-20th-century cocktail culture."
   },
   {
     "id": "cuba-libre",
@@ -995,7 +1007,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "The origin story (August 1900, Captain Russell) comes from Bacardi's narrative and a 1964 affidavit, as Difford's notes; treat it as 'attributed'. Difford's own spec adds Angostura and muddled lime."
+    "researchNotes": "The origin story (August 1900, Captain Russell) comes from Bacardi's narrative and a 1964 affidavit, as Difford's notes; treat it as 'attributed'. Difford's own spec adds Angostura and muddled lime.",
+    "shortDescription": "Rum and cola brightened with lime, the easy-going highball tied to Havana around 1900."
   },
   {
     "id": "daiquiri",
@@ -1064,7 +1077,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "Difford's pages vary slightly on the date (the late 1890s, about 1898). An obituary claimed the inventor was the bartender Emilio 'Maragato' González, but Pagliuchi disputed this. The IBA spec uses superfine sugar rather than syrup."
+    "researchNotes": "Difford's pages vary slightly on the date (the late 1890s, about 1898). An obituary claimed the inventor was the bartender Emilio 'Maragato' González, but Pagliuchi disputed this. The IBA spec uses superfine sugar rather than syrup.",
+    "shortDescription": "Cuba's crisp three-ingredient classic of white rum, lime and sugar, and the benchmark for a balanced sour."
   },
   {
     "id": "dark-n-stormy",
@@ -1127,14 +1141,15 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "Creation date unknown. Era is set to 'vintage' because of the post-WWI legend, although IBA lists it under New Era; review if needed. IBA specifies Goslings Rum by name."
+    "researchNotes": "Creation date unknown. Era is set to 'vintage' because of the post-WWI legend, although IBA lists it under New Era; review if needed. IBA specifies Goslings Rum by name.",
+    "shortDescription": "Bermuda's national drink: dark rum floated over spicy ginger beer, bold and refreshing."
   },
   {
     "id": "dry-martini",
     "name": "Dry Martini",
     "era": "vintage",
     "yearCreated": null,
-    "glass": "Martini Glass",
+    "glass": "Cocktail Glass",
     "method": "stir",
     "ingredients": [
       {
@@ -1191,7 +1206,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "No single creation date: first 'Martini' recipe 1888 (Harry Johnson, sweet), first 'Dry Martini Cocktail' recipe 1904 (Frank P. Newman). yearCreated left null."
+    "researchNotes": "No single creation date: first 'Martini' recipe 1888 (Harry Johnson, sweet), first 'Dry Martini Cocktail' recipe 1904 (Frank P. Newman). yearCreated left null.",
+    "shortDescription": "Gin and dry vermouth stirred ice-cold: the bracing, elegant cocktail of uncertain origin that became an icon."
   },
   {
     "id": "espresso-martini",
@@ -1269,14 +1285,15 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "IBA gives '1 strong espresso' without a volume; recorded as amount 1 with no unit. The model's identity is unknown; Difford's dismisses the popular Kate Moss and Naomi Campbell stories."
+    "researchNotes": "IBA gives '1 strong espresso' without a volume; recorded as amount 1 with no unit. The model's identity is unknown; Difford's dismisses the popular Kate Moss and Naomi Campbell stories.",
+    "shortDescription": "Dick Bradsell's 1980s pick-me-up of vodka, coffee liqueur and fresh espresso, shaken to a creamy foam."
   },
   {
     "id": "french-75",
     "name": "French 75",
     "era": "vintage",
     "yearCreated": 1915,
-    "glass": "Champagne Flute",
+    "glass": "Flute",
     "method": "shake",
     "ingredients": [
       {
@@ -1346,14 +1363,15 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "yearCreated 1915 refers to the first drink named after the gun (gin, applejack, grenadine, lemon). The modern champagne recipe dates from 1927 in print. Some sources credit Harry MacElhone, but Difford's favours Henry Tépé as the probable namer."
+    "researchNotes": "yearCreated 1915 refers to the first drink named after the gun (gin, applejack, grenadine, lemon). The modern champagne recipe dates from 1927 in print. Some sources credit Harry MacElhone, but Difford's favours Henry Tépé as the probable namer.",
+    "shortDescription": "A celebratory First World War-era classic of gin, lemon and sugar topped with sparkling wine."
   },
   {
     "id": "gin-fizz",
     "name": "Gin Fizz",
     "era": "vintage",
     "yearCreated": 1876,
-    "glass": "Tall Tumbler",
+    "glass": "Highball",
     "method": "shake",
     "ingredients": [
       {
@@ -1425,7 +1443,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "1876 is the earliest printed recipe cited by Difford's (Jerry Thomas), not a creation date. Glass named as 'thin tall tumbler' by IBA."
+    "researchNotes": "1876 is the earliest printed recipe cited by Difford's (Jerry Thomas), not a creation date. Glass named as 'thin tall tumbler' by IBA.",
+    "shortDescription": "A 19th-century gin sour shaken hard and lengthened with soda for a clean, tart sparkle."
   },
   {
     "id": "hemingway-special",
@@ -1509,7 +1528,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "No exact creation year in sources. Era is 'vintage' because Ribalaigua led El Floridita and Hemingway was a regular in the 1930s to 1940s (Wikipedia, secondary), although IBA lists it under Contemporary Classics. El Floridita blends its version with crushed ice; IBA shakes it. IBA 'Fresh Lime' read as lime juice."
+    "researchNotes": "No exact creation year in sources. Era is 'vintage' because Ribalaigua led El Floridita and Hemingway was a regular in the 1930s to 1940s (Wikipedia, secondary), although IBA lists it under Contemporary Classics. El Floridita blends its version with crushed ice; IBA shakes it. IBA 'Fresh Lime' read as lime juice.",
+    "shortDescription": "El Floridita's Daiquiri variation with grapefruit and maraschino: sharp, dry and citrus-driven."
   },
   {
     "id": "irish-coffee",
@@ -1579,7 +1599,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "Difford's dates creation to 'late 1944 to early 1945'; 1944 used. Originally called Sheridan's Gaelic Coffee. The Buena Vista owner's name appears as both Koepple and Koeppler on Difford's."
+    "researchNotes": "Difford's dates creation to 'late 1944 to early 1945'; 1944 used. Originally called Sheridan's Gaelic Coffee. The Buena Vista owner's name appears as both Koepple and Koeppler on Difford's.",
+    "shortDescription": "Hot coffee, Irish whiskey and sugar under a layer of cream, first served at Foynes airport in the 1940s."
   },
   {
     "id": "john-collins",
@@ -1658,14 +1679,15 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "Attribution to John Collins of Limmer's is traditional rather than documented; no creation year. IBA notes using Old Tom gin makes a Tom Collins."
+    "researchNotes": "Attribution to John Collins of Limmer's is traditional rather than documented; no creation year. IBA notes using Old Tom gin makes a Tom Collins.",
+    "shortDescription": "The tall, crisp gin collins of lemon, sugar and soda that grew out of 19th-century Gin Punch."
   },
   {
     "id": "kir",
     "name": "Kir",
     "era": "vintage",
     "yearCreated": 1904,
-    "glass": "Wine Goblet",
+    "glass": "Wine Glass",
     "method": "build",
     "ingredients": [
       {
@@ -1719,7 +1741,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "The IBA page does not name a glass; glassware (goblet) taken from Difford's Guide. The 1904 origin is 'said to' per Difford's. IBA note: Kir Royale uses Champagne instead of white wine. IBA ratio is 9:1; Difford's prefers 6:1."
+    "researchNotes": "The IBA page does not name a glass; glassware (goblet) taken from Difford's Guide. The 1904 origin is 'said to' per Difford's. IBA note: Kir Royale uses Champagne instead of white wine. IBA ratio is 9:1; Difford's prefers 6:1.",
+    "shortDescription": "A light French aperitif of dry white wine with a dash of blackcurrant liqueur."
   },
   {
     "id": "last-word",
@@ -1795,7 +1818,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "1916 is the earliest documented mention (DAC menu); the creator is unknown. Fogarty is credited with introducing it in New York, not necessarily with inventing it."
+    "researchNotes": "1916 is the earliest documented mention (DAC menu); the creator is unknown. Fogarty is credited with introducing it in New York, not necessarily with inventing it.",
+    "shortDescription": "An equal-parts Prohibition-era gem of gin, green Chartreuse, maraschino and lime: intense, herbal and balanced."
   },
   {
     "id": "long-island-iced-tea",
@@ -1900,6 +1924,7 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "1972 is a tentative attribution ('perhaps 1972') to Robert 'Rosebud' Butt; Prohibition-era origin claims are unverified."
+    "researchNotes": "1972 is a tentative attribution ('perhaps 1972') to Robert 'Rosebud' Butt; Prohibition-era origin claims are unverified.",
+    "shortDescription": "A deceptively easy, very strong 1970s highball of four white spirits, orange liqueur, lemon and cola."
   }
 ]

@@ -134,10 +134,12 @@ Desktop 1440 (1 result, feature card):
                 1 cocktail you can make right now
                 Just one — but it’s a good one.
              ┌──────────────────────────────────────────────┐
-             │ VINTAGE · 1919                 🥃 Old Fashioned│
+             │ VINTAGE · 1919                 [▭] Rocks Glass│
              │ Negroni                  [✓Gin][✓Campari]    │
-             │ Bold, bittersweet and    [✓Sweet Vermouth]   │
-             │ aromatic.                Uses 3 of yours  →  │
+             │ Equal parts gin, Campari [✓Sweet Vermouth]   │
+             │ and sweet vermouth: the…                     │
+             │ Bold, bittersweet and    Uses 3 of yours  →  │
+             │ aromatic. Campari leads… (3 lines max)       │
              └──────────────────────────────────────────────┘
 ```
 
@@ -160,10 +162,14 @@ Mobile 360 (1 column, sticky CTA):
 │ Your cocktails             │ ← focus lands here (H2)
 │ 1 cocktail you can make…   │
 │ ┌────────────────────────┐ │
-│ │ VINTAGE · 1919      🥃 │ │
+│ │ VINTAGE · 1919  [▭]    │ │
+│ │          Rocks Glass   │ │
 │ │ Negroni                │ │
-│ │ Bold, bittersweet and  │ │
-│ │ aromatic.              │ │
+│ │ Equal parts gin, Camp- │ │  shortDescription
+│ │ ari and sweet vermouth…│ │
+│ │ Bold, bittersweet and  │ │  tasteProfile, 3 lines
+│ │ aromatic. Campari leads│ │
+│ │ with bitter orange, …  │ │
 │ │ [✓Gin][✓Campari]       │ │
 │ │ [✓Sweet Vermouth]      │ │
 │ │ Uses 3 of yours  View →│ │
@@ -186,14 +192,16 @@ Mobile 360                              Desktop 1440 (modal over scrim)
 ┌────────────────────────────┐          ┌──────────────────────────────────────────┐
 │ VINTAGE · 1919 · Built  [×]│ glass    │ VINTAGE · 1919 · Built in the glass   [×]│
 │ Negroni                    │ header   │ Negroni                                  │
+│ Equal parts gin, Campari…  │          │ Equal parts gin, Campari and sweet ver…  │
 ├────────────────────────────┤          ├──────────────────────────────────────────┤
 │ Ingredients                │          │ Ingredients           Servings [–] 1 [+] │
 │ Servings   [–]  1  [+]     │          │ ✓  30 ml  Gin                            │
 │ ✓ 30 ml  Gin               │          │ ✓  30 ml  Campari                        │
 │ ✓ 30 ml  Campari           │          │ ✓  30 ml  Sweet Vermouth  sweet red verm.│
-│ ✓ 30 ml  Sweet Vermouth    │          │ Glass Old Fashioned  Garnish Half orange │
-│   sweet red vermouth       │          │ Method  1. Pour all ingredients…  2. Stir│
-│ Glass    Old Fashioned     │          │ How it tastes   Bold, bittersweet and …  │
+│ ✓ 30 ml  Sweet Vermouth    │          │ ❄   —     Ice [Assumed]          (muted) │
+│   sweet red vermouth       │          │ Glass Rocks Glass   Garnish Half orange  │
+│ ❄  —   Ice [Assumed]       │          │ Method  1. Pour all ingredients…  2. Stir│
+│ Glass    Rocks Glass       │          │ How it tastes   Bold, bittersweet and …  │
 │ Garnish  Half orange slice │          │ The story       ¶ The usual story… ¶ …   │
 │ Method                     │          │ Sources  IBA: Negroni ↗  Difford’s… ↗    │
 │ ① Pour all ingredients…    │          └──────────────────────────────────────────┘
@@ -204,11 +212,11 @@ Mobile 360                              Desktop 1440 (modal over scrim)
 └────────────────────────────┘
 ```
 
-Focus goes to the H2 "Negroni" and is trapped in the dialog. Background is inert.
+Focus goes to the H2 "Negroni" and is trapped in the dialog. Background is inert. The ice row is shown muted with an "Assumed" chip (never scaled, never ✓). The header shows the short description under the name, and "How it tastes" shows the full taste profile.
 
 ### F-07 Servings scaling (US-E5-02)
 
-Pressing [+] goes 1 → 2: 30 ml becomes 60 ml, "Top up" stays "Top up", and "2 dash" becomes "4 dashes". The SR hears "Amounts updated for 2 servings". [+] is disabled at 4 and [–] at 1.
+Servings always start at 1. Pressing [+] goes 1 → 2: 30 ml becomes 60 ml, "Top up" stays "Top up", "2 dash" becomes "4 dashes", 1.5 barspoons × 3 becomes "4.5 barspoons" (count units round to the nearest 0.5), and "Assumed" ice/water rows don't change. The SR hears "Amounts updated for 2 servings". [+] is disabled at 4 and [–] at 1. The unit is always ml, with no oz toggle.
 
 ### F-08 Close (US-E5-03)
 
@@ -328,6 +336,8 @@ Your ingredients                                10 / 10 ingredients (orange-stro
 
 No chip is added, and "mint" stays in the input so the user doesn't lose it. If they remove a chip and press Enter, Mint is added. Entering "ice" at 10/10 still only shows the excluded hint, with no limit error.
 
+At 10/10 on the zero-match view, every "+ Add" button (near-match cards and the best-addition callout) is **hidden**. Cards show the missing ingredient as a static pill, and the callout is replaced by the generic tip. Removing any chip (back to 9/10) brings the buttons back immediately.
+
 ## G. Water / ice (US-E1-05, US-E1-06)
 
 ### F-20 Excluded term entered
@@ -359,7 +369,7 @@ White Rum, Lime Juice (2 counted). Pressing "Find cocktails" gives 0 primary mat
 
 ### F-31 Fallback + Near Matches
 
-Real data: Daiquiri needs +Sugar (pairingWeight 0.95) and Cuba Libre needs +Cola (0.8). They're ranked by pairingWeight.
+Real data: Daiquiri needs +Sugar (pairingWeight 0.95) and Cuba Libre needs +Cola (0.8). They're ranked by pairingWeight. The engine returns `bestAddition: { id: "sugar", unlocks: n }`. In this two-ingredient example the two candidates tie at 1 unlock each, so the engine's tie-break decides.
 
 Desktop 1440:
 ```
@@ -367,7 +377,11 @@ Desktop 1440:
  │                    (frosted panel, illustration)                │
  │                     No direct matches found                     │
  │   Nothing in our library uses only what you have — but you’re   │
- │   close.     ⓘ Tip: adding Sugar unlocks the most drinks here.  │
+ │   close.                                                        │
+ │   ┌───────────────────────────────────────────────────────────┐ │
+ │   │▌BEST ADDITION                                             │ │
+ │   │▌Add Sugar to unlock 1 cocktail          [ + Add Sugar ]   │ │
+ │   └───────────────────────────────────────────────────────────┘ │
  └─────────────────────────────────────────────────────────────────┘
  ▌Near Matches — missing 1 ingredient
   Add the missing ingredient and we’ll search again.
@@ -391,7 +405,10 @@ Mobile 360:
 │ │ No direct matches found│ │ ← focus (H2)
 │ │ Nothing in our library │ │
 │ │ uses only what you…    │ │
-│ │ ⓘ Tip: adding Sugar…   │ │
+│ │ ▌BEST ADDITION         │ │
+│ │ ▌Add Sugar to unlock 1 │ │
+│ │ ▌cocktail              │ │
+│ │ ▌[ + Add Sugar       ] │ │
 │ └────────────────────────┘ │
 │ ▌Near Matches — missing 1  │
 │  ingredient                │
@@ -409,9 +426,9 @@ Mobile 360:
 └────────────────────────────┘
 ```
 
-The SR hears "No direct matches. 2 near matches found." Each near-match card still opens the detail view, where the missing row is marked "You’ll need this" (with "+ Add Sugar" in the dialog footer).
+The SR hears "No direct matches. 2 near matches found. Adding Sugar unlocks 1 cocktail." Each near-match card still opens the detail view, where the missing row is marked "You’ll need this" (with "+ Add Sugar" in the dialog footer).
 
-### F-32 Activate "+ Add Sugar"
+### F-32 Activate "+ Add Sugar" (on a near-match card or in the best-addition callout; both behave the same)
 
 The button shows a spinner ("Adding…") and the other Add buttons are aria-disabled.
 

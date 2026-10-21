@@ -4,7 +4,7 @@
     "name": "Mai Tai",
     "era": "vintage",
     "yearCreated": 1944,
-    "glass": "Double Rocks (old Fashioned) Or Highball",
+    "glass": "Rocks Glass",
     "method": "shake",
     "ingredients": [
       {
@@ -81,7 +81,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "IBA lists two separate 30 ml rums (amber Jamaican and Martinique molasses rum); merged into one aged-rum line of 60 ml with a note to avoid duplicate ingredient IDs. IBA footnote says Trader Vic's Martinique rum was molasses-based, not agricole. Creation is disputed between Trader Vic (1944) and Don the Beachcomber (Beaumont-Gantt); year follows Bergeron's own claim."
+    "researchNotes": "IBA lists two separate 30 ml rums (amber Jamaican and Martinique molasses rum); merged into one aged-rum line of 60 ml with a note to avoid duplicate ingredient IDs. IBA footnote says Trader Vic's Martinique rum was molasses-based, not agricole. Creation is disputed between Trader Vic (1944) and Don the Beachcomber (Beaumont-Gantt); year follows Bergeron's own claim.",
+    "shortDescription": "Trader Vic's 1944 tiki classic: aged rum with orange liqueur, orgeat and lime, rich yet tart."
   },
   {
     "id": "manhattan",
@@ -150,7 +151,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "Exact year unknown (1860s–1870s), so yearCreated is null. Manhattan Club / Churchill story is debunked; George Black / Manhattan Inn attribution is Difford's preferred theory, not certain."
+    "researchNotes": "Exact year unknown (1860s–1870s), so yearCreated is null. Manhattan Club / Churchill story is debunked; George Black / Manhattan Inn attribution is Difford's preferred theory, not certain.",
+    "shortDescription": "Rye whiskey, sweet vermouth and bitters stirred cold: the 19th-century New York template for modern cocktails."
   },
   {
     "id": "margarita",
@@ -221,7 +223,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "Creator and year heavily disputed (claims range from 1930 to 1948); yearCreated null. Era set to vintage as all credible claims and print references predate 1960. IBA classifies it under Contemporary Classics."
+    "researchNotes": "Creator and year heavily disputed (claims range from 1930 to 1948); yearCreated null. Era set to vintage as all credible claims and print references predate 1960. IBA classifies it under Contemporary Classics.",
+    "shortDescription": "Tequila, orange liqueur and lime in a salt-rimmed glass: the world's favourite tequila sour."
   },
   {
     "id": "mimosa",
@@ -278,14 +281,15 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "Creation date disputed (1921–1923 vs commonly cited 1925), so yearCreated is null. IBA page states Mimosa is also known as Buck's Fizz; Difford's treats them as related but distinct drinks. IBA recipe is served without ice."
+    "researchNotes": "Creation date disputed (1921–1923 vs commonly cited 1925), so yearCreated is null. IBA page states Mimosa is also known as Buck's Fizz; Difford's treats them as related but distinct drinks. IBA recipe is served without ice.",
+    "shortDescription": "Sparkling wine and orange juice in a flute: the light, fruity brunch staple often credited to the Paris Ritz."
   },
   {
     "id": "mint-julep",
     "name": "Mint Julep",
     "era": "vintage",
     "yearCreated": null,
-    "glass": "Julep Cup (stainless Steel)",
+    "glass": "Julep Cup",
     "method": "muddle-build",
     "ingredients": [
       {
@@ -353,7 +357,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "No single creator or year. Difford's notes earlier claimed dates (1774, 1787) are unattributable; 1803 is the earliest reference the author could verify. IBA teaspoons converted to barspoon."
+    "researchNotes": "No single creator or year. Difford's notes earlier claimed dates (1774, 1787) are unattributable; 1803 is the earliest reference the author could verify. IBA teaspoons converted to barspoon.",
+    "shortDescription": "A cold, aromatic Southern serve of bourbon, mint and sugar packed with crushed ice."
   },
   {
     "id": "mojito",
@@ -437,14 +442,15 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "IBA page does not specify a glass; highball chosen as the standard long-drink glass for this build (Difford's Guide serves it in a Collins). Origin disputed (Draque theory vs Mint Julep influence); Hemingway/Bodeguita link is undocumented."
+    "researchNotes": "IBA page does not specify a glass; highball chosen as the standard long-drink glass for this build (Difford's Guide serves it in a Collins). Origin disputed (Draque theory vs Mint Julep influence); Hemingway/Bodeguita link is undocumented.",
+    "shortDescription": "Cuba's minty highball of white rum, lime, sugar and fresh mint, topped with soda."
   },
   {
     "id": "moscow-mule",
     "name": "Moscow Mule",
     "era": "vintage",
     "yearCreated": null,
-    "glass": "Copper Mule Mug Or Rocks Glass",
+    "glass": "Copper Mug",
     "method": "build",
     "ingredients": [
       {
@@ -506,14 +512,15 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "IBA specifies Smirnoff vodka; generalized to vodka. IBA method text does not explicitly mention ice; ice included as the drink is served over ice in the standard serve (Difford's Guide). Creation date (1941–1946) and inventor disputed (Martin/Morgan vs Wes Price)."
+    "researchNotes": "IBA specifies Smirnoff vodka; generalized to vodka. IBA method text does not explicitly mention ice; ice included as the drink is served over ice in the standard serve (Difford's Guide). Creation date (1941–1946) and inventor disputed (Martin/Morgan vs Wes Price).",
+    "shortDescription": "Vodka, lime and spicy ginger beer from the 1940s, traditionally served in a copper mug."
   },
   {
     "id": "negroni",
     "name": "Negroni",
     "era": "vintage",
     "yearCreated": 1919,
-    "glass": "Old Fashioned",
+    "glass": "Rocks Glass",
     "method": "build",
     "ingredients": [
       {
@@ -575,14 +582,15 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "1919 is the commonly cited date of the Count Camillo Negroni / Fosco Scarselli story and is attributed, not proven. Rival claim for General Pascal Olivier de Negroni. Equal-parts recipe printed as 'Campari Mixte' in 1929."
+    "researchNotes": "1919 is the commonly cited date of the Count Camillo Negroni / Fosco Scarselli story and is attributed, not proven. Rival claim for General Pascal Olivier de Negroni. Equal-parts recipe printed as 'Campari Mixte' in 1929.",
+    "shortDescription": "Equal parts gin, Campari and sweet vermouth: the bold, bittersweet Florentine aperitivo said to date from 1919."
   },
   {
     "id": "old-fashioned",
     "name": "Old Fashioned",
     "era": "vintage",
     "yearCreated": null,
-    "glass": "Old Fashioned",
+    "glass": "Rocks Glass",
     "method": "muddle-build",
     "ingredients": [
       {
@@ -651,7 +659,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "IBA allows bourbon or rye; bourbon used as the primary ID with a note. No single creator or year; the name evolved in the late 1800s. Bitters and water given as 'a few dashes' with no exact count, so amount is null."
+    "researchNotes": "IBA allows bourbon or rye; bourbon used as the primary ID with a note. No single creator or year; the name evolved in the late 1800s. Bitters and water given as 'a few dashes' with no exact count, so amount is null.",
+    "shortDescription": "Whiskey, sugar, bitters and a little water: the original 'cock-tail' formula, rich, mellow and whiskey-led."
   },
   {
     "id": "paloma",
@@ -735,14 +744,15 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "No verified creator or year. Era set to 'modern' following the IBA New Era category, although Wondrich suggests a 1950s origin (unverified in print). The often-repeated 1953 Evan Harrison pamphlet is considered a hoax. Wikipedia used only for the name meaning."
+    "researchNotes": "No verified creator or year. Era set to 'modern' following the IBA New Era category, although Wondrich suggests a 1950s origin (unverified in print). The often-repeated 1953 Evan Harrison pamphlet is considered a hoax. Wikipedia used only for the name meaning.",
+    "shortDescription": "Mexico's favourite tequila highball: tequila, lime and grapefruit soda with a pinch of salt."
   },
   {
     "id": "penicillin",
     "name": "Penicillin",
     "era": "modern",
     "yearCreated": 2005,
-    "glass": "Old Fashioned",
+    "glass": "Rocks Glass",
     "method": "shake",
     "ingredients": [
       {
@@ -820,14 +830,15 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "IBA uses muddled fresh ginger plus honey syrup; Sam Ross's original (per Difford's) used a honey-ginger syrup. New ingredient ID 'fresh-ginger' created. IBA's 2–3 slices recorded as 3 pieces with a note. The name explanation is general; sources differ on the exact inspiration."
+    "researchNotes": "IBA uses muddled fresh ginger plus honey syrup; Sam Ross's original (per Difford's) used a honey-ginger syrup. New ingredient ID 'fresh-ginger' created. IBA's 2–3 slices recorded as 3 pieces with a note. The name explanation is general; sources differ on the exact inspiration.",
+    "shortDescription": "Sam Ross's 2005 modern classic of Scotch, lemon, honey and ginger, finished with a smoky Islay float."
   },
   {
     "id": "pina-colada",
     "name": "Piña Colada",
     "era": "vintage",
     "yearCreated": 1954,
-    "glass": "Large Glass",
+    "glass": "Hurricane Glass",
     "method": "blend",
     "ingredients": [
       {
@@ -891,14 +902,15 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "Disputed: Marrero claims 15 Aug 1952, Caribe Hilton says 1954 (used here), Portas Mingot claims 1963. IBA notes a few drops of lime juice were historically added and that fresh pineapple slices can replace juice. IBA names only 'a large glass'."
+    "researchNotes": "Disputed: Marrero claims 15 Aug 1952, Caribe Hilton says 1954 (used here), Portas Mingot claims 1963. IBA notes a few drops of lime juice were historically added and that fresh pineapple slices can replace juice. IBA names only 'a large glass'.",
+    "shortDescription": "Puerto Rico's national drink: white rum, coconut cream and pineapple juice, creamy and tropical."
   },
   {
     "id": "pisco-sour",
     "name": "Pisco Sour",
     "era": "vintage",
     "yearCreated": null,
-    "glass": "Goblet",
+    "glass": "Wine Glass",
     "method": "shake",
     "ingredients": [
       {
@@ -968,7 +980,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "Victor Morris attribution (Morris' Bar, 1916) is undermined by a 1903 Lima recipe, so yearCreated is null. Peru vs Chile origin dispute; the Chilean 'Elliot Stubb 1872' claim actually referred to a Whiskey Sour per Difford's. IBA uses lemon juice (traditional Peruvian versions often use lime)."
+    "researchNotes": "Victor Morris attribution (Morris' Bar, 1916) is undermined by a 1903 Lima recipe, so yearCreated is null. Peru vs Chile origin dispute; the Chilean 'Elliot Stubb 1872' claim actually referred to a Whiskey Sour per Difford's. IBA uses lemon juice (traditional Peruvian versions often use lime).",
+    "shortDescription": "Peru's frothy classic of pisco, lemon, sugar and egg white, finished with drops of bitters."
   },
   {
     "id": "ramos-gin-fizz",
@@ -1082,14 +1095,15 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "IBA lists it as 'Ramos Fizz'. IBA page names the bar 'Meyer's Table d'Hôtel Internationale' and says 30 bartenders shook for 12 minutes; Difford's names the Imperial Cabinet Saloon and reports around 20 shaker boys (35 at the 1915 Mardi Gras per Stanley Clisby Arthur). Difford's account used. New ingredient IDs: orange-flower-water, vanilla-extract. Vanilla's place in the original is disputed. IBA lists no garnish."
+    "researchNotes": "IBA lists it as 'Ramos Fizz'. IBA page names the bar 'Meyer's Table d'Hôtel Internationale' and says 30 bartenders shook for 12 minutes; Difford's names the Imperial Cabinet Saloon and reports around 20 shaker boys (35 at the 1915 Mardi Gras per Stanley Clisby Arthur). Difford's account used. New ingredient IDs: orange-flower-water, vanilla-extract. Vanilla's place in the original is disputed. IBA lists no garnish.",
+    "shortDescription": "New Orleans' famously long-shaken 1888 fizz of gin, citrus, cream, egg white and orange flower water."
   },
   {
     "id": "rusty-nail",
     "name": "Rusty Nail",
     "era": "vintage",
     "yearCreated": null,
-    "glass": "Old Fashioned",
+    "glass": "Rocks Glass",
     "method": "build",
     "ingredients": [
       {
@@ -1144,14 +1158,15 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "Origin uncertain: 1937 B.I.F. (Wondrich) vs Hawaii 1942 claim; popularised at New York's 21 Club in the 1950s. Sources found in search disagree on when the 'Rusty Nail' name was officially adopted, so naming is not covered."
+    "researchNotes": "Origin uncertain: 1937 B.I.F. (Wondrich) vs Hawaii 1942 claim; popularised at New York's 21 Club in the 1950s. Sources found in search disagree on when the 'Rusty Nail' name was officially adopted, so naming is not covered.",
+    "shortDescription": "Scotch whisky and Drambuie over ice: a smooth, sweet and warming two-ingredient after-dinner drink."
   },
   {
     "id": "sazerac",
     "name": "Sazerac",
     "era": "vintage",
     "yearCreated": null,
-    "glass": "Old Fashioned",
+    "glass": "Rocks Glass",
     "method": "stir",
     "ingredients": [
       {
@@ -1221,7 +1236,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "IBA recipe uses cognac and notes rye replaced cognac after supplies became hard to obtain (IBA says after the American Civil War; Difford's attributes it to phylloxera in the 1870s). Many modern versions use rye. Difford's places creation between 1850 and 1859; traditional story (Stanley Clisby Arthur, 1937) challenged by Wondrich."
+    "researchNotes": "IBA recipe uses cognac and notes rye replaced cognac after supplies became hard to obtain (IBA says after the American Civil War; Difford's attributes it to phylloxera in the 1870s). Many modern versions use rye. Difford's places creation between 1850 and 1859; traditional story (Stanley Clisby Arthur, 1937) challenged by Wondrich.",
+    "shortDescription": "New Orleans' aromatic signature: cognac, sugar and Peychaud's bitters in an absinthe-rinsed glass."
   },
   {
     "id": "sidecar",
@@ -1290,7 +1306,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "Creator disputed (Pat MacGarry of Buck's Club vs Harry MacElhone; Embury's unnamed Paris bistro). First printed 1922. Proportions disputed (French equal-parts vs English 2:1:1). IBA lists no garnish; no sugar rim in IBA spec."
+    "researchNotes": "Creator disputed (Pat MacGarry of Buck's Club vs Harry MacElhone; Embury's unnamed Paris bistro). First printed 1922. Proportions disputed (French equal-parts vs English 2:1:1). IBA lists no garnish; no sugar rim in IBA spec.",
+    "shortDescription": "An elegant post-First World War sour of cognac, orange liqueur and lemon, tart and warming."
   },
   {
     "id": "spritz",
@@ -1360,7 +1377,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "IBA lists the drink simply as 'Spritz' (New Era category) with Aperol; also known as Aperol Spritz / Spritz Veneziano. Era set to vintage despite the IBA New Era category, because Difford's dates the Spritz tradition to the 19th-century Veneto; the Aperol version's global popularity is from the 2010s. No precise creation year."
+    "researchNotes": "IBA lists the drink simply as 'Spritz' (New Era category) with Aperol; also known as Aperol Spritz / Spritz Veneziano. Era set to vintage despite the IBA New Era category, because Difford's dates the Spritz tradition to the 19th-century Veneto; the Aperol version's global popularity is from the 2010s. No precise creation year.",
+    "shortDescription": "The Veneto's bubbly aperitivo of prosecco, Aperol and soda: light, bittersweet and low in alcohol."
   },
   {
     "id": "stinger",
@@ -1422,14 +1440,15 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "IBA stirs the drink; early versions were shaken. Exact creation year uncertain (c. 1890 as the Bartholdi per PUNCH); first print appearance under the Stinger name dated around 1910–1914 depending on source (Difford's search snippet cites Straub 1913)."
+    "researchNotes": "IBA stirs the drink; early versions were shaken. Exact creation year uncertain (c. 1890 as the Bartholdi per PUNCH); first print appearance under the Stinger name dated around 1910–1914 depending on source (Difford's search snippet cites Straub 1913).",
+    "shortDescription": "Cognac and crème de menthe from 1890s New York: a cool, smooth and boozy after-dinner drink."
   },
   {
     "id": "tom-collins",
     "name": "Tom Collins",
     "era": "vintage",
     "yearCreated": null,
-    "glass": "Collins",
+    "glass": "Highball",
     "method": "shake",
     "ingredients": [
       {
@@ -1502,7 +1521,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "Not an IBA cocktail; recipe from Difford's Guide (Hayman's Old Tom gin, Thomas Henry soda generalized). Soda recorded as 'top' per spec; Difford's gives 52.5 ml. Origin disputed (John Collins of Limmer's vs various US claims). Difford's could not verify the claim that a Collins recipe appears in Haney's 1869 manual."
+    "researchNotes": "Not an IBA cocktail; recipe from Difford's Guide (Hayman's Old Tom gin, Thomas Henry soda generalized). Soda recorded as 'top' per spec; Difford's gives 52.5 ml. Origin disputed (John Collins of Limmer's vs various US claims). Difford's could not verify the claim that a Collins recipe appears in Haney's 1869 manual.",
+    "shortDescription": "The original tall gin sour of lemon, sugar and soda, traced to London in the early 1800s."
   },
   {
     "id": "vesper",
@@ -1571,7 +1591,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "yearCreated set to 1953, the publication year of Casino Royale (Fleming wrote it in 1952). Kina Lillet no longer exists; IBA uses Lillet Blanc. The Dukes Bar inspiration story was debunked per the Oxford Companion (seen in search results only); not included."
+    "researchNotes": "yearCreated set to 1953, the publication year of Casino Royale (Fleming wrote it in 1952). Kina Lillet no longer exists; IBA uses Lillet Blanc. The Dukes Bar inspiration story was debunked per the Oxford Companion (seen in search results only); not included.",
+    "shortDescription": "James Bond's martini from fiction: gin, vodka and Lillet Blanc, crisp, dry and powerful."
   },
   {
     "id": "vieux-carre",
@@ -1653,14 +1674,15 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "IBA serves it straight up in a chilled cocktail glass; Arthur's original and many bars serve it on the rocks. IBA omits the Angostura of the 1938 original and uses orange zest and cherry rather than a lemon twist."
+    "researchNotes": "IBA serves it straight up in a chilled cocktail glass; Arthur's original and many bars serve it on the rocks. IBA omits the Angostura of the 1938 original and uses orange zest and cherry rather than a lemon twist.",
+    "shortDescription": "Created at New Orleans' Hotel Monteleone in 1938: rye, cognac, sweet vermouth, Bénédictine and bitters."
   },
   {
     "id": "whiskey-sour",
     "name": "Whiskey Sour",
     "era": "vintage",
     "yearCreated": null,
-    "glass": "Cobbler Glass (or Old Fashioned On The Rocks)",
+    "glass": "Rocks Glass",
     "method": "shake",
     "ingredients": [
       {
@@ -1729,7 +1751,8 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "No known creator. Difford's dates the earliest mention to 1870 but does not name the publication. Other sources (seen in search only) cite Jerry Thomas's 1862 guide for brandy and gin sours; not used. Egg white optional per IBA."
+    "researchNotes": "No known creator. Difford's dates the earliest mention to 1870 but does not name the publication. Other sources (seen in search only) cite Jerry Thomas's 1862 guide for brandy and gin sours; not used. Egg white optional per IBA.",
+    "shortDescription": "Bourbon, lemon and sugar, with optional egg white for a silky texture: the balanced, approachable classic sour."
   },
   {
     "id": "white-lady",
@@ -1798,14 +1821,15 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "Creator disputed: MacElhone (brandy version 1919; gin version claimed 1929, unsupported), Harry Craddock (Savoy's claim), Victor Cabrin (Difford's preferred, c. 1929). yearCreated null. IBA recipe has no egg white and no garnish."
+    "researchNotes": "Creator disputed: MacElhone (brandy version 1919; gin version claimed 1929, unsupported), Harry Craddock (Savoy's claim), Victor Cabrin (Difford's preferred, c. 1929). yearCreated null. IBA recipe has no egg white and no garnish.",
+    "shortDescription": "A clean, crisp gin sour of orange liqueur and lemon, associated with Harry MacElhone."
   },
   {
     "id": "gin-rickey",
     "name": "Gin Rickey",
     "era": "vintage",
     "yearCreated": null,
-    "glass": "Highball (8–10 Oz) Or Fizz Glass",
+    "glass": "Highball",
     "method": "shake",
     "ingredients": [
       {
@@ -1877,6 +1901,7 @@
         "accessed": "2026-10-21"
       }
     ],
-    "researchNotes": "Not an IBA cocktail; recipe from Difford's Guide (Hayman's gin, Thomas Henry soda generalized). Soda recorded as 'top' per spec; Difford's lists 15 ml. Rickey family c. 1880 (attributed to George A. Williamson); Gin Rickey first printed 1900, so yearCreated is null. Traditional Rickeys were often unsweetened."
+    "researchNotes": "Not an IBA cocktail; recipe from Difford's Guide (Hayman's gin, Thomas Henry soda generalized). Soda recorded as 'top' per spec; Difford's lists 15 ml. Rickey family c. 1880 (attributed to George A. Williamson); Gin Rickey first printed 1900, so yearCreated is null. Traditional Rickeys were often unsweetened.",
+    "shortDescription": "A sharp, dry highball of gin, lime and soda from the 1880s Rickey family, barely sweetened."
   }
 ]

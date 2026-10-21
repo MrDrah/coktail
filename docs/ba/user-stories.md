@@ -311,7 +311,7 @@ Scenario: More matches than the cap
 ### US-E4-03 Card summary · M
 ```gherkin
 Scenario:
-  Then each card shows the name, an era badge (Vintage/Modern), the glass, the ingredient list with the user's ingredients highlighted, and a one-line taste tagline
+  Then each card shows the name, the short description (shortDescription), the taste profile (clamped to about 3 lines), an era badge (Vintage/Modern), the glass, and the ingredient list with the user's ingredients highlighted
   And the whole card is clickable and keyboard-focusable
 ```
 
@@ -339,15 +339,22 @@ Scenario:
 Scenario:
   When the user activates a card
   Then a detail view opens showing:
-    | ingredients with amounts and units, optional ones marked |
+    | ingredients with amounts in ml, optional ones marked; ice and water shown as "Assumed" rows |
     | method steps                                            |
     | glass and garnish                                        |
     | history (1–2 paragraphs) and taste profile (1 paragraph) |
     | source attribution link(s)                              |
 ```
 
-### US-E5-02 Serving scaling · S
+### US-E5-02 Serving scaling · M
 ```gherkin
+Scenario: Default and controls
+  When the detail view opens
+  Then servings shows 1
+  And small "−" and "+" buttons change it between 1 and 4
+  And "−" is disabled at 1 and "+" is disabled at 4
+  And amounts are always shown in ml (no unit toggle)
+
 Scenario Outline: Scaling ml amounts
   Given an ingredient of 45 ml
   When the user selects <servings> servings
@@ -419,6 +426,22 @@ Scenario:
   Then a "Simple Syrup" chip is added
   And the search re-runs automatically
   And FX-SOUR now appears in the primary results
+
+Scenario: Hidden at the 10-ingredient limit
+  Given the user has 10 counted ingredients
+  Then no "+ Add" buttons are shown on near matches
+  When the user removes one ingredient (9 left) and searches
+  Then the "+ Add" buttons are shown again
+```
+
+### US-E6-06 Best-addition tip · S
+```gherkin
+Scenario:
+  Given there are 0 primary matches and at least 1 near match
+  Then the fallback notice shows "Add <ingredient> to unlock <n> cocktails"
+  Where <ingredient> is the missing ingredient shared by the most near matches (ties broken by pairingWeight)
+  And activating it adds the ingredient and re-runs the search
+  And the tip is hidden at the 10-ingredient limit
 ```
 
 ### US-E6-05 Nothing at all · M

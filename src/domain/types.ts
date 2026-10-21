@@ -44,12 +44,17 @@ export interface Source {
   accessed: string;
 }
 
+export type Glass =
+  | 'Cocktail Glass' | 'Coupe' | 'Rocks Glass' | 'Highball' | 'Flute'
+  | 'Wine Glass' | 'Copper Mug' | 'Julep Cup' | 'Hurricane Glass' | 'Irish Coffee Glass';
+
 export interface Cocktail {
   id: string;
   name: string;
+  shortDescription: string;
   era: 'vintage' | 'modern';
   yearCreated: number | null;
-  glass: string;
+  glass: Glass;
   method: 'shake' | 'stir' | 'build' | 'blend' | 'throw' | 'swizzle' | 'muddle-build';
   ingredients: RecipeIngredient[];
   garnish: string | null;
