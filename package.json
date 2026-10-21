@@ -12,13 +12,18 @@
     "coverage": "vitest run --coverage",
     "typecheck": "tsc --noEmit",
     "validate:data": "node scripts/validate-data.mjs",
-    "merge:research": "node scripts/merge-research.mjs"
+    "merge:research": "node scripts/merge-research.mjs",
+    "e2e": "playwright test",
+    "test:library": "vitest run tests/unit/library"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.64.1",
     "@testing-library/dom": "^10.4.2",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.3",
     "@testing-library/user-event": "^14.6.8",
+    "@types/node": "^22.20.5",
     "@types/react": "^18.3.31",
     "@types/react-dom": "^18.3.7",
     "@vitejs/plugin-react": "^4.7.0",

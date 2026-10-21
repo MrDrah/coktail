@@ -257,24 +257,23 @@ export function IngredientInput({ chips, onChange, announce, onExcluded }: Props
               {t('ambiguity.prompt', { term: chooserChip.term })}
             </p>
             <p className="chooser-help">{t('ambiguity.help')}</p>
-            <ul role="listbox" aria-label={t('ambiguity.prompt', { term: chooserChip.term })} className="chooser-options">
+            <div role="group" aria-label={t('ambiguity.prompt', { term: chooserChip.term })} className="chooser-options">
               {chooserChip.options.map((o, i) => (
-                <li key={o.id} role="option" aria-selected={false}>
-                  <button
-                    type="button"
-                    className="chooser-option"
-                    data-testid={`ambiguity-option-${o.id}`}
-                    autoFocus={i === 0}
-                    onClick={() => resolve(chooserChip, o)}
-                    onKeyDown={(e) => e.key === 'Escape' && setChooserKey(null)}
-                  >
-                    <span className="cat-dot" style={{ background: `var(--cat-${categoryOf(o.id)})` }} aria-hidden="true" />
-                    <span>{o.name}</span>
-                    <span className="option-cat">{categoryOf(o.id).replace('-', ' ')}</span>
-                  </button>
-                </li>
+                <button
+                  key={o.id}
+                  type="button"
+                  className="chooser-option"
+                  data-testid={`ambiguity-option-${o.id}`}
+                  autoFocus={i === 0}
+                  onClick={() => resolve(chooserChip, o)}
+                  onKeyDown={(e) => e.key === 'Escape' && setChooserKey(null)}
+                >
+                  <span className="cat-dot" style={{ background: `var(--cat-${categoryOf(o.id)})` }} aria-hidden="true" />
+                  <span>{o.name}</span>
+                  <span className="option-cat">{categoryOf(o.id).replace('-', ' ')}</span>
+                </button>
               ))}
-            </ul>
+            </div>
             <button type="button" className="text-button chooser-remove" data-testid="ambiguity-remove" onClick={() => remove(chooserChip)}>
               {t('ambiguity.cancel', { term: chooserChip.term })}
             </button>
@@ -355,13 +354,14 @@ function ChipView({ chip, index, armed, flashing, chooserOpen, onRemove, onEdit,
           className="chip-choose"
           aria-haspopup="dialog"
           aria-expanded={chooserOpen}
-          aria-label={t('ambiguity.chipSr', { term: chip.term })}
           onClick={(e) => {
             e.stopPropagation();
             onOpenChooser();
           }}
         >
+          {/* Accessible name keeps the visible text: "orange, needs a choice Choose". */}
           <span aria-hidden="true">?</span> {chip.term}
+          <span className="sr-only">{t('ambiguity.chipSr', { term: '' })}</span>
           <span className="chip-badge">
             {t('ambiguity.chipBadge')} <ChevronDownIcon size={14} />
           </span>
