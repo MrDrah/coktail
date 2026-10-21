@@ -1,0 +1,4325 @@
+[
+  {
+    "id": "affinity",
+    "name": "Affinity",
+    "era": "vintage",
+    "yearCreated": 1907,
+    "glass": "Coupe",
+    "method": "stir",
+    "ingredients": [
+      {
+        "id": "scotch-whisky",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": "blended"
+      },
+      {
+        "id": "sweet-vermouth",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": "vermouth amaro, e.g. Cocchi Vermouth Amaro"
+      },
+      {
+        "id": "dry-vermouth",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "angostura-bitters",
+        "amount": 1,
+        "unit": "dash",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Lemon zest twist",
+    "instructions": [
+      "Chill a coupe glass.",
+      "Stir the Scotch, both vermouths and the bitters with ice.",
+      "Fine strain into the chilled glass.",
+      "Express a lemon zest twist over the drink and use it as garnish."
+    ],
+    "history": "Difford's Guide traces the Affinity to a 1907 item in The New York Sun announcing a new Broadway cocktail of that name, though that early version was a shaken mix of Scotch, Italian vermouth, sugar and orange bitters. William Boothby printed a quite different Affinity in 1908, and Jacques Straub's 1913 manual gave a near match under the name Express Cocktail.\n\nThe equal-parts version that survives today, with French and Italian vermouth, Scotch and aromatic bitters, is credited to Jacob A. Didier's bartenders' pocket guide of 1909. Hugo Ensslin reprinted it in 1917 and Harry Craddock included it in The Savoy Cocktail Book in 1930, dropping the cherry garnish that modern recipes also leave out.",
+    "tasteProfile": "A smooth, medium-bodied stirred drink in which Scotch shares the stage equally with sweet and dry vermouth. Malty grain and light smoke meet herbal, bittersweet vermouth and a dry, winey edge, while a dash of aromatic bitters adds spice and the lemon oils lift the nose. Less sweet than a Rob Roy and lower in strength than a straight whisky drink, it works as an aperitif or as a gentle after-dinner sipper.",
+    "tags": [
+      "spirit-forward",
+      "classic",
+      "aperitif",
+      "herbal",
+      "dry"
+    ],
+    "popularity": 55,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Affinity",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/19/affinity",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Affinity",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/19/affinity",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Difford's recipe specifies a vermouth amaro (Cocchi Vermouth Amaro); mapped to sweet-vermouth with a note, as vintage recipes use Italian vermouth. Difford's text dates the New York Sun item to 28 October 1907 but its quoted caption reads 1909; 1907 used. Difford's 5/5, ~137 ratings.",
+    "shortDescription": "Equal parts Scotch, sweet and dry vermouth with aromatic bitters: a stirred, early-1900s New York relative of the Rob Roy."
+  },
+  {
+    "id": "chrysanthemum",
+    "name": "Chrysanthemum",
+    "era": "vintage",
+    "yearCreated": 1917,
+    "glass": "Coupe",
+    "method": "stir",
+    "ingredients": [
+      {
+        "id": "dry-vermouth",
+        "amount": 50,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "benedictine",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "absinthe",
+        "amount": 4,
+        "unit": "dash",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Orange zest twist",
+    "instructions": [
+      "Chill a Nick & Nora or coupe glass.",
+      "Stir the dry vermouth, Bénédictine and absinthe with ice.",
+      "Fine strain into the chilled glass.",
+      "Express an orange zest twist over the drink and use it as garnish."
+    ],
+    "history": "The Chrysanthemum is first recorded in Hugo R. Ensslin's Recipes for Mixed Drinks of 1917, and Difford's Guide suggests it may already have featured in the book's 1916 first edition. Ensslin's version was half Bénédictine and half French vermouth with a few dashes of absinthe and an orange twist.\n\nHarry Craddock reprinted it in The Savoy Cocktail Book in 1930, shifting the balance to two parts vermouth to one of Bénédictine and noting it was a favourite at the American Bar of the liner S.S. Europa. Difford's adds that the name may honour The Chrysanthemum, a 1904 ragtime piece by Scott Joplin.",
+    "tasteProfile": "A light, aromatic and low-strength stirred drink. Dry vermouth forms a crisp, winey base, Bénédictine adds honeyed sweetness and a herbal, spiced depth, and the small amount of absinthe threads anise through the finish. Orange oils brighten the aroma. Long stirring gives it a silky, delicate texture, making it a good aperitif for anyone who wants complexity without a heavy spirit backbone.",
+    "tags": [
+      "herbal",
+      "aperitif",
+      "low-abv",
+      "classic",
+      "spirit-forward"
+    ],
+    "popularity": 50,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Chrysanthemum",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2338/chrysanthemum",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Chrysanthemum",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2338/chrysanthemum",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Difford's serves in a Nick & Nora glass; mapped to Coupe. Ensslin (1917) used equal parts; Craddock (1930) and Difford's use about 2:1 vermouth to Bénédictine. Name origin (Scott Joplin piece) is presented by Difford's as a possibility only.",
+    "shortDescription": "Dry vermouth and Bénédictine stirred with a touch of absinthe: a light, herbal aperitif first printed by Hugo Ensslin in 1917."
+  },
+  {
+    "id": "whiskey-smash",
+    "name": "Whiskey Smash",
+    "era": "vintage",
+    "yearCreated": 1862,
+    "glass": "Rocks Glass",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "mint",
+        "amount": 8,
+        "unit": "leaf",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "bourbon",
+        "amount": 60,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lemon-juice",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "rich, 2 sugar to 1 water"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Lemon wheel and a bouquet of mint sprigs",
+    "instructions": [
+      "Fill an old fashioned glass with ice.",
+      "Shake the mint leaves, bourbon, lemon juice and syrup hard with ice.",
+      "Fine strain into the ice-filled glass.",
+      "Garnish with a lemon wheel and a bouquet of mint sprigs."
+    ],
+    "history": "Smashes appeared in the American South in the 1840s and peaked in the following decade. Jerry Thomas printed a Whiskey Smash in his 1862 Bar-Tender's Guide, describing the smash as a small-scale julep, and refined his recipes for the 1887 edition. The style later faded and was largely forgotten for much of the twentieth century.\n\nDale DeGroff is credited with reviving it. His version muddles lemon quarters with mint and syrup before shaking with bourbon, and he says he created it for the opening menu of Bobby Flay's Bar Americain. Older recipes call for shaved or crushed ice, but Difford's notes that modern convention serves it over cubed ice.",
+    "tasteProfile": "A bright, minty cousin of the Whiskey Sour. Bourbon supplies vanilla, caramel and oak, fresh lemon gives a sharp citrus snap, and rich syrup rounds the edges. Shaking the mint with the other ingredients releases a cool, green freshness that runs through every sip. Served over ice it is refreshing and easy to drink, ideal for warm afternoons when a julep feels too strong.",
+    "tags": [
+      "sour",
+      "citrus",
+      "refreshing",
+      "herbal",
+      "classic"
+    ],
+    "popularity": 66,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Whiskey Smash",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/3347/whiskey-smash",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Whiskey Smash",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/3347/whiskey-smash",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Source inconsistency: Difford's says DeGroff created his smash for Bar Americain's opening in 2005 yet first published it in his 2002 book; revival date left vague. Difford's spec shakes mint leaves rather than muddling lemon. yearCreated 1862 = Jerry Thomas's Bar-Tender's Guide.",
+    "shortDescription": "Bourbon shaken with lemon, sugar and fresh mint: a Jerry Thomas-era smash revived by Dale DeGroff as a minty whiskey sour."
+  },
+  {
+    "id": "widows-kiss",
+    "name": "Widow's Kiss",
+    "era": "vintage",
+    "yearCreated": 1895,
+    "glass": "Coupe",
+    "method": "stir",
+    "ingredients": [
+      {
+        "id": "calvados",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": "or apple brandy / straight applejack"
+      },
+      {
+        "id": "benedictine",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "yellow-chartreuse",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "angostura-bitters",
+        "amount": 2,
+        "unit": "dash",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Two skewered maraschino cherries",
+    "instructions": [
+      "Chill a Nick & Nora or coupe glass.",
+      "Stir the calvados, Bénédictine, Yellow Chartreuse and bitters with ice (or shake, as the original did).",
+      "Strain into the chilled glass.",
+      "Garnish with two skewered cherries."
+    ],
+    "history": "The Widow's Kiss is credited to George J. Kappeler, head bartender at the Holland House Hotel in New York City, who published it in his 1895 book Modern American Drinks. His recipe combined a pony of apple brandy with half a pony each of yellow Chartreuse and Bénédictine plus two dashes of Angostura, shaken and strained into a fancy cocktail glass.\n\nDifford's Guide follows the classic split of Yellow Chartreuse and Bénédictine, while noting that the drink is also often made with green Chartreuse. Its modern spec reduces both liqueurs and stirs rather than shakes. Jim Meehan's contemporary version goes further, leaning harder on bonded calvados and using only a quarter ounce of each liqueur.",
+    "tasteProfile": "A rich, herbal after-dinner drink built on apple brandy. Calvados brings baked orchard fruit, while Bénédictine and Yellow Chartreuse layer honey, saffron, mint and a eucalyptus-like coolness on top. Two dashes of aromatic bitters add spice and keep the sweetness in check. The texture is silky and warming, and the drink suits a cold evening or the end of a meal when something complex and gently sweet is wanted.",
+    "tags": [
+      "herbal",
+      "after-dinner",
+      "spirit-forward",
+      "classic",
+      "sweet"
+    ],
+    "popularity": 52,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Widow's Kiss",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2098/widows-kiss",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Widow's Kiss",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2098/widows-kiss",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Kappeler's 1895 original is shaken with 22.5 ml of each liqueur; Difford's modern spec stirs with 15 ml of each. Difford's serves in a Nick & Nora; mapped to Coupe.",
+    "shortDescription": "Calvados stirred with Bénédictine, Yellow Chartreuse and Angostura: an 1895 Holland House classic with a rich, herbal, apple-brandy core."
+  },
+  {
+    "id": "gin-sour",
+    "name": "Gin Sour",
+    "era": "vintage",
+    "yearCreated": null,
+    "glass": "Rocks Glass",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "old-tom-gin",
+        "amount": 60,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lemon-juice",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "rich, 2 sugar to 1 water"
+      },
+      {
+        "id": "egg-white",
+        "amount": 15,
+        "unit": "ml",
+        "optional": true,
+        "note": "or vegan foamer"
+      },
+      {
+        "id": "angostura-bitters",
+        "amount": 3,
+        "unit": "dash",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "salt",
+        "amount": 3,
+        "unit": "drop",
+        "optional": true,
+        "note": "saline solution, or a pinch of salt"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Lemon wheel and maraschino cherry on a skewer",
+    "instructions": [
+      "Fill an old fashioned glass with ice.",
+      "Shake the gin, lemon juice, syrup, egg white, bitters and saline with ice.",
+      "Strain back into the shaker and dry shake without ice.",
+      "Fine strain into the ice-filled glass.",
+      "Garnish with a skewered lemon wheel and cherry."
+    ],
+    "history": "Sours are one of the oldest families of mixed drinks, already described by Jerry Thomas in his 1862 bartender's guide: a base spirit, lemon or lime juice and sweetener, sometimes with egg white. Wikipedia describes the Gin Sour as a simple pre-Prohibition mix of gin, lemon and sugar, and notes that adding soda water turns it into a Gin Fizz.\n\nThe drink stayed popular into the 1940s, and historian Kevin Starr lists it among the period cocktails of that era. Difford's Guide recommends old tom gin and an 8:4:2 ratio of gin, lemon and rich syrup, slightly sourer than the classic sour formula.",
+    "tasteProfile": "A crisp, tangy sour with a gentle sweetness. Old tom gin gives a softly sweetened juniper and botanical base, fresh lemon brings a bright, mouth-watering acidity, and rich syrup rounds it out. When egg white is used, the dry shake builds a silky foam that softens the edges and carries a few drops of aromatic bitters. Clean and refreshing, it works as an aperitif or an easy-drinking classic at any time.",
+    "tags": [
+      "sour",
+      "citrus",
+      "foamy",
+      "classic",
+      "refreshing"
+    ],
+    "popularity": 62,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Gin Sour",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/845/gin-sour",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Wikipedia",
+        "title": "Sour (cocktail)",
+        "url": "https://en.wikipedia.org/wiki/Sour_(cocktail)",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Difford's page has no history section; history from Wikipedia's Sour (cocktail) article (secondary source only). No documented creation year, so yearCreated null; era vintage as a pre-Prohibition drink. Egg white and saline marked optional per Difford's.",
+    "shortDescription": "Old tom gin, lemon juice and rich sugar syrup, optionally foamed with egg white: the classic pre-Prohibition gin sour."
+  },
+  {
+    "id": "port-of-spain",
+    "name": "Port of Spain",
+    "era": "modern",
+    "yearCreated": 2013,
+    "glass": "Coupe",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "mezcal",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "orgeat",
+        "amount": 20,
+        "unit": "ml",
+        "optional": false,
+        "note": "2:1"
+      },
+      {
+        "id": "lime-juice",
+        "amount": 20,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "angostura-bitters",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Lime wheel (preferably dehydrated) floated on top",
+    "instructions": [
+      "Chill a coupe glass.",
+      "Shake the mezcal, orgeat, lime juice and Angostura bitters with ice.",
+      "Fine strain into the chilled glass.",
+      "Float a lime wheel on the surface."
+    ],
+    "history": "Difford's Guide adapts this drink from a recipe created in 2013 by Dominic Alling at Beretta, a restaurant and bar in San Francisco. It is named after Port of Spain, the capital of Trinidad, which is home to Angostura bitters, and the recipe pays tribute by calling for a full half ounce of the bitters rather than the usual few dashes alongside smoky mezcal, orgeat and lime.",
+    "tasteProfile": "Bold and spice-driven, yet surprisingly easy to drink. The large measure of Angostura floods the glass with clove, cinnamon and bitter orange, while mezcal adds an earthy smoke beneath it. Orgeat brings nutty almond sweetness and body, and lime keeps it lively and balanced. The result is rich, aromatic and gently tart, best enjoyed as an after-dinner digestive.",
+    "tags": [
+      "bitter",
+      "smoky",
+      "spicy",
+      "after-dinner",
+      "contemporary"
+    ],
+    "popularity": 42,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Port of Spain (by Dominic Alling)",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/5800/port-of-spain-by-dominic-alling",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Port of Spain (by Dominic Alling)",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/5800/port-of-spain-by-dominic-alling",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Difford's history is a single line (creator, bar, year); name origin taken from the Difford's review text on the same page. Single history paragraph. Bitters given in ml (15 ml) as per source. Name shortened from Difford's 'Port of Spain (by Dominic Alling)'.",
+    "shortDescription": "Mezcal, orgeat and lime with a full half ounce of Angostura: a bold, spicy 2013 San Francisco sour named after Trinidad's capital."
+  },
+  {
+    "id": "monte-carlo",
+    "name": "Monte Carlo",
+    "era": "vintage",
+    "yearCreated": 1948,
+    "glass": "Rocks Glass",
+    "method": "stir",
+    "ingredients": [
+      {
+        "id": "rye-whiskey",
+        "amount": 60,
+        "unit": "ml",
+        "optional": false,
+        "note": "100 proof"
+      },
+      {
+        "id": "benedictine",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "angostura-bitters",
+        "amount": 1,
+        "unit": "dash",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Lemon zest twist",
+    "instructions": [
+      "Fill an old fashioned glass with ice, ideally one large cube.",
+      "Stir the rye, Bénédictine and bitters with ice.",
+      "Strain into the ice-filled glass.",
+      "Express a lemon zest twist over the drink and use it as garnish."
+    ],
+    "history": "The Monte Carlo first appears in print in David Embury's 1948 book The Fine Art of Mixing Drinks, as one part Bénédictine to two parts rye with a dash or two of Angostura, shaken with cracked ice. Embury, a tax lawyer with a notably dry palate, found it a little sweet and suggested adding lemon juice and more rye.\n\nDifford's Guide prefers it stirred and served on the rocks, describing it as a Manhattan with Bénédictine in place of vermouth. Served straight up it belongs to the Scaffa family, and relatives include the bourbon-based Kentucky Colonel and the Monte Cassino.",
+    "tasteProfile": "A strong, warming sipper with a honeyed herbal sweetness. Spicy, high-proof rye provides the backbone, Bénédictine adds honey, baking spice and a soft herbal depth, and a dash of aromatic bitters ties them together. The lemon twist brightens the nose. Fuller and sweeter than an Old Fashioned yet still spirit-led, it suits the end of an evening as an after-dinner drink or nightcap.",
+    "tags": [
+      "spirit-forward",
+      "after-dinner",
+      "herbal",
+      "strong",
+      "classic"
+    ],
+    "popularity": 50,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Monte Carlo",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2506/monte-carlo",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Monte Carlo",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2506/monte-carlo",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Embury's 1948 original is shaken and served up with a 2:1 ratio; Difford's stirs it on the rocks with 4:1. Embury's own suggestion to add lemon is not included.",
+    "shortDescription": "Rye whiskey stirred with Bénédictine and Angostura over ice: a honeyed, Manhattan-like nightcap first printed by David Embury in 1948."
+  },
+  {
+    "id": "tia-mia",
+    "name": "Tia Mia",
+    "era": "modern",
+    "yearCreated": 2010,
+    "glass": "Rocks Glass",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "mezcal",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "aged-rum",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": "Havana Club Añejo 7; original used Appleton Jamaican rum"
+      },
+      {
+        "id": "orange-liqueur",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "dry curaçao"
+      },
+      {
+        "id": "orgeat",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "2:1"
+      },
+      {
+        "id": "lime-juice",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Spent lime shell, mint sprigs and a pineapple and cherry fruit stick",
+    "instructions": [
+      "Fill a double old fashioned glass with crushed ice.",
+      "Shake the mezcal, rum, dry curaçao, orgeat and lime juice with ice.",
+      "Strain into the crushed-ice-filled glass.",
+      "Garnish with a lime shell, a bouquet of mint and a fruit stick."
+    ],
+    "history": "The Tia Mia was created around 2010 by Ivy Mix in New York City as a riff on the Mai Tai, splitting the base between mezcal and aged rum. Her original recipe used Del Maguey Chichicapa mezcal and Appleton Estate Reserve Jamaican rum, with Ferrand Dry Curaçao, orgeat and fresh lime.\n\nThe drink is also known as the Mezcal Mai Tai. Difford's Guide notes that swapping the rum for añejo tequila turns it into a Mexican Mai Tai, and its own spec uses a Cuban añejo rum alongside Del Maguey Vida mezcal.",
+    "tasteProfile": "A smoky, tropical take on the Mai Tai. Mezcal brings earthy smoke and agave, aged rum adds molasses, vanilla and dried fruit, and dry curaçao supplies bitter orange. Orgeat's almond sweetness gives body while lime keeps the finish bright and tart. Served over crushed ice it is cold, refreshing and dangerously easy to drink, a good choice for summer evenings or anyone who enjoys tiki drinks with a savoury edge.",
+    "tags": [
+      "tiki",
+      "smoky",
+      "tropical",
+      "citrus",
+      "contemporary"
+    ],
+    "popularity": 58,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Tia Mia",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/9786/tia-mia",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Tia Mia",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/9786/tia-mia",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Difford's spec uses Havana Club Añejo 7 (Cuban) while Ivy Mix's original uses Appleton Estate Reserve (Jamaican) and Chichicapa mezcal; mapped to aged-rum with note. Creation date 'circa 2010'.",
+    "shortDescription": "Mezcal and aged rum shaken with dry curaçao, orgeat and lime: Ivy Mix's smoky 2010 New York riff on the Mai Tai."
+  },
+  {
+    "id": "industry-sour",
+    "name": "Industry Sour",
+    "era": "modern",
+    "yearCreated": 2011,
+    "glass": "Coupe",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "fernet-branca",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "green-chartreuse",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lime-juice",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "rich, 2 sugar to 1 water"
+      },
+      {
+        "id": "egg-white",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "or vegan foamer"
+      },
+      {
+        "id": "salt",
+        "amount": 3,
+        "unit": "drop",
+        "optional": false,
+        "note": "saline solution, or a pinch of salt"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Lime wheel (ideally dehydrated) floated on top",
+    "instructions": [
+      "Chill a coupe glass.",
+      "Shake the Fernet-Branca, Green Chartreuse, lime juice, syrup, egg white and saline with ice.",
+      "Strain back into the shaker and dry shake without ice to emulsify.",
+      "Fine strain into the chilled glass.",
+      "Float a lime wheel on the surface."
+    ],
+    "history": "Difford's Guide adapts the Industry Sour from a recipe created in 2011 by Ted Kilgore at Taste by Niche in St. Louis, Missouri, made for a fellow bartender who was visiting the bar. Kilgore's original called for equal parts Fernet-Branca, Green Chartreuse, lime juice and simple syrup; Difford's version adds egg white and a few drops of saline to make it a fuller sour.",
+    "tasteProfile": "Intensely herbal, bittersweet and sour all at once. Fernet-Branca brings menthol, saffron and a bracing bitterness, while Green Chartreuse adds a sweet, alpine-herb intensity and plenty of warmth. Lime cuts through with sharp acidity and rich syrup softens the edges, and egg white gives a silky, foamy texture that tames the bitterness. A bold drink for amaro lovers, it works as a nightcap or a digestif.",
+    "tags": [
+      "sour",
+      "herbal",
+      "bitter",
+      "foamy",
+      "contemporary"
+    ],
+    "popularity": 45,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Industry Sour",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/25001/industry-sour",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Industry Sour",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/25001/industry-sour",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Kilgore's original is equal parts with simple syrup and no egg white; Difford's adds egg white, saline and uses rich syrup. Single history paragraph.",
+    "shortDescription": "Fernet-Branca and Green Chartreuse shaken with lime and sugar: a bittersweet, herbal 2011 bartenders' sour from St. Louis."
+  },
+  {
+    "id": "banana-calling",
+    "name": "Banana Calling",
+    "era": "modern",
+    "yearCreated": 2018,
+    "glass": "Coupe",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "gin",
+        "amount": 40,
+        "unit": "ml",
+        "optional": false,
+        "note": "London dry"
+      },
+      {
+        "id": "banana-liqueur",
+        "amount": 10,
+        "unit": "ml",
+        "optional": false,
+        "note": "Giffard Banane du Brésil"
+      },
+      {
+        "id": "fino-sherry",
+        "amount": 7.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lemon-juice",
+        "amount": 20,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 7.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "rich, 2 sugar to 1 water"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Dried banana chip pegged to the rim, or a fresh banana slice",
+    "instructions": [
+      "Chill a coupe glass.",
+      "Shake the gin, banana liqueur, fino sherry, lemon juice and syrup with ice.",
+      "Fine strain into the chilled glass.",
+      "Garnish with a banana chip or banana slice on the rim."
+    ],
+    "history": "Difford's Guide adapts the Banana Calling from a recipe created in August 2018 by Cameron Attfield at the Dandelyan bar in London, England. It is a riff on the London Calling, the gin and fino sherry sour created by Chris Jepson in 2002, with a measure of banana liqueur joining the sherry. Difford's describes the result as a banana and fino sherry gin sour.",
+    "tasteProfile": "A short, sharp gin sour with quiet layers of flavour. Juniper and citrus lead, fresh lemon gives a bright tartness and a little rich syrup keeps it balanced. Banana liqueur adds a soft ripe-fruit roundness, and fino sherry contributes a dry, nutty, saline edge. The banana is subtle rather than sweet or tropical, so the drink stays crisp and elegant, a good aperitif for gin lovers.",
+    "tags": [
+      "sour",
+      "citrus",
+      "fruity",
+      "contemporary",
+      "dry"
+    ],
+    "popularity": 40,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Banana Calling",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/4564/banana-calling",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Banana Calling",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/4564/banana-calling",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Difford's history is one sentence (creator, bar, date, London Calling lineage); description of the drink taken from Difford's review. Single history paragraph.",
+    "shortDescription": "London dry gin shaken with banana liqueur, fino sherry and lemon: a 2018 Dandelyan riff on the London Calling sour."
+  },
+  {
+    "id": "macunaima",
+    "name": "Macunaíma",
+    "era": "modern",
+    "yearCreated": 2014,
+    "glass": "Rocks Glass",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "cachaca",
+        "amount": 50,
+        "unit": "ml",
+        "optional": false,
+        "note": "unaged"
+      },
+      {
+        "id": "lemon-juice",
+        "amount": 20,
+        "unit": "ml",
+        "optional": false,
+        "note": "the bar recipe uses lime juice"
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "rich, 2 sugar to 1 water"
+      },
+      {
+        "id": "fernet-branca",
+        "amount": 7.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": null,
+    "instructions": [
+      "Chill an old fashioned glass.",
+      "Shake the cachaça, lemon juice, syrup and Fernet-Branca with ice.",
+      "Strain into the chilled glass without ice.",
+      "Serve without garnish."
+    ],
+    "history": "The Macunaíma was created in 2014 by Arnaldo Hirai at his Boca de Ouro bar in São Paulo, Brazil. Hirai almost named it Caxirola, after the rattle designed by Carlinhos Brown as the official instrument of that year's World Cup in Brazil, but the instrument flopped and was banned from stadiums. He chose instead to name it after Mário de Andrade's 1928 novel, a founding text of Brazilian modernism.\n\nThe drink quickly became the bar's best seller, with hundreds sold each month, and Hirai has gradually made it less sweet. The bar uses lime juice and a 1:1 syrup. Difford's Guide, after first mistranslating lime as lemon, tried both side by side and settled on lemon, switching to a smaller measure of richer sugar syrup as well.",
+    "tasteProfile": "A bright, grassy cachaça sour with a bittersweet herbal twist. Unaged cachaça gives a fresh, vegetal sugar-cane character, citrus adds a sharp, clean acidity, and rich syrup brings balance. A small measure of Fernet-Branca threads menthol, bitter herbs and spice through the finish, adding depth without overwhelming. Served chilled without ice, it is crisp and lively, a great choice for an aperitif or a hot evening.",
+    "tags": [
+      "sour",
+      "citrus",
+      "herbal",
+      "bitter",
+      "contemporary"
+    ],
+    "popularity": 50,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Macunaíma",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/5885/macunaima",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Macunaíma",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/5885/macunaima",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Source disagreement on citrus: Hirai's bar recipe uses lime juice and 20 ml 1:1 syrup; Difford's spec uses lemon juice and 15 ml 2:1 syrup (Difford's states a preference for lemon). Difford's recipe followed, with a note on the lemon line. Served up in an old fashioned glass with no ice in the glass.",
+    "shortDescription": "Cachaça, citrus, sugar and a dash of Fernet-Branca: a bittersweet 2014 São Paulo sour named after a classic Brazilian novel."
+  },
+  {
+    "id": "venetian-spritz",
+    "name": "Venetian Spritz",
+    "era": "vintage",
+    "yearCreated": null,
+    "glass": "Rocks Glass",
+    "method": "build",
+    "ingredients": [
+      {
+        "id": "prosecco",
+        "amount": 60,
+        "unit": "ml",
+        "optional": false,
+        "note": "extra dry"
+      },
+      {
+        "id": "campari",
+        "amount": 40,
+        "unit": "ml",
+        "optional": false,
+        "note": "Campari-style red bitter"
+      },
+      {
+        "id": "soda-water",
+        "amount": 20,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Orange zest twist (expressed and discarded) and a skewered green olive",
+    "instructions": [
+      "Fill an old fashioned glass with ice.",
+      "Pour in the prosecco, red bitter liqueur and soda water.",
+      "Stir briefly so as not to lose the fizz.",
+      "Express an orange zest twist over the drink and discard it, then garnish with a skewered green olive."
+    ],
+    "history": "The Spritz comes from northern Italy, especially Venice and the Veneto, where it is pronounced 'spriss' after the German spritzen, to splash. Difford's Guide traces it to the late nineteenth century, when Venice was part of the Austrian Empire and Austrian soldiers diluted the strong local wines with water, giving rise to the white wine and soda Spritzer.\n\nIn the Veneto the Spritz al Bitter, or Venetian Spritz, uses local Pinot Grigio, Soave or Prosecco with a bitter such as Campari, Aperol, Select or Cynar, garnished with orange or an olive. Wikipedia dates the pairing of spritz with local bitters to the 1920s and 1930s.",
+    "tasteProfile": "Dry, bittersweet and very refreshing. Extra dry prosecco provides crisp orchard-fruit bubbles, while a generous splash of red bitter liqueur brings bold bitter orange, gentian and herbal notes with only light sweetness. Soda water lengthens it and keeps it lively. The expressed orange oils add brightness and the green olive lends a faintly savoury, salty nibble. Low in alcohol, it is the perfect aperitivo before an evening meal.",
+    "tags": [
+      "sparkling",
+      "bitter",
+      "aperitif",
+      "low-abv",
+      "refreshing"
+    ],
+    "popularity": 60,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Venetian Spritz",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1861/venetian-spritz",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Brief history of the Spritz",
+        "url": "https://www.diffordsguide.com/g/1255/spritz/history",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Wikipedia",
+        "title": "Spritz (cocktail)",
+        "url": "https://en.wikipedia.org/wiki/Spritz_(cocktail)",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Difford's recipe page points to its Spritz history page (fetched separately). No documented creation year for this Campari-style version; era vintage (late-19th-century spritz origins; bitter spritzes from the 1920s-30s per Wikipedia, secondary). Wikipedia says the original spritz veneziano used Select (1920). Overlaps with the existing 'spritz' record (IBA, Aperol); this record is the red-bitter Venetian version with olive garnish. AKA Veneziano.",
+    "shortDescription": "Prosecco and Campari-style red bitter lengthened with soda and garnished with an olive: the bittersweet aperitivo spritz of Venice."
+  },
+  {
+    "id": "toronto",
+    "name": "Toronto",
+    "era": "vintage",
+    "yearCreated": 1922,
+    "glass": "Coupe",
+    "method": "stir",
+    "ingredients": [
+      {
+        "id": "rye-whiskey",
+        "amount": 52.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "Canadian blended whisky"
+      },
+      {
+        "id": "fernet-branca",
+        "amount": 7.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "maple-syrup",
+        "amount": 7.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "angostura-bitters",
+        "amount": 1,
+        "unit": "dash",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "water",
+        "amount": 10,
+        "unit": "ml",
+        "optional": false,
+        "note": "chilled; omit if using wet ice"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Orange zest twist (expressed and discarded) and a skewered maraschino cherry",
+    "instructions": [
+      "Chill a coupe glass.",
+      "Stir the whisky, Fernet-Branca, maple syrup, bitters and water with ice.",
+      "Strain into the chilled glass.",
+      "Express an orange zest twist over the drink and discard it.",
+      "Garnish with a skewered maraschino cherry."
+    ],
+    "history": "The Toronto's earliest printed form is the Fernet Cocktail in Robert Vermeire's 1922 Cocktails: How to Mix Them, made with Fernet-Branca and cognac or rye and noted as a favourite of Canadians in Toronto. David Embury listed it under the name Toronto in his 1948 Fine Art of Mixing Drinks, with Canadian whisky, Fernet-Branca and sugar syrup.\n\nThe drink was largely forgotten until Jamie Boudreau revived it in Seattle in 2006. In 2010 Marian Beke adapted it for the opening menu of London's Nightjar, where a coffee- and pecan-infused version became the bar's best seller. Difford's swaps the sugar syrup for maple, following a reader's suggestion.",
+    "tasteProfile": "A bracing, Manhattan-style drink dominated by Fernet-Branca. Smooth Canadian whisky gives a gentle grain sweetness, but the fernet takes over with menthol, saffron, bitter herbs and a long, dry finish. Maple syrup tames the bitterness while adding a rounded, woody sweetness that suits the whisky, and a dash of aromatic bitters adds spice. Bold and warming, it makes a fine digestif or cold-weather sipper.",
+    "tags": [
+      "spirit-forward",
+      "bitter",
+      "herbal",
+      "after-dinner",
+      "classic"
+    ],
+    "popularity": 55,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Toronto",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/3442/toronto",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Toronto",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/3442/toronto",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "No ID for Canadian whisky; mapped to rye-whiskey with note. Vermeire's 1922 Fernet Cocktail used cognac or rye; Embury (1948) first names it Toronto with Canadian whisky. Difford's uses maple syrup instead of the original sugar syrup.",
+    "shortDescription": "Canadian whisky stirred with Fernet-Branca, maple syrup and bitters: a bold, bittersweet 1920s classic revived in Seattle in 2006."
+  },
+  {
+    "id": "pegu-club",
+    "name": "Pegu Club",
+    "era": "vintage",
+    "yearCreated": 1923,
+    "glass": "Coupe",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "gin",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": "London dry"
+      },
+      {
+        "id": "orange-liqueur",
+        "amount": 10,
+        "unit": "ml",
+        "optional": false,
+        "note": "dry curaçao, 40% abv"
+      },
+      {
+        "id": "lime-juice",
+        "amount": 5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lime-cordial",
+        "amount": 5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 5,
+        "unit": "ml",
+        "optional": false,
+        "note": "rich, 2 sugar to 1 water"
+      },
+      {
+        "id": "water",
+        "amount": 7.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "chilled"
+      },
+      {
+        "id": "angostura-bitters",
+        "amount": 1,
+        "unit": "dash",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "orange-bitters",
+        "amount": 1,
+        "unit": "dash",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Lime zest twist (expressed and discarded) and a lime wedge on the rim",
+    "instructions": [
+      "Chill a coupe glass.",
+      "Shake the gin, curaçao, lime juice, lime cordial, syrup, water and both bitters with ice.",
+      "Fine strain into the chilled glass.",
+      "Express a lime zest twist over the drink and discard it.",
+      "Garnish with a lime wedge on the rim."
+    ],
+    "history": "The Pegu Club is named after an expatriate gentlemen's club in British colonial Rangoon, Burma, where it is said to have been created in the 1920s. It first appears in print in Harry McElhone's 1923 ABC of Mixing Cocktails, made with gin, orange curaçao, Rose's lime juice and two bitters, and Harry Craddock's 1930 Savoy Cocktail Book called it the club's favourite cocktail, asked for around the world.\n\nA recipe published months before Craddock's by Jimmy of Ciro's in London used fresh lime rather than cordial, closer to most modern versions. Difford's Guide argues that, as with the Gimlet, lime cordial is part of the drink's DNA, so its recipe keeps a little cordial alongside fresh lime and balances a dry, strong curaçao with a touch of sugar syrup.",
+    "tasteProfile": "A crisp, citrus-driven gin cocktail with a bitter-orange core. Dry gin forms the backbone, dry curaçao adds rich, zesty orange, and the mix of fresh lime and lime cordial brings both bright acidity and a slightly cooked, candied lime note. Angostura and orange bitters add depth and spice. Bracing and refreshing, with only a touch of sweetness, it makes an excellent aperitif or warm-weather drink.",
+    "tags": [
+      "sour",
+      "citrus",
+      "classic",
+      "refreshing",
+      "dry"
+    ],
+    "popularity": 65,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Pegu Club Cocktail (Difford's recipe)",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2728/pegu-club-cocktail-diffords-recipe",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Pegu Club Cocktail (Difford's recipe)",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2728/pegu-club-cocktail-diffords-recipe",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Recipe disagreement: McElhone (1923) and Craddock (1930) use a teaspoon of (Rose's) lime juice; 'Jimmy' of Ciro's (1930) uses fresh lime in 4:1:1 proportions; Difford's combines fresh lime and cordial. Name shortened from 'Pegu Club Cocktail (Difford's recipe)'.",
+    "shortDescription": "Gin shaken with orange curaçao, lime and two bitters: the 1920s house cocktail of a British colonial club in Rangoon."
+  },
+  {
+    "id": "hotel-nacional-special",
+    "name": "Hotel Nacional Special",
+    "era": "vintage",
+    "yearCreated": 1935,
+    "glass": "Coupe",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "white-rum",
+        "amount": 50,
+        "unit": "ml",
+        "optional": false,
+        "note": "Cuban añejo 3 años"
+      },
+      {
+        "id": "apricot-liqueur",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "pineapple-juice",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lime-juice",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 7.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "rich, 2 sugar to 1 water"
+      },
+      {
+        "id": "rhum-agricole",
+        "amount": 5,
+        "unit": "ml",
+        "optional": true,
+        "note": "unaged"
+      },
+      {
+        "id": "salt",
+        "amount": 2,
+        "unit": "drop",
+        "optional": true,
+        "note": "saline solution, or a pinch of salt"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Pineapple (or lime) wedge on the rim",
+    "instructions": [
+      "Chill a coupe glass.",
+      "Shake the rum, apricot liqueur, pineapple juice, lime juice, syrup and any optional agricole rum and saline with ice.",
+      "Fine strain into the chilled glass.",
+      "Garnish with a pineapple or lime wedge on the rim."
+    ],
+    "history": "This was the signature drink of Havana's Hotel Nacional de Cuba, created around the hotel's 1930 opening, when Prohibition drew top American bartenders to Cuba. Will P. Taylor, Eddie Woelke and Fred Kaufman have all been credited with it. The first printed recipe, called simply the National, leads the Cuban section of Albert Stevens Crockett's 1935 Old Waldorf Astoria Bar Book, contributed by Taylor as the hotel's manager.\n\nCharles H. Baker's 1939 Gentleman's Companion also credits Taylor, calling the drink one of the three finest Bacardi drinks known to science and recommending gold rum over white. Woelke, however, claimed to be the originator in his 1936 book The Barman's Mentor.",
+    "tasteProfile": "A fruity yet refined twist on the Daiquiri. Light Cuban rum provides a clean, gently sweet base, pineapple juice adds tropical body and a soft froth, and apricot liqueur brings a ripe stone-fruit richness. Fresh lime keeps it tart and lively. An optional splash of grassy agricole rum adds character. Bright, balanced and smooth, it is a perfect warm-weather drink before dinner or by the pool.",
+    "tags": [
+      "sour",
+      "fruity",
+      "tropical",
+      "citrus",
+      "classic"
+    ],
+    "popularity": 55,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Hotel Nacional Special",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1383/hotel-nacional-special",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Hotel Nacional Special",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1383/hotel-nacional-special",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Creator disputed: Wil P. Taylor (credited by Crockett 1935 and Baker 1939) vs Eddie Woelke (self-claimed, 1936); Fred Kaufman also credited. Created c.1930; yearCreated 1935 = first print. Optional Difford's Daiquiri Bitters (proprietary, 6 drops) omitted as no fitting ID. Havana Club 3 Años mapped to white-rum per dictionary synonym.",
+    "shortDescription": "Light rum shaken with apricot liqueur, pineapple and lime: the 1930s house cocktail of Havana's Hotel Nacional de Cuba."
+  },
+  {
+    "id": "left-hand",
+    "name": "Left Hand",
+    "era": "modern",
+    "yearCreated": 2006,
+    "glass": "Coupe",
+    "method": "stir",
+    "ingredients": [
+      {
+        "id": "bourbon",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "campari",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "Campari-style red bitter"
+      },
+      {
+        "id": "sweet-vermouth",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "Carpano Antica Formula"
+      },
+      {
+        "id": "chocolate-bitters",
+        "amount": 4,
+        "unit": "drop",
+        "optional": false,
+        "note": "originally mole bitters"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Skewered maraschino cherry",
+    "instructions": [
+      "Chill a coupe glass.",
+      "Stir the bourbon, red bitter, sweet vermouth and chocolate bitters with ice.",
+      "Fine strain into the chilled glass.",
+      "Garnish with a skewered cherry."
+    ],
+    "history": "The Left Hand was created in 2006 by Sam Ross at Milk & Honey in New York City, as a straight-up riff on the Boulevardier, the bourbon-based cousin of the Negroni. It was first made soon after the launch of Bittermens Xocolatl Mole Bitters and originally used those spiced chocolate bitters. Difford's Guide prefers ordinary chocolate bitters in its adapted recipe and describes the drink as the Negroni meeting a Manhattan.",
+    "tasteProfile": "Rich, bittersweet and velvety. Bourbon provides vanilla, caramel and oak, red bitter liqueur adds bitter orange and gentian, and a full-bodied Italian vermouth brings vanilla, dried fruit and herbal spice. A few drops of chocolate bitters deepen everything with a cocoa note that ties the bourbon and bitter together. Smooth and stirred, it is ideal as an after-dinner drink or for Negroni fans seeking more depth.",
+    "tags": [
+      "spirit-forward",
+      "bitter",
+      "after-dinner",
+      "contemporary",
+      "strong"
+    ],
+    "popularity": 50,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Left Hand",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/16297/left-hand",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Left Hand",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/16297/left-hand",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Original used Bittermens Xocolatl Mole bitters; Difford's uses regular chocolate bitters (both map to chocolate-bitters). Single history paragraph.",
+    "shortDescription": "Bourbon stirred with Campari, sweet vermouth and chocolate bitters: Sam Ross's 2006 Milk & Honey riff on the Boulevardier."
+  },
+  {
+    "id": "rob-roy",
+    "name": "Rob Roy",
+    "era": "vintage",
+    "yearCreated": 1894,
+    "glass": "Coupe",
+    "method": "stir",
+    "ingredients": [
+      {
+        "id": "scotch-whisky",
+        "amount": 60,
+        "unit": "ml",
+        "optional": false,
+        "note": "blended"
+      },
+      {
+        "id": "sweet-vermouth",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "angostura-bitters",
+        "amount": 8,
+        "unit": "drop",
+        "optional": false,
+        "note": "Abbott's-style bitters; or 1 dash Angostura plus 1 dash Peychaud's"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Orange zest twist (expressed and discarded) and a maraschino cherry",
+    "instructions": [
+      "Chill a coupe glass.",
+      "Stir the Scotch, sweet vermouth and bitters with ice.",
+      "Strain into the chilled glass.",
+      "Express an orange zest twist over the drink and discard it.",
+      "Garnish with a skewered maraschino cherry."
+    ],
+    "history": "The Rob Roy is usually linked to the operetta Rob Roy, about the Scottish outlaw Robert Roy MacGregor, which opened on Broadway in October 1894 near the old Waldorf Astoria. The story goes that the hotel's bar swapped Scotch for American whiskey in a Manhattan to honour the show. Cocktail historian David Wondrich later found an unrelated Rob Roy cocktail described by bartender Edward F. Barry in 1873.\n\nA Scotch-based Manhattan was printed in London by Charlie Paul in 1884 without the Rob Roy name, while the first Scotch recipe actually called Rob Roy appears in James C. Maloney's 1900 guide, made with French vermouth and lemon. Today it is known as the Scotch Manhattan.",
+    "tasteProfile": "Scotch whisky's answer to the Manhattan. Blended Scotch brings malt, honey and a whisper of smoke, softened and sweetened by rich Italian vermouth with its notes of dried fruit, vanilla and bitter herbs. The bitters are essential, adding spice and complexity that knit the two together. Smooth, silky and warming, it is an elegant pre-dinner drink or a fireside sipper on a cold evening.",
+    "tags": [
+      "spirit-forward",
+      "classic",
+      "strong",
+      "after-dinner"
+    ],
+    "popularity": 72,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Rob Roy",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1681/rob-roy",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Rob Roy",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1681/rob-roy",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Year disputed: 1873 (Edward F. Barry, unrelated recipe, base spirit unknown), 1884 (Charlie Paul's Scotch 'Manhattan'), 1894 (operetta, traditional origin story), 1900 (first Scotch recipe named Rob Roy, Maloney). 1894 used. Difford's uses Bob's Abbott's bitters (no ID); mapped to angostura-bitters with note.",
+    "shortDescription": "Blended Scotch stirred with sweet vermouth and aromatic bitters: the Scotch Manhattan, linked to an 1894 Broadway operetta."
+  },
+  {
+    "id": "bernice",
+    "name": "Bernice",
+    "era": "vintage",
+    "yearCreated": 1950,
+    "glass": "Coupe",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "vodka",
+        "amount": 50,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "galliano",
+        "amount": 7.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lime-juice",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 10,
+        "unit": "ml",
+        "optional": false,
+        "note": "rich, 2 sugar to 1 water"
+      },
+      {
+        "id": "absinthe",
+        "amount": 1,
+        "unit": "dash",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Mint leaf pegged to the rim, or a floating mint tip",
+    "instructions": [
+      "Chill a coupe glass.",
+      "Shake the vodka, Galliano, lime juice, syrup and absinthe with ice.",
+      "Fine strain into the chilled glass.",
+      "Garnish with a mint leaf on the rim or a floating mint tip."
+    ],
+    "history": "The Bernice is credited to a bartender named C. S. Berner, whose recipe won a 1950 cocktail competition held by the West Coast branch of the United Kingdom Bartenders' Guild in the USA. It was printed in the first edition of The U.K.B.G. Guide to Drinks in 1953, made with Smirnoff vodka, Galliano, a few drops of Pernod Fils absinthe and the juice of half a lime.\n\nThe drink has often been attributed to Ted Saucier's 1951 book Bottoms Up, but Difford's Guide checked that book and could not find it there, placing its first appearance in the U.K.B.G. guide instead. Difford's modern recipe keeps the original combination but adds a little rich sugar syrup and trims the Galliano.",
+    "tasteProfile": "Best thought of as a vodka daiquiri with a herbal twist. Clean vodka lets fresh lime and sugar set a crisp, sweet-and-sour balance, while a small measure of Galliano brings vanilla, anise and a cool, peppermint-like herbal note. A dash of absinthe deepens the aniseed aroma. Light, bright and refreshing, it is an easy aperitif or a summery drink for those who like their sours with a little intrigue.",
+    "tags": [
+      "sour",
+      "herbal",
+      "citrus",
+      "refreshing",
+      "classic"
+    ],
+    "popularity": 40,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Bernice",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2901/bernice",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Bernice",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2901/bernice",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Source disagreement: often attributed to Ted Saucier's Bottoms Up (1951); Difford's could not find it there and dates it to a 1950 U.K.B.G. competition, printed 1953. yearCreated 1950.",
+    "shortDescription": "Vodka shaken with lime, sugar, Galliano and a dash of absinthe: a herbal vodka daiquiri that won a 1950 bartenders' competition."
+  },
+  {
+    "id": "sunflower",
+    "name": "Sunflower",
+    "era": "modern",
+    "yearCreated": 2008,
+    "glass": "Coupe",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "absinthe",
+        "amount": 2.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "to rinse the glass"
+      },
+      {
+        "id": "gin",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "London dry"
+      },
+      {
+        "id": "orange-liqueur",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "triple sec, 40% abv"
+      },
+      {
+        "id": "elderflower-liqueur",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lemon-juice",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Lemon zest twist",
+    "instructions": [
+      "Chill a coupe glass, then rinse it with the absinthe and discard the excess.",
+      "Shake the gin, triple sec, elderflower liqueur and lemon juice with ice.",
+      "Fine strain into the absinthe-rinsed glass.",
+      "Express a lemon zest twist over the drink and use it as garnish."
+    ],
+    "history": "Difford's Guide adapts the Sunflower from a recipe created in 2008 by Sam Ross at Milk & Honey in New York City. It is a riff on the classic Corpse Reviver No. 2, keeping that drink's equal parts of gin, orange liqueur and lemon juice and its absinthe-rinsed glass, but replacing the aromatised wine with elderflower liqueur. Difford's notes that this swap makes the bitter oils from the lemon zest twist crucial to balancing the drink's floral, citrusy character.",
+    "tasteProfile": "Floral, citrusy and bright. Equal parts gin, triple sec, elderflower liqueur and lemon create a well-balanced sour in which juniper and orange meet lush elderflower sweetness. The absinthe rinse adds a faint anise perfume, and the bitter oils from the lemon twist are key to keeping the floral notes in check. Light and elegant, it is a lovely aperitif or a spring and summer afternoon drink.",
+    "tags": [
+      "floral",
+      "citrus",
+      "sour",
+      "contemporary",
+      "refreshing"
+    ],
+    "popularity": 52,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Sunflower",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/5807/sunflower",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Sunflower",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/5807/sunflower",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Difford's history is a single line; Corpse Reviver lineage from Difford's review on the same page. Single history paragraph.",
+    "shortDescription": "Gin, triple sec, elderflower liqueur and lemon in an absinthe-rinsed glass: Sam Ross's floral 2008 riff on the Corpse Reviver No. 2."
+  },
+  {
+    "id": "sangaree",
+    "name": "Sangaree",
+    "era": "vintage",
+    "yearCreated": null,
+    "glass": "Wine Glass",
+    "method": "stir",
+    "ingredients": [
+      {
+        "id": "brandy",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "Spanish brandy"
+      },
+      {
+        "id": "orange-liqueur",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "dry curaçao"
+      },
+      {
+        "id": "red-wine",
+        "amount": 90,
+        "unit": "ml",
+        "optional": false,
+        "note": "Rioja crianza"
+      },
+      {
+        "id": "orange-juice",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lemon-juice",
+        "amount": 10,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 5,
+        "unit": "ml",
+        "optional": false,
+        "note": "rich, 2 sugar to 1 water"
+      },
+      {
+        "id": "cinnamon-syrup",
+        "amount": 2.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "soda-water",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Strawberry slices, orange and lemon wheels and a bouquet of mint",
+    "instructions": [
+      "Chill a goblet.",
+      "Stir the brandy, curaçao, red wine, orange juice, lemon juice and both syrups with ice.",
+      "Strain into the ice-filled goblet.",
+      "Top with soda water.",
+      "Garnish with strawberry slices, orange and lemon wheels and mint sprigs."
+    ],
+    "history": "The Sangaree is the single-serve forerunner of Spanish sangria. Difford's Guide notes that this version was popular in nineteenth-century America and differs mainly in being made by the glass rather than in batches. According to Wikipedia, the sangaree probably originated in the West Indies and reached mainland America in the colonial era, where it was served hot or cold.\n\nThe drink had largely disappeared in the United States by the early twentieth century. Spanish restaurants and Hispanic Americans reintroduced iced sangria in the late 1940s, and it gained wider popularity through the 1964 World's Fair in New York. Difford's single-glass recipe uses Rioja, Spanish brandy and dry curaçao, nodding to the drink's Spanish cousin.",
+    "tasteProfile": "Summer in a glass. Fruity Rioja forms the base, its tannins softened and sweetened by orange juice, curaçao and a touch of sugar, while brandy adds warmth and body. Lemon keeps it fresh, a hint of cinnamon syrup brings gentle spice, and a splash of soda lightens the whole drink. Served over ice with plenty of fruit, it is a refreshing, low-key drink for warm afternoons and outdoor meals.",
+    "tags": [
+      "fruity",
+      "refreshing",
+      "low-abv",
+      "classic"
+    ],
+    "popularity": 60,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Sangaree (Sangria)",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1741/sangaree-sangria",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Sangaree (Sangria)",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1741/sangaree-sangria",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Wikipedia",
+        "title": "Sangria",
+        "url": "https://en.wikipedia.org/wiki/Sangria",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Difford's history is two sentences; colonial/West Indies origin and later revival from Wikipedia (secondary). No documented creation year; era vintage (19th-century American drink). Goblet mapped to Wine Glass. Name shortened from 'Sangaree (Sangria)'.",
+    "shortDescription": "Red wine, brandy, curaçao, orange and lemon topped with soda: the single-serve, nineteenth-century American forerunner of sangria."
+  },
+  {
+    "id": "vancouver",
+    "name": "Vancouver",
+    "era": "vintage",
+    "yearCreated": 1925,
+    "glass": "Coupe",
+    "method": "stir",
+    "ingredients": [
+      {
+        "id": "gin",
+        "amount": 50,
+        "unit": "ml",
+        "optional": false,
+        "note": "London dry"
+      },
+      {
+        "id": "benedictine",
+        "amount": 20,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "dry-vermouth",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "sweet-vermouth",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "orange-bitters",
+        "amount": 1,
+        "unit": "dash",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Orange zest twist and/or a skewered maraschino cherry",
+    "instructions": [
+      "Chill a coupe glass.",
+      "Stir the gin, Bénédictine, both vermouths and the orange bitters with ice.",
+      "Fine strain into the chilled glass.",
+      "Express an orange zest twist over the drink and use it as garnish, with or without a cherry."
+    ],
+    "history": "The Vancouver is adapted from the About Town Cocktail Book, a collection of popular food and drink recipes published in Vancouver in 1925 by Mitchell Publishing. Its recipe was half gin, with French vermouth and Bénédictine, a dash of orange bitters and an olive. The same book lists the Fitchett, an identical drink made with Italian vermouth, named after Joseph A. Fitchett, head bar steward of the Vancouver Club, who checked every recipe in the book.\n\nUntil a 2020 article in Scout Magazine drew attention to these entries, the accepted Vancouver recipe was in fact the Fitchett with sweet vermouth. Difford's Guide notes that the drink remains popular in the city it is named after, and its recipe splits the difference with a 'perfect' mix of equal dry and sweet vermouth.",
+    "tasteProfile": "A smooth, gently sweet and herbal gin drink. London dry gin gives juniper structure, Bénédictine adds honeyed sweetness with baking spice and herbs, and the blend of dry and sweet vermouth balances crisp wine notes with a richer, rounded body. Orange bitters and a twist of orange zest brighten the aroma. Silky and well-rounded, it suits an aperitif hour or a quiet nightcap.",
+    "tags": [
+      "spirit-forward",
+      "herbal",
+      "classic",
+      "aperitif"
+    ],
+    "popularity": 45,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Vancouver",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2759/vancouver",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Vancouver",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2759/vancouver",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Recipe disagreement: 1925 original uses French (dry) vermouth; the long-accepted version (actually the Fitchett) uses sweet vermouth; Difford's uses a 'perfect' split. Difford's recipe followed.",
+    "shortDescription": "Gin stirred with Bénédictine, dry and sweet vermouth and orange bitters: a herbal 1925 classic from Vancouver's About Town Cocktail Book."
+  },
+  {
+    "id": "diamondback",
+    "name": "Diamondback",
+    "era": "vintage",
+    "yearCreated": 1951,
+    "glass": "Coupe",
+    "method": "stir",
+    "ingredients": [
+      {
+        "id": "rye-whiskey",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": "100 proof"
+      },
+      {
+        "id": "calvados",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "or apple brandy / straight applejack"
+      },
+      {
+        "id": "yellow-chartreuse",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "water",
+        "amount": 7.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "chilled; omit if using wet ice"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Skewered maraschino cherry",
+    "instructions": [
+      "Chill a Nick & Nora or coupe glass.",
+      "Stir the rye, calvados, Yellow Chartreuse and water with ice.",
+      "Strain into the chilled glass.",
+      "Garnish with a skewered cherry."
+    ],
+    "history": "Difford's Guide adapts the Diamondback from Ted Saucier's 1951 book Bottoms Up, where it appears as the Diamondback Lounge, courtesy of the Lord Baltimore Hotel in Baltimore, Maryland. Saucier's recipe used two parts rye to one each of applejack and yellow Chartreuse, shaken and served over cracked ice with mint. The hotel opened in 1928 and still stands, though the lounge itself is long gone.\n\nBoth the bar and the drink take their name from the diamondback terrapin, a turtle of the tidal marshes of America's east coast with a diamond-patterned shell. It has been the University of Maryland's mascot since 1932 and is Maryland's state reptile.",
+    "tasteProfile": "A potent, rich and herbal sipper. High-proof rye provides spice and a firm backbone, calvados adds baked apple and orchard fruit, and Yellow Chartreuse brings honeyed sweetness with saffron, citrus and alpine herbs. Stirring with a little water smooths the strength without hiding the layered flavours. Warming and complex, it is best saved for after dinner or as a nightcap.",
+    "tags": [
+      "spirit-forward",
+      "herbal",
+      "strong",
+      "after-dinner",
+      "classic"
+    ],
+    "popularity": 42,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Diamondback",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/3058/diamondback",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Diamondback",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/3058/diamondback",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Saucier's 1951 original is shaken and served on cracked ice in an old fashioned glass with mint; Difford's stirs and serves it up in a Nick & Nora (mapped to Coupe).",
+    "shortDescription": "Rye whiskey stirred with calvados and Yellow Chartreuse: a potent, herbal Baltimore hotel cocktail first printed in 1951."
+  },
+  {
+    "id": "eastside-gimlet",
+    "name": "Eastside Gimlet",
+    "era": "modern",
+    "yearCreated": 2004,
+    "glass": "Coupe",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "cucumber",
+        "amount": 2,
+        "unit": "piece",
+        "optional": false,
+        "note": "fresh slices, ideally peeled"
+      },
+      {
+        "id": "mint",
+        "amount": 8,
+        "unit": "leaf",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "gin",
+        "amount": 60,
+        "unit": "ml",
+        "optional": false,
+        "note": "London dry"
+      },
+      {
+        "id": "lime-juice",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "rich, 2 sugar to 1 water"
+      },
+      {
+        "id": "soda-water",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Mint leaf pegged to the rim and a cucumber slice floated on top",
+    "instructions": [
+      "Chill a coupe glass.",
+      "Muddle the cucumber in the base of a shaker, then add the mint and press lightly just to bruise it.",
+      "Add the gin, lime juice and syrup and shake with ice.",
+      "Fine strain into the chilled glass and top with the soda water.",
+      "Garnish with a mint leaf on the rim and a floating cucumber slice."
+    ],
+    "history": "The Eastside was created in 2004 by George Delgado at Libation in Manhattan, New York City, originally served as a long drink. Christy Pope later took it to Milk & Honey, where this popular straight-up version was developed. It is a riff on both the Southside and the Gimlet, and Difford's Guide suggests the cucumber was inspired by the then-recent launch of Hendrick's Gin, which is known for its cucumber notes.",
+    "tasteProfile": "Cool, green and refreshing. Fresh cucumber gives a clean, garden-fresh character and lightly bruised mint adds a gentle, aromatic lift, while gin brings juniper and citrus botanicals. Fresh lime supplies a bright, tart edge and rich syrup balances it, with a splash of soda adding a faint sparkle. Light and crisp, it is an ideal warm-weather drink or a fresh aperitif before dinner.",
+    "tags": [
+      "sour",
+      "refreshing",
+      "herbal",
+      "citrus",
+      "contemporary"
+    ],
+    "popularity": 58,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Eastside Gimlet",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/3628/eastside-gimlet",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Eastside Gimlet",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/3628/eastside-gimlet",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Original Eastside was a long drink (Delgado, Libation, 2004); the straight-up 'Gimlet' version was developed at Milk & Honey via Christy Pope (no year given). Single history paragraph.",
+    "shortDescription": "Gin shaken with muddled cucumber, mint, lime and sugar, served up: a cool 2004 New York riff on the Southside and Gimlet."
+  },
+  {
+    "id": "turf-club",
+    "name": "Turf Club",
+    "era": "vintage",
+    "yearCreated": 1900,
+    "glass": "Coupe",
+    "method": "stir",
+    "ingredients": [
+      {
+        "id": "gin",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": "London dry; Johnson specified Plymouth"
+      },
+      {
+        "id": "dry-vermouth",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "maraschino-liqueur",
+        "amount": 7.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "orange-bitters",
+        "amount": 1,
+        "unit": "dash",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "absinthe",
+        "amount": 1,
+        "unit": "dash",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Lemon zest twist (expressed and discarded) and a maraschino cherry",
+    "instructions": [
+      "Chill a coupe glass.",
+      "Stir the gin, dry vermouth, maraschino, orange bitters and absinthe with ice.",
+      "Fine strain into the chilled glass.",
+      "Express a lemon zest twist over the drink and discard it.",
+      "Garnish with a maraschino cherry."
+    ],
+    "history": "Harry Johnson did not include the Turf cocktail in the 1882 or 1888 editions of his Bartenders' Manual, but added it as the final drink of his revised 1900 edition. Reflecting changing tastes, he called for Plymouth gin rather than old tom, stirred with French vermouth, orange bitters, maraschino and absinthe, and garnished with an olive.\n\nRobert Vermeire repeated Johnson's formula in 1922 and credited him as its creator, and Harry McElhone printed a near-identical Turf Club the same year. Harry Craddock also reproduced Johnson's recipe in The Savoy Cocktail Book of 1930. Other, differing Turf Club recipes exist from the 1880s and 1890s.",
+    "tasteProfile": "A dry, punchy Martini-style drink. Equal parts gin and dry vermouth give a crisp, winey and botanical base, while a touch of maraschino adds a subtle floral, nutty cherry note rather than sweetness. Orange bitters and a dash of absinthe add aromatic complexity and a hint of anise, and lemon oils brighten the nose. Clean and bracing, it makes an elegant aperitif.",
+    "tags": [
+      "spirit-forward",
+      "dry",
+      "aperitif",
+      "classic"
+    ],
+    "popularity": 42,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Turf Club (1900, Harry Johnson)",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/3394/turf-club-1900-harry-johnson",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Turf Club (1900, Harry Johnson)",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/3394/turf-club-1900-harry-johnson",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Several different Turf Club recipes exist (George Winter 1884, Kappeler 1895, Crockett 1935, Baker 1939); this record follows Harry Johnson's 1900 version as adapted by Difford's. Johnson garnished with an olive; Difford's uses a lemon twist and cherry. Name shortened from 'Turf Club (1900, Harry Johnson)'.",
+    "shortDescription": "Gin and dry vermouth stirred with maraschino, orange bitters and absinthe: Harry Johnson's dry, Martini-like 1900 Turf Club."
+  },
+  {
+    "id": "whiskey-collins",
+    "name": "Whiskey Collins",
+    "era": "vintage",
+    "yearCreated": null,
+    "glass": "Highball",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "bourbon",
+        "amount": 60,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lemon-juice",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "rich, 2 sugar to 1 water"
+      },
+      {
+        "id": "angostura-bitters",
+        "amount": 2,
+        "unit": "dash",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "soda-water",
+        "amount": 40,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Orange wheel and maraschino cherry on a skewer",
+    "instructions": [
+      "Fill a chilled Collins glass with ice.",
+      "Shake the bourbon, lemon juice, syrup and bitters with ice.",
+      "Strain into the ice-filled glass while pouring in the soda water.",
+      "Garnish with a skewered orange wheel and cherry."
+    ],
+    "history": "The Whiskey Collins is a classic variation on the Tom Collins, also known as the Colonel Collins when made with bourbon. In his 1948 book The Fine Art of Mixing Drinks, David Embury remarked that the Collins family originally had only two brothers, Tom and John, but that numerous cousins had since appeared, among them the Colonel. Other members include the Jock or Sandy Collins with Scotch, the Mike Collins with Irish whiskey and the Pierre Collins with cognac.",
+    "tasteProfile": "A long, refreshing whiskey sour lengthened with soda. Bourbon brings vanilla, caramel and gentle oak, fresh lemon gives a bright tartness, and rich syrup rounds the edges. A couple of dashes of aromatic bitters add spice and depth, while soda water makes it light, lively and easy to sip. Served tall over ice, it is perfect for warm afternoons or for anyone who finds a straight whiskey drink too heavy.",
+    "tags": [
+      "collins",
+      "highball",
+      "sour",
+      "refreshing",
+      "classic"
+    ],
+    "popularity": 55,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Whiskey Collins",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2080/whiskey-collins",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Whiskey Collins",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2080/whiskey-collins",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Difford's history is one line ('a classic Collins variation'); history built from the Embury (1948) quotation and Collins-family list on the same page. No documented creation year; era vintage because Embury already lists the bourbon 'Colonel' Collins in 1948. Single history paragraph.",
+    "shortDescription": "Bourbon, lemon juice, sugar and bitters lengthened with soda: the whiskey cousin of the Tom Collins, also called the Colonel Collins."
+  },
+  {
+    "id": "hunter",
+    "name": "Hunter",
+    "era": "vintage",
+    "yearCreated": 1908,
+    "glass": "Rocks Glass",
+    "method": "stir",
+    "ingredients": [
+      {
+        "id": "bourbon",
+        "amount": 50,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "cherry-liqueur",
+        "amount": 20,
+        "unit": "ml",
+        "optional": false,
+        "note": "cherry brandy liqueur"
+      },
+      {
+        "id": "maraschino-liqueur",
+        "amount": 2.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "orange-bitters",
+        "amount": 2,
+        "unit": "dash",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Orange zest twist (expressed and discarded) and a skewered maraschino cherry",
+    "instructions": [
+      "Fill an old fashioned glass with ice, ideally one large cube.",
+      "Stir the bourbon, cherry liqueur, maraschino and orange bitters with ice.",
+      "Strain into the ice-filled glass.",
+      "Express an orange zest twist over the drink and discard it.",
+      "Garnish with a skewered maraschino cherry."
+    ],
+    "history": "The Hunter first appears in Jack A. Grohusko's 1908 book Jack's Manual, where it is simply three parts rye whiskey stirred over ice with one part cherry brandy. The drink was later revived and reimagined by the celebrated Japanese bartender Hidetsugu Ueno at his High Five bar in Ginza, Tokyo. Traditionally it was served straight up in a coupe, but Difford's Guide prefers it on the rocks and switches to bourbon.",
+    "tasteProfile": "A rich, spirit-forward late-night sipper. Bourbon provides vanilla, caramel and oak, cherry liqueur adds deep, ripe red-fruit sweetness, and a small measure of maraschino brings a floral, slightly nutty cherry note. Orange bitters and an orange twist lift the aroma and keep the sweetness balanced. Served over a large cube, it is smooth and warming, a good choice as a nightcap.",
+    "tags": [
+      "spirit-forward",
+      "fruity",
+      "after-dinner",
+      "sweet",
+      "classic"
+    ],
+    "popularity": 45,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Hunter",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/3121/hunter",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Hunter",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/3121/hunter",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Grohusko's 1908 original uses rye and cherry brandy 3:1, served up; Difford's uses bourbon, adds maraschino and orange bitters, and serves on the rocks. Difford's text spells the Tokyo district 'Ginzo'; standard spelling Ginza used. Single history paragraph.",
+    "shortDescription": "Bourbon stirred with cherry liqueur, a touch of maraschino and orange bitters: a rich 1908 sipper revived by Tokyo's Hidetsugu Ueno."
+  },
+  {
+    "id": "bahama-mama",
+    "name": "Bahama Mama",
+    "era": "modern",
+    "yearCreated": 1963,
+    "glass": "Hurricane Glass",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "aged-rum",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "Jamaican"
+      },
+      {
+        "id": "overproof-rum",
+        "amount": 7.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "aged high-ester pot still rum"
+      },
+      {
+        "id": "coconut-rum",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "half 35-40% coconut rum liqueur, half Malibu"
+      },
+      {
+        "id": "coffee-liqueur",
+        "amount": 7.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "espresso coffee liqueur, e.g. Galliano Espresso"
+      },
+      {
+        "id": "lemon-juice",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "pineapple-juice",
+        "amount": 90,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Pineapple wedge, maraschino cherry and a bouquet of mint sprigs",
+    "instructions": [
+      "Chill a tiki mug or Collins glass and fill it with ice.",
+      "Shake the rums, coconut rum, coffee liqueur, lemon juice and pineapple juice with ice.",
+      "Strain into the ice-filled glass.",
+      "Garnish with a pineapple wedge, a cherry and mint sprigs."
+    ],
+    "history": "The bartender most associated with the Bahama Mama is Oswald 'Slade' Greenslade, a Bahamian who worked at the Pink Elephant nightclub. He says he created it there in 1963 for three tourists who asked for something fruity and new, and named it after a calypso singer whose stage name was Bahama Mama when she walked into the bar shortly afterwards.\n\nGreenslade sent his original recipe to Difford's Guide in 2024: dark rum, coconut rum, grenadine, pineapple and orange juice. He adds that the Bahamas Ministry of Tourism went on to promote the drink. Some dispute his claim, saying it appeared on menus in the 1940s or 1950s, though Difford's has seen no such evidence.",
+    "tasteProfile": "A tropical tiki-style drink built on rum, coconut and pineapple, kept in balance so the sweetness never takes over. Jamaican and overproof rums bring funky molasses and ripe tropical fruit, coconut rum adds creamy sweetness, and a little coffee liqueur gives a subtle roasted depth. Pineapple juice makes it long and juicy, while lemon keeps it bright. Fruity and easy-drinking, it suits beach days, pool parties and summer evenings.",
+    "tags": [
+      "tiki",
+      "tropical",
+      "fruity",
+      "sweet"
+    ],
+    "popularity": 60,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Bahama Mama",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/144/bahama-mama",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Bahama Mama",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/144/bahama-mama",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Origin disputed: Greenslade claims 1963 at the Pink Elephant; others claim 1940s-50s menus (no evidence seen by Difford's). Greenslade's original (dark rum, coconut rum, grenadine, pineapple, orange) differs markedly from Difford's spec, which is used here. Difford's lists two coconut rum lines (generic 35-40% liqueur and Malibu); merged into one coconut-rum line. Tiki mug mapped to Hurricane Glass.",
+    "shortDescription": "Rums, coconut rum, a touch of coffee liqueur, lemon and pineapple: a fruity Bahamian tiki-style drink attributed to Oswald Greenslade in 1963."
+  },
+  {
+    "id": "japanese-cocktail",
+    "name": "Japanese Cocktail",
+    "era": "vintage",
+    "yearCreated": 1862,
+    "glass": "Coupe",
+    "method": "stir",
+    "ingredients": [
+      {
+        "id": "lemon",
+        "amount": 2,
+        "unit": "piece",
+        "optional": true,
+        "note": "swaths of lemon peel, stirred with the drink"
+      },
+      {
+        "id": "cognac",
+        "amount": 60,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "orgeat",
+        "amount": 10,
+        "unit": "ml",
+        "optional": false,
+        "note": "2:1"
+      },
+      {
+        "id": "water",
+        "amount": 10,
+        "unit": "ml",
+        "optional": false,
+        "note": "chilled; omit if using wet ice"
+      },
+      {
+        "id": "angostura-bitters",
+        "amount": 3,
+        "unit": "dash",
+        "optional": false,
+        "note": "Boker's-style bitters"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Lemon zest twist",
+    "instructions": [
+      "Chill a Nick & Nora or coupe glass.",
+      "Stir the cognac, orgeat, water, bitters and lemon peel swaths with ice.",
+      "Strain into the chilled glass.",
+      "Express a lemon zest twist over the drink and use it as garnish."
+    ],
+    "history": "The Japanese Cocktail was first published in Jerry Thomas's 1862 Bar-Tender's Guide and is one of the few drinks in that book believed to be his own creation. His recipe stirred brandy with orgeat, Boker's bitters and lemon peel over ice.\n\nThomas is thought to have created it in 1860 to mark the first Japanese diplomatic mission to the United States, whose delegates stayed at New York's Metropolitan Hotel, a block from his bar at 622 Broadway. Historian David Wondrich has suggested the visitors could hardly have missed calling in on the Professor during their stay.",
+    "tasteProfile": "A lightly sweetened, gently diluted cognac drink. The brandy's dried fruit, vanilla and oak take centre stage, while orgeat adds a soft almond and floral sweetness that rounds the spirit. A few dashes of aromatic bitters bring a hint of spice, and the lemon peel stirred into the drink lends bright citrus oils. Smooth and elegant, it is a refined pre-dinner drink or a quiet evening sipper.",
+    "tags": [
+      "spirit-forward",
+      "classic",
+      "after-dinner",
+      "sweet"
+    ],
+    "popularity": 45,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Japanese Cocktail",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1055/japanese-cocktail",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Japanese Cocktail",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1055/japanese-cocktail",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Difford's uses 'Boker's Style' bitters (no dictionary ID); mapped to angostura-bitters with note. Lemon peel swaths are stirred in the drink; recorded as optional 'lemon' (whole fruit) so they do not block matching. Thomas's 1860 creation date is presented by Difford's as 'thought to be'; yearCreated 1862 = first print. Nick & Nora mapped to Coupe.",
+    "shortDescription": "Cognac stirred with orgeat, aromatic bitters and lemon peel: Jerry Thomas's 1862 tribute to the first Japanese mission to the USA."
+  },
+  {
+    "id": "silk-stocking",
+    "name": "Silk Stocking",
+    "era": "modern",
+    "yearCreated": 1982,
+    "glass": "Coupe",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "tequila",
+        "amount": 60,
+        "unit": "ml",
+        "optional": false,
+        "note": "blanco"
+      },
+      {
+        "id": "creme-de-cacao",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "white"
+      },
+      {
+        "id": "grenadine",
+        "amount": 7.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "cream",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "whipping cream"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Freshly grated nutmeg",
+    "instructions": [
+      "Chill a coupe glass.",
+      "Shake the tequila, white crème de cacao, grenadine and cream with ice.",
+      "Fine strain into the chilled glass.",
+      "Dust with freshly grated nutmeg."
+    ],
+    "history": "The Silk Stocking emerged in the late 1970s or early 1980s. The earliest book reference Difford's Guide has found is Helen Spence's 1982 Cocktails For Two, where Silk Stockings is a blended drink of tequila, white crème de cacao, fresh cream and grenadine, dusted with cinnamon and finished with a cherry.\n\nDifford's shaken recipe comes from Ryan Chetiyawardana, who shared it in 2009 at The Cabinet Room in London during the UK final of that year's World Class bartending competition. His version swaps the blender for the shaker, keeps the tequila, cacao, cream and grenadine core, and finishes the drink with nutmeg instead of cinnamon.",
+    "tasteProfile": "Remarkably smooth and creamy, yet with a clear tequila bite. Blanco tequila brings peppery, vegetal agave notes that cut through the richness, white crème de cacao adds a gentle milk-chocolate sweetness, and a little grenadine contributes a hint of red fruit and a soft pink colour. Whipping cream gives a silky, dessert-like texture and nutmeg adds warm spice. A perfect after-dinner indulgence.",
+    "tags": [
+      "creamy",
+      "after-dinner",
+      "sweet"
+    ],
+    "popularity": 45,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Silk Stocking",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1774/silk-stocking",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Silk Stocking",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1774/silk-stocking",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Spence's 1982 original is blended with a cinnamon dusting; Difford's (Chetiyawardana 2009) is shaken with nutmeg. yearCreated 1982 = earliest book reference (origin 'late 1970s - early 1980s').",
+    "shortDescription": "Tequila shaken with white crème de cacao, cream and grenadine: a silky, chocolatey after-dinner drink dating from the early 1980s."
+  },
+  {
+    "id": "pina-verde",
+    "name": "Piña Verde",
+    "era": "modern",
+    "yearCreated": null,
+    "glass": "Highball",
+    "method": "blend",
+    "ingredients": [
+      {
+        "id": "green-chartreuse",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "pineapple-juice",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "coconut-cream",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "cream of coconut, e.g. Coco Lopez"
+      },
+      {
+        "id": "lime-juice",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": "crushed, about 7 oz scoop"
+      }
+    ],
+    "garnish": "Bouquet of mint sprigs",
+    "instructions": [
+      "Chill a Collins glass.",
+      "Blend the Green Chartreuse, pineapple juice, cream of coconut and lime juice with a scoop of crushed ice.",
+      "Pour into the chilled glass.",
+      "Garnish with a bouquet of mint sprigs."
+    ],
+    "history": "Piña Verde means 'green pineapple' in Spanish. The drink was created by Erick Castro at his Polite Provisions bar in San Diego, California, where staff nicknamed it the Greenya Colada. According to PUNCH, it grew out of Castro's unorthodox habit of adding Green Chartreuse to Piña Coladas; when rum and then gin failed to give the herbal richness he wanted, he dropped the base spirit altogether and let the liqueur carry the drink.",
+    "tasteProfile": "A herbal twist on the Piña Colada. Green Chartreuse takes the lead with its intense, sweet, alpine-herb character and generous warmth, while pineapple juice and cream of coconut provide a lush, tropical, creamy body. Fresh lime adds a bright, tart edge that keeps it from becoming cloying. Blended with crushed ice it is cold, frothy and surprisingly refreshing, a fun choice for hot days and tiki fans.",
+    "tags": [
+      "tiki",
+      "tropical",
+      "herbal",
+      "frozen",
+      "creamy",
+      "contemporary"
+    ],
+    "popularity": 50,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Piña Verde",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/10138/pina-verde",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Piña Verde",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/10138/pina-verde",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "PUNCH",
+        "title": "Piña Verde",
+        "url": "https://punchdrink.com/recipes/pina-verde/",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "No creation year on Difford's or PUNCH; yearCreated null, era modern (PUNCH tags it a modern classic). Difford's misspells the creator as 'Erick Gastro' in its history text but links 'Erick Castro'; PUNCH confirms Castro. Difford's blends; PUNCH shakes and serves over pebble ice (blending optional). AKA Chartreuse Colada.",
+    "shortDescription": "Green Chartreuse blended with pineapple, cream of coconut and lime: Erick Castro's herbal San Diego twist on the Piña Colada."
+  },
+  {
+    "id": "pink-lady",
+    "name": "Pink Lady",
+    "era": "vintage",
+    "yearCreated": 1913,
+    "glass": "Coupe",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "gin",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": "London dry"
+      },
+      {
+        "id": "calvados",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "bottled-in-bond applejack"
+      },
+      {
+        "id": "lemon-juice",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 12.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "rich, 2 sugar to 1 water"
+      },
+      {
+        "id": "grenadine",
+        "amount": 5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "egg-white",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "or vegan foamer"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Maraschino cherry",
+    "instructions": [
+      "Chill a coupe glass.",
+      "Shake the gin, applejack, lemon juice, syrup, grenadine and egg white with ice.",
+      "Strain back into the shaker and dry shake without ice.",
+      "Fine strain into the chilled glass.",
+      "Garnish with a maraschino cherry."
+    ],
+    "history": "The first known reference to the Pink Lady is in Jacques Straub's 1913 Manual of Mixed Drinks, which mixed equal parts lime juice, gin and applejack with grenadine. Later recipes, including Harry Craddock's in The Savoy Cocktail Book of 1930, dropped the applejack, which was hard to find in Britain, and added egg white for a fluffier drink.\n\nThe name probably honours actress Hazel Dawn, star of the 1911 Broadway musical The Pink Lady, who kept the nickname for life. The creator is not recorded, though the drink is sometimes attributed to actress and decorator Elsie de Wolfe. Ted Haigh jokingly calls it The Secret Cocktail.",
+    "tasteProfile": "A tasty, foamy sour that is neither sweet nor weak despite its pink colour. Gin and high-proof applejack give a spicy, spirituous backbone with a hint of orchard fruit, fresh lemon brings sharp acidity, and a little grenadine adds subtle red-fruit sweetness and the signature blush. Egg white creates a soft, silky foam. Elegant and balanced, it works well as an aperitif or celebration drink.",
+    "tags": [
+      "sour",
+      "foamy",
+      "fruity",
+      "classic"
+    ],
+    "popularity": 62,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Pink Lady",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1548/pink-lady",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Pink Lady",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1548/pink-lady",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Straub's 1913 original uses lime juice, gin and applejack with grenadine and no egg white; Craddock (1930) drops applejack and adds egg white; Difford's combines applejack with lemon and egg white. Applejack mapped to calvados (synonym 'applejack'). Name origin given by Difford's as 'probably'; creator attribution to Elsie de Wolfe is 'sometimes'.",
+    "shortDescription": "Gin and applejack shaken with lemon, grenadine and egg white: a foamy, blush-pink sour first recorded in 1913."
+  },
+  {
+    "id": "hot-toddy",
+    "name": "Hot Toddy",
+    "era": "vintage",
+    "yearCreated": 1741,
+    "glass": "Irish Coffee Glass",
+    "method": "build",
+    "ingredients": [
+      {
+        "id": "scotch-whisky",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": "blended"
+      },
+      {
+        "id": "lemon-juice",
+        "amount": 7.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "honey-syrup",
+        "amount": 7.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "3 honey to 1 water"
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 5,
+        "unit": "ml",
+        "optional": false,
+        "note": "rich, 2 sugar to 1 water"
+      },
+      {
+        "id": "clove",
+        "amount": 3,
+        "unit": "piece",
+        "optional": false,
+        "note": "dried"
+      },
+      {
+        "id": "water",
+        "amount": 60,
+        "unit": "ml",
+        "optional": false,
+        "note": "boiling"
+      }
+    ],
+    "garnish": "Lemon wheel on the rim and a cinnamon stick",
+    "instructions": [
+      "Warm a toddy glass.",
+      "Pour the Scotch, lemon juice, honey syrup and sugar syrup into the warm glass.",
+      "Add the cloves.",
+      "Top with boiling water and stir.",
+      "Garnish with a lemon wheel on the rim and a cinnamon stick."
+    ],
+    "history": "The earliest known reference to a toddy was published in England in 1741, and Charles Dickens mentions a whisky toddy in The Pickwick Papers of 1836. Jerry Thomas included a Whiskey Toddy in his 1862 Bar-Tender's Guide, made simply with sugar, water, whiskey and a small lump of ice, showing that toddies were not always served hot.\n\nDifford's Guide's version, also called Hot Scotch and Lemon, is a warming mix of blended Scotch, lemon, honey and sugar topped with boiling water and spiced with cloves, long recommended as a comfort when feeling under the weather with a cold.",
+    "tasteProfile": "Warm, soothing and gently spiced. Blended Scotch provides malt and a faint smoky spice, softened by honey and a little sugar, while a splash of lemon keeps it bright. Cloves infuse the hot water with aromatic warmth, and a cinnamon stick adds a sweet spice aroma. Mild in strength once lengthened, it is the classic winter nightcap and a comforting drink when you are feeling run down.",
+    "tags": [
+      "hot",
+      "spicy",
+      "classic",
+      "citrus"
+    ],
+    "popularity": 75,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Hot Toddy (Hot Scotch & Lemon)",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/987/hot-toddy-hot-scotch-and-lemon",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Hot Toddy (Hot Scotch & Lemon)",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/987/hot-toddy-hot-scotch-and-lemon",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Proposed new ingredient ID 'clove' (no fitting dictionary entry). Toddy glass mapped to Irish Coffee Glass. yearCreated 1741 = earliest known reference to a toddy (generic drink, not this exact recipe). Jerry Thomas's 1862 Whiskey Toddy is a cold serve. Name shortened from 'Hot Toddy (Hot Scotch & Lemon)'.",
+    "shortDescription": "Scotch, lemon, honey and cloves topped with boiling water: the classic warming toddy, a drink first recorded in England in 1741."
+  },
+  {
+    "id": "blue-hawaii",
+    "name": "Blue Hawaii",
+    "era": "vintage",
+    "yearCreated": 1957,
+    "glass": "Hurricane Glass",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "white-rum",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "light, charcoal-filtered"
+      },
+      {
+        "id": "vodka",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "blue-curacao",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "pineapple-juice",
+        "amount": 90,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lime-juice",
+        "amount": 10,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lemon-juice",
+        "amount": 10,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 10,
+        "unit": "ml",
+        "optional": false,
+        "note": "rich, 2 sugar to 1 water"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": "crushed"
+      }
+    ],
+    "garnish": "Pineapple wedge and cherry skewered with a paper parasol; serve with a straw",
+    "instructions": [
+      "Chill a hurricane glass and fill it with crushed ice.",
+      "Shake the rum, vodka, blue curaçao, pineapple juice, lime juice, lemon juice and syrup with ice.",
+      "Fine strain into the glass.",
+      "Garnish with a pineapple wedge and cherry on a parasol and serve with a straw."
+    ],
+    "history": "The Blue Hawaii was created in 1957 by Harry K. Yee at Henry Kaiser's Hawaiian Village Hotel, later the Hilton, in Waikiki on Oahu. Bols reportedly asked for a drink to help sell its blue curaçao, and Yee obliged with this vivid tropical mix.\n\nIt takes its name from the hit song in the 1937 Bing Crosby film Waikiki Wedding rather than from the 1961 Elvis Presley film Blue Hawaii, though Difford's Guide suggests the Elvis musical probably helped the cocktail's popularity. Some bartenders serve it layered over the blue curaçao or add a rum float.",
+    "tasteProfile": "Bright blue, fruity and unashamedly tropical. Light rum and vodka make a clean, neutral base, letting pineapple juice dominate with its juicy sweetness, while blue curaçao adds a gentle bitter-orange note along with the famous colour. Fresh lime and lemon sharpen the finish and keep it refreshing. Served over crushed ice with a parasol, it is a fun, easy-drinking holiday drink for poolside afternoons and beach parties.",
+    "tags": [
+      "tiki",
+      "tropical",
+      "fruity",
+      "sweet",
+      "refreshing"
+    ],
+    "popularity": 62,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Blue Hawaii",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2309/blue-hawaii",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Blue Hawaii",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2309/blue-hawaii",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Not to be confused with the Blue Hawaiian (rum, blue curaçao, pineapple, coconut). 'Reportedly' used for the Bols commission, which Difford's states as fact.",
+    "shortDescription": "Rum and vodka shaken with blue curaçao, pineapple and citrus: Harry Yee's vivid 1957 Waikiki tiki drink created to sell blue curaçao."
+  },
+  {
+    "id": "golden-cadillac",
+    "name": "Golden Cadillac",
+    "era": "vintage",
+    "yearCreated": 1952,
+    "glass": "Coupe",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "creme-de-cacao",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": "white"
+      },
+      {
+        "id": "galliano",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "orange-juice",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "cream",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": "whipping cream"
+      },
+      {
+        "id": "orange-bitters",
+        "amount": 2,
+        "unit": "dash",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Freshly grated nutmeg",
+    "instructions": [
+      "Chill a coupe glass.",
+      "Shake the white crème de cacao, Galliano, orange juice, cream and orange bitters with ice.",
+      "Fine strain into the chilled glass.",
+      "Dust with freshly grated nutmeg."
+    ],
+    "history": "According to Poor Red's, a bar famous for its barbecue, the drink was created there in 1952 when a newly engaged couple asked bartender Frank Klein to invent a cocktail to match their new gold-coloured Cadillac. He served hers in a champagne coupe and his in a sidecar glass, so each order still comes as two glasses. The bar calls itself the world's largest consumer of Galliano.\n\nGalliano noticed rising sales in Northern California and advertised the drink from 1964 to 1967. Poor Red's and some books call it the Gold Cadillac, but books such as Stanley Jones's 1977 Barguide used Golden Cadillac, the name now better known.",
+    "tasteProfile": "A creamy, dessert-like drink with a gentle golden glow. White crème de cacao brings milk-chocolate sweetness and Galliano adds vanilla, anise and soft herbal notes. Difford's adds fresh orange juice, which lightens the cream and gives the drink its golden hue, while orange bitters sharpen the citrus and balance the sweetness. Smooth and indulgent, it is an ideal after-dinner treat.",
+    "tags": [
+      "creamy",
+      "sweet",
+      "after-dinner"
+    ],
+    "popularity": 50,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Golden Cadillac",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/872/golden-cadillac",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Golden Cadillac",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/872/golden-cadillac",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Origin story comes from Poor Red's own website, as quoted by Difford's. Classic recipes (Jones 1977, Poister 1989) have no orange juice and are often blended; Difford's adds orange juice and orange bitters. Name variants: Gold Cadillac vs Golden Cadillac.",
+    "shortDescription": "White crème de cacao, Galliano, orange juice and cream shaken together: a golden, creamy dessert drink created at Poor Red's in 1952."
+  },
+  {
+    "id": "hurricane",
+    "name": "Hurricane",
+    "era": "vintage",
+    "yearCreated": 1939,
+    "glass": "Hurricane Glass",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "white-rum",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": "Cuban añejo 3 años"
+      },
+      {
+        "id": "dark-rum",
+        "amount": 25,
+        "unit": "ml",
+        "optional": false,
+        "note": "navy rum, ideally about 55% abv"
+      },
+      {
+        "id": "pineapple-juice",
+        "amount": 25,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "orange-juice",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lime-juice",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lime-cordial",
+        "amount": 10,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 7.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "rich, 2 sugar to 1 water"
+      },
+      {
+        "id": "passion-fruit-syrup",
+        "amount": 5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": "crushed"
+      }
+    ],
+    "garnish": "Pineapple wedge and maraschino cherry",
+    "instructions": [
+      "Chill a hurricane glass and fill it with crushed ice.",
+      "Shake both rums, the pineapple, orange and lime juices, lime cordial, sugar syrup and passion fruit syrup with ice.",
+      "Strain into the glass.",
+      "Garnish with a pineapple wedge and a cherry."
+    ],
+    "history": "The Hurricane is named after the shape of a hurricane lamp and is served in the tall, curvaceous glass of the same name. It is thought to have originated in 1939 at The Hurricane Bar in New York City, but it was Pat O'Brien's bar in New Orleans that made it famous. Difford's Guide also notes that some old cocktail books list a much earlier and entirely different Hurricane made with cognac, absinthe and vodka.",
+    "tasteProfile": "A strong, tangy and refreshing rum drink packed with fruit. Light Cuban rum and a punchy navy rum provide a rich, molasses-tinged backbone, while pineapple, orange and lime juices bring juicy sweetness and a bright sour edge. Lime cordial and passion fruit syrup add depth and a tropical perfume. Served long over crushed ice, it is a lively party drink for summer days and celebrations.",
+    "tags": [
+      "tiki",
+      "tropical",
+      "fruity",
+      "strong",
+      "sour"
+    ],
+    "popularity": 68,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Hurricane",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/993/hurricane",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Hurricane",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/993/hurricane",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Origin given by Difford's as 'thought to have' (The Hurricane Bar, New York, 1939), popularised at Pat O'Brien's, New Orleans. An unrelated earlier Hurricane (cognac, absinthe, vodka) exists. Navy rum mapped to dark-rum per dictionary synonym. Single history paragraph.",
+    "shortDescription": "Light and navy rums shaken with pineapple, orange, lime and passion fruit: a strong, fruity party drink made famous in New Orleans."
+  },
+  {
+    "id": "ti-punch",
+    "name": "Ti Punch",
+    "era": "vintage",
+    "yearCreated": 1890,
+    "glass": "Rocks Glass",
+    "method": "build",
+    "ingredients": [
+      {
+        "id": "rhum-agricole",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": "unaged blanc, traditionally 50% abv"
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 7.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "sugar cane syrup (sirop de canne)"
+      },
+      {
+        "id": "lime",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": "a disc cut from the side of the lime, squeezed and dropped in"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": true,
+        "note": "one or two large cubes, optional"
+      }
+    ],
+    "garnish": null,
+    "instructions": [
+      "Pour the rhum agricole and cane syrup into an old fashioned glass.",
+      "Squeeze a disc of lime peel and flesh between finger and thumb over the drink, then drop it in.",
+      "Stir, adding one or two large ice cubes if desired.",
+      "Serve with a small spoon if liked, so the drinker can press more juice from the lime."
+    ],
+    "history": "Ti is Creole for the French petit, so Ti Punch literally means a small punch. Unlike most rum punches it is not lengthened with water or juice, and it is often served without ice despite the warm climate. It is the national cocktail of Martinique and Guadeloupe and is also popular in Réunion, Mauritius, Haiti, French Guiana and other French-speaking Caribbean islands.\n\nOn the islands it is often chased with a large glass of chilled water, called a crase in Martinique. The earliest known written mention, as 'yon Ti Punch', appears in an 1890 book by the travel writer Lafcadio Hearn, recounting the years he spent living in Martinique.",
+    "tasteProfile": "Punchy, grassy and deceptively simple. Unaged rhum agricole, traditionally bottled at 50% abv, brings vivid fresh sugar cane, green and slightly vegetal notes. Cane syrup softens the spirit and adds a rich, rounded sweetness, while the squeezed lime disc releases fragrant peel oils and a touch of juice. With little or no dilution it is strong but very pleasing, a great sundowner or aperitif.",
+    "tags": [
+      "spirit-forward",
+      "strong",
+      "classic",
+      "aperitif"
+    ],
+    "popularity": 58,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Ti Punch",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1952/ti-punch",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Ti Punch",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1952/ti-punch",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "No dictionary ID for sugar cane syrup; mapped to simple-syrup with note. Difford's lists 'Maurice' (French for Mauritius). Difford's gives the Hearn title as 'Two Years in the West Indies' (commonly known as 'Two Years in the French West Indies'); title omitted from history. Ice marked optional as the drink is often served without it.",
+    "shortDescription": "Rhum agricole, cane syrup and a squeezed disc of lime: the small, punchy national cocktail of Martinique and Guadeloupe."
+  },
+  {
+    "id": "knickerbocker",
+    "name": "Knickerbocker",
+    "era": "vintage",
+    "yearCreated": 1862,
+    "glass": "Rocks Glass",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "white-rum",
+        "amount": 75,
+        "unit": "ml",
+        "optional": false,
+        "note": "Cuban añejo 3 años"
+      },
+      {
+        "id": "orange-liqueur",
+        "amount": 5,
+        "unit": "ml",
+        "optional": false,
+        "note": "dry curaçao"
+      },
+      {
+        "id": "raspberry-syrup",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lime-juice",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": "cubed, topped with crushed"
+      }
+    ],
+    "garnish": "Spent lime shell and seasonal berries; serve with a straw",
+    "instructions": [
+      "Fill an old fashioned glass two-thirds full with cubed ice.",
+      "Shake the rum, dry curaçao, raspberry syrup and lime juice with ice.",
+      "Strain into the glass and top up with crushed ice.",
+      "Garnish with the spent lime shell and seasonal berries, and serve with a straw."
+    ],
+    "history": "The Knickerbocker first appears in print in Jerry Thomas's 1862 Bar-Tender's Guide, made with Santa Cruz rum, lime or lemon, raspberry syrup and a little curaçao, shaken with shaved ice and dressed with berries. It was long assumed to come from New York's Knickerbocker Hotel, but that hotel was not built until 1906, so its creator remains unknown.\n\nThe name traces back to Washington Irving, who wrote his satirical 1809 History of New York as Diedrich Knickerbocker, after which the word came to mean an old Dutch-descended New Yorker and then anything from New York. Later versions by William Terrington (1869) and Harry Johnson (1882) varied the formula, Johnson adding pineapple and orange.",
+    "tasteProfile": "Fruity, refreshing and easy-drinking, with rum and raspberry to the fore. Light Cuban rum gives a clean, gently sweet base, raspberry syrup adds ripe berry sweetness and colour, and lime juice provides a bright, tart counterpoint. A dash of dry curaçao adds a subtle orange note. Served over a mix of cubed and crushed ice with fresh berries, it is a cheerful summer party drink.",
+    "tags": [
+      "fruity",
+      "refreshing",
+      "sour",
+      "classic"
+    ],
+    "popularity": 45,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Knickerbocker",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/3974/knickerbocker",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Knickerbocker",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/3974/knickerbocker",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Difford's recommends homemade raspberry syrup but does not require it; mapped to raspberry-syrup. Jerry Thomas used Santa Cruz rum; Difford's uses Cuban añejo 3 años (mapped to white-rum per dictionary synonym). Candidate era hint of ~1809 refers to Irving's book, not the drink.",
+    "shortDescription": "Rum shaken with raspberry syrup, lime and a dash of curaçao over crushed ice: a fruity New York-named classic first printed in 1862."
+  },
+  {
+    "id": "jack-rose",
+    "name": "Jack Rose",
+    "era": "vintage",
+    "yearCreated": 1905,
+    "glass": "Coupe",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "calvados",
+        "amount": 50,
+        "unit": "ml",
+        "optional": false,
+        "note": "30 ml bottled-in-bond applejack plus 20 ml calvados"
+      },
+      {
+        "id": "lemon-juice",
+        "amount": 10,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lime-juice",
+        "amount": 5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 5,
+        "unit": "ml",
+        "optional": false,
+        "note": "rich, 2 sugar to 1 water"
+      },
+      {
+        "id": "raspberry-syrup",
+        "amount": 2.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "grenadine",
+        "amount": 2.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "orange-bitters",
+        "amount": 1,
+        "unit": "dash",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Lemon zest twist",
+    "instructions": [
+      "Chill a Nick & Nora or coupe glass.",
+      "Shake the applejack, calvados, lemon and lime juices, sugar syrup, raspberry syrup, grenadine and bitters with ice.",
+      "Fine strain into the chilled glass.",
+      "Garnish with a lemon zest twist."
+    ],
+    "history": "The first known Jack Rose recipe appears in Jacob Grohusko's 1908 Jack's Manual, with cider brandy, raspberry syrup, lemon, orange and lime, lengthened with soda. By Jacques Straub's 1914 Drinks it had been pared down to applejack, lime and grenadine, close to modern versions.\n\nMany origins are claimed for the name. Albert Crockett said its colour matched the Jacqueminot rose; others link it to a Laird family member named Jack, a claim the family disputes, or simply to applejack. The 1905 Police Gazette credited a Jersey City bartender, Frank J. May, known as Jack Rose, while some tie it to gangster 'Bald' Jack Rose of a 1912 murder case.",
+    "tasteProfile": "A bright, fruity apple brandy sour with a rosy pink hue. Applejack and calvados give a warm, spicy orchard-fruit backbone, while lemon and lime bring a sharp, mouth-watering tartness. Raspberry syrup and grenadine add red-fruit sweetness and colour, and a dash of orange bitters adds depth. Balanced and lively, far more than a simple grenadine sour, it suits an aperitif or early evening.",
+    "tags": [
+      "sour",
+      "fruity",
+      "citrus",
+      "classic"
+    ],
+    "popularity": 60,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Jack Rose Cocktail",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1039/jack-rose-cocktail",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Jack Rose Cocktail",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1039/jack-rose-cocktail",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Name origin disputed (five theories listed by Difford's). yearCreated 1905 = Police Gazette mention of the cocktail and its claimed inventor Frank J. May; first known recipe is 1908 (Grohusko). Difford's splits the base between bonded applejack and calvados (merged into one calvados line with note; 60 ml calvados is the stated substitute). Popular simple spec: 45 ml calvados, 22.5 ml citrus, 15 ml grenadine.",
+    "shortDescription": "Applejack and calvados shaken with lemon, lime, raspberry syrup and grenadine: a rosy apple brandy sour first recorded around 1905."
+  },
+  {
+    "id": "ward-eight",
+    "name": "Ward Eight",
+    "era": "vintage",
+    "yearCreated": 1898,
+    "glass": "Coupe",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "rye-whiskey",
+        "amount": 60,
+        "unit": "ml",
+        "optional": false,
+        "note": "100 proof"
+      },
+      {
+        "id": "lemon-juice",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "orange-juice",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 7.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "rich, 2 sugar to 1 water"
+      },
+      {
+        "id": "grenadine",
+        "amount": 5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Skewered quarter orange slice and maraschino cherry",
+    "instructions": [
+      "Chill a coupe glass.",
+      "Shake the rye, lemon juice, orange juice, syrup and grenadine with ice.",
+      "Fine strain into the chilled glass.",
+      "Garnish with a skewered orange slice and cherry."
+    ],
+    "history": "The Ward Eight is named after a Boston voting district notorious for political corruption. A 1951 Holiday Magazine article credited bartender Tom Hussion with creating it in November 1898 at the Locke-Ober Café, to honour Martin Lomasney's election campaign in Ward Eight. Difford's Guide notes Hussion apparently did not join Locke-Ober until 1900, and that another bartender, Billy Kane, may have mixed the first round.\n\nA rival claim came from bartender Charlie Carter, who wrote in 1934 that he invented it for a 1903 Lomasney victory. The drink appears in print in the 1913 Cocktail Book and in Robert Vermeire's 1922 Cocktails: How to Mix Them.",
+    "tasteProfile": "A spirited sweet-and-sour whiskey drink. Spicy, high-proof rye provides a robust backbone, lemon juice brings a crisp tartness and orange juice adds rounder, juicier citrus sweetness. A small measure of grenadine contributes a subtle red-fruit note and a gentle blush. Bright and balanced, it is a fine aperitif and a good choice for anyone who enjoys a Whiskey Sour with a fruitier edge.",
+    "tags": [
+      "sour",
+      "citrus",
+      "fruity",
+      "classic"
+    ],
+    "popularity": 58,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Ward Eight",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2062/ward-eight",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Ward Eight",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2062/ward-eight",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Creator disputed: Tom Hussion (Holiday Magazine 1951; Difford's doubts the timing), Billy Kane, or Charlie Carter (1934 claim, 1903 date). Difford's says it has not verified the 1951 and 1934 sources itself. yearCreated 1898 = attributed date; first print 1913.",
+    "shortDescription": "Rye whiskey shaken with lemon, orange juice and grenadine: a sweet-and-sour Boston classic named after a notorious voting ward."
+  },
+  {
+    "id": "fog-cutter",
+    "name": "Fog Cutter",
+    "era": "vintage",
+    "yearCreated": 1946,
+    "glass": "Highball",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "white-rum",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": "light, charcoal-filtered"
+      },
+      {
+        "id": "gin",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "London dry"
+      },
+      {
+        "id": "cognac",
+        "amount": 12.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "pisco",
+        "amount": 10,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "orange-juice",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "orgeat",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "2:1"
+      },
+      {
+        "id": "lemon-juice",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "oloroso-sherry",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "floated"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": "crushed"
+      }
+    ],
+    "garnish": "Bouquet of mint sprigs",
+    "instructions": [
+      "Fill a chilled Collins glass with crushed ice.",
+      "Shake the rum, gin, cognac, pisco, orange juice, orgeat and lemon juice with ice.",
+      "Strain into the glass.",
+      "Float the oloroso sherry on top.",
+      "Garnish with a bouquet of mint sprigs."
+    ],
+    "history": "The Fog Cutter is a tiki classic credited to Victor 'Trader Vic' Bergeron. It first appears in his 1946 Trader Vic's Book of Food and Drink, marked with his TV logo as a house signature, where he warns that it is delicious but a triple threat. His recipe combined Puerto Rican rum, brandy and gin with orange and lemon juice and orgeat, finished with a sherry float.\n\nBergeron included it again in his revised 1972 Bartender's Guide, this time calling for light rum and a sweet sherry float and joking that after two of them you would not see any fog at all. Difford's Guide adds a little pisco to the spirit mix.",
+    "tasteProfile": "Long, fruity and deceptively strong. A blend of light rum, gin, cognac and pisco gives a complex spirituous base, while orange and lemon juice make it juicy and tart. Orgeat brings a sweet almond richness that masks the alcohol, and the floated oloroso sherry adds a nutty, raisined depth to the first sips. Served over crushed ice, it is a classic tiki party drink to treat with respect.",
+    "tags": [
+      "tiki",
+      "tropical",
+      "fruity",
+      "strong",
+      "citrus"
+    ],
+    "popularity": 55,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Fog Cutter",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/778/fog-cutter",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Fog Cutter",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/778/fog-cutter",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Proposed new ingredient ID 'oloroso-sherry' (Difford's specifies Lustau Oloroso; no oloroso entry in dictionary). Bergeron's 1946 recipe has no pisco and uses more lemon (2 oz) than orange (1 oz); 1972 version specifies sweet sherry; Difford's adds pisco and reverses the citrus balance.",
+    "shortDescription": "Rum, gin, cognac and pisco shaken with orange, lemon and orgeat under a sherry float: Trader Vic's potent 1946 tiki classic."
+  },
+  {
+    "id": "green-swizzle",
+    "name": "Green Swizzle",
+    "era": "vintage",
+    "yearCreated": null,
+    "glass": "Highball",
+    "method": "swizzle",
+    "ingredients": [
+      {
+        "id": "white-rum",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": "light, charcoal-filtered"
+      },
+      {
+        "id": "overproof-rum",
+        "amount": 10,
+        "unit": "ml",
+        "optional": false,
+        "note": "unaged Jamaican"
+      },
+      {
+        "id": "absinthe",
+        "amount": 5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "falernum",
+        "amount": 25,
+        "unit": "ml",
+        "optional": false,
+        "note": "falernum liqueur"
+      },
+      {
+        "id": "creme-de-menthe",
+        "amount": 5,
+        "unit": "ml",
+        "optional": false,
+        "note": "peppermint"
+      },
+      {
+        "id": "lime-juice",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": "crushed"
+      }
+    ],
+    "garnish": "Three dashes of aromatic bitters on the ice cap, a lime wedge and mint sprigs; serve with a straw",
+    "instructions": [
+      "Pour the rums, absinthe, falernum, crème de menthe and lime juice into a chilled Collins glass.",
+      "Fill the glass two-thirds with crushed ice and swizzle.",
+      "Top with more crushed ice.",
+      "Dash aromatic bitters over the ice cap and garnish with a lime wedge and mint sprigs."
+    ],
+    "history": "The Green Swizzle had its heyday between roughly 1890 and 1930, the golden age of luxury Caribbean hotels like Trinidad's Queen's Park Hotel. Its legendary status owes much to P. G. Wodehouse, whose Bertie Wooster praises the drink after several at the West Indian stand of the 1924 British Empire Exhibition at Wembley.\n\nDavid Wondrich has written that no definitive recipe is possible, as versions existed with rum, whiskey, old tom gin and genever. Its colour first came from a few dashes of absinthe bitters; green crème de menthe is a later shortcut used by some bartenders today. Difford's Guide uses absinthe and a little mint liqueur over a white rum base.",
+    "tasteProfile": "Long, bold and thoroughly cooling. Light and funky overproof white rums give a lively base, falernum adds lime, clove and almond spice, and a touch of absinthe and peppermint crème de menthe bring a cool, herbal anise-and-mint character. Fresh lime keeps it sharp, and the aromatic bitters on top add spice to the first sips. Packed with crushed ice, it is ideal for hot afternoons.",
+    "tags": [
+      "tiki",
+      "refreshing",
+      "herbal",
+      "tropical",
+      "classic"
+    ],
+    "popularity": 45,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Green Swizzle",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/915/green-swizzle",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Green Swizzle",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/915/green-swizzle",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "No single documented creation year (popular 1890s-1930s; Wodehouse reference set at the 1924 exhibition); yearCreated null, era vintage. Difford's uses its own falernum liqueur; mapped to falernum with note. Bitters are applied as a garnish on top per Difford's, so kept in garnish. Difford's writes 'Exposition'; the event was the British Empire Exhibition.",
+    "shortDescription": "White rums swizzled with falernum, lime, absinthe and a touch of mint liqueur: a legendary green Caribbean hotel drink of 1890s-1930s."
+  },
+  {
+    "id": "eggnog",
+    "name": "Eggnog",
+    "era": "vintage",
+    "yearCreated": 1775,
+    "glass": "Rocks Glass",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "cognac",
+        "amount": 25,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "aged-rum",
+        "amount": 25,
+        "unit": "ml",
+        "optional": false,
+        "note": "Cuban añejo 7 años"
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 10,
+        "unit": "ml",
+        "optional": false,
+        "note": "rich, 2 sugar to 1 water"
+      },
+      {
+        "id": "milk",
+        "amount": 25,
+        "unit": "ml",
+        "optional": false,
+        "note": "whole; use cream for a thicker drink"
+      },
+      {
+        "id": "egg",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": "whole fresh egg"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Freshly grated nutmeg",
+    "instructions": [
+      "Fill an old fashioned glass with ice.",
+      "Shake the cognac, rum, syrup, milk and egg with ice.",
+      "Strain back into the shaker and dry shake without ice.",
+      "Fine strain into the ice-filled glass.",
+      "Dust with freshly grated nutmeg."
+    ],
+    "history": "Eggnog is a vintage Christmas drink; Difford's Guide notes that George Washington famously made his own. It is traditionally prepared in batches by whisking egg yolks with sugar, mixing milk, cream and spirits separately, then folding in beaten egg white. Difford's offers a quick single-serve shaken version instead.\n\nAccording to Wikipedia, the drink's origins and the meaning of 'nog' are debated, and it may descend from posset, a medieval hot milk drink. The word eggnog is first recorded in a 1775 poem by Maryland clergyman Jonathan Boucher, and first appeared in print in a New Jersey newspaper in 1788.",
+    "tasteProfile": "Rich, creamy and comforting, like a boozy thickened milkshake. Cognac brings dried fruit and gentle oak, aged rum adds molasses and vanilla, and the whole egg and milk give a velvety, custard-like body once shaken. Sugar syrup sweetens it and freshly grated nutmeg adds the classic warm, festive spice. Indulgent but not heavy in single-serve form, it is a natural choice for Christmas and cold winter evenings.",
+    "tags": [
+      "creamy",
+      "sweet",
+      "classic",
+      "after-dinner"
+    ],
+    "popularity": 65,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Eggnog",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/4708/eggnog",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Eggnog",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/4708/eggnog",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Wikipedia",
+        "title": "Eggnog",
+        "url": "https://en.wikipedia.org/wiki/Eggnog",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "yearCreated 1775 = first recorded use of the word 'eggnog' (Boucher poem, per Wikipedia, secondary source); the drink type may be older. Difford's single-serve recipe is shaken, not batched; suggests cream for thickness and heating for a Hot Eggnog.",
+    "shortDescription": "Cognac and aged rum shaken with a whole egg, milk and sugar under grated nutmeg: a quick single-serve take on the Christmas classic."
+  },
+  {
+    "id": "gibson",
+    "name": "Gibson",
+    "era": "vintage",
+    "yearCreated": 1898,
+    "glass": "Coupe",
+    "method": "stir",
+    "ingredients": [
+      {
+        "id": "gin",
+        "amount": 62.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "London dry"
+      },
+      {
+        "id": "dry-vermouth",
+        "amount": 12.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Two skewered pickled cocktail onions",
+    "instructions": [
+      "Chill a coupe or martini glass.",
+      "Stir the gin and dry vermouth with ice.",
+      "Fine strain into the chilled glass.",
+      "Garnish with two skewered cocktail onions."
+    ],
+    "history": "The first written mention of a Gibson cocktail is in an 1898 piece by Edward W. Townsend in New York's The World, describing gin mixed with an equal part of dry vermouth. Townsend had been a vice president of San Francisco's Bohemian Club, the drink's reputed birthplace. Two Gibsons are put forward as its namesake, the businessman Walter D. K. Gibson and the illustrator Charles Dana Gibson, and most historians favour Walter.\n\nAt first the Gibson was set apart from the Martini by its lack of orange bitters, not its garnish. William Boothby printed a full recipe in 1908, and the pickled onion, credited to Charles Gibson, arrived about a decade later. By 1948 David Embury defined the drink by the onion.",
+    "tasteProfile": "A crisp, bone-dry Martini with a savoury edge. London dry gin dominates with juniper, citrus peel and botanicals, while a small measure of dry vermouth adds a soft, winey, herbal note. With no bitters, the drink is clean and austere, and the pickled cocktail onions add a subtle umami, briny sharpness to the finish. Ice-cold and elegant, it is a classic aperitif for Martini lovers.",
+    "tags": [
+      "spirit-forward",
+      "dry",
+      "savory",
+      "classic",
+      "strong"
+    ],
+    "popularity": 62,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Gibson Dry Martini",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/830/gibson-dry-martini",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Gibson Dry Martini",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/830/gibson-dry-martini",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Creator disputed: Walter D. K. Gibson vs Charles Dana Gibson (Difford's believes both were involved, a decade apart). Proportions debated; 1898 and 1908 recipes were equal parts, Difford's uses 5:1. Name shortened from 'Gibson Dry Martini'.",
+    "shortDescription": "A bitters-free 1890s Martini of London dry gin and dry vermouth, finished with pickled cocktail onions for a savoury twist."
+  },
+  {
+    "id": "alaska",
+    "name": "Alaska",
+    "era": "vintage",
+    "yearCreated": 1913,
+    "glass": "Coupe",
+    "method": "stir",
+    "ingredients": [
+      {
+        "id": "old-tom-gin",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "yellow-chartreuse",
+        "amount": 22.5,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "water",
+        "amount": 5,
+        "unit": "ml",
+        "optional": false,
+        "note": "chilled; omit if using wet ice"
+      },
+      {
+        "id": "orange-bitters",
+        "amount": 1,
+        "unit": "dash",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Orange zest twist",
+    "instructions": [
+      "Chill a Nick & Nora or coupe glass.",
+      "Stir the old tom gin, Yellow Chartreuse, water and orange bitters with ice.",
+      "Strain into the chilled glass.",
+      "Express an orange zest twist over the drink and use it as garnish."
+    ],
+    "history": "Difford's Guide adapts the Alaska from Jacques Straub's Manual of Mixed Drinks, keeping his proportions of two parts old tom gin to one of yellow Chartreuse with a dash of orange bitters. Straub shook the drink, so Difford's stirs it with a splash of water for similar dilution. The name is thought to refer to its golden colour and the gold rushes of the late 1890s, when prospectors moved from the Klondike to Nome in Alaska.\n\nIn 1948 David Embury described the Alaska as a Dry Martini with Chartreuse in place of vermouth, also known as the Oriental, and suggested using less Chartreuse plus a little dry sherry to make a variation called the Nome. Embury preferred a lemon twist and a much higher proportion of gin than Straub's original recipe.",
+    "tasteProfile": "A spirituous, golden and complex sipper. Old tom gin provides a rounded juniper and botanical base, while Yellow Chartreuse brings honey, saffron, citrus and a gentle alpine-herb sweetness. A dash of orange bitters and the expressed orange zest lift the aroma and sharpen the finish. With the right dilution it is smooth yet assertive, best enjoyed as a pre-dinner aperitif or a herbal nightcap.",
+    "tags": [
+      "spirit-forward",
+      "herbal",
+      "strong",
+      "classic"
+    ],
+    "popularity": 48,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Alaska (Straub's 1914 recipe)",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/514/alaska-straubs-1914-recipe",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Alaska (Straub's 1914 recipe)",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/514/alaska-straubs-1914-recipe",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Date disagreement within Difford's: text cites Straub's 1913 Manual of Mixed Drinks, the quoted recipe is captioned 1914 and the page title says 1914; 1913 used. The gold rush name origin is labelled conjecture by Difford's. Name shortened from 'Alaska (Straub's 1914 recipe)'. Nick & Nora mapped to Coupe.",
+    "shortDescription": "Old tom gin stirred with Yellow Chartreuse and orange bitters: a golden, herbal Martini-style drink from Jacques Straub's 1913 manual."
+  },
+  {
+    "id": "old-hickory",
+    "name": "Old Hickory",
+    "era": "vintage",
+    "yearCreated": 1937,
+    "glass": "Rocks Glass",
+    "method": "stir",
+    "ingredients": [
+      {
+        "id": "sweet-vermouth",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": "Carpano Antica Formula"
+      },
+      {
+        "id": "dry-vermouth",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "peychauds-bitters",
+        "amount": 4,
+        "unit": "dash",
+        "optional": false,
+        "note": "or other Creole-style bitters"
+      },
+      {
+        "id": "orange-bitters",
+        "amount": 2,
+        "unit": "dash",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Grapefruit zest twist",
+    "instructions": [
+      "Fill an old fashioned glass with ice.",
+      "Stir the sweet and dry vermouths with both bitters and ice.",
+      "Strain into the ice-filled glass.",
+      "Express a grapefruit zest twist over the drink and use it as garnish."
+    ],
+    "history": "The Old Hickory appears in Stanley Clisby Arthur's 1937 Famous New Orleans Drinks and How to Mix 'Em, made with equal measures of French and Italian vermouth, orange bitters and Peychaud's. Arthur repeats a hoary, unsubstantiated tradition that it was the favourite drink of General Andrew Jackson, nicknamed Old Hickory, while he helped win the Battle of New Orleans in the winter of 1814-15.\n\nDifford's Guide adapts a 2017 riff by Maxwell Britten at Maison Premiere in Brooklyn, which leans towards sweet vermouth and adds extra Peychaud's. Jackson's nickname came from the tough discipline he showed on an 1812 march, before he became the seventh US president.",
+    "tasteProfile": "A light, aromatic and low-strength aperitivo. Rich Italian vermouth leads with vanilla, dried fruit and bittersweet herbs, while dry vermouth adds a crisp, winey contrast. Generous dashes of Peychaud's bitters bring anise and cherry-like spice, and orange bitters add zest. The grapefruit twist gives a fresh, bitter-citrus perfume. Easy-drinking yet complex, it is ideal before dinner or whenever a lighter drink is wanted.",
+    "tags": [
+      "aperitif",
+      "low-abv",
+      "bitter",
+      "herbal",
+      "classic"
+    ],
+    "popularity": 40,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Old Hickory (Britten's recipe)",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/4132/old-hickory-brittens-recipe",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Old Hickory (Britten's recipe)",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/4132/old-hickory-brittens-recipe",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Difford's cites Arthur's book as 1937 in the text but captions the quote 1938; 1937 used. The Andrew Jackson link is explicitly 'unsubstantiated tradition'. Recipe follows Britten's 2017 version (unequal vermouths) rather than Arthur's equal parts. Name shortened from 'Old Hickory (Britten's recipe)'.",
+    "shortDescription": "Sweet and dry vermouth stirred with Peychaud's and orange bitters: a low-strength New Orleans aperitif tied by legend to Andrew Jackson."
+  },
+  {
+    "id": "b-and-b",
+    "name": "B & B",
+    "era": "vintage",
+    "yearCreated": 1910,
+    "glass": "Rocks Glass",
+    "method": "stir",
+    "ingredients": [
+      {
+        "id": "cognac",
+        "amount": 40,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "benedictine",
+        "amount": 25,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Lemon zest twist",
+    "instructions": [
+      "Fill an old fashioned glass with ice, ideally one large cube.",
+      "Stir the cognac and Bénédictine with ice.",
+      "Strain into the ice-filled glass.",
+      "Express a lemon zest twist over the drink and use it as garnish."
+    ],
+    "history": "Bénédictine and brandy have long been mixed, and the pairing first appears in cocktail books in the early 1900s as a layered pousse-café, with brandy floated over the liqueur, as in Raymond Sullivan's 1910 Barkeeper's Manual. Popular culture holds that the B & B was created in the 1930s, specifically in 1937 by a bartender at New York's 21 Club, though when and where it was first mixed is uncertain.\n\nIts popularity is not in doubt. Around 1937 or 1938 Bénédictine began producing a bottled blend of 60% Bénédictine and 40% French brandy for the US market, and in America sales of the bottled B&B still exceed those of the original liqueur.",
+    "tasteProfile": "Honeyed, spiced brandy in its simplest form. Cognac brings dried fruit, vanilla and gentle oak, while Bénédictine adds honey, warm baking spices and a subtle herbal complexity. Stirred and served over a large cube, it gradually softens as the ice melts. Smooth, rich and warming, slightly drier than the traditional equal-parts mix, it is a classic after-dinner digestif for a cold evening.",
+    "tags": [
+      "spirit-forward",
+      "after-dinner",
+      "herbal",
+      "sweet",
+      "classic"
+    ],
+    "popularity": 50,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "B & B",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/138/b-and-b",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "B & B",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/138/b-and-b",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Origin disputed: layered Bénédictine and brandy in print by 1910 (Sullivan); popular claim of 1937 at New York's 21 Club is unverified. yearCreated 1910 = earliest print. Traditionally equal parts; Difford's uses slightly more brandy and notes some may add 10 ml water.",
+    "shortDescription": "Cognac stirred with Bénédictine over ice: a honeyed, spiced after-dinner pairing so popular that it was later sold ready-bottled."
+  },
+  {
+    "id": "rum-runner",
+    "name": "Rum Runner",
+    "era": "modern",
+    "yearCreated": null,
+    "glass": "Hurricane Glass",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "aged-rum",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": "Jamaican"
+      },
+      {
+        "id": "white-rum",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": "Cuban añejo 3 años"
+      },
+      {
+        "id": "banana-liqueur",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "creme-de-mure",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "pineapple-juice",
+        "amount": 60,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lime-juice",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "grenadine",
+        "amount": 10,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": "crushed"
+      }
+    ],
+    "garnish": "Pineapple wedge and maraschino cherry",
+    "instructions": [
+      "Chill a hurricane glass and fill it with crushed ice.",
+      "Shake both rums, the banana liqueur, crème de mûre, pineapple juice, lime juice and grenadine with ice.",
+      "Strain into the glass.",
+      "Garnish with a pineapple wedge and a cherry."
+    ],
+    "history": "The Holiday Isle Tiki Bar in Islamorada in the Florida Keys claims to be the home of the Rum Runner. The bar opened in 1969 as The Hapi Hula Hut and was renamed in 1971. According to the bar's own account, which it presents as legend, manager John 'Tiki John' Elber needed to use up surplus rum and liqueurs before new stock arrived, so he mixed banana liqueur, Myers's rum, brandy and grenadine.\n\nHe named the result after the rum runners, the liquor smugglers who used the Florida Keys as their base during the early twentieth century. Difford's Guide's version moves away from that improvised mix, pairing Jamaican and Cuban rums with banana and blackberry liqueurs, pineapple, lime and grenadine.",
+    "tasteProfile": "Fruity, rounded and tropical with a touch of rum funk. Jamaican rum adds rich molasses and ripe fruit, while light Cuban rum keeps the base clean. Banana liqueur gives a lush, sweet banana note and crème de mûre brings dark blackberry depth. Pineapple and lime make it juicy and tart, and grenadine adds colour and sweetness. Served over crushed ice, it is a cheerful beach-bar drink for hot days.",
+    "tags": [
+      "tiki",
+      "tropical",
+      "fruity",
+      "sweet"
+    ],
+    "popularity": 58,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Rum Runner",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1715/rum-runner",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Rum Runner",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/1715/rum-runner",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Origin is the Holiday Isle bar's own 'legend' (as quoted by Difford's); no firm creation date, so yearCreated null; era modern (bar opened 1969). The bar's original mix (banana liqueur, Myers's rum, brandy, grenadine) differs from Difford's spec. Difford's text has the typo 'Run Runner'.",
+    "shortDescription": "Two rums shaken with banana and blackberry liqueurs, pineapple, lime and grenadine: a fruity Florida Keys tiki-bar classic."
+  },
+  {
+    "id": "pink-squirrel",
+    "name": "Pink Squirrel",
+    "era": "vintage",
+    "yearCreated": 1941,
+    "glass": "Coupe",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "amaretto",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": "crème de noyaux"
+      },
+      {
+        "id": "creme-de-cacao",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": "white"
+      },
+      {
+        "id": "cream",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": "whipping cream"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Freshly grated nutmeg and a line of Creole-style (Peychaud's) bitters across the surface",
+    "instructions": [
+      "Chill a Nick & Nora or coupe glass.",
+      "Shake the crème de noyaux, white crème de cacao and cream with ice.",
+      "Fine strain into the chilled glass.",
+      "Dust with grated nutmeg and finish with a line of Creole-style bitters."
+    ],
+    "history": "The Pink Squirrel was created in 1941 by Bryant Sharp at Bryant's Cocktail Lounge in Milwaukee, Wisconsin. The original reportedly used ice cream rather than cream, and Difford's Guide suggests it may have begun life before Repeal as a spirit-spiked milkshake. Difford's credits Michael Lazar, known as Mr. Manhattan, for researching the drink's origins.\n\nIn the 1960s Bryant's second owner, Pat Malmberg, judged the crème de cacao unnecessary and removed it, and Bryant's still makes its Pink Squirrels that way. Difford's keeps the cacao, noting that some prefer heavy cream or equal parts of each ingredient.",
+    "tasteProfile": "Light pink, sweet and creamy. Crème de noyaux brings a toasted almond, marzipan-like flavour and its signature rosy colour, while white crème de cacao adds soft milk-chocolate notes. Whipping cream gives a smooth, silky body, and the nutmeg and line of Creole bitters add warm spice and a faint anise lift. Indulgent and dessert-like, it is best enjoyed after dinner or as a festive treat.",
+    "tags": [
+      "creamy",
+      "sweet",
+      "after-dinner",
+      "classic"
+    ],
+    "popularity": 48,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Pink Squirrel",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2736/pink-squirrel",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Pink Squirrel",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2736/pink-squirrel",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "No dictionary ID for crème de noyaux (almond/apricot-kernel liqueur, red); mapped to amaretto with note. Consider proposing 'creme-de-noyaux' if more recipes need it. Original reportedly used ice cream; Bryant's current house version omits crème de cacao. Nick & Nora mapped to Coupe.",
+    "shortDescription": "Crème de noyaux, white crème de cacao and cream shaken together: a pink, almond-and-chocolate dessert drink from 1941 Milwaukee."
+  },
+  {
+    "id": "coffee-cocktail",
+    "name": "Coffee Cocktail",
+    "era": "vintage",
+    "yearCreated": 1887,
+    "glass": "Wine Glass",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "port",
+        "amount": 60,
+        "unit": "ml",
+        "optional": false,
+        "note": "tawny"
+      },
+      {
+        "id": "cognac",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "simple-syrup",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": "rich, 2 sugar to 1 water"
+      },
+      {
+        "id": "egg",
+        "amount": 1,
+        "unit": "piece",
+        "optional": false,
+        "note": "whole fresh egg"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Grated nutmeg",
+    "instructions": [
+      "Shake the port, cognac, syrup and egg very thoroughly with ice.",
+      "Strain back into the shaker and dry shake without ice.",
+      "Strain into a small goblet or wine glass.",
+      "Grate a little nutmeg on top."
+    ],
+    "history": "The Coffee Cocktail is adapted from a recipe in the 1887 edition of Jerry Thomas's Bar-Tenders Guide, published after the Professor's death in December 1885. It called for powdered sugar, a fresh egg, a large glass of port and a pony of brandy, shaken thoroughly with ice, strained into a bar goblet and finished with grated nutmeg.\n\nThe book itself admits the name is a misnomer, as the drink contains neither coffee nor bitters. It was probably so called because, properly mixed, it looks like a cup of coffee, with a creamy brown colour and a frothy head.",
+    "tasteProfile": "Rich, velvety and gently sweet, like a fortified wine flip. Tawny port brings nutty, raisined and caramel notes, cognac adds warmth and dried-fruit depth, and the whole egg gives a thick, custard-like texture with a creamy foam. A little sugar rounds it out and grated nutmeg adds warm spice. Low in harshness and big on comfort, it is an ideal after-dinner or winter-evening drink.",
+    "tags": [
+      "creamy",
+      "after-dinner",
+      "sweet",
+      "classic",
+      "foamy"
+    ],
+    "popularity": 40,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Coffee Cocktail",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2350/coffee-cocktail",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Coffee Cocktail",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/2350/coffee-cocktail",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Difford's page did not render its own method/glass section in the fetched HTML; method, goblet (mapped to Wine Glass) and nutmeg garnish follow the Jerry Thomas 1887 recipe quoted on the same page, with the dry shake as is usual for whole-egg drinks. Ingredient amounts are Difford's.",
+    "shortDescription": "Tawny port and cognac shaken with a whole egg and sugar under nutmeg: an 1887 Jerry Thomas flip that only looks like coffee."
+  },
+  {
+    "id": "royal-hawaiian",
+    "name": "Royal Hawaiian",
+    "era": "vintage",
+    "yearCreated": 1948,
+    "glass": "Coupe",
+    "method": "shake",
+    "ingredients": [
+      {
+        "id": "gin",
+        "amount": 45,
+        "unit": "ml",
+        "optional": false,
+        "note": "London dry"
+      },
+      {
+        "id": "pineapple-juice",
+        "amount": 30,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "lemon-juice",
+        "amount": 15,
+        "unit": "ml",
+        "optional": false,
+        "note": null
+      },
+      {
+        "id": "orgeat",
+        "amount": 12.5,
+        "unit": "ml",
+        "optional": false,
+        "note": "2:1"
+      },
+      {
+        "id": "ice",
+        "amount": null,
+        "unit": null,
+        "optional": false,
+        "note": null
+      }
+    ],
+    "garnish": "Skewered pineapple wedge (or dehydrated pineapple wheel) and maraschino cherry",
+    "instructions": [
+      "Chill a coupe glass.",
+      "Shake the gin, pineapple juice, lemon juice and orgeat with ice.",
+      "Fine strain into the chilled glass.",
+      "Garnish with a pineapple wedge or wheel and a cherry."
+    ],
+    "history": "The Royal Hawaiian was created in 1948 at the Moana Hotel on Waikiki Beach, Hawaii, and first appeared in print in Ted Saucier's 1951 Bottoms Up, credited to the hotel. That recipe shook gin with equal pineapple juice, a little lemon and a teaspoon of orgeat, served in a chilled champagne glass.\n\nIn 1953 the Moana's bungalows across the road were demolished to make way for the Princess Kaiulani Hotel, named after the last heir apparent to the Hawaiian throne, and the cocktail appears to have re-emerged there as the new hotel's signature drink.",
+    "tasteProfile": "A fruity, almond-scented gin sour. London dry gin provides crisp juniper and botanicals, pineapple juice adds tropical sweetness and a soft, frothy texture when shaken, and lemon brings a bright, tart balance. Orgeat lends a gentle nutty, floral richness that recalls a Mai Tai. Served straight up, it is light and elegant, a lovely aperitif or summer drink for gin lovers who enjoy tiki flavours.",
+    "tags": [
+      "sour",
+      "tropical",
+      "fruity",
+      "citrus",
+      "classic"
+    ],
+    "popularity": 45,
+    "sources": [
+      {
+        "type": "recipe",
+        "publisher": "Difford's Guide",
+        "title": "Royal Hawaiian",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/20191/royal-hawaiian",
+        "accessed": "2026-10-21"
+      },
+      {
+        "type": "history",
+        "publisher": "Difford's Guide",
+        "title": "Royal Hawaiian",
+        "url": "https://www.diffordsguide.com/cocktails/recipe/20191/royal-hawaiian",
+        "accessed": "2026-10-21"
+      }
+    ],
+    "researchNotes": "Saucier's 1951 recipe uses equal gin and pineapple and only a teaspoon of orgeat; Difford's increases the orgeat. The Princess Kaiulani re-emergence is presented by Difford's as 'it appears'.",
+    "shortDescription": "Gin shaken with pineapple, lemon and orgeat: a fruity, almond-tinged 1948 Waikiki gin sour first printed in Ted Saucier's Bottoms Up."
+  }
+]

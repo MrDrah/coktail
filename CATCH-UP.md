@@ -35,30 +35,25 @@ In practice the Organisator plays each role directly or sends work to sub-agents
 | Area | What exists | Key files |
 |------|-------------|-----------|
 | Plan & decisions | BR-01–BR-11, handoff gates, decision log | `docs/00-orchestration-plan.md` |
-| BA | User stories E1–E6 with Given-When-Then; schema; naming standard; **ingredient dictionary v1.1 (156 ingredients, 15 ambiguity groups)**; research brief | `docs/ba/*`, `data/schema/cocktail.schema.md`, `data/ingredients.json` |
-| Library | **50 sourced cocktails** (48 IBA + 2 Difford's). All pass C1–C9, and C2 authenticity was checked against their sources | `data/cocktails.json` (built from `data/_research/batch-a.json`, `batch-b.json`) |
+| BA | User stories E1–E6 with Given-When-Then; schema; naming standard; **ingredient dictionary v1.2 (170 ingredients, 15 ambiguity groups)**; research brief | `docs/ba/*`, `data/schema/cocktail.schema.md`, `data/ingredients.json` |
+| Library | **300 sourced cocktails.** All pass C1, C3–C9. C2 authenticity: all 50 seed records, plus a 10% sample (30) of the 250 new ones; 12 minor wording/method issues found and fixed | `data/cocktails.json` (built from `data/_research/batch-a.json` … `batch-g.json`) |
 | UX | "Frost" design system (lime primary, orange secondary, light/dark), 6 component specs, flows, a11y, copy, preview | `design/*` |
 | Dev engine | Normaliser (synonyms, typos, ambiguity), subset matcher, `provides` (fruit → juice, Champagne/Prosecco → sparkling wine), caps 6/8, near matches, best addition, serving scaling | `src/domain/*` |
 | Dev UI | React app implementing C1–C6, URL state `?i=`, theme toggle | `src/ui/*` |
-| QA | Unit + UI tests (541), Playwright e2e desktop + mobile (83), axe WCAG AA, library verification matrix, test report | `tests/**`, `tests/reports/mvp-test-report.md` |
+| QA | Unit + UI + library tests (2,541), Playwright e2e desktop + mobile (83), axe WCAG AA, library verification matrix, test report. JS bundle 234 KB gzipped (budget 400) | `tests/**`, `tests/reports/mvp-test-report.md` |
 | CI/CD | GitHub Actions CI on every push. GitHub Pages deploys after CI passes on `main` | `.github/workflows/ci.yml`, `deploy.yml` |
 
 ### In progress 🔄 (as of the last update)
-- **Library expansion from 50 to 300 cocktails.**
-  - A verified candidate list of 378 real cocktails is in `data/_research/candidates.json` (54 IBA + 324 Difford's, ranked, URLs checked).
-  - 5 research agents were dispatched, each writing 50 records: ranks 1–50 → `batch-c.json`, 51–100 → `batch-d.json`, 101–150 → `batch-e.json`, 151–200 → `batch-f.json`, 201–250 → `batch-g.json`. Reserve ranks 251–378 replace skipped candidates.
-  - **If a batch file is missing or has fewer than 50 records,** that research didn't finish. Re-dispatch it with the same prompt pattern (see the Organisator brief, "Research dispatch").
+- Nothing running. The 300 library is committed locally; **pushing it to `main` (which redeploys the live site) waits for the product owner's go-ahead.**
 
 ### Next 📋
-1. Finish the 300 library:
-   - Add any new ingredient IDs the researchers proposed to `data/ingredients.json`.
-   - Run `npm run merge:research`, then `npm run validate:data`.
-   - Fix the errors, run all tests, spot-check about 10% of the new records against their sources (C2), then commit and push.
-2. Regenerate the QA matrix (`WRITE_MATRIX=1 npm run test:library`) and update `tests/reports/mvp-test-report.md`.
-3. Check the JS bundle stays under budget (≤ 400 KB gzipped). If not, lazy-load `history` and `tasteProfile`.
-4. Open BA observations from QA: Kir's second recipe source disagrees with IBA; Mai Tai's two rums are merged into one line; teaspoon amounts are stored as `barspoon`.
-5. UI gaps vs the design spec: mobile bottom-sheet chooser, sticky mobile CTA, "how it works" idle strip, card stagger animation.
-6. Manual QA: Safari, Firefox and mobile devices, NVDA/VoiceOver, Lighthouse on the live site.
+1. **Wording audit of the 220 unsampled new records.** In the 10% C2 sample, 11 of 30 had sentences too close to their source. Run an automated 5-word-overlap scan of `history`, `tasteProfile` and `shortDescription` against each record's cited pages, then rewrite the hits. Batch files C–G record which skips and reserves each agent used (ranks 316–325, 332–350 and 357–378 are still unused).
+2. Data review items from research: grapefruit bitters → `orange-bitters` (Blinker), crème de noyaux → `amaretto` (Pink Squirrel), red chilli → `jalapeno` (Spicy Fifty), Venetian Spritz vs Spritz overlap. Candidates for new IDs: `creme-de-noyaux`, `apricot-eau-de-vie`, a generic chilli.
+3. Open BA observations from QA: Kir's second recipe source disagrees with IBA; Mai Tai's two rums are merged into one line; teaspoon amounts are stored as `barspoon`.
+4. UI gaps vs the design spec: mobile bottom-sheet chooser, sticky mobile CTA, "how it works" idle strip, card stagger animation.
+5. Manual QA: Safari, Firefox and mobile devices, NVDA/VoiceOver, Lighthouse on the live site.
+
+**Lesson for future research dispatches:** give each agent its own scratchpad subfolder in the prompt (they share one scratchpad root and overwrote each other's helper scripts), and tell them never to shorten a candidate's name when another candidate shares the base name.
 
 ## 4. Key decisions (summary; the full log is in the plan §7)
 

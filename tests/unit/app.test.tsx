@@ -105,21 +105,21 @@ describe('search', () => {
     const user = await setup('gin, campari, cointreau');
     await user.click(cta());
     expect(screen.getByTestId('fallback-title')).toHaveTextContent('No direct matches found');
-    expect(screen.getByTestId('best-addition')).toHaveTextContent('Add Lemon Juice to unlock 1 cocktail');
+    expect(screen.getByTestId('best-addition')).toHaveTextContent('Add Dry Vermouth to unlock 3 cocktails');
     await user.click(screen.getByTestId('best-addition-add'));
-    expect(screen.getByTestId('chip-lemon-juice')).toBeTruthy();
-    expect(within(screen.getByTestId('results-grid')).getByText('White Lady')).toBeTruthy();
+    expect(screen.getByTestId('chip-dry-vermouth')).toBeTruthy();
+    expect(within(screen.getByTestId('results-grid')).getByText('Cardinale')).toBeTruthy();
   });
 
   it('US-E6-04 hides "+ Add" at 10 ingredients and restores it at 9', async () => {
-    window.history.replaceState(null, '', '/?i=gin,vodka,mint,salt,cola,cream,espresso,port,galliano,tonic-water');
+    window.history.replaceState(null, '', '/?i=gin,vodka,mint,salt,cola,cream,espresso,port,galliano,sake');
     const user = userEvent.setup();
     render(<App />);
     expect(screen.getByTestId('fallback')).toBeTruthy();
     expect(document.querySelectorAll('.add-button')).toHaveLength(0);
     expect(screen.getByTestId('fallback-tip')).toBeTruthy();
     expect(document.querySelectorAll('[data-testid^="near-missing-"]').length).toBeGreaterThan(0);
-    await user.click(screen.getByTestId('chip-remove-tonic-water'));
+    await user.click(screen.getByTestId('chip-remove-sake'));
     expect(document.querySelectorAll('.add-button').length).toBeGreaterThan(0);
     expect(screen.getByTestId('best-addition')).toBeTruthy();
   });

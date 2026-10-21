@@ -377,7 +377,7 @@ describe('US-NF-03 performance', () => {
   it('searches a 500-recipe library in under 5 ms on average', () => {
     const big: CocktailLibrary = {
       version: 'bench',
-      cocktails: Array.from({ length: 10 }, (_, k) => library.cocktails.map((c) => ({ ...c, id: `${c.id}-${k}` }))).flat(),
+      cocktails: Array.from({ length: 10 }, (_, k) => library.cocktails.map((c) => ({ ...c, id: `${c.id}-${k}` }))).flat().slice(0, 500),
     };
     expect(big.cocktails).toHaveLength(500);
     const m = createMatcher(big, dictionary);

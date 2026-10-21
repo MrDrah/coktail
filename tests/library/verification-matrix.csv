@@ -1,51 +1,301 @@
 id,name,C1,C3,C4,C5,C6,C7,C8,C9
+100-year-old-cigar,100 Year Old Cigar,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+1910,1910,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+adonis,Adonis,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+affinity,Affinity,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+air-mail,Air Mail,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+alaska,Alaska,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+alexander,Alexander,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+algonquin,Algonquin,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+amaretto-sour,Amaretto Sour,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+amaretto-sour-morgenthaler,Amaretto Sour (Morgenthaler),PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+american-trilogy,American Trilogy,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 americano,Americano,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS
+anejo-highball,Añejo Highball,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+anejo-manhattan,Anejo Manhattan,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+angel-face,Angel Face,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+appletini,Appletini,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+army-and-navy,Army and Navy,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 aviation,Aviation,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+b-and-b,B & B,PASS,PASS,PASS,N/A,PASS,N/A,PASS,PASS
+bacardi-cocktail,Bacardi Cocktail,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+bahama-mama,Bahama Mama,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+bamboo-perfect,Bamboo (Difford's 'Perfect' recipe),PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+banana-calling,Banana Calling,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+batanga,Batanga,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 bees-knees,Bee's Knees,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 bellini,Bellini,PASS,PASS,PASS,N/A,PASS,N/A,PASS,PASS
+bensonhurst,Bensonhurst,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+bernice,Bernice,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 between-the-sheets,Between the Sheets,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+bijou,Bijou,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+bitter-giuseppe,Bitter Giuseppe,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+black-manhattan,Black Manhattan,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 black-russian,Black Russian,PASS,PASS,PASS,N/A,PASS,N/A,PASS,PASS
+blinker,Blinker,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+blood-and-sand,Blood and Sand,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 bloody-mary,Bloody Mary,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+blue-hawaii,Blue Hawaii,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+blue-lagoon,Blue Lagoon,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+blue-moon,Blue Moon,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+bobby-burns,Bobby Burns,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 boulevardier,Boulevardier,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 bramble,Bramble,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+brandy-alexander,Brandy Alexander,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+brandy-crusta,Brandy Crusta,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+brandy-daisy,Brandy Daisy,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS
+brandy-milk-punch,Brandy Milk Punch,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+brass-rail,Brass Rail,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+breakfast-martini,Breakfast Martini,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+bronx,Bronx,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+brooklyn,Brooklyn,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+brown-derby,Brown Derby,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+cable-car,Cable Car,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 caipirinha,Caipirinha,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+camerons-kick,Cameron's Kick,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+canchanchara,Canchánchara,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+cantaritos,Cantaritos,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+carajillo-shakeado,Carajillo (Shakeado),PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+cardinale,Cardinale,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+casino,Casino,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+champagne-cocktail,Champagne Cocktail,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+champagne-snowball,Champagne Snowball,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+champs-elysees,Champs-Élysées,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+charlie-chaplin,Charlie Chaplin,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+chartreuse-swizzle,Chartreuse Swizzle,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+chicago-fizz,Chicago Fizz,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS
+chrysanthemum,Chrysanthemum,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 clover-club,Clover Club,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+coffee-cocktail,Coffee Cocktail,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+combustible-edison,Combustible Edison,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+comte-de-sureau,Comte de Sureau,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+corn-n-oil,Corn 'n' Oil,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+coronation,Coronation,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+corpse-reviver-2,Corpse Reviver #2,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+corpse-reviver-no-1,Corpse Reviver No.1,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+cosmonaut,Cosmonaut,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 cosmopolitan,Cosmopolitan,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 cuba-libre,Cuba Libre,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 daiquiri,Daiquiri,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+daisy-buchanan,Daisy Buchanan,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+daisy-de-santiago,Daisy de Santiago,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 dark-n-stormy,Dark 'n' Stormy,PASS,PASS,PASS,N/A,PASS,N/A,PASS,PASS
+dawa,Dawa,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+diamondback,Diamondback,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+dirty-banana,Dirty Banana,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+dirty-martini,Dirty Martini,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+division-bell,Division Bell,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+doctor-funk,Doctor Funk,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+dons-special-daiquiri,Don's Special Daiquiri,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+downhill-daring,Downhill Daring,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+dry-daiquiri,Dry Daiquiri,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 dry-martini,Dry Martini,PASS,PASS,PASS,N/A,PASS,N/A,PASS,PASS
+eastern-standard,Eastern Standard (Soho House Tonic),PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+eastside-gimlet,Eastside Gimlet,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS
+eggnog,Eggnog,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+el-diablo,El Diablo,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+el-presidente,El Presidente,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+enzoni,Enzoni,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 espresso-martini,Espresso Martini,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+fancy-free,Fancy Free,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+fernandito,Fernandito,PASS,PASS,PASS,N/A,PASS,N/A,PASS,PASS
+final-ward,Final Ward,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+fitzgerald,Fitzgerald,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+fluffy-duck,Fluffy Duck,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS
+flying-grasshopper,Flying Grasshopper,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+fog-cutter,Fog Cutter,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+ford-cocktail,Ford Cocktail,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+french-125,French 125,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 french-75,French 75,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+french-connection,French Connection,PASS,PASS,PASS,N/A,PASS,N/A,PASS,PASS
+french-maid,French Maid,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+french-martini,French Martini,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+garibaldi,Garibaldi,PASS,PASS,PASS,N/A,PASS,N/A,PASS,PASS
+gibson,Gibson,PASS,PASS,PASS,N/A,PASS,N/A,PASS,PASS
+gimlet,Gimlet,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+gin-and-it,Gin & It,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+gin-and-tonic,Gin and Tonic,PASS,PASS,PASS,N/A,PASS,N/A,PASS,PASS
+gin-basil-smash,Gin Basil Smash,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+gin-blossom-martini,Gin Blossom Martini,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+gin-cocktail,Gin Cocktail,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 gin-fizz,Gin Fizz,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS
+gin-gin-mule,Gin Gin Mule,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 gin-rickey,Gin Rickey,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS
+gin-sour,Gin Sour,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+godfather,Godfather,PASS,PASS,PASS,N/A,PASS,N/A,PASS,PASS
+gold-rush,Gold Rush,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+golden-cadillac,Golden Cadillac,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+grand-margarita,Grand Margarita,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+grasshopper,Grasshopper,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+green-swizzle,Green Swizzle,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+greenpoint,Greenpoint,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+grog,Grog,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+gypsy-queen,Gypsy Queen,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+hanky-panky,Hanky Panky,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+harvard,Harvard,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS
+harvey-wallbanger,Harvey Wallbanger,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 hemingway-special,Hemingway Special,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+honeysuckle-daiquiri,Honeysuckle Daiquiri,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+horses-neck,Horse's Neck,PASS,PASS,PASS,N/A,PASS,N/A,PASS,PASS
+hot-toddy,Hot Toddy,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+hotel-nacional-special,Hotel Nacional Special,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+hugo-spritz,Hugo Spritz,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS
+hunter,Hunter,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+hurricane,Hurricane,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+income-tax-cocktail,Income Tax Cocktail,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+industry-sour,Industry Sour,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 irish-coffee,Irish Coffee,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+italian-margarita,Italian Margarita,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+jack-rose,Jack Rose,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+japanese-cocktail,Japanese Cocktail,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+jasmine,Jasmine,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+jet-pilot,Jet Pilot,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 john-collins,John Collins,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS
+jungle-bird,Jungle Bird,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 kir,Kir,PASS,PASS,PASS,N/A,PASS,N/A,PASS,PASS
+kir-royale,Kir Royale,PASS,PASS,PASS,N/A,PASS,N/A,PASS,PASS
+knickerbocker,Knickerbocker,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+la-louisiane,La Louisiane,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 last-word,Last Word,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+left-bank-martini,Left Bank Martini,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+left-hand,Left Hand,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+lemon-drop-martini,Lemon Drop Martini,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+limoncello-spritz,Limoncello Spritz,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS
+little-italy,Little Italy,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+london-calling,London Calling,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 long-island-iced-tea,Long Island Iced Tea,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+lynchburg-lemonade,Lynchburg Lemonade,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+m-and-m,M and M,PASS,PASS,PASS,N/A,PASS,N/A,PASS,PASS
+macunaima,Macunaíma,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 mai-tai,Mai Tai,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+mamie-taylor,Mamie Taylor Highball,PASS,PASS,PASS,N/A,PASS,N/A,PASS,PASS
+man-o-war,Man O' War,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 manhattan,Manhattan,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 margarita,Margarita,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+martinez,Martinez,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+mary-pickford,Mary Pickford,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+matador,Matador,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+mexican-firing-squad-special,Mexican Firing Squad Special,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+midnight-stinger,Midnight Stinger,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+milano-torino,Milano Torino,PASS,PASS,PASS,N/A,PASS,N/A,PASS,PASS
 mimosa,Mimosa,PASS,PASS,PASS,N/A,PASS,N/A,PASS,PASS
 mint-julep,Mint Julep,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+missionarys-downfall,Missionary's Downfall,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 mojito,Mojito,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS
+monkey-gland,Monkey Gland,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+monte-carlo,Monte Carlo,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+morning-glory-fizz,Morning Glory Fizz,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS
 moscow-mule,Moscow Mule,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+naked-and-famous,Naked and Famous,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 negroni,Negroni,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+negroni-sbagliato,Negroni Sbagliato,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+new-york-sour,New York Sour,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+nuclear-daiquiri,Nuclear Daiquiri,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+oaxaca-old-fashioned,Oaxaca Old-Fashioned,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+obituary,Obituary,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+old-cuban,Old Cuban,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 old-fashioned,Old Fashioned,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+old-friend,Old Friend,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+old-hickory,Old Hickory,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+old-pal,Old Pal,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+painkiller,Painkiller,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 paloma,Paloma,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+paper-plane,Paper Plane,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+paradise,Paradise,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+pegu-club,Pegu Club,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 penicillin,Penicillin,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+picante-de-la-casa,Picante de la Casa,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 pina-colada,Piña Colada,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+pina-verde,Piña Verde,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+pink-lady,Pink Lady,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+pink-squirrel,Pink Squirrel,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+pisco-punch,Pisco Punch,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 pisco-sour,Pisco Sour,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+planters-punch,Planter's Punch,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+poets-dream,Poet's Dream,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+porn-star-martini,Porn Star Martini,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+port-of-spain,Port of Spain,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+porto-flip,Porto Flip,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+queens-park-hotel-super-cocktail,Queen's Park Hotel Super Cocktail,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+queens-park-swizzle,Queen's Park Swizzle,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+rabo-de-galo,Rabo de Galo,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 ramos-gin-fizz,Ramos Gin Fizz,PASS,PASS,N/A,PASS,PASS,PASS,PASS,PASS
+ranch-water,Ranch Water,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS
+rattlesnake,Rattlesnake,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+rebujito,Rebujito,PASS,PASS,PASS,N/A,PASS,N/A,PASS,PASS
+red-hook,Red Hook,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+remember-the-alimony,Remember the Alimony,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+remember-the-maine,Remember the Maine,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+revolver,Revolver,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+right-hand,Right Hand,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+rob-roy,Rob Roy,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+rome-with-a-view,Rome With a View,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS
+rosita,Rosita,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+royal-bermuda-yacht-club,Royal Bermuda Yacht Club,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+royal-hawaiian,Royal Hawaiian,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+royal-smile,Royal Smile,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+rum-old-fashioned,Rum Old Fashioned,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+rum-punch,Rum Punch,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+rum-runner,Rum Runner,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+rum-swizzle,Rum Swizzle,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+russian-spring-punch,Russian Spring Punch,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 rusty-nail,Rusty Nail,PASS,PASS,PASS,N/A,PASS,N/A,PASS,PASS
+san-francisco,San Francisco (Café Royal),PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+sangaree,Sangaree,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS
+satans-whiskers,Satan's Whiskers (Straight),PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 sazerac,Sazerac,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+scorpion,Scorpion,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+screaming-orgasm,Screaming Orgasm,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+sea-breeze,Sea Breeze,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+sex-on-the-beach,Sex on the Beach,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+shaft,Shaft,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+sherry-cobbler,Sherry Cobbler,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 sidecar,Sidecar,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+siesta,Siesta,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+silk-stocking,Silk Stocking,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+singapore-sling,Singapore Sling,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+slow-comfortable-screw-against-the-wall,Slow Comfortable Screw Against The Wall,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+south-side,South Side,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+south-side-rickey,South Side Rickey,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS
+south-slope,South Slope,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+spicy-fifty,Spicy Fifty,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 spritz,Spritz,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS
 stinger,Stinger,PASS,PASS,PASS,N/A,PASS,N/A,PASS,PASS
+strawberry-daiquiri-frozen,Strawberry Daiquiri (Frozen),PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+suffering-bastard,Suffering Bastard,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+sunflower,Sunflower,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+takumis-aviation,Takumi's Aviation,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+tequila-sunrise,Tequila Sunrise,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+the-business,The Business,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+the-conference,The Conference,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+three-dots-and-a-dash,Three Dots and a Dash,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+three-storms-flip,Three Storms Flip,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+ti-punch,Ti Punch,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+tia-mia,Tia Mia,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+tipperary,Tipperary,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+tokyo-iced-tea,Tokyo Iced Tea,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 tom-collins,Tom Collins,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS
+tommys-margarita,Tommy's Margarita,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+toreador,Toreador,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+toronto,Toronto,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+trinidad-sour,Trinidad Sour,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+turf-club,Turf Club,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+tuxedo,Tuxedo,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+twentieth-century,Twentieth Century,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+ultima-palabra,Ultima Palabra,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+vancouver,Vancouver,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+venetian-spritz,Venetian Spritz,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS
 vesper,Vesper,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 vieux-carre,Vieux Carré,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+vodka-martini,Vodka Martini,PASS,PASS,PASS,N/A,PASS,N/A,PASS,PASS
+ward-eight,Ward Eight,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+whiskey-collins,Whiskey Collins,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS
+whiskey-smash,Whiskey Smash,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 whiskey-sour,Whiskey Sour,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
 white-lady,White Lady,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+white-negroni,White Negroni,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+white-russian,White Russian,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+widows-kiss,Widow's Kiss,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+yellow-bird,Yellow Bird,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+yellow-daisy,Yellow Daisy,PASS,PASS,PASS,PASS,PASS,N/A,PASS,PASS
+zombie,Zombie,PASS,PASS,N/A,PASS,PASS,N/A,PASS,PASS

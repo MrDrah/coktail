@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "ingredients": [
     {
       "id": "gin",
@@ -1042,7 +1042,7 @@
         "fresh lemon juice",
         "freshly squeezed lemon juice"
       ],
-      "pairingWeight": 1.0
+      "pairingWeight": 1
     },
     {
       "id": "lime-juice",
@@ -1055,7 +1055,7 @@
         "fresh lime juice",
         "freshly squeezed lime juice"
       ],
-      "pairingWeight": 1.0
+      "pairingWeight": 1
     },
     {
       "id": "lime-cordial",
@@ -1861,6 +1861,169 @@
         "hot water"
       ],
       "pairingWeight": 0
+    },
+    {
+      "id": "advocaat",
+      "name": "Advocaat",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "advokaat",
+        "advocaat liqueur",
+        "egg liqueur"
+      ],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "apple-liqueur",
+      "name": "Apple Liqueur",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "sour apple liqueur",
+        "apple schnapps",
+        "sour apple schnapps",
+        "apple pucker"
+      ],
+      "pairingWeight": 0.2
+    },
+    {
+      "id": "ginger-liqueur",
+      "name": "Ginger Liqueur",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "domaine de canton",
+        "canton ginger liqueur"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "passion-fruit-liqueur",
+      "name": "Passion Fruit Liqueur",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "passoa",
+        "passionfruit liqueur"
+      ],
+      "pairingWeight": 0.2
+    },
+    {
+      "id": "southern-liqueur",
+      "name": "Southern Liqueur",
+      "category": "liqueur",
+      "classification": "counted",
+      "synonyms": [
+        "southern comfort",
+        "soco"
+      ],
+      "pairingWeight": 0.15
+    },
+    {
+      "id": "oloroso-sherry",
+      "name": "Oloroso Sherry",
+      "category": "vermouth-fortified",
+      "classification": "counted",
+      "synonyms": [
+        "oloroso",
+        "dry oloroso"
+      ],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "sugar-cane-juice",
+      "name": "Sugar Cane Juice",
+      "category": "juice",
+      "classification": "counted",
+      "synonyms": [
+        "cane juice",
+        "sugarcane juice",
+        "garapa"
+      ],
+      "pairingWeight": 0.1
+    },
+    {
+      "id": "banana",
+      "name": "Banana",
+      "category": "fruit",
+      "classification": "counted",
+      "synonyms": [
+        "bananas",
+        "fresh banana",
+        "ripe banana"
+      ],
+      "pairingWeight": 0.4
+    },
+    {
+      "id": "grape",
+      "name": "Grape",
+      "category": "fruit",
+      "classification": "counted",
+      "synonyms": [
+        "grapes",
+        "green grapes",
+        "white grapes",
+        "seedless grapes"
+      ],
+      "pairingWeight": 0.3
+    },
+    {
+      "id": "olive-brine",
+      "name": "Olive Brine",
+      "category": "savory",
+      "classification": "counted",
+      "synonyms": [
+        "olive juice",
+        "green olive brine"
+      ],
+      "pairingWeight": 0.3
+    },
+    {
+      "id": "orange-marmalade",
+      "name": "Orange Marmalade",
+      "category": "syrup-sweetener",
+      "classification": "counted",
+      "synonyms": [
+        "marmalade"
+      ],
+      "pairingWeight": 0.3
+    },
+    {
+      "id": "raspberry-jam",
+      "name": "Raspberry Jam",
+      "category": "syrup-sweetener",
+      "classification": "counted",
+      "synonyms": [
+        "raspberry preserves",
+        "raspberry conserve"
+      ],
+      "pairingWeight": 0.2
+    },
+    {
+      "id": "clove",
+      "name": "Clove",
+      "category": "herb-spice",
+      "classification": "counted",
+      "synonyms": [
+        "cloves",
+        "whole cloves",
+        "dried clove"
+      ],
+      "pairingWeight": 0.2
+    },
+    {
+      "id": "coriander",
+      "name": "Coriander",
+      "category": "herb-spice",
+      "classification": "counted",
+      "synonyms": [
+        "cilantro",
+        "coriander leaves",
+        "cilantro leaves",
+        "fresh coriander"
+      ],
+      "pairingWeight": 0.2
     }
   ],
   "ambiguityGroups": [
@@ -1946,7 +2109,8 @@
       "options": [
         "ginger-beer",
         "ginger-ale",
-        "ginger-syrup"
+        "ginger-syrup",
+        "ginger-liqueur"
       ]
     },
     {
@@ -1961,7 +2125,8 @@
       "options": [
         "fino-sherry",
         "amontillado-sherry",
-        "pedro-ximenez-sherry"
+        "pedro-ximenez-sherry",
+        "oloroso-sherry"
       ]
     },
     {

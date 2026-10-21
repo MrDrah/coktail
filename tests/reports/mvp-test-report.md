@@ -1,16 +1,16 @@
 # MVP Test Report — Cocktail Discovery
 
-QA Agent · 2026-10-21 · Build `9eede8b` · Strategy: [test-strategy.md](../plan/test-strategy.md)
+QA Agent · 2026-10-21 · Build `9eede8b`, updated for the 300 library on top of `80ad9b3` · Strategy: [test-strategy.md](../plan/test-strategy.md)
 
 ## Summary
 
 | Suite | Result |
 |-------|--------|
-| Data validation (`validate:data`) | ✅ PASS: 50 cocktails, 94 ingredients |
-| Engine unit tests (normaliser, matcher, scaling, oracle, benchmark) | ✅ 111 / 111 |
-| UI integration tests (Testing Library) | ✅ 20 / 20 |
-| Library verification C1, C3–C9 (50 recipes × 8 checks) | ✅ 400 / 400 (51 N/A where a check doesn't apply) |
-| Library authenticity C2 (manual, against sources) | ✅ 50 PASS · 0 FAIL · 0 BLOCKED |
+| Data validation (`validate:data`) | ✅ PASS: 300 cocktails, 170 ingredients (dictionary v1.2) |
+| Engine unit + UI integration tests | ✅ 141 / 141 |
+| Library verification C1, C3–C9 (300 recipes × 8 checks) | ✅ 2,400 / 2,400 |
+| Library authenticity C2 (manual, against sources) | ✅ Seed 50: 50 PASS. Expansion: 30-record sample (10%), 30 PASS on recipe; 12 minor issues fixed (see below) |
+| JS bundle | ✅ 234 KB gzipped (budget 400 KB) |
 | E2E Playwright: desktop + mobile | ✅ 83 passed · 1 skipped (keyboard journey is desktop-only) |
 | Accessibility: axe WCAG 2.1 AA, 5 screens × 2 themes × 2 viewports | ✅ 0 serious or critical violations |
 | Coverage `src/domain` | 100% lines · 98.7% branches (gate is 90%) |
@@ -26,6 +26,13 @@ QA Agent · 2026-10-21 · Build `9eede8b` · Strategy: [test-strategy.md](../pla
   - Every ingredient and amount is within ±10% of its source.
   - No record has an extra ingredient.
 - The oracle and the engine have 0 differences across 1,000 seeded random inputs.
+
+### Library expansion to 300 (2026-10-21)
+
+- 250 new records from batches C–G. A random sample of 30 (6 per batch) was checked against the cited recipe and history pages. All 30 match their source drink, ingredients, amounts and glass, and every history fact is backed by a cited source.
+- **12 minor issues, all fixed:** 11 records had sentences in `history`, `tasteProfile` or `shortDescription` worded too close to the source (rewritten); Horse's Neck credited a fact to the wrong source; Harvey Wallbanger had `method: build` where the source stirs.
+- **Open risk:** 11 of 30 sampled records needed wording fixes, so roughly a third of the 220 unsampled new records may have similar near-verbatim sentences. A library-wide overlap scan is recommended before wider release.
+- Five tests assumed the 50-recipe library (best-addition text for gin + Campari + Cointreau, the 10-ingredient fallback set, and the benchmark size). They were updated to the 300 library; the behaviour under test is unchanged.
 
 ## Defects found and fixed during QA
 
