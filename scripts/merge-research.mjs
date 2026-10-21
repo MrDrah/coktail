@@ -10,7 +10,7 @@ const dir = resolve(root, 'data/_research');
 const FIELDS = ['id', 'name', 'shortDescription', 'era', 'yearCreated', 'glass', 'method', 'ingredients', 'garnish', 'instructions', 'history', 'tasteProfile', 'tags', 'popularity', 'sources'];
 
 const cocktails = readdirSync(dir)
-  .filter((f) => f.endsWith('.json'))
+  .filter((f) => f.startsWith('batch-') && f.endsWith('.json'))
   .sort()
   .flatMap((f) => JSON.parse(readFileSync(resolve(dir, f), 'utf8')))
   .map((c) => Object.fromEntries(FIELDS.map((k) => [k, c[k] ?? null])))

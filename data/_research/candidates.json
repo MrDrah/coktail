@@ -1,0 +1,3404 @@
+[
+ {
+  "rank": 1,
+  "name": "Alexander",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/alexander/",
+  "family": "creamy",
+  "era_hint": "vintage",
+  "notes": "IBA category: The unforgettables; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 2,
+  "name": "Angel Face",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/angel-face/",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "IBA category: The unforgettables; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 3,
+  "name": "Brandy Crusta",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/brandy-crusta/",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "IBA category: The unforgettables; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 4,
+  "name": "Canchánchara",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/canchanchara/",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 5,
+  "name": "Cardinale",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/cardinale/",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "IBA category: Contemporary Classics; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 6,
+  "name": "Casino",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/casino/",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "IBA category: The unforgettables; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 7,
+  "name": "Champagne Cocktail",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/champagne-cocktail/",
+  "family": "sparkling",
+  "era_hint": "vintage",
+  "notes": "IBA category: Contemporary Classics; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 8,
+  "name": "Chartreuse Swizzle",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/chartreuse-swizzle/",
+  "family": "tiki",
+  "era_hint": "modern",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 9,
+  "name": "Corpse Reviver #2",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/corpse-reviver-2/",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "IBA category: Contemporary Classics; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 10,
+  "name": "Don's Special Daiquiri",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/dons-special-daiquiri/",
+  "family": "tiki",
+  "era_hint": "vintage",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 11,
+  "name": "Fernandito",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/fernandito/",
+  "family": "highball",
+  "era_hint": "unknown",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 12,
+  "name": "French Connection",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/french-connection/",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "IBA category: Contemporary Classics; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 13,
+  "name": "French Martini",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/french-martini/",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 14,
+  "name": "Garibaldi",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/garibaldi/",
+  "family": "highball",
+  "era_hint": "unknown",
+  "notes": "IBA category: Contemporary Classics; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 15,
+  "name": "Gin Basil Smash",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/gin-basil-smash/",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 16,
+  "name": "Grand Margarita",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/grand-margarita/",
+  "family": "sour",
+  "era_hint": "unknown",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 17,
+  "name": "Grasshopper",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/grasshopper/",
+  "family": "creamy",
+  "era_hint": "vintage",
+  "notes": "IBA category: Contemporary Classics; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 18,
+  "name": "Hanky Panky",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/hanky-panky/",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "IBA category: The unforgettables; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 19,
+  "name": "Horse's Neck",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/horses-neck/",
+  "family": "highball",
+  "era_hint": "vintage",
+  "notes": "IBA category: Contemporary Classics; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 20,
+  "name": "IBA Tiki",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/iba-tiki/",
+  "family": "tiki",
+  "era_hint": "modern",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 21,
+  "name": "Illegal",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/illegal/",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 22,
+  "name": "Jungle Bird",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/jungle-bird/",
+  "family": "tiki",
+  "era_hint": "modern",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 23,
+  "name": "Lemon Drop Martini",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/lemon-drop-martini/",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "IBA category: Contemporary Classics; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 24,
+  "name": "Martinez",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/martinez/",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "IBA category: The unforgettables; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 25,
+  "name": "Mary Pickford",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/mary-pickford/",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "IBA category: The unforgettables; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 26,
+  "name": "Missionary's Downfall",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/missionarys-downfall/",
+  "family": "tiki",
+  "era_hint": "vintage",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 27,
+  "name": "Monkey Gland",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/monkey-gland/",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "IBA category: The unforgettables; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 28,
+  "name": "Naked and Famous",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/naked-and-famous/",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 29,
+  "name": "New York Sour",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/new-york-sour/",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 30,
+  "name": "Old Cuban",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/old-cuban/",
+  "family": "sparkling",
+  "era_hint": "modern",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 31,
+  "name": "Paper Plane",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/paper-plane/",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 32,
+  "name": "Paradise",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/paradise/",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "IBA category: The unforgettables; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 33,
+  "name": "Pisco Punch",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/pisco-punch/",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 34,
+  "name": "Planter's Punch",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/planters-punch/",
+  "family": "tiki",
+  "era_hint": "vintage",
+  "notes": "IBA category: The unforgettables; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 35,
+  "name": "Porn Star Martini",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/porn-star-martini/",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 36,
+  "name": "Porto Flip",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/porto-flip/",
+  "family": "flip",
+  "era_hint": "vintage",
+  "notes": "IBA category: The unforgettables; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 37,
+  "name": "Rabo de Galo",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/rabo-de-galo/",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "IBA category: Contemporary Classics; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 38,
+  "name": "Remember the Maine",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/remember-the-maine/",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "IBA category: The unforgettables; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 39,
+  "name": "Russian Spring Punch",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/russian-spring-punch/",
+  "family": "sparkling",
+  "era_hint": "modern",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 40,
+  "name": "Sea Breeze",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/sea-breeze/",
+  "family": "highball",
+  "era_hint": "modern",
+  "notes": "IBA category: Contemporary Classics; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 41,
+  "name": "Sex on the Beach",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/sex-on-the-beach/",
+  "family": "highball",
+  "era_hint": "modern",
+  "notes": "IBA category: Contemporary Classics; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 42,
+  "name": "Sherry Cobbler",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/sherry-cobbler/",
+  "family": "other",
+  "era_hint": "vintage",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 43,
+  "name": "Singapore Sling",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/singapore-sling/",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "IBA category: Contemporary Classics; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 44,
+  "name": "South Side",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/south-side/",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 45,
+  "name": "Spicy Fifty",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/spicy-fifty/",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 46,
+  "name": "Suffering Bastard",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/suffering-bastard/",
+  "family": "highball",
+  "era_hint": "vintage",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 47,
+  "name": "Tequila Sunrise",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/tequila-sunrise/",
+  "family": "highball",
+  "era_hint": "modern",
+  "notes": "IBA category: Contemporary Classics; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 48,
+  "name": "Three Dots and a Dash",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/three-dots-and-a-dash/",
+  "family": "tiki",
+  "era_hint": "vintage",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 49,
+  "name": "Tipperary",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/tipperary/",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 50,
+  "name": "Tommy's Margarita",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/tommys-margarita/",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 51,
+  "name": "Trinidad Sour",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/trinidad-sour/",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 52,
+  "name": "Tuxedo",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/tuxedo/",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "IBA category: The unforgettables; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 53,
+  "name": "Ve.N.To",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/ve-n-to/",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "IBA category: New Era; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 54,
+  "name": "Zombie",
+  "source": "IBA",
+  "url": "https://iba-world.com/iba-cocktail/zombie/",
+  "family": "tiki",
+  "era_hint": "vintage",
+  "notes": "IBA category: Contemporary Classics; recipe page HTTP 200 verified"
+ },
+ {
+  "rank": 55,
+  "name": "Painkiller",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1454/painkiller",
+  "family": "tiki",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics, World's Top 100, Top 100 new entries/drop-outs; Difford's 4.5/5, drinkers 4.5/5 (233 ratings)"
+ },
+ {
+  "rank": 56,
+  "name": "Nuclear Daiquiri",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2719/nuclear-daiquiri",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics, World's Top 100, Top 100 new entries/drop-outs; Difford's 4.5/5, drinkers 4/5 (221 ratings); era hint from history text ~2005"
+ },
+ {
+  "rank": 57,
+  "name": "London Calling",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1184/london-calling",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics, World's Top 100, Top 100 new entries/drop-outs; Difford's 4.5/5, drinkers 4/5 (117 ratings); era hint from history text ~2002"
+ },
+ {
+  "rank": 58,
+  "name": "Enzoni",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/5591/enzoni",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics, World's Top 100; Difford's 5/5, drinkers 4.5/5 (520 ratings); era hint from history text ~2001"
+ },
+ {
+  "rank": 59,
+  "name": "Hugo Spritz",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/5039/hugo-spritz",
+  "family": "sparkling",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics, World's Top 100, Top 100 new entries/drop-outs; Difford's 4/5, drinkers 4/5 (138 ratings); era hint from history text ~2005"
+ },
+ {
+  "rank": 60,
+  "name": "Mezcal Margarita",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2497/mezcal-margarita",
+  "family": "sour",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics, World's Top 100; Difford's 5/5, drinkers 4.5/5 (347 ratings)"
+ },
+ {
+  "rank": 61,
+  "name": "Left Bank Martini",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2464/left-bank-martini",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics, World's Top 100; Difford's 5/5, drinkers 4.5/5 (240 ratings); era hint from history text ~2006"
+ },
+ {
+  "rank": 62,
+  "name": "Poet's Dream",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1576/poets-dream",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame, World's Top 100, Top 100 new entries/drop-outs; Difford's 5/5, drinkers 4/5 (740 ratings); era hint from history text ~1931"
+ },
+ {
+  "rank": 63,
+  "name": "Man O' War",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4819/man-o-war",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame, World's Top 100, Top 100 new entries/drop-outs; Difford's 4.5/5, drinkers 4/5 (924 ratings); era hint from history text ~1915"
+ },
+ {
+  "rank": 64,
+  "name": "M and M",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/5588/m-and-m",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, World's Top 100, Top 100 new entries/drop-outs; Difford's 5/5, drinkers 4/5 (349 ratings); era hint from history text ~2015"
+ },
+ {
+  "rank": 65,
+  "name": "Bobby Burns (Difford's own)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4109/bobby-burns-diffords-own",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, World's Top 100, Top 100 new entries/drop-outs; Difford's 5/5, drinkers 4/5 (340 ratings); era hint from history text ~2017"
+ },
+ {
+  "rank": 66,
+  "name": "Final Ward",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2406/final-ward",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics, World's Top 100; Difford's 4/5, drinkers 4.5/5 (294 ratings); era hint from history text ~2007"
+ },
+ {
+  "rank": 67,
+  "name": "Division Bell",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3634/division-bell",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics, World's Top 100; Difford's 4.5/5, drinkers 4/5 (512 ratings); era hint from history text ~2009"
+ },
+ {
+  "rank": 68,
+  "name": "Bijou Cocktail (Difford's recipe)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3269/bijou-cocktail-diffords-recipe",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame, World's Top 100, Top 100 new entries/drop-outs; Difford's 4.5/5, drinkers 4/5 (353 ratings); era hint from history text ~1895"
+ },
+ {
+  "rank": 69,
+  "name": "Picante de la Casa (Spicy Margarita)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4723/picante-de-la-casa-spicy-margarita",
+  "family": "sour",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics, World's Top 100; Difford's 4.5/5, drinkers 4.5/5 (104 ratings)"
+ },
+ {
+  "rank": 70,
+  "name": "Blood and Sand (Difford's recipe)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/556/blood-and-sand-diffords-recipe",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame, World's Top 100, Top 100 new entries/drop-outs; Difford's 4.5/5, drinkers 4/5 (307 ratings); era hint from history text ~1922"
+ },
+ {
+  "rank": 71,
+  "name": "White Negroni",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3420/white-negroni",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics, World's Top 100; Difford's 4.5/5, drinkers 4/5 (295 ratings); era hint from history text ~2001"
+ },
+ {
+  "rank": 72,
+  "name": "100 Year Old Cigar",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/5811/100-year-old-cigar",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics, World's Top 100, Top 100 new entries/drop-outs; Difford's 4.5/5, drinkers 4.5/5 (261 ratings); era hint from history text ~2015"
+ },
+ {
+  "rank": 73,
+  "name": "Breakfast Martini",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/322/breakfast-martini",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics, World's Top 100; Difford's 4.5/5, drinkers 4/5 (230 ratings); era hint from history text ~1996"
+ },
+ {
+  "rank": 74,
+  "name": "White Russian",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2093/white-russian",
+  "family": "creamy",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame, World's Top 100, Top 100 new entries/drop-outs; Difford's 4/5, drinkers 4/5 (331 ratings); era hint from history text ~1949"
+ },
+ {
+  "rank": 75,
+  "name": "Brandy Alexander",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/307/brandy-alexander",
+  "family": "creamy",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame, World's Top 100, Top 100 new entries/drop-outs; Difford's 4.5/5, drinkers 4/5 (181 ratings); era hint from history text ~1923"
+ },
+ {
+  "rank": 76,
+  "name": "Batanga",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/540/batanga",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, World's Top 100, Top 100 new entries/drop-outs; Difford's 4.5/5, drinkers 3.5/5 (210 ratings); era hint from history text ~1961"
+ },
+ {
+  "rank": 77,
+  "name": "Bitter Giuseppe",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4856/bitter-giuseppe",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics, World's Top 100, Top 100 new entries/drop-outs; Difford's 4.5/5, drinkers 4/5 (195 ratings); era hint from history text ~2007"
+ },
+ {
+  "rank": 78,
+  "name": "La Louisiane",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2985/la-louisiane",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame, World's Top 100; Difford's 4.5/5, drinkers 4.5/5 (564 ratings); era hint from history text ~1937"
+ },
+ {
+  "rank": 79,
+  "name": "Champs-Elysees",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/396/champs-elysees",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame, World's Top 100; Difford's 4.5/5, drinkers 4.5/5 (533 ratings); era hint from history text ~1925"
+ },
+ {
+  "rank": 80,
+  "name": "Dirty Martini",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/650/dirty-martini",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame, World's Top 100, Top 100 new entries/drop-outs; Difford's 4.5/5, drinkers 3.5/5 (113 ratings); era hint from history text ~1901"
+ },
+ {
+  "rank": 81,
+  "name": "Comte de Sureau",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/7257/comte-de-sureau",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics, Top 100 new entries/drop-outs; Difford's 4.5/5, drinkers 4/5 (574 ratings); era hint from history text ~2007"
+ },
+ {
+  "rank": 82,
+  "name": "Fitzgerald",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2408/fitzgerald",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, World's Top 100; Difford's 4.5/5, drinkers 4/5 (468 ratings); era hint from history text ~2020"
+ },
+ {
+  "rank": 83,
+  "name": "Black Manhattan",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4345/black-manhattan",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, World's Top 100; Difford's 4.5/5, drinkers 4/5 (399 ratings); era hint from history text ~2015"
+ },
+ {
+  "rank": 84,
+  "name": "Gimlet (Difford's recipe)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/831/gimlet-diffords-recipe",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame, World's Top 100; Difford's 4.5/5, drinkers 4.5/5 (115 ratings); era hint from history text ~1747"
+ },
+ {
+  "rank": 85,
+  "name": "El Presidente",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/701/el-presidente",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame, World's Top 100; Difford's 4.5/5, drinkers 4/5 (308 ratings); era hint from history text ~1915"
+ },
+ {
+  "rank": 86,
+  "name": "Air Mail",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/27/air-mail",
+  "family": "sparkling",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame, World's Top 100; Difford's 4.5/5, drinkers 4/5 (215 ratings); era hint from history text ~1918"
+ },
+ {
+  "rank": 87,
+  "name": "Red Hook",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2892/red-hook",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics, Top 100 new entries/drop-outs; Difford's 4.5/5, drinkers 4/5 (195 ratings); era hint from history text ~2003"
+ },
+ {
+  "rank": 88,
+  "name": "Milano Torino (Mi-To)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3495/milano-torino-mi-to",
+  "family": "spirit-forward",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame, World's Top 100; Difford's 4.5/5, drinkers 4/5 (177 ratings)"
+ },
+ {
+  "rank": 89,
+  "name": "Dirty Banana",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/649/dirty-banana",
+  "family": "creamy",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics, Top 100 new entries/drop-outs; Difford's 4.5/5, drinkers 4/5 (144 ratings)"
+ },
+ {
+  "rank": 90,
+  "name": "Godfather Cocktail",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/864/godfather-cocktail",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, World's Top 100; Difford's 4/5, drinkers 4/5 (255 ratings); era hint from history text ~1969"
+ },
+ {
+  "rank": 91,
+  "name": "Negroni Sbagliato",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2515/negroni-sbagliato",
+  "family": "sparkling",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics, Top 100 new entries/drop-outs; Difford's 4/5, drinkers 4/5 (162 ratings); era hint from history text ~2016"
+ },
+ {
+  "rank": 92,
+  "name": "Appletini (Sour Apple Martini)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1797/appletini-sour-apple-martini",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics, Top 100 new entries/drop-outs; Difford's 4.5/5, drinkers 4/5 (72 ratings); era hint from history text ~1996"
+ },
+ {
+  "rank": 93,
+  "name": "Screaming Orgasm",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2747/screaming-orgasm",
+  "family": "creamy",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame, World's Top 100; Difford's 4/5, drinkers 4/5 (125 ratings)"
+ },
+ {
+  "rank": 94,
+  "name": "Amaretto Sour (by Jeffrey Morgenthaler)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3263/amaretto-sour-by-jeffrey-morgenthaler",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics; Difford's 4.5/5, drinkers 4.5/5 (555 ratings); era hint from history text ~2012"
+ },
+ {
+  "rank": 95,
+  "name": "Tokyo Iced Tea",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1968/tokyo-iced-tea",
+  "family": "highball",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics, World's Top 100, Top 100 new entries/drop-outs; Difford's 3.5/5, drinkers 3.5/5 (54 ratings); era hint from history text ~2007"
+ },
+ {
+  "rank": 96,
+  "name": "Gin and Tonic",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/835/gin-and-tonic",
+  "family": "highball",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Top 100 new entries/drop-outs; Difford's 5/5, drinkers 4/5 (583 ratings); era hint from history text ~1870"
+ },
+ {
+  "rank": 97,
+  "name": "Midnight Stinger",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4573/midnight-stinger",
+  "family": "sour",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Top 100 new entries/drop-outs; Difford's 5/5, drinkers 4/5 (514 ratings)"
+ },
+ {
+  "rank": 98,
+  "name": "Oaxaca Old-Fashioned",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3003/oaxaca-old-fashioned",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics; Difford's 4.5/5, drinkers 4.5/5 (257 ratings); era hint from history text ~2007"
+ },
+ {
+  "rank": 99,
+  "name": "Brown Derby",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3246/brown-derby",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Top 100 new entries/drop-outs; Difford's 5/5, drinkers 4/5 (443 ratings); era hint from history text ~1927"
+ },
+ {
+  "rank": 100,
+  "name": "Army and Navy",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/530/army-and-navy",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Top 100 new entries/drop-outs; Difford's 4.5/5, drinkers 4/5 (499 ratings); era hint from history text ~1948"
+ },
+ {
+  "rank": 101,
+  "name": "Amaretto Sour",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/53/amaretto-sour",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: World's Top 100; Difford's 4.5/5, drinkers 4.5/5 (488 ratings); era hint from history text ~1974"
+ },
+ {
+  "rank": 102,
+  "name": "Fancy Free",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/738/fancy-free",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Top 100 new entries/drop-outs; Difford's 4.5/5, drinkers 4/5 (454 ratings); era hint from history text ~1940"
+ },
+ {
+  "rank": 103,
+  "name": "Old Friend",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4258/old-friend",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics; Difford's 4.5/5, drinkers 4/5 (439 ratings); era hint from history text ~2012"
+ },
+ {
+  "rank": 104,
+  "name": "Slow Comfortable Screw Against The Wall",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1833/slow-comfortable-screw-against-the-wall",
+  "family": "highball",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame, World's Top 100; Difford's 4.5/5, drinkers 3.5/5 (34 ratings)"
+ },
+ {
+  "rank": 105,
+  "name": "Shaft",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4816/shaft",
+  "family": "other",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, World's Top 100; Difford's 4/5, drinkers 3.5/5 (58 ratings); era hint from history text ~1971"
+ },
+ {
+  "rank": 106,
+  "name": "Italian Margarita",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2695/italian-margarita",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics; Difford's 4.5/5, drinkers 4/5 (309 ratings); era hint from history text ~2005"
+ },
+ {
+  "rank": 107,
+  "name": "Black Rose",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2302/black-rose",
+  "family": "spirit-forward",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: World's Top 100, Top 100 new entries/drop-outs; Difford's 4/5, drinkers 3.5/5 (155 ratings)"
+ },
+ {
+  "rank": 108,
+  "name": "Gold Rush",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3629/gold-rush",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics; Difford's 4.5/5, drinkers 4/5 (258 ratings); era hint from history text ~2001"
+ },
+ {
+  "rank": 109,
+  "name": "Anejo Highball",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2248/anejo-highball",
+  "family": "highball",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics; Difford's 4.5/5, drinkers 4/5 (217 ratings)"
+ },
+ {
+  "rank": 110,
+  "name": "Mexican Mule",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1306/mexican-mule",
+  "family": "highball",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Top 100 new entries/drop-outs; Difford's 4.5/5, drinkers 4/5 (196 ratings)"
+ },
+ {
+  "rank": 111,
+  "name": "Jasmine",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1058/jasmine",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics; Difford's 4/5, drinkers 4/5 (307 ratings); era hint from history text ~1998"
+ },
+ {
+  "rank": 112,
+  "name": "Right Hand",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3478/right-hand",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics; Difford's 4.5/5, drinkers 4/5 (167 ratings); era hint from history text ~2007"
+ },
+ {
+  "rank": 113,
+  "name": "Revolver",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/5009/revolver",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics; Difford's 4/5, drinkers 4/5 (282 ratings); era hint from history text ~2004"
+ },
+ {
+  "rank": 114,
+  "name": "Cable Car",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/349/cable-car",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics; Difford's 4.5/5, drinkers 4/5 (153 ratings); era hint from history text ~1996"
+ },
+ {
+  "rank": 115,
+  "name": "Rum Sour",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1716/rum-sour",
+  "family": "sour",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Top 100 new entries/drop-outs; Difford's 4.5/5, drinkers 4/5 (139 ratings)"
+ },
+ {
+  "rank": 116,
+  "name": "American Trilogy",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/6227/american-trilogy",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics; Difford's 4.5/5, drinkers 4/5 (121 ratings); era hint from history text ~2006"
+ },
+ {
+  "rank": 117,
+  "name": "Eastern Standard (Soho House Tonic)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4685/eastern-standard-soho-house-tonic",
+  "family": "sour",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Top 100 new entries/drop-outs; Difford's 4.5/5, drinkers 4/5 (114 ratings)"
+ },
+ {
+  "rank": 118,
+  "name": "Cosmonaut",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/5008/cosmonaut",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics; Difford's 4.5/5, drinkers 4/5 (106 ratings); era hint from history text ~2016"
+ },
+ {
+  "rank": 119,
+  "name": "El Diablo Cocktail",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/700/el-diablo-cocktail",
+  "family": "highball",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics; Difford's 4/5, drinkers 4/5 (184 ratings); era hint from history text ~1940"
+ },
+ {
+  "rank": 120,
+  "name": "Brooklyn",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2785/brooklyn",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Top 100 new entries/drop-outs; Difford's 4.5/5, drinkers 4/5 (95 ratings); era hint from history text ~1908"
+ },
+ {
+  "rank": 121,
+  "name": "Old Pal",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1430/old-pal",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics; Difford's 4/5, drinkers 4/5 (156 ratings); era hint from history text ~1878"
+ },
+ {
+  "rank": 122,
+  "name": "Reggae Rum Punch",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1667/reggae-rum-punch",
+  "family": "tiki",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics; Difford's 4.5/5, drinkers 4/5 (82 ratings)"
+ },
+ {
+  "rank": 123,
+  "name": "Ultima Palabra",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3663/ultima-palabra",
+  "family": "sour",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 5/5, drinkers 4.5/5 (450 ratings)"
+ },
+ {
+  "rank": 124,
+  "name": "Dawa",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/668/dawa",
+  "family": "sour",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics; Difford's 4.5/5, drinkers 4/5 (58 ratings)"
+ },
+ {
+  "rank": 125,
+  "name": "Elderflower Collins",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/704/elderflower-collins",
+  "family": "collins",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics; Difford's 4/5, drinkers 4/5 (102 ratings)"
+ },
+ {
+  "rank": 126,
+  "name": "Lynchburg Lemonade",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1211/lynchburg-lemonade",
+  "family": "highball",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics; Difford's 4/5, drinkers 4/5 (86 ratings)"
+ },
+ {
+  "rank": 127,
+  "name": "Cantaritos",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3074/cantaritos",
+  "family": "highball",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Top 100 new entries/drop-outs; Difford's 4/5, drinkers 4/5 (83 ratings)"
+ },
+ {
+  "rank": 128,
+  "name": "Gin and It",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/833/gin-and-it",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Top 100 new entries/drop-outs; Difford's 4.5/5, drinkers 3.5/5 (141 ratings); era hint from history text ~1936"
+ },
+ {
+  "rank": 129,
+  "name": "Fluffy Duck",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/771/fluffy-duck",
+  "family": "creamy",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Top 100 new entries/drop-outs; Difford's 4/5, drinkers 4/5 (76 ratings); era hint from history text ~1971"
+ },
+ {
+  "rank": 130,
+  "name": "Closing Argument",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3448/closing-argument",
+  "family": "sour",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4.5/5 (430 ratings)"
+ },
+ {
+  "rank": 131,
+  "name": "Pistachio Martini",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/30944/pistachio-martini",
+  "family": "spirit-forward",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: World's Top 100, Top 100 new entries/drop-outs; Difford's 4/5, drinkers 3.5/5 (20 ratings)"
+ },
+ {
+  "rank": 132,
+  "name": "Tomatini",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3322/tomatini",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics; Difford's 4.5/5, drinkers 4/5 (34 ratings); era hint from history text ~2011"
+ },
+ {
+  "rank": 133,
+  "name": "Rum Swizzle",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2566/rum-swizzle",
+  "family": "tiki",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 5/5, drinkers 4.5/5 (191 ratings)"
+ },
+ {
+  "rank": 134,
+  "name": "South Side Rickey",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3488/south-side-rickey",
+  "family": "collins",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Modern Classics; Difford's 5/5, drinkers 4.5/5 (458 ratings)"
+ },
+ {
+  "rank": 135,
+  "name": "Royal Bermuda Yacht Club",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1701/royal-bermuda-yacht-club",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 5/5, drinkers 4/5 (319 ratings); era hint from history text ~1844"
+ },
+ {
+  "rank": 136,
+  "name": "Satan's Whiskers (Straight)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1748/satans-whiskers-straight",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 5/5, drinkers 4/5 (295 ratings); era hint from history text ~1930"
+ },
+ {
+  "rank": 137,
+  "name": "Honeysuckle Daiquiri",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/970/honeysuckle-daiquiri",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 5/5, drinkers 4/5 (253 ratings); era hint from history text ~1948"
+ },
+ {
+  "rank": 138,
+  "name": "Scotch Sour",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2848/scotch-sour",
+  "family": "sour",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 5/5, drinkers 4/5 (236 ratings)"
+ },
+ {
+  "rank": 139,
+  "name": "Ford Cocktail",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3379/ford-cocktail",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 5/5, drinkers 4/5 (218 ratings); era hint from history text ~1895"
+ },
+ {
+  "rank": 140,
+  "name": "Queen's Park Hotel Super Cocktail",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3625/queens-park-hotel-super-cocktail",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (385 ratings); era hint from history text ~1932"
+ },
+ {
+  "rank": 141,
+  "name": "Rum Old Fashioned",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2845/rum-old-fashioned",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 5/5, drinkers 4/5 (212 ratings); era hint from history text ~2009"
+ },
+ {
+  "rank": 142,
+  "name": "San Francisco (Café Royal)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4727/san-francisco-cafe-royal",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 5/5, drinkers 4/5 (200 ratings); era hint from history text ~1937"
+ },
+ {
+  "rank": 143,
+  "name": "Rum Punch",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1712/rum-punch",
+  "family": "tiki",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 5/5, drinkers 4/5 (194 ratings)"
+ },
+ {
+  "rank": 144,
+  "name": "Twentieth Century",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2006/twentieth-century",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 5/5, drinkers 4/5 (180 ratings); era hint from history text ~1902"
+ },
+ {
+  "rank": 145,
+  "name": "Rosita",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1696/rosita",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (281 ratings); era hint from history text ~1974"
+ },
+ {
+  "rank": 146,
+  "name": "Manhattan (Perfect)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1246/manhattan-perfect",
+  "family": "spirit-forward",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (276 ratings)"
+ },
+ {
+  "rank": 147,
+  "name": "Fat Tire",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2653/fat-tire",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame, Modern Classics; Difford's 4/5, drinkers 3.5/5 (48 ratings); era hint from history text ~2006"
+ },
+ {
+  "rank": 148,
+  "name": "Bamboo (Difford's 'Perfect' recipe)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3388/bamboo-diffords-perfect-recipe",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 5/5, drinkers 4/5 (149 ratings); era hint from history text ~2014"
+ },
+ {
+  "rank": 149,
+  "name": "Grog",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/920/grog",
+  "family": "other",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 5/5, drinkers 4/5 (141 ratings); era hint from history text ~1740"
+ },
+ {
+  "rank": 150,
+  "name": "Corn 'n' Oil",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3029/corn-n-oil",
+  "family": "spirit-forward",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (244 ratings)"
+ },
+ {
+  "rank": 151,
+  "name": "Affinity",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/19/affinity",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 5/5, drinkers 4/5 (136 ratings); era hint from history text ~1907"
+ },
+ {
+  "rank": 152,
+  "name": "Chrysanthemum",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2338/chrysanthemum",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (218 ratings); era hint from history text ~1904"
+ },
+ {
+  "rank": 153,
+  "name": "Whiskey Smash",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3347/whiskey-smash",
+  "family": "julep",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (205 ratings); era hint from history text ~1862"
+ },
+ {
+  "rank": 154,
+  "name": "Widow's Kiss",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2098/widows-kiss",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (204 ratings); era hint from history text ~1895"
+ },
+ {
+  "rank": 155,
+  "name": "Gin Sour",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/845/gin-sour",
+  "family": "sour",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (202 ratings)"
+ },
+ {
+  "rank": 156,
+  "name": "Port of Spain (by Dominic Alling)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/5800/port-of-spain-by-dominic-alling",
+  "family": "tiki",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 5/5, drinkers 4/5 (359 ratings); era hint from history text ~2013"
+ },
+ {
+  "rank": 157,
+  "name": "Monte Carlo",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2506/monte-carlo",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (195 ratings); era hint from history text ~1948"
+ },
+ {
+  "rank": 158,
+  "name": "Tia Mia",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/9786/tia-mia",
+  "family": "tiki",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (181 ratings); era hint from history text ~2010"
+ },
+ {
+  "rank": 159,
+  "name": "Industry Sour",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/25001/industry-sour",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4.5/5 (175 ratings); era hint from history text ~2011"
+ },
+ {
+  "rank": 160,
+  "name": "Banana Calling",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4564/banana-calling",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (168 ratings); era hint from history text ~2018"
+ },
+ {
+  "rank": 161,
+  "name": "Venetian Spritz",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1861/venetian-spritz",
+  "family": "sparkling",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (164 ratings)"
+ },
+ {
+  "rank": 162,
+  "name": "Earl Grey MarTEAni",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/685/earl-grey-marteani",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4.5/5 (163 ratings); era hint from history text ~2000"
+ },
+ {
+  "rank": 163,
+  "name": "Macunaíma",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/5885/macunaima",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 5/5, drinkers 4/5 (276 ratings); era hint from history text ~2014"
+ },
+ {
+  "rank": 164,
+  "name": "Toronto",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3442/toronto",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (152 ratings); era hint from history text ~1922"
+ },
+ {
+  "rank": 165,
+  "name": "Pegu Club Cocktail (Difford's recipe)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2728/pegu-club-cocktail-diffords-recipe",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (145 ratings); era hint from history text ~1923"
+ },
+ {
+  "rank": 166,
+  "name": "Hotel Nacional Special",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1383/hotel-nacional-special",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (143 ratings); era hint from history text ~1930"
+ },
+ {
+  "rank": 167,
+  "name": "Left Hand",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/16297/left-hand",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (141 ratings); era hint from history text ~2006"
+ },
+ {
+  "rank": 168,
+  "name": "Rob Roy",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1681/rob-roy",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (138 ratings); era hint from history text ~1873"
+ },
+ {
+  "rank": 169,
+  "name": "Bernice",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2901/bernice",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (135 ratings); era hint from history text ~1950"
+ },
+ {
+  "rank": 170,
+  "name": "Sunflower",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/5807/sunflower",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (422 ratings); era hint from history text ~2008"
+ },
+ {
+  "rank": 171,
+  "name": "Sangaree (Sangria)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1741/sangaree-sangria",
+  "family": "other",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4.5/5 (40 ratings)"
+ },
+ {
+  "rank": 172,
+  "name": "Vancouver",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2759/vancouver",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (128 ratings); era hint from history text ~1925"
+ },
+ {
+  "rank": 173,
+  "name": "Diamondback",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3058/diamondback",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (127 ratings); era hint from history text ~1928"
+ },
+ {
+  "rank": 174,
+  "name": "Eastside Gimlet",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3628/eastside-gimlet",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (127 ratings); era hint from history text ~2004"
+ },
+ {
+  "rank": 175,
+  "name": "Turf Club (1900, Harry Johnson)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3394/turf-club-1900-harry-johnson",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (126 ratings); era hint from history text ~1882"
+ },
+ {
+  "rank": 176,
+  "name": "Whiskey Collins",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2080/whiskey-collins",
+  "family": "collins",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (124 ratings)"
+ },
+ {
+  "rank": 177,
+  "name": "Hunter",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3121/hunter",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 4/5 (220 ratings); era hint from history text ~1908"
+ },
+ {
+  "rank": 178,
+  "name": "Bahama Mama",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/144/bahama-mama",
+  "family": "tiki",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (114 ratings); era hint from history text ~1963"
+ },
+ {
+  "rank": 179,
+  "name": "Japanese Cocktail",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1055/japanese-cocktail",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (107 ratings); era hint from history text ~1862"
+ },
+ {
+  "rank": 180,
+  "name": "Silk Stocking",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1774/silk-stocking",
+  "family": "creamy",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 5/5, drinkers 3.5/5 (189 ratings); era hint from history text ~1982"
+ },
+ {
+  "rank": 181,
+  "name": "Piña Verde",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/10138/pina-verde",
+  "family": "tiki",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4.5/5 (96 ratings)"
+ },
+ {
+  "rank": 182,
+  "name": "Pink Lady",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1548/pink-lady",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (93 ratings); era hint from history text ~1859"
+ },
+ {
+  "rank": 183,
+  "name": "Hot Toddy (Hot Scotch & Lemon)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/987/hot-toddy-hot-scotch-and-lemon",
+  "family": "other",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (92 ratings); era hint from history text ~1741"
+ },
+ {
+  "rank": 184,
+  "name": "Blue Hawaii",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2309/blue-hawaii",
+  "family": "tiki",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 4/5 (164 ratings); era hint from history text ~1957"
+ },
+ {
+  "rank": 185,
+  "name": "San Francisco",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1737/san-francisco",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics, Top 100 new entries/drop-outs; Difford's 4/5, drinkers 3.5/5 (51 ratings); era hint from history text ~1992"
+ },
+ {
+  "rank": 186,
+  "name": "Golden Cadillac",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/872/golden-cadillac",
+  "family": "creamy",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (90 ratings); era hint from history text ~1952"
+ },
+ {
+  "rank": 187,
+  "name": "Hurricane",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/993/hurricane",
+  "family": "tiki",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (89 ratings); era hint from history text ~1939"
+ },
+ {
+  "rank": 188,
+  "name": "Ti Punch",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1952/ti-punch",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (87 ratings); era hint from history text ~1890"
+ },
+ {
+  "rank": 189,
+  "name": "Knickerbocker",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3974/knickerbocker",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (86 ratings); era hint from history text ~1809"
+ },
+ {
+  "rank": 190,
+  "name": "French 76",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/791/french-76",
+  "family": "sparkling",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: World's Top 100; Difford's 4/5, drinkers 4/5 (14 ratings)"
+ },
+ {
+  "rank": 191,
+  "name": "Jack Rose Cocktail",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1039/jack-rose-cocktail",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (81 ratings); era hint from history text ~1905"
+ },
+ {
+  "rank": 192,
+  "name": "Ward Eight",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2062/ward-eight",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 4/5 (138 ratings); era hint from history text ~1898"
+ },
+ {
+  "rank": 193,
+  "name": "Fog Cutter",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/778/fog-cutter",
+  "family": "tiki",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (77 ratings); era hint from history text ~1946"
+ },
+ {
+  "rank": 194,
+  "name": "Green Swizzle",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/915/green-swizzle",
+  "family": "tiki",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (77 ratings); era hint from history text ~1924"
+ },
+ {
+  "rank": 195,
+  "name": "Eggnog",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4708/eggnog",
+  "family": "flip",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (76 ratings)"
+ },
+ {
+  "rank": 196,
+  "name": "Gibson Dry Martini",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/830/gibson-dry-martini",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (75 ratings); era hint from history text ~1864"
+ },
+ {
+  "rank": 197,
+  "name": "Old Maid",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/5084/old-maid",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4.5/5 (74 ratings); era hint from history text ~2004"
+ },
+ {
+  "rank": 198,
+  "name": "Jamaican Mule",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1050/jamaican-mule",
+  "family": "highball",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 4/5 (132 ratings)"
+ },
+ {
+  "rank": 199,
+  "name": "Alaska (Straub's 1914 recipe)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/514/alaska-straubs-1914-recipe",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 4/5 (131 ratings); era hint from history text ~1896"
+ },
+ {
+  "rank": 200,
+  "name": "Old Hickory (Britten's recipe)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4132/old-hickory-brittens-recipe",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (73 ratings); era hint from history text ~1812"
+ },
+ {
+  "rank": 201,
+  "name": "Charlie Chaplin",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2914/charlie-chaplin",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 4/5 (130 ratings); era hint from history text ~1920"
+ },
+ {
+  "rank": 202,
+  "name": "Bacardi Cocktail",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/143/bacardi-cocktail",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 3.5/5 (225 ratings); era hint from history text ~1917"
+ },
+ {
+  "rank": 203,
+  "name": "Brass Rail",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/564/brass-rail",
+  "family": "sour",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (216 ratings)"
+ },
+ {
+  "rank": 204,
+  "name": "Greenpoint",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3635/greenpoint",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (215 ratings); era hint from history text ~2005"
+ },
+ {
+  "rank": 205,
+  "name": "Champagne Snowball",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3404/champagne-snowball",
+  "family": "sparkling",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (67 ratings)"
+ },
+ {
+  "rank": 206,
+  "name": "Little Italy",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2819/little-italy",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (214 ratings); era hint from history text ~2005"
+ },
+ {
+  "rank": 207,
+  "name": "French 125 (French '75' with cognac)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3642/french-125-french-75-with-cognac",
+  "family": "sparkling",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Top 100 new entries/drop-outs; Difford's 5/5, drinkers 4/5 (112 ratings); era hint from history text ~1977"
+ },
+ {
+  "rank": 208,
+  "name": "Adonis",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/18/adonis",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (62 ratings); era hint from history text ~1884"
+ },
+ {
+  "rank": 209,
+  "name": "Bensonhurst",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/541/bensonhurst",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (188 ratings); era hint from history text ~2006"
+ },
+ {
+  "rank": 210,
+  "name": "Jet Pilot",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4963/jet-pilot",
+  "family": "tiki",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (58 ratings); era hint from history text ~1941"
+ },
+ {
+  "rank": 211,
+  "name": "South Slope",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/5641/south-slope",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (176 ratings); era hint from history text ~2007"
+ },
+ {
+  "rank": 212,
+  "name": "P.S. I Love You",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1610/ps-i-love-you",
+  "family": "creamy",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 4/5 (98 ratings)"
+ },
+ {
+  "rank": 213,
+  "name": "Scorpion",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1756/scorpion",
+  "family": "tiki",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 4/5 (98 ratings); era hint from history text ~1972"
+ },
+ {
+  "rank": 214,
+  "name": "1910",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4834/1910",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (175 ratings); era hint from history text ~2014"
+ },
+ {
+  "rank": 215,
+  "name": "Brandy Milk Punch",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/314/brandy-milk-punch",
+  "family": "creamy",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (54 ratings)"
+ },
+ {
+  "rank": 216,
+  "name": "Algonquin",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/41/algonquin",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 3.5/5 (172 ratings); era hint from history text ~1935"
+ },
+ {
+  "rank": 217,
+  "name": "Harvard",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/934/harvard",
+  "family": "highball",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (51 ratings); era hint from history text ~1895"
+ },
+ {
+  "rank": 218,
+  "name": "Kir Royale",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1109/kir-royale",
+  "family": "sparkling",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 4/5 (90 ratings); era hint from history text ~1904"
+ },
+ {
+  "rank": 219,
+  "name": "Rome With a View",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/11291/rome-with-a-view",
+  "family": "highball",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 4/5 (84 ratings); era hint from history text ~2008"
+ },
+ {
+  "rank": 220,
+  "name": "Daisy de Santiago",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3964/daisy-de-santiago",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (45 ratings); era hint from history text ~1939"
+ },
+ {
+  "rank": 221,
+  "name": "Cameron's Kick",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/362/camerons-kick",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 4/5 (80 ratings); era hint from history text ~1922"
+ },
+ {
+  "rank": 222,
+  "name": "Three Storms Flip",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4832/three-storms-flip",
+  "family": "flip",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 5/5, drinkers 4/5 (80 ratings); era hint from history text ~2015"
+ },
+ {
+  "rank": 223,
+  "name": "Gypsy Queen",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2804/gypsy-queen",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 3.5/5 (140 ratings); era hint from history text ~1938"
+ },
+ {
+  "rank": 224,
+  "name": "Strawberry Daiquiri (frozen)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1885/strawberry-daiquiri-frozen",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 4/5 (76 ratings); era hint from history text ~1952"
+ },
+ {
+  "rank": 225,
+  "name": "Harvey Wallbanger",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/936/harvey-wallbanger",
+  "family": "highball",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 3.5/5 (129 ratings); era hint from history text ~1952"
+ },
+ {
+  "rank": 226,
+  "name": "Anejo Manhattan",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2249/anejo-manhattan",
+  "family": "spirit-forward",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (126 ratings)"
+ },
+ {
+  "rank": 227,
+  "name": "Siesta",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/5086/siesta",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (125 ratings); era hint from history text ~2006"
+ },
+ {
+  "rank": 228,
+  "name": "Rattlesnake",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1643/rattlesnake",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 4/5 (68 ratings); era hint from history text ~1930"
+ },
+ {
+  "rank": 229,
+  "name": "Brandy Daisy",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2319/brandy-daisy",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (37 ratings); era hint from history text ~1876"
+ },
+ {
+  "rank": 230,
+  "name": "Daisy Buchanan",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/37099/daisy-buchanan",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 5/5, drinkers 4/5 (66 ratings); era hint from history text ~2009"
+ },
+ {
+  "rank": 231,
+  "name": "Takumi's Aviation",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/5802/takumis-aviation",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 5/5, drinkers 4/5 (65 ratings); era hint from history text ~2010"
+ },
+ {
+  "rank": 232,
+  "name": "Mizuwari",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2991/mizuwari",
+  "family": "highball",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 5/5, drinkers 3.5/5 (63 ratings)"
+ },
+ {
+  "rank": 233,
+  "name": "Income Tax Cocktail",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1010/income-tax-cocktail",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 3.5/5 (110 ratings); era hint from history text ~1930"
+ },
+ {
+  "rank": 234,
+  "name": "East India No.2",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/687/east-india-no2",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 3.5/5 (104 ratings); era hint from history text ~1882"
+ },
+ {
+  "rank": 235,
+  "name": "Hot Buttered Rum Cocktail",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/981/hot-buttered-rum-cocktail",
+  "family": "other",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 4/5 (54 ratings)"
+ },
+ {
+  "rank": 236,
+  "name": "The Business",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3088/the-business",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (95 ratings); era hint from history text ~2016"
+ },
+ {
+  "rank": 237,
+  "name": "Strawberry Caipirinha",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4793/strawberry-caipirinha",
+  "family": "sour",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (29 ratings)"
+ },
+ {
+  "rank": 238,
+  "name": "Flying Grasshopper",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/775/flying-grasshopper",
+  "family": "creamy",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 4/5 (52 ratings); era hint from history text ~1977"
+ },
+ {
+  "rank": 239,
+  "name": "Gin Cocktail",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2173/gin-cocktail",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (28 ratings); era hint from history text ~1824"
+ },
+ {
+  "rank": 240,
+  "name": "Mexican Firing Squad Special",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4945/mexican-firing-squad-special",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 3.5/5 (153 ratings); era hint from history text ~1937"
+ },
+ {
+  "rank": 241,
+  "name": "Coronation",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/470/coronation",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 3.5/5 (85 ratings); era hint from history text ~1901"
+ },
+ {
+  "rank": 242,
+  "name": "Vodkatini / Vodka Martini",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2054/vodkatini-vodka-martini",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 3.5/5 (79 ratings); era hint from history text ~1904"
+ },
+ {
+  "rank": 243,
+  "name": "Remember the Alimony",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/5156/remember-the-alimony",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (78 ratings); era hint from history text ~2012"
+ },
+ {
+  "rank": 244,
+  "name": "French Maid",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3253/french-maid",
+  "family": "highball",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (74 ratings); era hint from history text ~2007"
+ },
+ {
+  "rank": 245,
+  "name": "Yellow Daisy",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4779/yellow-daisy",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 3.5/5 (73 ratings); era hint from history text ~1930"
+ },
+ {
+  "rank": 246,
+  "name": "Combustible Edison",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4859/combustible-edison",
+  "family": "sour",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (72 ratings)"
+ },
+ {
+  "rank": 247,
+  "name": "Dry Daiquiri",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2386/dry-daiquiri",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (71 ratings); era hint from history text ~2005"
+ },
+ {
+  "rank": 248,
+  "name": "The Conference",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/7414/the-conference",
+  "family": "spirit-forward",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (71 ratings)"
+ },
+ {
+  "rank": 249,
+  "name": "Blinker",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/243/blinker",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 4/5 (39 ratings); era hint from history text ~1934"
+ },
+ {
+  "rank": 250,
+  "name": "Limoncello Spritz",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4242/limoncello-spritz",
+  "family": "sparkling",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 3.5/5 (125 ratings)"
+ },
+ {
+  "rank": 251,
+  "name": "Downhill Daring",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/6186/downhill-daring",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (69 ratings); era hint from history text ~2019"
+ },
+ {
+  "rank": 252,
+  "name": "Gin Blossom Martini",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/5882/gin-blossom-martini",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 5/5, drinkers 4/5 (38 ratings); era hint from history text ~2008"
+ },
+ {
+  "rank": 253,
+  "name": "Metropole",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2496/metropole",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 3.5/5 (67 ratings); era hint from history text ~1884"
+ },
+ {
+  "rank": 254,
+  "name": "Scotch Whisky Highball",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4794/scotch-whisky-highball",
+  "family": "highball",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 3.5/5 (66 ratings)"
+ },
+ {
+  "rank": 255,
+  "name": "Absinthe Drip Cocktail (French method)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/507/absinthe-drip-cocktail-french-method",
+  "family": "other",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 4/5 (36 ratings)"
+ },
+ {
+  "rank": 256,
+  "name": "Pineapple Martini",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4220/pineapple-martini",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 3.5/5 (113 ratings); era hint from history text ~1997"
+ },
+ {
+  "rank": 257,
+  "name": "Death in the Afternoon",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/623/death-in-the-afternoon",
+  "family": "sparkling",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 3.5/5 (113 ratings); era hint from history text ~1935"
+ },
+ {
+  "rank": 258,
+  "name": "French Pearl",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/5856/french-pearl",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (62 ratings); era hint from history text ~2006"
+ },
+ {
+  "rank": 259,
+  "name": "Death Flip",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3244/death-flip",
+  "family": "flip",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (56 ratings); era hint from history text ~2010"
+ },
+ {
+  "rank": 260,
+  "name": "Brandy Old Fashioned (Wisconsin-style)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/5101/brandy-old-fashioned-wisconsin-style",
+  "family": "spirit-forward",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (56 ratings)"
+ },
+ {
+  "rank": 261,
+  "name": "Pink Gin",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1544/pink-gin",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 3.5/5 (55 ratings); era hint from history text ~1796"
+ },
+ {
+  "rank": 262,
+  "name": "Blackthorn No. 3",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/240/blackthorn-no-3",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 3.5/5 (55 ratings); era hint from history text ~1900"
+ },
+ {
+  "rank": 263,
+  "name": "Sgroppino / Sorbetto",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1813/sgroppino-sorbetto",
+  "family": "sparkling",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 4/5 (16 ratings)"
+ },
+ {
+  "rank": 264,
+  "name": "Flannel Shirt",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/23598/flannel-shirt",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (51 ratings); era hint from history text ~2012"
+ },
+ {
+  "rank": 265,
+  "name": "Banana Daiquiri",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/162/banana-daiquiri",
+  "family": "sour",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 3.5/5 (87 ratings)"
+ },
+ {
+  "rank": 266,
+  "name": "Jägerita",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2455/jagerita",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4/5, drinkers 4/5 (84 ratings); era hint from history text ~2008"
+ },
+ {
+  "rank": 267,
+  "name": "Sloe Gin Fizz",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1780/sloe-gin-fizz",
+  "family": "fizz",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 3.5/5 (46 ratings); era hint from history text ~1941"
+ },
+ {
+  "rank": 268,
+  "name": "East 8 Hold-up cocktail",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3519/east-8-hold-up-cocktail",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4/5, drinkers 4/5 (81 ratings); era hint from history text ~2010"
+ },
+ {
+  "rank": 269,
+  "name": "Carroll Gardens",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2788/carroll-gardens",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (44 ratings); era hint from history text ~2008"
+ },
+ {
+  "rank": 270,
+  "name": "Beuser and Angus Special",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2974/beuser-and-angus-special",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (44 ratings); era hint from history text ~2007"
+ },
+ {
+  "rank": 271,
+  "name": "Absolute Gangster",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4836/absolute-gangster",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (44 ratings); era hint from history text ~2016"
+ },
+ {
+  "rank": 272,
+  "name": "Woo Woo",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2110/woo-woo",
+  "family": "highball",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 3.5/5 (74 ratings)"
+ },
+ {
+  "rank": 273,
+  "name": "Precursory Cocktail",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2835/precursory-cocktail",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (39 ratings); era hint from history text ~2009"
+ },
+ {
+  "rank": 274,
+  "name": "Monte Cassino",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2994/monte-cassino",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 4.5/5 (374 ratings); era hint from history text ~2010"
+ },
+ {
+  "rank": 275,
+  "name": "Bywater",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4863/bywater",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4/5, drinkers 4/5 (60 ratings); era hint from history text ~2008"
+ },
+ {
+  "rank": 276,
+  "name": "Gin Gin Mule",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/843/gin-gin-mule",
+  "family": "highball",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4/5, drinkers 4/5 (59 ratings); era hint from history text ~2000"
+ },
+ {
+  "rank": 277,
+  "name": "English Garden",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/715/english-garden",
+  "family": "sour",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Modern Classics; Difford's 4/5, drinkers 4/5 (58 ratings)"
+ },
+ {
+  "rank": 278,
+  "name": "Green Park",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3257/green-park",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (32 ratings); era hint from history text ~2011"
+ },
+ {
+  "rank": 279,
+  "name": "Morning Glory Fizz",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1364/morning-glory-fizz",
+  "family": "fizz",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 3.5/5 (28 ratings); era hint from history text ~1884"
+ },
+ {
+  "rank": 280,
+  "name": "Smoky Cokey",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/12745/smoky-cokey",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 5/5, drinkers 3.5/5 (46 ratings); era hint from history text ~2000"
+ },
+ {
+  "rank": 281,
+  "name": "Whisky Mac",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2086/whisky-mac",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 3.5/5 (24 ratings); era hint from history text ~1853"
+ },
+ {
+  "rank": 282,
+  "name": "Rapscallion",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3249/rapscallion",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 4/5 (22 ratings); era hint from history text ~2007"
+ },
+ {
+  "rank": 283,
+  "name": "Good Cork",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4910/good-cork",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 3.5/5 (70 ratings); era hint from history text ~2013"
+ },
+ {
+  "rank": 284,
+  "name": "Presbyterian",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3091/presbyterian",
+  "family": "highball",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 3.5/5 (36 ratings); era hint from history text ~1707"
+ },
+ {
+  "rank": 285,
+  "name": "Buck's Fizz",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/331/bucks-fizz",
+  "family": "sparkling",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 3.5/5 (36 ratings); era hint from history text ~1919"
+ },
+ {
+  "rank": 286,
+  "name": "Pantheon",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/25701/pantheon",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 3.5/5 (61 ratings); era hint from history text ~2019"
+ },
+ {
+  "rank": 287,
+  "name": "Chanticleer",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2790/chanticleer",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4.5/5, drinkers 3/5 (60 ratings); era hint from history text ~1910"
+ },
+ {
+  "rank": 288,
+  "name": "Saturn",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4885/saturn",
+  "family": "tiki",
+  "era_hint": "modern",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 4.5/5 (189 ratings); era hint from history text ~1969"
+ },
+ {
+  "rank": 289,
+  "name": "Michelada",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1313/michelada",
+  "family": "other",
+  "era_hint": "unknown",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 3.5/5 (21 ratings)"
+ },
+ {
+  "rank": 290,
+  "name": "Two-One-Two (212)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2594/two-one-two-212",
+  "family": "highball",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4/5, drinkers 3.5/5 (56 ratings); era hint from history text ~2008"
+ },
+ {
+  "rank": 291,
+  "name": "Tatanka",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1923/tatanka",
+  "family": "highball",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4/5, drinkers 3.5/5 (54 ratings); era hint from history text ~1990"
+ },
+ {
+  "rank": 292,
+  "name": "Blue Blazer",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/256/blue-blazer",
+  "family": "other",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Cocktail Hall of Fame; Difford's 4/5, drinkers 3.5/5 (14 ratings); era hint from history text ~1862"
+ },
+ {
+  "rank": 293,
+  "name": "Improved Whiskey Cocktail",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/5083/improved-whiskey-cocktail",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 5/5, drinkers 4/5 (139 ratings); era hint from history text ~1876"
+ },
+ {
+  "rank": 294,
+  "name": "21st Century (Jim Meehan's recipe)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/15706/21st-century-jim-meehans-recipe",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 3.5/5 (23 ratings); era hint from history text ~2007"
+ },
+ {
+  "rank": 295,
+  "name": "Prescription Julep",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4629/prescription-julep",
+  "family": "julep",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 5/5, drinkers 4/5 (125 ratings)"
+ },
+ {
+  "rank": 296,
+  "name": "Piscola",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1564/piscola",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Top 100 new entries/drop-outs; Difford's 4/5, drinkers 3.5/5 (37 ratings); era hint from history text ~2003"
+ },
+ {
+  "rank": 297,
+  "name": "Red Snapper",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1665/red-snapper",
+  "family": "other",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 5/5, drinkers 4/5 (114 ratings)"
+ },
+ {
+  "rank": 298,
+  "name": "Lion's Tail",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3624/lions-tail",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 4/5 (196 ratings); era hint from history text ~1937"
+ },
+ {
+  "rank": 299,
+  "name": "Kentucky Buck",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4121/kentucky-buck",
+  "family": "highball",
+  "era_hint": "modern",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 4/5 (184 ratings); era hint from history text ~2009"
+ },
+ {
+  "rank": 300,
+  "name": "Zaza",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2123/zaza",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Difford's lists: Top 100 new entries/drop-outs; Difford's 4/5, drinkers 3.5/5 (29 ratings); era hint from history text ~1908"
+ },
+ {
+  "rank": 301,
+  "name": "Mulata Daisy",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2512/mulata-daisy",
+  "family": "sour",
+  "era_hint": "modern",
+  "notes": "Difford's lists: Modern Classics; Difford's 4.5/5, drinkers 3.5/5 (15 ratings); era hint from history text ~2008"
+ },
+ {
+  "rank": 302,
+  "name": "Queen's Park Swizzle",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2740/queens-park-swizzle",
+  "family": "tiki",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 4/5 (153 ratings); era hint from history text ~1895"
+ },
+ {
+  "rank": 303,
+  "name": "Royal Smile",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1704/royal-smile",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 4/5 (140 ratings); era hint from history text ~1948"
+ },
+ {
+  "rank": 304,
+  "name": "Ranch Water",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/10034/ranch-water",
+  "family": "highball",
+  "era_hint": "modern",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 4/5 (116 ratings); era hint from history text ~1998"
+ },
+ {
+  "rank": 305,
+  "name": "Navy Grog",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4866/navy-grog",
+  "family": "tiki",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 5/5, drinkers 4/5 (63 ratings); era hint from history text ~1940"
+ },
+ {
+  "rank": 306,
+  "name": "Brandy Flip",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/313/brandy-flip",
+  "family": "flip",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 4/5 (106 ratings)"
+ },
+ {
+  "rank": 307,
+  "name": "Toreador",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2207/toreador",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 4/5 (89 ratings); era hint from history text ~1937"
+ },
+ {
+  "rank": 308,
+  "name": "Yellow Bird",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2113/yellow-bird",
+  "family": "tiki",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 4/5 (85 ratings); era hint from history text ~1957"
+ },
+ {
+  "rank": 309,
+  "name": "Matador",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/9729/matador",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 4/5 (85 ratings); era hint from history text ~1937"
+ },
+ {
+  "rank": 310,
+  "name": "Blue Lagoon",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/264/blue-lagoon",
+  "family": "highball",
+  "era_hint": "modern",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 4/5 (151 ratings); era hint from history text ~1972"
+ },
+ {
+  "rank": 311,
+  "name": "Obituary",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2720/obituary",
+  "family": "spirit-forward",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 4/5 (78 ratings)"
+ },
+ {
+  "rank": 312,
+  "name": "Bronx",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/325/bronx",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 3.5/5 (243 ratings); era hint from history text ~1899"
+ },
+ {
+  "rank": 313,
+  "name": "Mezcal Negroni",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3382/mezcal-negroni",
+  "family": "spirit-forward",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 4/5 (127 ratings)"
+ },
+ {
+  "rank": 314,
+  "name": "Mamie Taylor Highball",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3092/mamie-taylor-highball",
+  "family": "highball",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 4/5 (64 ratings); era hint from history text ~1899"
+ },
+ {
+  "rank": 315,
+  "name": "Doctor Funk",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/657/doctor-funk",
+  "family": "tiki",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 4/5 (113 ratings); era hint from history text ~1880"
+ },
+ {
+  "rank": 316,
+  "name": "Rum Collins",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/23036/rum-collins",
+  "family": "collins",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 4/5 (60 ratings); era hint from history text ~1932"
+ },
+ {
+  "rank": 317,
+  "name": "Journalist",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1072/journalist",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 4/5 (106 ratings); era hint from history text ~1930"
+ },
+ {
+  "rank": 318,
+  "name": "Nui Nui",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4884/nui-nui",
+  "family": "tiki",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 4/5 (59 ratings)"
+ },
+ {
+  "rank": 319,
+  "name": "Ancient Mariner",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4853/ancient-mariner",
+  "family": "tiki",
+  "era_hint": "modern",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 4/5 (101 ratings); era hint from history text ~1994"
+ },
+ {
+  "rank": 320,
+  "name": "Periodista Daiquiri",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1510/periodista-daiquiri",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 4/5 (52 ratings); era hint from history text ~1948"
+ },
+ {
+  "rank": 321,
+  "name": "Scofflaw",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1755/scofflaw",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 3.5/5 (166 ratings); era hint from history text ~1924"
+ },
+ {
+  "rank": 322,
+  "name": "Brave Bull",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/23029/brave-bull",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 4/5 (51 ratings); era hint from history text ~1977"
+ },
+ {
+  "rank": 323,
+  "name": "Vodka Gimlet",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2052/vodka-gimlet",
+  "family": "sour",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 4/5 (47 ratings)"
+ },
+ {
+  "rank": 324,
+  "name": "Lucien Gaudin",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2709/lucien-gaudin",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 3.5/5, drinkers 4/5 (150 ratings); era hint from history text ~1924"
+ },
+ {
+  "rank": 325,
+  "name": "Toasted Almond",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1963/toasted-almond",
+  "family": "creamy",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 4/5 (81 ratings)"
+ },
+ {
+  "rank": 326,
+  "name": "B & B",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/138/b-and-b",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 4/5 (79 ratings); era hint from history text ~1910"
+ },
+ {
+  "rank": 327,
+  "name": "Rum Runner",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1715/rum-runner",
+  "family": "tiki",
+  "era_hint": "modern",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 4/5 (74 ratings); era hint from history text ~1969"
+ },
+ {
+  "rank": 328,
+  "name": "Caipirovska",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/356/caipirovska",
+  "family": "sour",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 4/5 (63 ratings)"
+ },
+ {
+  "rank": 329,
+  "name": "Pink Squirrel",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2736/pink-squirrel",
+  "family": "creamy",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 4.5/5 (19 ratings); era hint from history text ~1941"
+ },
+ {
+  "rank": 330,
+  "name": "Coffee Cocktail",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2350/coffee-cocktail",
+  "family": "flip",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 4/5 (34 ratings); era hint from history text ~1885"
+ },
+ {
+  "rank": 331,
+  "name": "Royal Hawaiian",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/20191/royal-hawaiian",
+  "family": "tiki",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 4/5 (61 ratings); era hint from history text ~1948"
+ },
+ {
+  "rank": 332,
+  "name": "Clover Leaf",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/446/clover-leaf",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 4/5 (61 ratings); era hint from history text ~1896"
+ },
+ {
+  "rank": 333,
+  "name": "French 95 (a French '75' with bourbon)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4238/french-95-a-french-75-with-bourbon",
+  "family": "sparkling",
+  "era_hint": "modern",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 4/5 (33 ratings); era hint from history text ~1977"
+ },
+ {
+  "rank": 334,
+  "name": "Pimm's Cup (or Classic Pimm's)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1523/pimms-cup-or-classic-pimms",
+  "family": "highball",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 4/5 (53 ratings)"
+ },
+ {
+  "rank": 335,
+  "name": "Caipirissima",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/355/caipirissima",
+  "family": "sour",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 4/5 (51 ratings)"
+ },
+ {
+  "rank": 336,
+  "name": "Mudslide",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1374/mudslide",
+  "family": "creamy",
+  "era_hint": "modern",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 4/5 (45 ratings); era hint from history text ~1980"
+ },
+ {
+  "rank": 337,
+  "name": "Bourbon Crusta",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/561/bourbon-crusta",
+  "family": "sour",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 3.5/5 (65 ratings)"
+ },
+ {
+  "rank": 338,
+  "name": "Treacle No.1",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1983/treacle-no1",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 3.5/5 (53 ratings); era hint from history text ~2022"
+ },
+ {
+  "rank": 339,
+  "name": "Electric Lemonade",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4637/electric-lemonade",
+  "family": "highball",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 3.5/5, drinkers 4/5 (52 ratings)"
+ },
+ {
+  "rank": 340,
+  "name": "Screwdriver (Difford's recipe)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1762/screwdriver-diffords-recipe",
+  "family": "highball",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 3.5/5 (82 ratings); era hint from history text ~1949"
+ },
+ {
+  "rank": 341,
+  "name": "Bloody Caesar",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/557/bloody-caesar",
+  "family": "other",
+  "era_hint": "modern",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 4/5 (22 ratings); era hint from history text ~1969"
+ },
+ {
+  "rank": 342,
+  "name": "Colorado Bulldog",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/462/colorado-bulldog",
+  "family": "creamy",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 3.5/5 (69 ratings)"
+ },
+ {
+  "rank": 343,
+  "name": "Georgia Mint Julep",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/829/georgia-mint-julep",
+  "family": "julep",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 3.5/5 (38 ratings)"
+ },
+ {
+  "rank": 344,
+  "name": "Test Pilot",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1940/test-pilot",
+  "family": "tiki",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 3.5/5 (66 ratings); era hint from history text ~1941"
+ },
+ {
+  "rank": 345,
+  "name": "Improved Gin Cocktail",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/23193/improved-gin-cocktail",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 4/5 (9 ratings); era hint from history text ~1862"
+ },
+ {
+  "rank": 346,
+  "name": "The Buck / Gin Buck",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/330/the-buck-gin-buck",
+  "family": "highball",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 3.5/5 (55 ratings)"
+ },
+ {
+  "rank": 347,
+  "name": "Algeria",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/516/algeria",
+  "family": "sour",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 3.5/5 (55 ratings)"
+ },
+ {
+  "rank": 348,
+  "name": "Port Light",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1592/port-light",
+  "family": "tiki",
+  "era_hint": "modern",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 3.5/5, drinkers 4/5 (30 ratings); era hint from history text ~1972"
+ },
+ {
+  "rank": 349,
+  "name": "El Capitán",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/19910/el-capitan",
+  "family": "spirit-forward",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 3.5/5 (30 ratings)"
+ },
+ {
+  "rank": 350,
+  "name": "Bloody Maria",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/248/bloody-maria",
+  "family": "other",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 4/5 (16 ratings)"
+ },
+ {
+  "rank": 351,
+  "name": "Golden Dream",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/875/golden-dream",
+  "family": "creamy",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 3.5/5, drinkers 4/5 (29 ratings)"
+ },
+ {
+  "rank": 352,
+  "name": "Corpse Reviver No.1 (Savoy recipe)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/471/corpse-reviver-no1-savoy-recipe",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 3.5/5 (47 ratings); era hint from history text ~1930"
+ },
+ {
+  "rank": 353,
+  "name": "Rebujito cocktail",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3508/rebujito-cocktail",
+  "family": "highball",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 3.5/5 (24 ratings)"
+ },
+ {
+  "rank": 354,
+  "name": "Blue Moon Cocktail (1940's recipe)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/267/blue-moon-cocktail-1940s-recipe",
+  "family": "sour",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 3.5/5 (41 ratings); era hint from history text ~1940"
+ },
+ {
+  "rank": 355,
+  "name": "Carajillo (Shakeado)",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/39517/carajillo-shakeado",
+  "family": "other",
+  "era_hint": "modern",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 4/5 (11 ratings); era hint from history text ~2015"
+ },
+ {
+  "rank": 356,
+  "name": "Chicago Fizz",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/5860/chicago-fizz",
+  "family": "fizz",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 3.5/5 (20 ratings); era hint from history text ~1914"
+ },
+ {
+  "rank": 357,
+  "name": "Vampiro",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2024/vampiro",
+  "family": "other",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 3.5/5 (32 ratings)"
+ },
+ {
+  "rank": 358,
+  "name": "Godmother",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/9219/godmother",
+  "family": "spirit-forward",
+  "era_hint": "modern",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 3.5/5, drinkers 3.5/5 (51 ratings); era hint from history text ~1976"
+ },
+ {
+  "rank": 359,
+  "name": "Greyhound",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/919/greyhound",
+  "family": "highball",
+  "era_hint": "modern",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 3.5/5 (28 ratings); era hint from history text ~1976"
+ },
+ {
+  "rank": 360,
+  "name": "Champagne Julep",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4628/champagne-julep",
+  "family": "julep",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4.5/5, drinkers 3.5/5 (15 ratings)"
+ },
+ {
+  "rank": 361,
+  "name": "Black Velvet",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/237/black-velvet",
+  "family": "sparkling",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 3.5/5 (25 ratings); era hint from history text ~1819"
+ },
+ {
+  "rank": 362,
+  "name": "Batida",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3613/batida",
+  "family": "creamy",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 3.5/5 (23 ratings)"
+ },
+ {
+  "rank": 363,
+  "name": "Cape Codder",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/368/cape-codder",
+  "family": "highball",
+  "era_hint": "modern",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 3.5/5, drinkers 3.5/5 (39 ratings); era hint from history text ~1972"
+ },
+ {
+  "rank": 364,
+  "name": "Brandy Smash",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/315/brandy-smash",
+  "family": "julep",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 3.5/5 (21 ratings); era hint from history text ~1862"
+ },
+ {
+  "rank": 365,
+  "name": "Salty Dog",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1735/salty-dog",
+  "family": "highball",
+  "era_hint": "modern",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 3/5 (68 ratings); era hint from history text ~1962"
+ },
+ {
+  "rank": 366,
+  "name": "Chilcano de Pisco",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/3490/chilcano-de-pisco",
+  "family": "highball",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 3.5/5 (18 ratings)"
+ },
+ {
+  "rank": 367,
+  "name": "Bay Breeze",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/183/bay-breeze",
+  "family": "highball",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 3.5/5, drinkers 3.5/5 (31 ratings)"
+ },
+ {
+  "rank": 368,
+  "name": "Madras",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1216/madras",
+  "family": "highball",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 3.5/5, drinkers 3.5/5 (29 ratings)"
+ },
+ {
+  "rank": 369,
+  "name": "Rossini",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1697/rossini",
+  "family": "sparkling",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 3.5/5 (15 ratings)"
+ },
+ {
+  "rank": 370,
+  "name": "Port Sangaree",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2547/port-sangaree",
+  "family": "other",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 3.5/5 (13 ratings); era hint from history text ~1862"
+ },
+ {
+  "rank": 371,
+  "name": "Seelbach",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1807/seelbach",
+  "family": "sparkling",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 3.5/5, drinkers 3.5/5 (18 ratings); era hint from history text ~1917"
+ },
+ {
+  "rank": 372,
+  "name": "Whisky Cobbler",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2763/whisky-cobbler",
+  "family": "other",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 3.5/5 (8 ratings); era hint from history text ~1862"
+ },
+ {
+  "rank": 373,
+  "name": "Golden Fizz",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/876/golden-fizz",
+  "family": "fizz",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 3.5/5, drinkers 3.5/5 (15 ratings)"
+ },
+ {
+  "rank": 374,
+  "name": "Fuzzy Navel",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/822/fuzzy-navel",
+  "family": "highball",
+  "era_hint": "modern",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 3/5, drinkers 3.5/5 (26 ratings); era hint from history text ~1984"
+ },
+ {
+  "rank": 375,
+  "name": "Puccini",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/1611/puccini",
+  "family": "sparkling",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 3.5/5, drinkers 3.5/5 (10 ratings)"
+ },
+ {
+  "rank": 376,
+  "name": "Stone Fence",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2587/stone-fence",
+  "family": "highball",
+  "era_hint": "unknown",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 3.5/5, drinkers 3.5/5 (9 ratings)"
+ },
+ {
+  "rank": 377,
+  "name": "Hoffman House",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/2445/hoffman-house",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 3/5 (10 ratings); era hint from history text ~1892"
+ },
+ {
+  "rank": 378,
+  "name": "Derby Cocktail",
+  "source": "Difford's Guide",
+  "url": "https://www.diffordsguide.com/cocktails/recipe/4932/derby-cocktail",
+  "family": "spirit-forward",
+  "era_hint": "vintage",
+  "notes": "Added from well-known-classics name match (not in Difford's curated lists); Difford's 4/5, drinkers 3/5 (8 ratings); era hint from history text ~1903"
+ }
+]
