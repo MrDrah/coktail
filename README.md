@@ -6,7 +6,7 @@ Enter 2–10 ingredients you have and get authentic cocktails (at least 1; up to
 - No backend: a static site with a client-side flat JSON library of 500 cocktails.
 - No AI at runtime: the BA researches real cocktails from reputable sources; the app is deterministic matching logic.
 
-**Live:** https://quentinmilavec-sutrix.github.io/coktail/ · **Picking this up on a new device?** Open the repo in Claude Code and say *"Read CATCH-UP.md and catch up."*
+**Live:** https://mrdrah.github.io/coktail/ · **Picking this up on a new device?** Open the repo in Claude Code and say *"Read CATCH-UP.md and catch up."*
 
 ## Run it
 

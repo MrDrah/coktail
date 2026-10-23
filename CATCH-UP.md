@@ -4,7 +4,7 @@
 >
 > **To the product owner:** on a new device, clone the repo, open it in Claude Code and say: *"Read CATCH-UP.md and catch up."*
 
-Last updated: 2026-10-24 · Repo: https://github.com/quentinmilavec-sutrix/coktail · Live site: https://quentinmilavec-sutrix.github.io/coktail/
+Last updated: 2026-10-24 · Repo: https://github.com/MrDrah/coktail · Live site: https://mrdrah.github.io/coktail/ (moved from quentinmilavec-sutrix/coktail on 2026-10-24; the old repo and site are frozen)
 
 ---
 
