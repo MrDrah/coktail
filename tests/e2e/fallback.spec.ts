@@ -18,6 +18,19 @@ test('US-E4-01 results never exceed 6 with 2–4 ingredients', async ({ page }) 
   expect(await cards.count()).toBeLessThanOrEqual(6);
 });
 
+test('US-E6-01 zero match shows "No direct matches found" and suggests a common ingredient to add', async ({ page }) => {
+  // With room to add, the suggestion is the best single addition.
+  await search(page, 'gin, campari, cointreau');
+  await expect(page.getByTestId('fallback-title')).toHaveText('No direct matches found');
+  await expect(page.getByTestId('best-addition')).toContainText(/Add .+ to unlock \d+ cocktails?/);
+  await expect(page.getByTestId('best-addition-add')).toBeVisible();
+
+  // At the 10-ingredient limit there's no room to add one more, so the generic tip is shown instead.
+  await page.goto('./?i=gin,vodka,mint,salt,cola,cream,espresso,port,galliano,sake');
+  await expect(page.getByTestId('fallback-title')).toHaveText('No direct matches found');
+  await expect(page.getByTestId('fallback-tip')).toHaveText('Tip: a citrus juice or a sweetener unlocks the most drinks.');
+});
+
 test('US-E6 zero match: notice, best addition, near matches; one tap adds and re-searches', async ({ page }) => {
   await search(page, 'gin, campari, cointreau');
   await expect(page.getByTestId('fallback-title')).toHaveText('No direct matches found');

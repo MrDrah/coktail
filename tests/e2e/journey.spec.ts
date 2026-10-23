@@ -59,6 +59,31 @@ test('US-E5 detail dialog: scaling in ml, assumed ice, Esc closes and returns fo
   await expect(page.getByTestId('card-open-mojito')).toBeFocused();
 });
 
+test('US-E5-01 activating a card opens the full recipe: amounts, optional and assumed rows, method, glass, garnish, history, taste, sources', async ({ page }) => {
+  // Army and Navy: gin, lemon juice, orgeat, Angostura, with optional salt and assumed ice.
+  await search(page, 'gin, lemon juice, orgeat, angostura bitters');
+  await page.getByTestId('card-open-army-and-navy').click();
+  const dialog = page.getByTestId('detail-dialog');
+  await expect(dialog).toBeVisible();
+  await expect(page.getByTestId('detail-title')).toHaveText('Army and Navy');
+
+  await expect(page.getByTestId('detail-amount-gin')).toHaveText(/^\d+(\.\d+)? ml$/);
+  await expect(page.getByTestId('detail-ingredient-salt')).toContainText('optional');
+  await expect(page.getByTestId('detail-ingredient-ice')).toHaveAttribute('data-assumed', 'true');
+  await expect(page.getByTestId('detail-ingredient-ice')).toContainText('Assumed');
+
+  expect(await page.getByTestId('detail-method').locator('li').count()).toBeGreaterThan(0);
+  await expect(page.getByTestId('detail-glass')).not.toBeEmpty();
+  await expect(page.getByTestId('detail-garnish')).not.toBeEmpty();
+
+  const history = page.getByTestId('detail-history').locator('p');
+  const paragraphs = await history.count();
+  expect(paragraphs).toBeGreaterThanOrEqual(1);
+  expect(paragraphs).toBeLessThanOrEqual(2);
+  await expect(page.getByTestId('detail-taste')).not.toBeEmpty();
+  await expect(page.getByTestId('detail-source-0')).toHaveAttribute('href', /^https:\/\//);
+});
+
 test('US-E5-03 close button and backdrop close the dialog', async ({ page }) => {
   await search(page, 'gin, campari, sweet vermouth');
   await page.getByTestId('card-open-negroni').click();
