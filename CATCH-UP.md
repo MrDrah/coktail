@@ -42,6 +42,7 @@ In practice the Organisator plays each role directly or sends work to sub-agents
 | Dev UI | React app implementing C1–C6, URL state `?i=`, theme toggle | `src/ui/*` |
 | QA | Unit + UI + library tests (2,841), Playwright e2e desktop + mobile (89), axe WCAG AA, library verification matrix, test report. Every story ID (38) is named by an active test, checked by the App boilerplate `validate.mjs trace`. JS bundle 230 KB gzipped (budget 400) | `tests/**`, `tests/reports/mvp-test-report.md` |
 | Deploy safety | Deploy verifies a successful CI run for the exact commit on main, for automatic and manual (`workflow_dispatch`) runs | `.github/workflows/deploy.yml` |
+| Framework | Adopted app-boilerplate v0.3.0 ([MrDrah/boiler-plate-agent](https://github.com/MrDrah/boiler-plate-agent)): agents, skills, hooks, quality gate in `.claude/`; updates arrive as `framework/vX.Y.Z` PRs. Project rules and the name mapping are in `CLAUDE.md` §6 | `.claude/`, `quality-gate.json`, `CLAUDE.md` |
 | CI/CD | GitHub Actions CI on every push. GitHub Pages deploys after CI passes on `main` | `.github/workflows/ci.yml`, `deploy.yml` |
 
 ### In progress 🔄 (as of the last update)

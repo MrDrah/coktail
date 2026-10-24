@@ -32,6 +32,15 @@ jobs:
         run: npm run coverage
       - name: Build
         run: npm run build
+      - name: Framework checks (docs, story traceability, secrets, bundle budget)
+        # The other release-stage checks (data, types, tests, build) already ran above.
+        env:
+          NO_COLOR: '1'
+        run: |
+          node .claude/skills/quality-gate/scripts/validate.mjs docs
+          node .claude/skills/quality-gate/scripts/validate.mjs trace
+          node .claude/skills/quality-gate/scripts/validate.mjs secrets
+          node .claude/skills/quality-gate/scripts/validate.mjs budget
 
   e2e:
     name: Playwright e2e (desktop + mobile)
