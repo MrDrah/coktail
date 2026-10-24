@@ -1,0 +1,39 @@
+{
+  "$schema": "./schema/v1/index.schema.json",
+  "schemaVersion": "1.0.0",
+  "kind": "engineering-evidence/index",
+  "project": {
+    "id": "coktail",
+    "name": "Cocktail Cabinet",
+    "repository": "https://github.com/MrDrah/coktail"
+  },
+  "packages": [
+    {
+      "id": "mvp",
+      "milestoneId": "mvp",
+      "label": "MVP",
+      "revision": 1,
+      "path": "mvp",
+      "schemaVersion": "1.0.0",
+      "sourceCommit": "217726c856a92260aa02fae7748edd06fbd2af73",
+      "collectedAt": "2026-10-24T03:00:53.426Z",
+      "frozenAt": "2026-10-24T03:05:28.907Z",
+      "sha256": "ed43be79d0af38950f2f50bd03740292cde28dc8be252adf01840b65b32b5a0a",
+      "files": {
+        "evidence/ci-runs.json": "282669a6d6077d913921c52146248d7e04d73af21318b49235c74e73b6483408",
+        "evidence/coverage-summary.json": "96a4ab5658eeaf04100e9ef2b04875215c5fc48968e9b2772e5fb1e20b5f405f",
+        "evidence/events.jsonl": "b8b03bcaab11e1369304eb0b63f259976461d0ad074126cd5bbab12c554865f4",
+        "evidence/git.json": "5587f0d4125907c88606826accb40d4ad76e7ffcf5ececebbafb8c2d511b4073",
+        "evidence/junit-1.xml": "1bff26c8b6f93688f2bc969f06fdeb662c30d74538192a07eb3cde5b4c005815",
+        "evidence/junit-2.xml": "468e034b0716f9534554c2a5b5bff5ab24ef9935b778b883e8feee56a57d0e38",
+        "evidence/smoke.json": "86b4adca5f0daf041df02f76bcb55f5a3cdba57f9a4bbb026b4c76717277a11e",
+        "evidence/stories.md": "73a7a818a1df55eb3b983c02ef6abe9c6a16bace01bc1936ad4b8845414bce4f",
+        "metrics.json": "bec9da223fcbbe87e8dd760a72cc6e4afd6483118e0b10a6193a4bd438b7c2fb",
+        "summary.md": "c451d5230f7b339268aafe41962983452c0faa65d1a3505480b222d110544a6b"
+      },
+      "assessment": "PASS",
+      "supersedes": null,
+      "supersededBy": null
+    }
+  ]
+}
