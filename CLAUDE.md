@@ -1,6 +1,6 @@
 # Orchestration rules
 
-<!-- framework: app-boilerplate v0.3.0 — sections 0–5 belong to the framework and are replaced by
+<!-- framework: app-boilerplate v0.3.1 — sections 0–5 belong to the framework and are replaced by
      "node <framework>/scripts/new-project.mjs <this-project> --upgrade". Put project rules in §6. -->
 
 Template paths written `templates/…` live under `.claude/templates/…` in a project.

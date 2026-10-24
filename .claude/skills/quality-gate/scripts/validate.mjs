@@ -10,7 +10,7 @@ import { gzipSync } from 'node:zlib';
 import { createHash } from 'node:crypto';
 import { homedir } from 'node:os';
 
-export const VERSION = '0.3.0';
+export const VERSION = '0.3.1';
 
 // ---------- small utilities ----------
 const args = process.argv.slice(2);
