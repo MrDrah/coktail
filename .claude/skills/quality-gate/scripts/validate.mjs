@@ -11,7 +11,7 @@ import { createHash } from 'node:crypto';
 import { homedir } from 'node:os';
 import { fileURLToPath } from 'node:url';
 
-export const VERSION = '0.4.0';
+export const VERSION = '0.5.0';
 
 // ---------- small utilities ----------
 const args = process.argv.slice(2);
@@ -433,6 +433,7 @@ async function overlap(cfg) {
 const taskId = (name) => name.replace(/[^\w.-]/g, '_');
 const taskPath = (name) => join(root, STATE_DIR, 'tasks', `${taskId(name)}.json`);
 const eventsFile = (cfg) => cfg.evidence?.events ?? 'docs/evidence/events.jsonl';
+const usageFile = (cfg) => (cfg.evidence?.usageLog === null ? null : cfg.evidence?.usageLog ?? 'docs/evidence/usage.jsonl');
 /** Agent tasks feed the milestone evidence (tasks completed without correction). Only when the project keeps an event log. */
 function logEvent(cfg, e) {
   const p = join(root, eventsFile(cfg));
@@ -467,7 +468,7 @@ function diffGuard(cfg) {
   if (git('cat-file', '-e', `${base}^{commit}`).code !== 0) { console.error(`baseline ${base} is not a commit in this repository`); return 2; }
   // Working tree vs baseline covers both committed and uncommitted changes; plus untracked files.
   const changed = [...new Set([...git('diff', '--name-only', base).out.split('\n'), ...git('ls-files', '--others', '--exclude-standard').out.split('\n')].filter(Boolean))]
-    .filter((f) => !f.startsWith(`${STATE_DIR}/`) && f !== eventsFile(cfg) && !preexisting.includes(f));
+    .filter((f) => !f.startsWith(`${STATE_DIR}/`) && f !== eventsFile(cfg) && f !== usageFile(cfg) && !preexisting.includes(f));
   const commits = git('rev-list', '--count', `${base}..HEAD`).out;
   const outside = changed.filter((f) => !matchesAny(f, allow));
   info(`baseline ${base.slice(0, 7)}${task ? ` (task "${task}")` : ''}, ${commits || 0} commits since`);

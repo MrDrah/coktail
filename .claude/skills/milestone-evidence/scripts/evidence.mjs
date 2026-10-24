@@ -7,6 +7,7 @@
 //   node evidence.mjs init [--name "My App"] [--id my-app]
 //   node evidence.mjs event <type> --summary "…" [--task t] [--milestone m] [--outcome success|failure]
 //                     [--defect D-1 --severity P2 --state found|fixed|deferred] [--regression] [--minutes n] [--by role]
+//   node evidence.mjs usage [--quiet]          (also run by the session-start hook)
 //   node evidence.mjs collect --milestone <id> [--revise --reason "…"] [--run-tests] [--offline]
 //                     [--ci-runs runs.json] [--usage usage.json] [--allow-dirty] [--date YYYY-MM-DD]
 //   node evidence.mjs validate [--package <id>]
@@ -18,13 +19,14 @@
 // it never defaults to zero or to success.
 import { readFileSync, existsSync, readdirSync, statSync, writeFileSync, mkdirSync, rmSync, appendFileSync, copyFileSync } from 'node:fs';
 import { join, relative, resolve, dirname, sep, basename } from 'node:path';
+import { homedir } from 'node:os';
 import { spawnSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { SECRET_PATTERNS, globToRegExp } from '../../quality-gate/scripts/validate.mjs';
 
-export const VERSION = '0.4.0';
-export const SCHEMA_VERSION = '1.0.0';
+export const VERSION = '0.5.0';
+export const SCHEMA_VERSION = '1.1.0';
 const TOOL = 'app-boilerplate/evidence.mjs';
 
 const here = dirname(fileURLToPath(import.meta.url));
@@ -171,6 +173,8 @@ export const EVIDENCE_DEFAULTS = {
   seededDefects: null,
   billingModel: 'unknown',
   usage: null,
+  usageLog: 'docs/evidence/usage.jsonl',
+  pricing: null,
   ci: { workflow: '.github/workflows/ci.yml', deployWorkflow: '.github/workflows/deploy.yml' },
   liveUrl: null,
   smokeMarker: null,
@@ -183,6 +187,7 @@ function loadConfig({ required = true } = {}) {
   e.ci = { ...EVIDENCE_DEFAULTS.ci, ...(qg.evidence?.ci ?? {}) };
   e.project = { ...EVIDENCE_DEFAULTS.project, ...(qg.evidence?.project ?? {}) };
   e.trace = { stories: 'docs/ba/user-stories.md', pattern: 'US-[A-Z0-9]+-\\d+', allowUntested: [], ...(qg.trace ?? {}) };
+  e.configured = !!qg.evidence;
   e.repository = e.project.repository ?? repositoryUrl();
   e.project.id = e.project.id ?? slug(basename(root));
   e.project.name = e.project.name ?? basename(root);
@@ -221,6 +226,96 @@ export function appendEvent(eventsPath, e) {
   mkdirSync(dirname(eventsPath), { recursive: true });
   appendFileSync(eventsPath, JSON.stringify(ev) + '\n');
   return { event: ev };
+}
+
+// ---------- token usage (Claude Code session logs → docs/evidence/usage.jsonl) ----------
+// Claude Code writes every API response, with its token usage, to session logs under
+// <config dir>/projects/<project path with non-alphanumerics as "-">/ (sub-agents in <session>/subagents/,
+// their type in a .meta.json). It deletes old logs after a while, so the project keeps its own snapshot:
+// per session, hour, model and agent, numbers only. A response appears on several lines while it streams;
+// it is counted once (message id + request id).
+const usageKey = (b) => `${b.session}|${b.hour}|${b.model}|${b.agent}`;
+const USAGE_FIELDS = ['requests', 'inputTokens', 'outputTokens', 'cacheWriteTokens', 'cacheReadTokens'];
+const transcriptsDir = () => resolve(opt('transcripts') ?? join(process.env.CLAUDE_CONFIG_DIR ?? join(homedir(), '.claude'), 'projects'));
+/** The main checkout, so sessions run in its worktrees count for the same project. */
+function projectRoot() {
+  const common = git('rev-parse', '--path-format=absolute', '--git-common-dir');
+  if (common.code === 0 && basename(common.out) === '.git') return dirname(resolve(common.out));
+  const top = git('rev-parse', '--show-toplevel');
+  return top.code === 0 ? resolve(top.out) : root;
+}
+const insideDir = (p, dir) => {
+  const norm = (x) => (process.platform === 'win32' ? resolve(x).toLowerCase() : resolve(x));
+  return norm(p) === norm(dir) || norm(p).startsWith(norm(dir) + sep);
+};
+export function readTranscripts(dir, projectDir) {
+  const prefix = projectDir.replace(/[^a-zA-Z0-9]/g, '-');
+  if (!existsSync(dir)) return { buckets: new Map(), files: 0 };
+  const files = readdirSync(dir).filter((n) => n === prefix || n.startsWith(`${prefix}-`)).flatMap((n) => walk(join(dir, n))).filter((f) => f.endsWith('.jsonl'));
+  const responses = new Map();
+  for (const f of files) {
+    let agent = 'main';
+    if (/[\\/]subagents[\\/]/.test(f)) {
+      try { agent = slug(readJson(f.replace(/\.jsonl$/, '.meta.json')).agentType ?? 'subagent'); } catch { agent = 'subagent'; }
+    }
+    for (const line of readFileSync(f, 'utf8').split('\n')) {
+      if (!line.includes('"usage"')) continue;
+      let o;
+      try { o = JSON.parse(line); } catch { continue; }
+      const u = o.message?.usage;
+      // Other projects whose folder names share the prefix are excluded by their working directory.
+      if (o.type !== 'assistant' || !u || !o.timestamp || !o.cwd || !o.message.model || o.message.model.startsWith('<') || !insideDir(o.cwd, projectDir)) continue;
+      const key = `${o.message.id}|${o.requestId}`;
+      const prev = responses.get(key);
+      if (!prev || (u.output_tokens ?? 0) >= (prev.u.output_tokens ?? 0)) responses.set(key, { u, o, agent });
+    }
+  }
+  const buckets = new Map();
+  for (const { u, o, agent } of responses.values()) {
+    const b = { session: sha256(String(o.sessionId ?? 'unknown')).slice(0, 12), hour: new Date(o.timestamp).toISOString().slice(0, 13), model: o.message.model, agent };
+    const t = buckets.get(usageKey(b)) ?? { ...b, requests: 0, inputTokens: 0, outputTokens: 0, cacheWriteTokens: 0, cacheReadTokens: 0 };
+    t.requests += 1;
+    t.inputTokens += u.input_tokens ?? 0;
+    t.outputTokens += u.output_tokens ?? 0;
+    t.cacheWriteTokens += u.cache_creation_input_tokens ?? 0;
+    t.cacheReadTokens += u.cache_read_input_tokens ?? 0;
+    buckets.set(usageKey(b), t);
+  }
+  return { buckets, files: files.length };
+}
+/** Latest record per bucket (each snapshot appends the bucket's running total). */
+export function readUsageLog(path) {
+  const entries = new Map(), errors = [];
+  if (!existsSync(path)) return { entries, errors, exists: false };
+  const schema = schemaFile('usage');
+  readFileSync(path, 'utf8').split('\n').forEach((line, i) => {
+    if (!line.trim()) return;
+    let u;
+    try { u = JSON.parse(line); } catch { errors.push(`line ${i + 1}: not JSON`); return; }
+    const errs = validateSchema(schema, u);
+    if (errs.length) { errors.push(`line ${i + 1}: ${errs[0]}`); return; }
+    const k = usageKey(u);
+    if (!entries.has(k) || entries.get(k).at <= u.at) entries.set(k, u);
+  });
+  return { entries, errors, exists: true };
+}
+function usageSnapshot(e, { quiet = false } = {}) {
+  const logPath = join(root, e.usageLog);
+  const { entries, errors } = readUsageLog(logPath);
+  if (errors.length) { if (!quiet) bad(`the usage log ${e.usageLog} has invalid lines: ${errors[0]}`); return { error: errors[0] }; }
+  const { buckets, files } = readTranscripts(transcriptsDir(), projectRoot());
+  const at = new Date().toISOString();
+  const lines = [];
+  for (const [k, b] of buckets) {
+    const old = entries.get(k);
+    // Never go backwards: Claude Code deletes old session logs, and the snapshot is then the only record.
+    if (old && USAGE_FIELDS.every((f) => b[f] <= old[f])) continue;
+    lines.push(JSON.stringify({ v: 1, at, ...b }));
+  }
+  if (lines.length) { mkdirSync(dirname(logPath), { recursive: true }); appendFileSync(logPath, lines.join('\n') + '\n'); }
+  if (!quiet) ok(`token usage: ${lines.length} new or grown records from ${files} session logs appended to ${e.usageLog}`);
+  else if (lines.length) console.log(`Token usage: ${lines.length} records added to ${e.usageLog} (commit it with your work).`);
+  return { added: lines.length, files };
 }
 
 // ---------- evidence readers ----------
@@ -263,7 +358,7 @@ const mentions = (text, id) => new RegExp(`(?<![A-Za-z0-9-])${escapeRe(id)}(?![0
 function gitInfo(e) {
   const head = git('rev-parse', 'HEAD');
   if (head.code !== 0) { console.error('collect needs a git repository with at least one commit'); process.exit(2); }
-  const ignore = [e.dir, e.events, '.claude/state', '.claude/.upgrade-backup'].map((p) => p.replace(/\/$/, ''));
+  const ignore = [e.dir, e.events, e.usageLog, '.claude/state', '.claude/.upgrade-backup'].filter(Boolean).map((p) => p.replace(/\/$/, ''));
   const dirty = git('status', '--porcelain', '--untracked-files=all').out.split('\n').filter(Boolean)
     .map((l) => l.replace(/^.{1,2}?\s/, '').replace(/^"|"$/g, '')).filter((f) => !ignore.some((p) => f === p || f.startsWith(`${p}/`)));
   return {
@@ -303,7 +398,7 @@ export function packageFiles(dir) {
 }
 function copySchemas(e) {
   const out = join(evidenceDir(e), 'schema', 'v1');
-  for (const n of ['metrics', 'index', 'event']) {
+  for (const n of ['metrics', 'index', 'event', 'usage']) {
     const src = join(SCHEMA_DIR, `${n}.schema.json`), dest = join(out, `${n}.schema.json`);
     if (!existsSync(dest) || sha256(readFileSync(dest)) !== sha256(readFileSync(src))) { mkdirSync(out, { recursive: true }); copyFileSync(src, dest); }
   }
@@ -499,35 +594,78 @@ async function collect() {
   if (qa.codeCoveragePercent.basis === 'measured') limitations.push('Code coverage shows which lines ran during tests; it is not evidence that the code has no defects.');
 
   // --- cost
+  // An explicit usage file wins; otherwise the project's token-usage log (snapshotted from Claude Code
+  // session logs at every session start and again here) covers the window.
   const usagePath = opt('usage') ?? e.usage;
-  let usage = null;
+  let usage = null, usageFromLog = false;
   if (usagePath) {
     if (!existsSync(resolve(root, usagePath))) { console.error(`usage file ${usagePath} not found`); return 2; }
     usage = readJson(resolve(root, usagePath));
     const leak = sensitiveHits(JSON.stringify(usage, null, 1));
     if (leak.length) { console.error(`usage file ${usagePath} is not public-safe: ${leak[0]}`); return 1; }
     addFile('usage', 'usage', `Model and infrastructure usage supplied for this milestone${usage.source ? ` (${usage.source})` : ''}`, 'evidence/usage.json', JSON.stringify(usage, null, 2) + '\n');
+  } else if (e.usageLog) {
+    if (!flag('no-usage-snapshot')) usageSnapshot(e, { quiet: true });
+    const { entries: logged, errors: usageErrors } = readUsageLog(join(root, e.usageLog));
+    if (usageErrors.length) { console.error(`the usage log ${e.usageLog} has invalid lines:\n  ${usageErrors.slice(0, 10).join('\n  ')}`); return 1; }
+    const fromHour = from ? Date.parse(`${from.slice(0, 13)}:00:00Z`) : -Infinity;
+    const buckets = [...logged.values()].filter((b) => { const h = Date.parse(`${b.hour}:00:00Z`); return h > fromHour && h <= Date.parse(collectedAt); });
+    if (buckets.length) {
+      usageFromLog = true;
+      const byModel = new Map();
+      for (const b of buckets) {
+        const k = `${b.model}|${b.agent}`;
+        const t = byModel.get(k) ?? { category: 'model', name: b.model, phase: b.agent, requests: 0, inputTokens: 0, outputTokens: 0, cacheWriteTokens: 0, cacheReadTokens: 0 };
+        for (const f of ['requests', 'inputTokens', 'outputTokens', 'cacheWriteTokens', 'cacheReadTokens']) t[f] += b[f];
+        byModel.set(k, t);
+      }
+      const entries = [...byModel.values()].sort((a, b) => (a.name + a.phase < b.name + b.phase ? -1 : 1)).map((t) => {
+        const p = e.pricing?.[t.name];
+        const costUsd = p ? Math.round(((t.inputTokens * p.inputPerMTok + t.outputTokens * p.outputPerMTok + t.cacheWriteTokens * (p.cacheWritePerMTok ?? 0) + t.cacheReadTokens * (p.cacheReadPerMTok ?? 0)) / 1e6) * 10000) / 10000 : null;
+        return { ...t, costUsd, basis: 'measured', ...(p ? { costBasis: 'estimated' } : {}) };
+      });
+      usage = { billingModel: e.billingModel ?? 'unknown', source: 'Claude Code session logs, snapshotted by evidence.mjs usage', entries };
+      addFile('usage', 'usage', `Token usage per model and agent from the project usage log (${e.usageLog}), hour buckets in this window${e.pricing ? ', with the configured list prices' : ''}`, 'evidence/usage.json', JSON.stringify({ source: usage.source, pricing: e.pricing ?? null, buckets: buckets.map(({ at, v, ...b }) => b) }, null, 2) + '\n');
+      limitations.push('Token usage comes from Claude Code session logs snapshotted on the machines that ran this project (hour buckets; the boundary hour belongs to the earlier milestone). Sessions on other machines or in the cloud are missing unless they were snapshotted there.');
+    }
   }
   const billingModel = usage?.billingModel ?? e.billingModel ?? 'unknown';
-  const items = (usage?.entries ?? []).map((x) => ({ category: x.category ?? 'model', name: x.name, ...(x.phase ? { phase: x.phase } : {}), inputTokens: x.inputTokens ?? null, outputTokens: x.outputTokens ?? null, costUsd: x.costUsd ?? null, basis: x.basis === 'measured' ? 'measured' : 'estimated' }));
+  const items = (usage?.entries ?? []).map((x) => ({
+    category: x.category ?? 'model', name: x.name, ...(x.phase ? { phase: x.phase } : {}), ...(x.requests !== undefined ? { requests: x.requests } : {}),
+    inputTokens: x.inputTokens ?? null, outputTokens: x.outputTokens ?? null,
+    ...(x.cacheWriteTokens !== undefined ? { cacheWriteTokens: x.cacheWriteTokens, cacheReadTokens: x.cacheReadTokens ?? 0 } : {}),
+    costUsd: x.costUsd ?? null, basis: x.basis === 'measured' ? 'measured' : 'estimated', ...(x.costBasis ? { costBasis: x.costBasis } : {}),
+  }));
   const models = items.filter((x) => x.category === 'model'), infra = items.filter((x) => x.category === 'infrastructure');
   const basisOf = (list) => (list.every((x) => x.basis === 'measured') ? 'measured' : 'estimated');
+  const costBasisOf = (list) => (list.every((x) => (x.costBasis ?? x.basis) === 'measured') ? 'measured' : 'estimated');
   const sum = (list, f) => list.reduce((s, x) => s + (x[f] ?? 0), 0);
   const noUsage = billingModel === 'subscription'
     ? 'usage ran on a subscription plan with no per-run billing data; this is not zero-cost execution'
     : 'no usage export supplied (evidence.mjs collect --usage <file>)';
   const withTokens = models.filter((x) => x.inputTokens !== null || x.outputTokens !== null);
   const withCost = models.filter((x) => x.costUsd !== null);
+  const unpriced = [...new Set(models.filter((x) => x.costUsd === null).map((x) => x.name))];
+  const noTokens = usageFromLog || usage || !e.usageLog ? noUsage
+    : `no token usage in ${e.usageLog} for this window (snapshots run at session start and on collect)${billingModel === 'subscription' ? '; the subscription is not zero-cost execution' : ''}`;
+  const noCost = usageFromLog && unpriced.length
+    ? `no list price configured for ${unpriced.join(', ')} (quality-gate.json → evidence.pricing)${billingModel === 'subscription' ? '; the subscription itself is billed separately and this is not zero-cost execution' : ''}`
+    : noTokens;
+  const withCache = models.filter((x) => x.cacheWriteTokens !== undefined);
   const cost = {
     status: 'UNVERIFIED',
     billingModel,
-    totalTokens: withTokens.length ? { value: sum(withTokens, 'inputTokens') + sum(withTokens, 'outputTokens'), unit: 'tokens', basis: basisOf(withTokens), method: 'sum of input + output tokens over model usage entries', sources: ['usage'] } : unavailable('tokens', 'sum of input + output tokens', noUsage),
-    apiCostUsd: withCost.length ? { value: round1(sum(withCost, 'costUsd') * 100) / 100, unit: 'usd', basis: basisOf(withCost), method: 'sum of costUsd over model usage entries', sources: ['usage'] } : unavailable('usd', 'sum of model costUsd', noUsage),
-    infrastructureCostUsd: infra.some((x) => x.costUsd !== null) ? { value: round1(sum(infra, 'costUsd') * 100) / 100, unit: 'usd', basis: basisOf(infra), method: 'sum of costUsd over infrastructure entries', sources: ['usage'] } : unavailable('usd', 'sum of infrastructure costUsd', usage ? 'the usage file lists no infrastructure costs' : noUsage),
+    totalTokens: withTokens.length ? { value: sum(withTokens, 'inputTokens') + sum(withTokens, 'outputTokens'), unit: 'tokens', basis: basisOf(withTokens), method: 'sum of input + output tokens over model usage entries (cache tokens are reported separately)', sources: ['usage'] } : unavailable('tokens', 'sum of input + output tokens', noTokens),
+    ...(withCache.length ? { cacheTokens: { value: sum(withCache, 'cacheWriteTokens') + sum(withCache, 'cacheReadTokens'), unit: 'tokens', basis: basisOf(withCache), method: 'sum of cache-write + cache-read input tokens over model usage entries', sources: ['usage'] } } : {}),
+    apiCostUsd: withCost.length && !(usageFromLog && unpriced.length)
+      ? { value: round1(sum(withCost, 'costUsd') * 100) / 100, unit: 'usd', basis: costBasisOf(withCost), method: usageFromLog ? `tokens × list prices in quality-gate.json → evidence.pricing${billingModel === 'subscription' ? ' (API-equivalent: the subscription is billed separately)' : ''}` : 'sum of costUsd over model usage entries', sources: ['usage'] }
+      : unavailable('usd', 'sum of model costUsd', noCost),
+    infrastructureCostUsd: infra.some((x) => x.costUsd !== null) ? { value: round1(sum(infra, 'costUsd') * 100) / 100, unit: 'usd', basis: basisOf(infra), method: 'sum of costUsd over infrastructure entries', sources: ['usage'] } : unavailable('usd', 'sum of infrastructure costUsd', usage && !usageFromLog ? 'the usage file lists no infrastructure costs' : usageFromLog ? 'the usage log covers model tokens only; supply infrastructure costs with --usage' : noUsage),
     items,
   };
   cost.status = cost.totalTokens.value !== null && cost.apiCostUsd.value !== null ? 'PASS' : 'UNVERIFIED';
-  if (cost.status !== 'PASS') limitations.push(`Development cost is incomplete: ${noUsage}.`);
+  if (cost.status !== 'PASS') limitations.push(`Development cost is incomplete: ${cost.totalTokens.reason ?? cost.apiCostUsd.reason}.`);
+  if (cost.apiCostUsd.basis === 'estimated' && usageFromLog) limitations.push(`API cost is an estimate: measured tokens × configured list prices${billingModel === 'subscription' ? ', i.e. what the same use would cost on the API; the subscription is billed separately' : ''}.`);
 
   // --- recovery
   const interruptions = win.filter((ev) => ev.type === 'interruption'), resumes = win.filter((ev) => ev.type === 'resume'), rtests = win.filter((ev) => ev.type === 'recovery-test');
@@ -780,6 +918,7 @@ export function validatePackage(e, packageId, { draft = false, frozen = null } =
   if (r.status === 'PASS' && !(val(r.recoveryTestsPassed) > 0)) E('recovery.status is PASS without a passed controlled recovery test (absence of failures is not evidence)');
   const c = d.metrics.cost;
   if (c.billingModel === 'subscription' && (val(c.apiCostUsd) === 0 || val(c.totalTokens) === 0)) E('cost: subscription usage is reported as zero; record it as unavailable with a reason instead');
+  if (c.billingModel === 'subscription' && c.apiCostUsd.basis === 'measured') E('cost: a subscription has no per-run bill, so its API cost can only be an estimate, not "measured"');
   if (c.apiCostUsd.basis === 'measured' && c.items.some((x) => x.category === 'model' && x.basis !== 'measured')) E('cost.apiCostUsd is "measured" but some model entries are estimates');
   // Delivery claims need delivery evidence
   const dl = d.metrics.delivery;
@@ -821,6 +960,15 @@ export function validatePackage(e, packageId, { draft = false, frozen = null } =
 function validateAll() {
   const e = loadConfig({ required: false });
   const dir = evidenceDir(e);
+  // Token usage is only auditable if it is snapshotted regularly: Claude Code deletes old session logs.
+  if (e.configured && e.usageLog) {
+    const { entries, errors: ue, exists } = readUsageLog(join(root, e.usageLog));
+    const last = [...entries.values()].map((u) => u.at).sort().at(-1);
+    const lastCommit = git('log', '-1', '--format=%cI').out;
+    if (ue.length) { bad(`the usage log ${e.usageLog} has invalid lines: ${ue[0]}`); return 1; }
+    if (!exists) warn(`no token-usage log at ${e.usageLog}: run "evidence.mjs usage" (the session-start hook does it every session)`);
+    else if (last && lastCommit && Date.parse(lastCommit) - Date.parse(last) > 7 * 86400000) warn(`the token-usage log was last snapshotted ${last.slice(0, 10)}, more than 7 days before the latest commit: run "evidence.mjs usage" and commit ${e.usageLog}`);
+  }
   if (!existsSync(dir)) { console.log(`NOT_APPLICABLE no ${e.dir}/ directory: no evidence packages to validate`); return 0; }
   const errors = [], warnings = [];
   const index = loadIndex(e);
@@ -921,7 +1069,17 @@ function init() {
   const ev = join(root, e.events);
   if (existsSync(ev)) ok(`${e.events} exists`);
   else { mkdirSync(dirname(ev), { recursive: true }); writeFileSync(ev, ''); ok(`created ${e.events} (append-only event log)`); }
+  if (e.usageLog) {
+    if (!existsSync(join(root, e.usageLog))) { mkdirSync(dirname(join(root, e.usageLog)), { recursive: true }); writeFileSync(join(root, e.usageLog), ''); ok(`created ${e.usageLog} (token-usage log, snapshotted at every session start)`); }
+    usageSnapshot(e);
+  }
   return 0;
+}
+function usage() {
+  const e = loadConfig();
+  if (!e.usageLog) { console.error('quality-gate.json → evidence.usageLog is null: token-usage logging is switched off'); return 2; }
+  const r = usageSnapshot(e, { quiet: flag('quiet') });
+  return r.error ? 1 : 0;
 }
 function event() {
   const e = loadConfig();
@@ -943,6 +1101,13 @@ function status() {
   const { events } = readEvents(join(root, e.events));
   console.log(`milestones: ${e.milestones.map((m) => `${m.id} (${m.label})`).join(', ')}`);
   console.log(`event log: ${events ? `${events.length} events in ${e.events}` : `missing (${e.events})`}`);
+  if (e.usageLog) {
+    const { entries, exists } = readUsageLog(join(root, e.usageLog));
+    const all = [...entries.values()];
+    const last = all.map((u) => u.at).sort().at(-1);
+    const tok = (f) => all.reduce((s, u) => s + u[f], 0);
+    console.log(`usage log: ${!exists ? `missing (${e.usageLog})` : `${all.length} buckets, ${tok('requests')} requests, ${tok('inputTokens') + tok('outputTokens')} input+output tokens, ${tok('cacheWriteTokens') + tok('cacheReadTokens')} cache tokens; last snapshot ${last ?? 'never'}`}`);
+  }
   for (const p of index?.packages ?? []) console.log(`frozen: ${p.id} ${p.assessment} commit ${p.sourceCommit.slice(0, 7)}${p.supersededBy ? ` (superseded by ${p.supersededBy})` : ''}`);
   const drafts = existsSync(evidenceDir(e)) ? readdirSync(evidenceDir(e)).filter((n) => existsSync(join(evidenceDir(e), n, 'metrics.json')) && !index?.packages.some((p) => p.id === n)) : [];
   for (const d of drafts) console.log(`draft: ${d}`);
@@ -955,11 +1120,15 @@ usage: node evidence.mjs <command>
   event <type> --summary "…" [--task t] [--milestone m] [--outcome success|failure] [--by role]
         [--defect id --severity P1-P4 --state found|fixed|deferred] [--regression] [--minutes n]
                                    append one event (types: ${EVENT_TYPES.join(', ')})
-  collect --milestone <id> [--revise --reason "…"] [--run-tests] [--offline] [--ci-runs file] [--usage file] [--allow-dirty]
+  usage [--quiet] [--transcripts <dir>]
+                                   snapshot token usage from Claude Code session logs into the usage log
+                                   (runs at every session start and before collect)
+  collect --milestone <id> [--revise --reason "…"] [--run-tests] [--offline] [--ci-runs file] [--usage file]
+          [--allow-dirty] [--no-usage-snapshot]
                                    write a draft package engineering-evidence/<id>/ from existing evidence
   validate [--package <id>]        schema, arithmetic, references, privacy, frozen-package integrity
   freeze --package <id>            publish: record the package's hashes in engineering-evidence/index.json
-  status                           milestones, event log, frozen and draft packages`;
+  status                           milestones, event log, usage log, frozen and draft packages`;
 
 const isMain = process.argv[1] && resolve(process.argv[1]).toLowerCase() === fileURLToPath(import.meta.url).toLowerCase();
 if (isMain) {
@@ -968,6 +1137,7 @@ if (isMain) {
     if (cmd === '--version') { console.log(VERSION); return 0; }
     if (cmd === 'init') return init();
     if (cmd === 'event') return event();
+    if (cmd === 'usage') return usage();
     if (cmd === 'collect') return collect();
     if (cmd === 'freeze') return freeze();
     if (cmd === 'status') return status();

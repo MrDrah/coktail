@@ -1,6 +1,6 @@
 # Orchestration rules
 
-<!-- framework: app-boilerplate v0.4.0 — sections 0–5 belong to the framework and are replaced by
+<!-- framework: app-boilerplate v0.5.0 — sections 0–5 belong to the framework and are replaced by
      "node <framework>/scripts/new-project.mjs <this-project> --upgrade". Put project rules in §6. -->
 
 Template paths written `templates/…` live under `.claude/templates/…` in a project.
@@ -52,6 +52,7 @@ Do small work yourself. Send independent large work to sub-agents in parallel (o
 - Content that claims to be real (recipes, facts, quotes, prices) is researched from cited sources and written in our own words. Nothing invented. (`validate.mjs overlap`: copied runs FAIL, records without cached sources are UNVERIFIED, and both block the release gate. Exceptions are recorded one by one with `--accept`, a reason and a reviewer.)
 - Tests on unit logic use fixtures. Tests that read live data assert properties ("never suggests something you can't make"), not specific outputs that change as data grows.
 - Every story ID (`US-…`) has at least one test that names it. (Enforced by `validate.mjs trace`.) Acceptance criteria are numbered (`US-E1-01/AC1`) and tests name them, so milestone evidence can count verified criteria.
+- Token usage is logged every session: the session-start hook snapshots Claude Code's session logs into `docs/evidence/usage.jsonl`. Commit that file with your work and never edit it by hand. If you work on another machine, run `evidence.mjs usage` there too.
 - Evidence packages report what files show, never what an agent says. Missing evidence stays `null` with a reason. Frozen packages and `engineering-evidence/index.json` are never edited. (Guard hook, `evidence.mjs validate` in the release gate.)
 - Commit or push only when the product owner asks, or when the release step of an approved plan says so. Pushing to the main branch deploys.
 
