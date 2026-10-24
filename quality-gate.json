@@ -1,41 +1,108 @@
 {
   "$comment": "app-boilerplate quality gate config for Cocktail Cabinet. Used by .claude/skills/quality-gate/scripts/validate.mjs, the guard hook and CI.",
   "commands": [
-    { "name": "validate data", "run": "npm run validate:data" },
-    { "name": "typecheck", "run": "npm run typecheck" },
-    { "name": "unit + coverage", "run": "npm run coverage" },
-    { "name": "build", "run": "npm run build" }
+    {
+      "name": "validate data",
+      "run": "npm run validate:data"
+    },
+    {
+      "name": "typecheck",
+      "run": "npm run typecheck"
+    },
+    {
+      "name": "unit + coverage",
+      "run": "npm run coverage"
+    },
+    {
+      "name": "build",
+      "run": "npm run build"
+    }
   ],
   "generated": [
-    { "path": "data/cocktails.json", "from": "data/_research/batch-*.json", "by": "npm run merge:research" },
-    { "path": "tests/library/verification-matrix.csv", "from": "the library verification test", "by": "WRITE_MATRIX=1 npm run test:library" },
-    { "path": "dist/**", "by": "npm run build" }
+    {
+      "path": "data/cocktails.json",
+      "from": "data/_research/batch-*.json",
+      "by": "npm run merge:research"
+    },
+    {
+      "path": "tests/library/verification-matrix.csv",
+      "from": "the library verification test",
+      "by": "WRITE_MATRIX=1 npm run test:library"
+    },
+    {
+      "path": "dist/**",
+      "by": "npm run build"
+    }
   ],
   "docs": {
-    "required": ["CATCH-UP.md", "docs/00-orchestration-plan.md", "docs/ba/user-stories.md", "docs/ba/research-brief.md", "tests/reports/mvp-test-report.md"],
+    "required": [
+      "CATCH-UP.md",
+      "docs/00-orchestration-plan.md",
+      "docs/ba/user-stories.md",
+      "docs/ba/research-brief.md",
+      "tests/reports/mvp-test-report.md"
+    ],
     "catchUp": "CATCH-UP.md",
     "maxStaleDays": 7,
-    "decisionLog": { "file": "docs/00-orchestration-plan.md", "heading": "Decision" }
+    "decisionLog": {
+      "file": "docs/00-orchestration-plan.md",
+      "heading": "Decision"
+    }
   },
   "trace": {
     "stories": "docs/ba/user-stories.md",
-    "tests": ["tests/**/*.{test,spec}.{ts,tsx,js,jsx,mjs,cjs}"],
+    "tests": [
+      "tests/**/*.{test,spec}.{ts,tsx,js,jsx,mjs,cjs}"
+    ],
     "pattern": "US-[A-Z0-9]+-\\d+",
     "allowUntested": []
   },
   "stages": {
-    "dev": ["preflight", "secrets", "commands", "budget"],
-    "release": ["preflight", "docs", "trace", "secrets", "commands", "budget"]
+    "dev": [
+      "preflight",
+      "secrets",
+      "commands",
+      "budget"
+    ],
+    "release": [
+      "preflight",
+      "docs",
+      "trace",
+      "secrets",
+      "commands",
+      "budget",
+      "evidence"
+    ]
   },
   "budgets": [
-    { "name": "JS bundle", "glob": "dist/assets/*.js", "maxGzipKb": 400 },
-    { "name": "CSS", "glob": "dist/assets/*.css", "maxGzipKb": 50 }
+    {
+      "name": "JS bundle",
+      "glob": "dist/assets/*.js",
+      "maxGzipKb": 400
+    },
+    {
+      "name": "CSS",
+      "glob": "dist/assets/*.css",
+      "maxGzipKb": 50
+    }
   ],
-  "secrets": { "exclude": ["package-lock.json", "data/**", "docs/cocktail-list.txt"] },
+  "secrets": {
+    "exclude": [
+      "package-lock.json",
+      "data/**",
+      "docs/cocktail-list.txt"
+    ]
+  },
   "overlap": {
-    "records": ["data/_research/batch-*.json"],
+    "records": [
+      "data/_research/batch-*.json"
+    ],
     "idField": "id",
-    "fields": ["shortDescription", "history", "tasteProfile"],
+    "fields": [
+      "shortDescription",
+      "history",
+      "tasteProfile"
+    ],
     "sourcesField": "sources",
     "urlField": "url",
     "cacheDir": ".cache/sources",
@@ -44,5 +111,49 @@
     "acceptFile": "data/_research/overlap-accepted.json",
     "delayMs": 3000
   },
-  "preflight": { "nodeMajor": 20, "requireRemote": true, "optional": ["gh", "playwright"] }
+  "preflight": {
+    "nodeMajor": 20,
+    "requireRemote": true,
+    "optional": [
+      "gh",
+      "playwright"
+    ]
+  },
+  "evidence": {
+    "dir": "engineering-evidence",
+    "events": "docs/evidence/events.jsonl",
+    "project": {
+      "id": "coktail",
+      "name": "Cocktail Cabinet",
+      "repository": "https://github.com/MrDrah/coktail"
+    },
+    "milestones": [
+      {
+        "id": "mvp",
+        "label": "MVP"
+      },
+      {
+        "id": "beta-0.5",
+        "label": "Beta 0.5"
+      },
+      {
+        "id": "release-1.0",
+        "label": "Version 1.0"
+      }
+    ],
+    "testResults": [
+      "reports/junit*.xml"
+    ],
+    "testCommand": "npx vitest run --coverage --coverage.reporter=json-summary --reporter=default --reporter=junit --outputFile.junit=reports/junit.xml",
+    "coverageSummary": "coverage/coverage-summary.json",
+    "seededDefects": null,
+    "billingModel": "unknown",
+    "usage": null,
+    "ci": {
+      "workflow": ".github/workflows/ci.yml",
+      "deployWorkflow": ".github/workflows/deploy.yml"
+    },
+    "liveUrl": "https://mrdrah.github.io/coktail/",
+    "smokeMarker": null
+  }
 }
