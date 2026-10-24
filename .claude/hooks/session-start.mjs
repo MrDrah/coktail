@@ -25,5 +25,15 @@ else {
   if (dirty) lines.push(`- ${dirty} uncommitted changes in the working tree.`);
   if (!sh('git', ['config', 'user.email']).stdout?.trim()) lines.push('- No git identity configured (see the release skill).');
 }
+// Token usage: snapshot Claude Code's session logs into the project's usage log before they are
+// cleaned up. Only for projects that opted in to milestone evidence; never blocks the session.
+const evidenceScript = join(root, '.claude/skills/milestone-evidence/scripts/evidence.mjs');
+try {
+  if (existsSync(evidenceScript) && JSON.parse(readFileSync(join(root, 'quality-gate.json'), 'utf8')).evidence) {
+    const r = spawnSync(process.execPath, [evidenceScript, 'usage', '--quiet'], { cwd: root, encoding: 'utf8', timeout: 20000 });
+    const out = r.stdout?.trim();
+    if (out) lines.push(`- ${out}`);
+  }
+} catch { /* no or unreadable quality-gate.json: nothing to snapshot */ }
 lines.push('- Full environment check: node .claude/skills/quality-gate/scripts/validate.mjs preflight');
 console.log(lines.join('\n'));

@@ -147,13 +147,15 @@
     "testCommand": "npx vitest run --coverage --coverage.reporter=json-summary --reporter=default --reporter=junit --outputFile.junit=reports/junit.xml",
     "coverageSummary": "coverage/coverage-summary.json",
     "seededDefects": null,
-    "billingModel": "unknown",
+    "billingModel": "subscription",
     "usage": null,
     "ci": {
       "workflow": ".github/workflows/ci.yml",
       "deployWorkflow": ".github/workflows/deploy.yml"
     },
     "liveUrl": "https://mrdrah.github.io/coktail/",
-    "smokeMarker": null
+    "smokeMarker": null,
+    "usageLog": "docs/evidence/usage.jsonl",
+    "pricing": null
   }
 }

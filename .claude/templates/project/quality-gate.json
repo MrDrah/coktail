@@ -33,7 +33,7 @@
   "overlap": null,
   "preflight": { "nodeMajor": 20, "requireRemote": true, "optional": ["gh", "playwright"] },
   "evidence": {
-    "$comment": "Milestone evidence packages (milestone-evidence skill). Milestone ids are yours to choose; liveUrl and smokeMarker enable the live check.",
+    "$comment": "Milestone evidence packages (milestone-evidence skill). Milestone ids are yours to choose; liveUrl and smokeMarker enable the live check. billingModel: api, subscription, mixed or unknown. pricing (optional): list prices per model in USD per million tokens, e.g. { <model>: { inputPerMTok, outputPerMTok, cacheWritePerMTok, cacheReadPerMTok, source: <pricing page URL> } }. Without pricing, tokens are measured and cost stays unavailable.",
     "project": { "id": "{{PROJECT_ID}}", "name": "{{PROJECT_NAME}}", "repository": null },
     "milestones": [
       { "id": "mvp", "label": "MVP" },
@@ -45,6 +45,8 @@
     "testCommand": "npx vitest run --coverage --reporter=default --reporter=junit --outputFile.junit=reports/junit.xml",
     "coverageSummary": "coverage/coverage-summary.json",
     "billingModel": "unknown",
+    "usageLog": "docs/evidence/usage.jsonl",
+    "pricing": null,
     "liveUrl": null,
     "smokeMarker": null
   }

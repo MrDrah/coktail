@@ -176,7 +176,8 @@
           "properties": {
             "status": { "$ref": "#/$defs/verdict" },
             "billingModel": { "enum": ["api", "subscription", "mixed", "unknown"] },
-            "totalTokens": { "$ref": "#/$defs/count" },
+            "totalTokens": { "$ref": "#/$defs/count", "description": "Input + output tokens. Cache tokens are in cacheTokens." },
+            "cacheTokens": { "$ref": "#/$defs/count", "description": "Since 1.1.0, optional: cache-write + cache-read input tokens, when the usage source reports them." },
             "apiCostUsd": { "$ref": "#/$defs/usd" },
             "infrastructureCostUsd": { "$ref": "#/$defs/usd" },
             "items": {
@@ -188,11 +189,15 @@
                 "properties": {
                   "category": { "enum": ["model", "infrastructure"] },
                   "name": { "type": "string", "minLength": 1, "description": "provider/model for model usage, service name for infrastructure" },
-                  "phase": { "type": "string" },
+                  "phase": { "type": "string", "description": "Workflow phase or agent (main, or the sub-agent type)." },
+                  "requests": { "type": "integer", "minimum": 0, "description": "Since 1.1.0, optional." },
                   "inputTokens": { "type": ["integer", "null"], "minimum": 0 },
                   "outputTokens": { "type": ["integer", "null"], "minimum": 0 },
+                  "cacheWriteTokens": { "type": "integer", "minimum": 0, "description": "Since 1.1.0, optional." },
+                  "cacheReadTokens": { "type": "integer", "minimum": 0, "description": "Since 1.1.0, optional." },
                   "costUsd": { "type": ["number", "null"], "minimum": 0 },
-                  "basis": { "enum": ["measured", "estimated"] }
+                  "basis": { "enum": ["measured", "estimated"], "description": "How the token figures were obtained." },
+                  "costBasis": { "enum": ["measured", "estimated"], "description": "Since 1.1.0, optional: how costUsd was obtained when it differs from basis (e.g. measured tokens × list price = estimated cost)." }
                 }
               }
             }

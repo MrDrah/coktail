@@ -9,8 +9,9 @@ description: Produce a standard, verifiable Engineering Evidence Package at an a
 
 ```bash
 E=".claude/skills/milestone-evidence/scripts/evidence.mjs"
-node $E init                                   # once: "evidence" block in quality-gate.json + docs/evidence/events.jsonl
+node $E init                                   # once: "evidence" block in quality-gate.json, event log, usage log
 node $E event <type> --summary "…" [options]   # during development, a few times a week
+node $E usage                                  # token-usage snapshot; automatic at every session start
 node $E collect --milestone mvp                # at the milestone: draft package
 node $E validate                               # every package; also part of "validate.mjs gate --stage release"
 node $E freeze --package mvp                   # publish: hashes recorded in engineering-evidence/index.json
@@ -36,6 +37,15 @@ node $E collect --milestone mvp --revise --reason "…"   # correction: new pack
 | Independent check of another agent's output | `verification --outcome success\|failure --task <t>` | Orchestrator (verifier result) |
 
 Product decisions and approvals are normal work; only `technical-correction`, `agent-failure` and `manual-implementation` count as corrective. Intervention counts are never reconstructed from git history.
+
+### Token usage (automatic, every session)
+
+Claude Code records the token usage of every response in its session logs on the machine that ran the session. It deletes old logs after a while. `evidence.mjs usage` copies the numbers into `docs/evidence/usage.jsonl`: one record per session, UTC hour, model and agent (main session or sub-agent type), with requests and input, output, cache-write and cache-read tokens. No prompts, paths or raw session ids are copied. The session-start hook runs it at the start of **every** session, and `collect` runs it again. Commit `usage.jsonl` with your normal work. `evidence.mjs validate` warns when the last snapshot is more than 7 days older than the latest commit.
+
+- A record is a running total and is only appended when the bucket grew. A cleaned-up session log never lowers what was recorded.
+- Sessions count for the project whose folder they ran in, including its worktrees. Sessions on another machine or in the cloud are only counted if `evidence.mjs usage` ran there, and the package says so.
+- Cost: set `billingModel` (`api`, `subscription`, `mixed`) and, to get a dollar figure, `pricing` per model in `quality-gate.json` (USD per million tokens for input, output, cache write and cache read, with the `source` URL of the price list). Copy the prices from the provider's price list; never guess them. Tokens are `measured`. Cost is tokens × price, so it is `estimated`. For a subscription it is the API-equivalent figure; the subscription itself is billed separately. Without prices, cost stays unavailable with the reason.
+- Infrastructure costs (CI minutes, hosting) aren't in the session logs. Supply them with `collect --usage <file>`, which replaces the log for that package.
 
 ## 2. At a milestone
 
@@ -74,7 +84,7 @@ Overall = FAIL if any category fails, PASS only when functional, QA and delivery
 - **Completion %** = criteria passing / all criteria (deferred and unverified count as not complete). The denominator is `acceptance-criteria`, `stories` or `mixed`, and is stated.
 - **Requirement coverage** (criteria with an executed test) is not **code coverage** (lines run). Neither proves the absence of defects.
 - **Detection effectiveness** is `not_applicable` unless `evidence.seededDefects` points at seeded-defect results (`[{ "id": "...", "detected": true }]`).
-- **Cost**: pass `--usage usage.json` (`{ "billingModel": "api|subscription|mixed", "source": "…", "entries": [{ "category": "model|infrastructure", "name": "anthropic/claude-…", "phase": "dev", "inputTokens": 0, "outputTokens": 0, "costUsd": 0.0, "basis": "measured|estimated" }] }`). Without it, cost is unavailable with the reason.
+- **Cost**: by default from the token-usage log (§1): tokens per model and agent are measured, and cost is estimated from `pricing`. To supply other figures, including infrastructure, pass `--usage usage.json` (`{ "billingModel": "api|subscription|mixed", "source": "…", "entries": [{ "category": "model|infrastructure", "name": "anthropic/claude-…", "phase": "dev", "inputTokens": 0, "outputTokens": 0, "costUsd": 0.0, "basis": "measured|estimated" }] }`), which replaces the log for that package. Without either, cost is unavailable with the reason.
 
 ## 4. Privacy
 
