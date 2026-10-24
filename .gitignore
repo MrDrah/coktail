@@ -1,7 +1,16 @@
 node_modules/
 dist/
 coverage/
-.env
-.claude/
 playwright-report/
 test-results/
+.cache/
+
+# secrets: document variables in .env.example instead
+.env
+.env.*
+!.env.example
+
+# Claude Code: the framework files in .claude/ are shared; only these stay local
+.claude/settings.local.json
+.claude/state/
+.claude/.upgrade-backup/
