@@ -51,7 +51,7 @@ for (const theme of ['light', 'dark'] as const) {
   });
 }
 
-test('keyboard-only journey: type, search, open a card, scale, close', async ({ page, isMobile }) => {
+test('US-NF-02 keyboard-only journey: type, search, open a card, scale, close', async ({ page, isMobile }) => {
   test.skip(isMobile, 'keyboard journey is a desktop check');
   await page.goto('./');
   await page.keyboard.press('Tab'); // skip link
@@ -78,8 +78,12 @@ test('keyboard-only journey: type, search, open a card, scale, close', async ({ 
   await expect(page.getByTestId('card-open-daiquiri')).toBeFocused();
 });
 
-test('search flow announces results in a live region', async ({ page }) => {
+test('US-E4-05 the result count is announced in a polite live region as "<k> cocktails found"', async ({ page }) => {
   await page.goto('./');
+  const status = page.getByTestId('results-status');
+  await expect(status).toHaveAttribute('aria-live', 'polite');
   await search(page, 'gin, campari, sweet vermouth');
-  await expect(page.getByTestId('results-status')).toHaveText(/cocktails? found/);
+  const k = await page.getByTestId('results-grid').locator('article').count();
+  expect(k).toBeGreaterThan(1);
+  await expect(status).toHaveText(`${k} cocktails found`);
 });

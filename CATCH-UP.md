@@ -4,7 +4,7 @@
 >
 > **To the product owner:** on a new device, clone the repo, open it in Claude Code and say: *"Read CATCH-UP.md and catch up."*
 
-Last updated: 2026-10-21 · Repo: https://github.com/quentinmilavec-sutrix/coktail · Live site: https://quentinmilavec-sutrix.github.io/coktail/
+Last updated: 2026-10-24 · Repo: https://github.com/MrDrah/coktail · Live site: https://mrdrah.github.io/coktail/ (moved from quentinmilavec-sutrix/coktail on 2026-10-24; the old repo and site are frozen)
 
 ---
 
@@ -40,7 +40,8 @@ In practice the Organisator plays each role directly or sends work to sub-agents
 | UX | "Frost" design system (lime primary, orange secondary, light/dark), 6 component specs, flows, a11y, copy, preview | `design/*` |
 | Dev engine | Normaliser (synonyms, typos, ambiguity), subset matcher, `provides` (fruit → juice, Champagne/Prosecco → sparkling wine), caps 6/8, near matches, best addition, serving scaling | `src/domain/*` |
 | Dev UI | React app implementing C1–C6, URL state `?i=`, theme toggle | `src/ui/*` |
-| QA | Unit + UI + library tests (2,541), Playwright e2e desktop + mobile (83), axe WCAG AA, library verification matrix, test report. JS bundle 234 KB gzipped (budget 400) | `tests/**`, `tests/reports/mvp-test-report.md` |
+| QA | Unit + UI + library tests (2,841), Playwright e2e desktop + mobile (89), axe WCAG AA, library verification matrix, test report. Every story ID (38) is named by an active test, checked by the App boilerplate `validate.mjs trace`. JS bundle 230 KB gzipped (budget 400) | `tests/**`, `tests/reports/mvp-test-report.md` |
+| Deploy safety | Deploy verifies a successful CI run for the exact commit on main, for automatic and manual (`workflow_dispatch`) runs | `.github/workflows/deploy.yml` |
 | CI/CD | GitHub Actions CI on every push. GitHub Pages deploys after CI passes on `main` | `.github/workflows/ci.yml`, `deploy.yml` |
 
 ### In progress 🔄 (as of the last update)
