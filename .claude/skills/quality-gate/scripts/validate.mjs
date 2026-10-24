@@ -3,14 +3,15 @@
 // Usage: node validate.mjs <command> [options]   (run with --help for the list)
 // Config: quality-gate.json in the current directory (or --config <path>).
 // Exit codes: 0 pass, 1 fail (including UNVERIFIED evidence), 2 misconfiguration.
-import { readFileSync, existsSync, readdirSync, statSync, writeFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, existsSync, readdirSync, statSync, writeFileSync, mkdirSync, appendFileSync } from 'node:fs';
 import { join, relative, resolve, sep } from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { gzipSync } from 'node:zlib';
 import { createHash } from 'node:crypto';
 import { homedir } from 'node:os';
+import { fileURLToPath } from 'node:url';
 
-export const VERSION = '0.3.1';
+export const VERSION = '0.4.0';
 
 // ---------- small utilities ----------
 const args = process.argv.slice(2);
@@ -106,7 +107,7 @@ const DEFAULTS = {
     // dev: what a developer must pass before handing to QA (H3). QA still owns some story tests.
     dev: ['preflight', 'secrets', 'commands', 'budget'],
     // release: everything, before H4 sign-off and before anything reaches main.
-    release: ['preflight', 'docs', 'trace', 'secrets', 'commands', 'budget', 'overlap'],
+    release: ['preflight', 'docs', 'trace', 'secrets', 'commands', 'budget', 'overlap', 'evidence'],
   },
 };
 
@@ -264,7 +265,8 @@ function budget(cfg) {
   return pass;
 }
 
-const SECRET_PATTERNS = [
+// Shared with the milestone-evidence skill, which scans evidence packages with the same patterns.
+export const SECRET_PATTERNS = [
   ['private key', /-----BEGIN (?:RSA |EC |OPENSSH |DSA )?PRIVATE KEY-----/],
   ['AWS access key', /\bAKIA[0-9A-Z]{16}\b/],
   ['GitHub token', /\bgh[pousr]_[A-Za-z0-9]{36,}\b/],
@@ -428,23 +430,32 @@ async function overlap(cfg) {
 }
 
 // ---------- task baselines + diff-guard ----------
-const taskPath = (name) => join(root, STATE_DIR, 'tasks', `${name.replace(/[^\w.-]/g, '_')}.json`);
+const taskId = (name) => name.replace(/[^\w.-]/g, '_');
+const taskPath = (name) => join(root, STATE_DIR, 'tasks', `${taskId(name)}.json`);
+const eventsFile = (cfg) => cfg.evidence?.events ?? 'docs/evidence/events.jsonl';
+/** Agent tasks feed the milestone evidence (tasks completed without correction). Only when the project keeps an event log. */
+function logEvent(cfg, e) {
+  const p = join(root, eventsFile(cfg));
+  if (existsSync(p)) appendFileSync(p, JSON.stringify({ v: 1, at: new Date().toISOString(), by: 'orchestrator', ...e }) + '\n');
+}
 
-function taskStart() {
+function taskStart(cfg) {
   const name = opt('task') ?? args[1];
   const allow = optAll('allow');
   if (!name || name.startsWith('--') || !allow.length) { console.error('usage: task-start <name> --allow "<glob>" [--allow …]'); return 2; }
   const base = git('rev-parse', 'HEAD');
   if (base.code !== 0) { console.error('task-start needs a git repository with at least one commit'); return 2; }
-  const dirty = git('status', '--porcelain', '--untracked-files=all').out.split('\n').filter(Boolean).map((l) => l.slice(3)).filter((f) => !f.startsWith(STATE_DIR));
+  // git() trims its output, so the first line may have lost the leading space of its status column.
+  const dirty = git('status', '--porcelain', '--untracked-files=all').out.split('\n').filter(Boolean).map((l) => l.replace(/^.{1,2}?\s/, '')).filter((f) => !f.startsWith(STATE_DIR));
   mkdirSync(join(root, STATE_DIR, 'tasks'), { recursive: true });
   writeFileSync(taskPath(name), JSON.stringify({ task: name, base: base.out, allow, preexisting: dirty, started: new Date().toISOString() }, null, 2) + '\n');
   ok(`task "${name}" baseline ${base.out.slice(0, 7)}; allowed: ${allow.join(', ')}`);
+  logEvent(cfg, { type: 'task-start', task: taskId(name), summary: `Task ${taskId(name)} dispatched (${allow.length} allowed globs)` });
   if (dirty.length) warn(`${dirty.length} files were already changed before the task and will be ignored by diff-guard: ${dirty.slice(0, 10).join(', ')}`);
   return 0;
 }
 
-function diffGuard() {
+function diffGuard(cfg) {
   const task = opt('task');
   let base = opt('base'), allow = optAll('allow'), preexisting = [];
   if (task) {
@@ -456,13 +467,24 @@ function diffGuard() {
   if (git('cat-file', '-e', `${base}^{commit}`).code !== 0) { console.error(`baseline ${base} is not a commit in this repository`); return 2; }
   // Working tree vs baseline covers both committed and uncommitted changes; plus untracked files.
   const changed = [...new Set([...git('diff', '--name-only', base).out.split('\n'), ...git('ls-files', '--others', '--exclude-standard').out.split('\n')].filter(Boolean))]
-    .filter((f) => !f.startsWith(`${STATE_DIR}/`) && !preexisting.includes(f));
+    .filter((f) => !f.startsWith(`${STATE_DIR}/`) && f !== eventsFile(cfg) && !preexisting.includes(f));
   const commits = git('rev-list', '--count', `${base}..HEAD`).out;
   const outside = changed.filter((f) => !matchesAny(f, allow));
   info(`baseline ${base.slice(0, 7)}${task ? ` (task "${task}")` : ''}, ${commits || 0} commits since`);
+  if (task) logEvent(cfg, { type: 'task-end', task: taskId(task), outcome: outside.length ? 'failure' : 'success', summary: outside.length ? `diff-guard: ${outside.length} files outside the allow-list` : `diff-guard: ${changed.length} changed files, all allowed` });
   if (outside.length) { bad(`${outside.length} changed files outside the allow-list`); outside.forEach(info); return false; }
   ok(`${changed.length} changed files, all inside ${allow.join(', ')}`);
   return true;
+}
+
+// ---------- evidence packages (milestone-evidence skill) ----------
+const evidenceDir = (cfg) => cfg.evidence?.dir ?? 'engineering-evidence';
+function evidence(cfg) {
+  if (!existsSync(join(root, evidenceDir(cfg)))) { info(`no ${evidenceDir(cfg)}/: no evidence packages to check`); return true; }
+  const script = join(root, '.claude/skills/milestone-evidence/scripts/evidence.mjs');
+  if (!existsSync(script)) { bad(`${evidenceDir(cfg)}/ exists but the milestone-evidence skill is not installed (upgrade the framework)`); return false; }
+  const r = spawnSync(process.execPath, [script, 'validate', ...(opt('config') ? ['--config', opt('config')] : [])], { cwd: root, stdio: 'inherit' });
+  return r.status === 0;
 }
 
 // ---------- main ----------
@@ -482,9 +504,11 @@ usage: node validate.mjs <command> [--config quality-gate.json]
                             record the baseline commit and allowed files before dispatching an agent
   diff-guard --task <name> | --base <sha> --allow <glob>…
                             only allowed files changed since the baseline (committed or not)
+  evidence                  validate engineering-evidence/ packages (schema, arithmetic, privacy, frozen hashes)
   gate [--stage dev|release]
                             dev: preflight, secrets, commands, budget (Dev → QA, H3)
-                            release (default): + docs, trace, overlap (H4, H5, CI on main)`;
+                            release (default): + docs, trace, overlap, evidence (H4, H5, CI on main);
+                            evidence also runs in release whenever engineering-evidence/ exists`;
 
 const main = async () => {
   if (!cmd || cmd === '--help' || cmd === '-h') { console.log(USAGE); return 0; }
@@ -492,13 +516,17 @@ const main = async () => {
   const cfg = loadConfig();
   const steps = {
     preflight: () => preflight(cfg), docs: () => docs(cfg), trace: () => trace(cfg), commands: () => commands(cfg),
-    budget: () => budget(cfg), secrets: () => secrets(cfg), overlap: () => overlap(cfg), 'diff-guard': diffGuard,
+    budget: () => budget(cfg), secrets: () => secrets(cfg), overlap: () => overlap(cfg), 'diff-guard': () => diffGuard(cfg),
+    evidence: () => evidence(cfg),
   };
-  if (cmd === 'task-start') return taskStart();
+  if (cmd === 'task-start') return taskStart(cfg);
   if (cmd === 'overlap' && flag('accept')) return cfg.overlap ? overlapAccept(cfg.overlap) : (console.error('overlap not configured'), 2);
   if (cmd === 'gate') {
     const stage = opt('stage', 'release');
-    const names = cfg.stages?.[stage];
+    const listed = cfg.stages?.[stage];
+    // Evidence packages are checked before anything reaches main, even in projects whose stages
+    // predate the check: it can only fail on a broken or tampered package.
+    const names = listed && stage === 'release' && !listed.includes('evidence') && existsSync(join(root, evidenceDir(cfg))) ? [...listed, 'evidence'] : listed;
     if (!names) { console.error(`unknown stage "${stage}"; configured: ${Object.keys(cfg.stages ?? {}).join(', ')}`); return 2; }
     const failed = [];
     for (const name of names) {
@@ -516,4 +544,6 @@ const main = async () => {
   return typeof r === 'number' ? r : r ? 0 : 1;
 };
 
-main().then((code) => process.exit(code), (e) => { console.error(e); process.exit(2); });
+// Importable (the milestone-evidence skill reuses SECRET_PATTERNS and globToRegExp); runs only as a script.
+const isMain = process.argv[1] && resolve(process.argv[1]).toLowerCase() === fileURLToPath(import.meta.url).toLowerCase();
+if (isMain) main().then((code) => process.exit(code), (e) => { console.error(e); process.exit(2); });
