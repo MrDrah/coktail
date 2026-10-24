@@ -1,0 +1,888 @@
+{
+  "$schema": "../schema/v1/metrics.schema.json",
+  "schemaVersion": "1.0.0",
+  "kind": "engineering-evidence/metrics",
+  "project": {
+    "id": "coktail",
+    "name": "Cocktail Cabinet",
+    "repository": "https://github.com/MrDrah/coktail"
+  },
+  "milestone": {
+    "id": "mvp",
+    "packageId": "mvp",
+    "label": "MVP",
+    "date": "2026-10-24",
+    "revision": 1,
+    "supersedes": null
+  },
+  "framework": {
+    "name": "app-boilerplate",
+    "version": "0.4.0"
+  },
+  "source": {
+    "commit": "217726c856a92260aa02fae7748edd06fbd2af73",
+    "committedAt": "2026-10-24T11:58:13+09:00",
+    "ref": null,
+    "clean": true
+  },
+  "collectedAt": "2026-10-24T03:00:53.426Z",
+  "collector": {
+    "tool": "app-boilerplate/evidence.mjs",
+    "version": "0.4.0"
+  },
+  "window": {
+    "from": null,
+    "to": "2026-10-24T03:00:53.426Z"
+  },
+  "metrics": {
+    "functional": {
+      "status": "PASS",
+      "denominator": "stories",
+      "criteriaTotal": {
+        "value": 38,
+        "unit": "count",
+        "basis": "measured",
+        "method": "distinct criteria in docs/ba/user-stories.md",
+        "sources": [
+          "stories"
+        ]
+      },
+      "criteriaPassing": {
+        "value": 38,
+        "unit": "count",
+        "basis": "measured",
+        "method": "criteria (stories) from docs/ba/user-stories.md with status PASS; a criterion passes only when ≥1 executed JUnit test names its ID and none fails",
+        "sources": [
+          "stories",
+          "junit",
+          "junit-2"
+        ]
+      },
+      "criteriaFailing": {
+        "value": 0,
+        "unit": "count",
+        "basis": "measured",
+        "method": "criteria (stories) from docs/ba/user-stories.md with ≥1 failing test; a criterion passes only when ≥1 executed JUnit test names its ID and none fails",
+        "sources": [
+          "stories",
+          "junit",
+          "junit-2"
+        ]
+      },
+      "criteriaUnverified": {
+        "value": 0,
+        "unit": "count",
+        "basis": "measured",
+        "method": "criteria (stories) from docs/ba/user-stories.md with no executed test; a criterion passes only when ≥1 executed JUnit test names its ID and none fails",
+        "sources": [
+          "stories",
+          "junit",
+          "junit-2"
+        ]
+      },
+      "criteriaDeferred": {
+        "value": 0,
+        "unit": "count",
+        "basis": "measured",
+        "method": "criteria (stories) from docs/ba/user-stories.md deferred in quality-gate.json → trace.allowUntested; a criterion passes only when ≥1 executed JUnit test names its ID and none fails",
+        "sources": [
+          "stories",
+          "junit",
+          "junit-2"
+        ]
+      },
+      "testsPassed": {
+        "value": 468,
+        "unit": "count",
+        "basis": "measured",
+        "method": "JUnit test cases naming ≥1 criterion that passed",
+        "sources": [
+          "junit",
+          "junit-2"
+        ]
+      },
+      "testsFailed": {
+        "value": 0,
+        "unit": "count",
+        "basis": "measured",
+        "method": "JUnit test cases naming ≥1 criterion that failed",
+        "sources": [
+          "junit",
+          "junit-2"
+        ]
+      },
+      "completionPercent": {
+        "value": 100,
+        "unit": "percent",
+        "basis": "measured",
+        "method": "criteriaPassing / criteriaTotal × 100 (deferred and unverified criteria count as not complete)",
+        "sources": [
+          "stories",
+          "junit",
+          "junit-2"
+        ]
+      },
+      "criteria": [
+        {
+          "id": "US-E1-01",
+          "status": "PASS",
+          "passed": 1,
+          "failed": 0
+        },
+        {
+          "id": "US-E1-02",
+          "status": "PASS",
+          "passed": 2,
+          "failed": 0
+        },
+        {
+          "id": "US-E1-03",
+          "status": "PASS",
+          "passed": 8,
+          "failed": 0
+        },
+        {
+          "id": "US-E1-04",
+          "status": "PASS",
+          "passed": 7,
+          "failed": 0
+        },
+        {
+          "id": "US-E1-05",
+          "status": "PASS",
+          "passed": 14,
+          "failed": 0
+        },
+        {
+          "id": "US-E1-06",
+          "status": "PASS",
+          "passed": 13,
+          "failed": 0
+        },
+        {
+          "id": "US-E1-07",
+          "status": "PASS",
+          "passed": 3,
+          "failed": 0
+        },
+        {
+          "id": "US-E2-01",
+          "status": "PASS",
+          "passed": 28,
+          "failed": 0
+        },
+        {
+          "id": "US-E2-02",
+          "status": "PASS",
+          "passed": 7,
+          "failed": 0
+        },
+        {
+          "id": "US-E2-03",
+          "status": "PASS",
+          "passed": 13,
+          "failed": 0
+        },
+        {
+          "id": "US-E2-04",
+          "status": "PASS",
+          "passed": 11,
+          "failed": 0
+        },
+        {
+          "id": "US-E2-05",
+          "status": "PASS",
+          "passed": 1,
+          "failed": 0
+        },
+        {
+          "id": "US-E3-01",
+          "status": "PASS",
+          "passed": 1,
+          "failed": 0
+        },
+        {
+          "id": "US-E3-02",
+          "status": "PASS",
+          "passed": 5,
+          "failed": 0
+        },
+        {
+          "id": "US-E3-03",
+          "status": "PASS",
+          "passed": 1,
+          "failed": 0
+        },
+        {
+          "id": "US-E3-04",
+          "status": "PASS",
+          "passed": 2,
+          "failed": 0
+        },
+        {
+          "id": "US-E3-05",
+          "status": "PASS",
+          "passed": 2,
+          "failed": 0
+        },
+        {
+          "id": "US-E3-06",
+          "status": "PASS",
+          "passed": 2,
+          "failed": 0
+        },
+        {
+          "id": "US-E3-07",
+          "status": "PASS",
+          "passed": 4,
+          "failed": 0
+        },
+        {
+          "id": "US-E4-01",
+          "status": "PASS",
+          "passed": 9,
+          "failed": 0
+        },
+        {
+          "id": "US-E4-02",
+          "status": "PASS",
+          "passed": 1,
+          "failed": 0
+        },
+        {
+          "id": "US-E4-03",
+          "status": "PASS",
+          "passed": 2,
+          "failed": 0
+        },
+        {
+          "id": "US-E4-04",
+          "status": "PASS",
+          "passed": 1,
+          "failed": 0
+        },
+        {
+          "id": "US-E4-05",
+          "status": "PASS",
+          "passed": 2,
+          "failed": 0
+        },
+        {
+          "id": "US-E5-01",
+          "status": "PASS",
+          "passed": 2,
+          "failed": 0
+        },
+        {
+          "id": "US-E5-02",
+          "status": "PASS",
+          "passed": 9,
+          "failed": 0
+        },
+        {
+          "id": "US-E5-03",
+          "status": "PASS",
+          "passed": 2,
+          "failed": 0
+        },
+        {
+          "id": "US-E6-01",
+          "status": "PASS",
+          "passed": 2,
+          "failed": 0
+        },
+        {
+          "id": "US-E6-02",
+          "status": "PASS",
+          "passed": 3,
+          "failed": 0
+        },
+        {
+          "id": "US-E6-03",
+          "status": "PASS",
+          "passed": 2,
+          "failed": 0
+        },
+        {
+          "id": "US-E6-04",
+          "status": "PASS",
+          "passed": 5,
+          "failed": 0
+        },
+        {
+          "id": "US-E6-06",
+          "status": "PASS",
+          "passed": 4,
+          "failed": 0
+        },
+        {
+          "id": "US-E6-05",
+          "status": "PASS",
+          "passed": 4,
+          "failed": 0
+        },
+        {
+          "id": "US-NF-01",
+          "status": "PASS",
+          "passed": 2,
+          "failed": 0
+        },
+        {
+          "id": "US-NF-02",
+          "status": "PASS",
+          "passed": 1,
+          "failed": 0
+        },
+        {
+          "id": "US-NF-03",
+          "status": "PASS",
+          "passed": 1,
+          "failed": 0
+        },
+        {
+          "id": "US-NF-04",
+          "status": "PASS",
+          "passed": 2,
+          "failed": 0
+        },
+        {
+          "id": "US-NF-05",
+          "status": "PASS",
+          "passed": 300,
+          "failed": 0
+        }
+      ]
+    },
+    "intervention": {
+      "status": "PASS",
+      "total": {
+        "value": 2,
+        "unit": "count",
+        "basis": "recorded",
+        "method": "intervention events in the window",
+        "sources": [
+          "events"
+        ]
+      },
+      "corrective": {
+        "value": 1,
+        "unit": "count",
+        "basis": "recorded",
+        "method": "technical-correction + agent-failure + manual-implementation events",
+        "sources": [
+          "events"
+        ]
+      },
+      "byType": {
+        "product-decision": {
+          "value": 0,
+          "unit": "count",
+          "basis": "recorded",
+          "method": "\"product-decision\" events in the window",
+          "sources": [
+            "events"
+          ]
+        },
+        "approval": {
+          "value": 1,
+          "unit": "count",
+          "basis": "recorded",
+          "method": "\"approval\" events in the window",
+          "sources": [
+            "events"
+          ]
+        },
+        "technical-correction": {
+          "value": 0,
+          "unit": "count",
+          "basis": "recorded",
+          "method": "\"technical-correction\" events in the window",
+          "sources": [
+            "events"
+          ]
+        },
+        "agent-failure": {
+          "value": 0,
+          "unit": "count",
+          "basis": "recorded",
+          "method": "\"agent-failure\" events in the window",
+          "sources": [
+            "events"
+          ]
+        },
+        "manual-implementation": {
+          "value": 1,
+          "unit": "count",
+          "basis": "recorded",
+          "method": "\"manual-implementation\" events in the window",
+          "sources": [
+            "events"
+          ]
+        }
+      },
+      "agentTasks": {
+        "value": 0,
+        "unit": "count",
+        "basis": "recorded",
+        "method": "distinct tasks with a task-start event (validate.mjs task-start)",
+        "sources": [
+          "events"
+        ]
+      },
+      "agentTasksWithoutCorrection": {
+        "value": 0,
+        "unit": "count",
+        "basis": "recorded",
+        "method": "tasks whose last task-end succeeded (diff-guard) and that no corrective event names",
+        "sources": [
+          "events"
+        ]
+      },
+      "items": [
+        {
+          "at": "2026-10-24T03:00:00.277Z",
+          "type": "approval",
+          "corrective": false,
+          "milestone": "mvp",
+          "summary": "Product owner confirmed the MVP milestone: deployed and passed"
+        },
+        {
+          "at": "2026-10-24T03:00:00.384Z",
+          "type": "manual-implementation",
+          "corrective": true,
+          "summary": "Product owner enabled GitHub Pages (source: GitHub Actions) after the repo move; deploys had failed"
+        }
+      ]
+    },
+    "qa": {
+      "status": "PASS",
+      "testsExecuted": {
+        "value": 2930,
+        "unit": "count",
+        "basis": "measured",
+        "method": "JUnit test cases not skipped",
+        "sources": [
+          "junit",
+          "junit-2"
+        ]
+      },
+      "testsPassed": {
+        "value": 2930,
+        "unit": "count",
+        "basis": "measured",
+        "method": "JUnit test cases without failure, error or skipped",
+        "sources": [
+          "junit",
+          "junit-2"
+        ]
+      },
+      "testsFailed": {
+        "value": 0,
+        "unit": "count",
+        "basis": "measured",
+        "method": "JUnit test cases with a failure or error",
+        "sources": [
+          "junit",
+          "junit-2"
+        ]
+      },
+      "testsSkipped": {
+        "value": 1,
+        "unit": "count",
+        "basis": "measured",
+        "method": "JUnit test cases marked skipped",
+        "sources": [
+          "junit",
+          "junit-2"
+        ]
+      },
+      "defectsFound": {
+        "value": 0,
+        "unit": "count",
+        "basis": "recorded",
+        "method": "distinct defect IDs (cumulative to collection; latest state per defect ID)",
+        "sources": [
+          "events"
+        ]
+      },
+      "defectsBySeverity": {
+        "P1": {
+          "value": 0,
+          "unit": "count",
+          "basis": "recorded",
+          "method": "distinct P1 defect IDs (cumulative to collection; latest state per defect ID)",
+          "sources": [
+            "events"
+          ]
+        },
+        "P2": {
+          "value": 0,
+          "unit": "count",
+          "basis": "recorded",
+          "method": "distinct P2 defect IDs (cumulative to collection; latest state per defect ID)",
+          "sources": [
+            "events"
+          ]
+        },
+        "P3": {
+          "value": 0,
+          "unit": "count",
+          "basis": "recorded",
+          "method": "distinct P3 defect IDs (cumulative to collection; latest state per defect ID)",
+          "sources": [
+            "events"
+          ]
+        },
+        "P4": {
+          "value": 0,
+          "unit": "count",
+          "basis": "recorded",
+          "method": "distinct P4 defect IDs (cumulative to collection; latest state per defect ID)",
+          "sources": [
+            "events"
+          ]
+        }
+      },
+      "defectsFixed": {
+        "value": 0,
+        "unit": "count",
+        "basis": "recorded",
+        "method": "defects whose latest state is fixed (cumulative to collection; latest state per defect ID)",
+        "sources": [
+          "events"
+        ]
+      },
+      "defectsDeferred": {
+        "value": 0,
+        "unit": "count",
+        "basis": "recorded",
+        "method": "defects whose latest state is deferred (cumulative to collection; latest state per defect ID)",
+        "sources": [
+          "events"
+        ]
+      },
+      "defectsOpen": {
+        "value": 0,
+        "unit": "count",
+        "basis": "recorded",
+        "method": "defects whose latest state is found (cumulative to collection; latest state per defect ID)",
+        "sources": [
+          "events"
+        ]
+      },
+      "regressionFailures": {
+        "value": null,
+        "unit": "count",
+        "basis": "not_applicable",
+        "method": "tests passing in the previous milestone package and failing now",
+        "reason": "no earlier frozen milestone package to compare with"
+      },
+      "verificationsPassed": {
+        "value": 0,
+        "unit": "count",
+        "basis": "recorded",
+        "method": "verification events with outcome success in the window",
+        "sources": [
+          "events"
+        ]
+      },
+      "verificationsFailed": {
+        "value": 0,
+        "unit": "count",
+        "basis": "recorded",
+        "method": "verification events with outcome failure in the window",
+        "sources": [
+          "events"
+        ]
+      },
+      "requirementCoveragePercent": {
+        "value": 100,
+        "unit": "percent",
+        "basis": "measured",
+        "method": "criteria with ≥1 executed test / criteriaTotal × 100 (requirement coverage, not code coverage)",
+        "sources": [
+          "stories",
+          "junit",
+          "junit-2"
+        ]
+      },
+      "codeCoveragePercent": {
+        "value": 100,
+        "unit": "percent",
+        "basis": "measured",
+        "method": "total.lines.pct from the coverage summary (which code ran, not whether it is correct)",
+        "sources": [
+          "coverage"
+        ]
+      },
+      "detectionEffectiveness": {
+        "value": null,
+        "unit": "percent",
+        "basis": "not_applicable",
+        "method": "seeded defects detected / seeded defects × 100",
+        "reason": "no seeded-defect baseline (quality-gate.json → evidence.seededDefects); without one, detection effectiveness cannot be measured"
+      }
+    },
+    "cost": {
+      "status": "UNVERIFIED",
+      "billingModel": "unknown",
+      "totalTokens": {
+        "value": null,
+        "unit": "tokens",
+        "basis": "unavailable",
+        "method": "sum of input + output tokens",
+        "reason": "no usage export supplied (evidence.mjs collect --usage <file>)"
+      },
+      "apiCostUsd": {
+        "value": null,
+        "unit": "usd",
+        "basis": "unavailable",
+        "method": "sum of model costUsd",
+        "reason": "no usage export supplied (evidence.mjs collect --usage <file>)"
+      },
+      "infrastructureCostUsd": {
+        "value": null,
+        "unit": "usd",
+        "basis": "unavailable",
+        "method": "sum of infrastructure costUsd",
+        "reason": "no usage export supplied (evidence.mjs collect --usage <file>)"
+      },
+      "items": []
+    },
+    "recovery": {
+      "status": "UNVERIFIED",
+      "interruptions": {
+        "value": 0,
+        "unit": "count",
+        "basis": "recorded",
+        "method": "interruption events in the window",
+        "sources": [
+          "events"
+        ]
+      },
+      "recoveryAttempts": {
+        "value": 0,
+        "unit": "count",
+        "basis": "recorded",
+        "method": "resume events in the window",
+        "sources": [
+          "events"
+        ]
+      },
+      "resumptionsSucceeded": {
+        "value": 0,
+        "unit": "count",
+        "basis": "recorded",
+        "method": "resume events with outcome success",
+        "sources": [
+          "events"
+        ]
+      },
+      "resumptionsFailed": {
+        "value": 0,
+        "unit": "count",
+        "basis": "recorded",
+        "method": "resume events with outcome failure",
+        "sources": [
+          "events"
+        ]
+      },
+      "reworkMinutes": {
+        "value": 0,
+        "unit": "minutes",
+        "basis": "recorded",
+        "method": "no interruption or resume events in the window",
+        "sources": [
+          "events"
+        ]
+      },
+      "recoveryTestsPassed": {
+        "value": 0,
+        "unit": "count",
+        "basis": "recorded",
+        "method": "controlled recovery tests (fresh session restored state from CATCH-UP.md) that succeeded",
+        "sources": [
+          "events"
+        ]
+      },
+      "recoveryTestsFailed": {
+        "value": 0,
+        "unit": "count",
+        "basis": "recorded",
+        "method": "controlled recovery tests that failed",
+        "sources": [
+          "events"
+        ]
+      }
+    },
+    "delivery": {
+      "status": "PASS",
+      "releaseRef": {
+        "value": null,
+        "unit": "text",
+        "basis": "unavailable",
+        "method": "git tag pointing at the measured commit",
+        "reason": "no tag points at the measured commit"
+      },
+      "ci": {
+        "conclusion": {
+          "value": "success",
+          "unit": "text",
+          "basis": "measured",
+          "method": "latest .github/workflows/ci.yml run for the commit (GitHub Actions)",
+          "sources": [
+            "ci-runs"
+          ]
+        },
+        "runIds": [
+          40056374167
+        ],
+        "urls": [
+          "https://github.com/MrDrah/coktail/actions/runs/40056374167"
+        ]
+      },
+      "deploy": {
+        "conclusion": {
+          "value": "success",
+          "unit": "text",
+          "basis": "measured",
+          "method": "latest .github/workflows/deploy.yml run for the commit (GitHub Actions)",
+          "sources": [
+            "ci-runs"
+          ]
+        },
+        "runIds": [
+          40056480417
+        ],
+        "urls": [
+          "https://github.com/MrDrah/coktail/actions/runs/40056480417"
+        ]
+      },
+      "liveUrl": {
+        "value": "https://mrdrah.github.io/coktail/",
+        "unit": "text",
+        "basis": "measured",
+        "method": "configured live URL, fetched during collection",
+        "sources": [
+          "smoke"
+        ]
+      },
+      "smokeTest": {
+        "value": "pass",
+        "unit": "text",
+        "basis": "measured",
+        "method": "HTTP 200 (no marker configured, so this does not prove the page serves this commit)",
+        "sources": [
+          "smoke"
+        ]
+      },
+      "blockers": [],
+      "milestoneComplete": {
+        "value": true,
+        "unit": "boolean",
+        "basis": "measured",
+        "method": "true when there are no blockers and functional, QA and delivery are PASS",
+        "sources": [
+          "junit",
+          "junit-2",
+          "ci-runs"
+        ]
+      }
+    }
+  },
+  "evidence": [
+    {
+      "id": "git",
+      "kind": "git",
+      "description": "The measured commit as git reported it",
+      "path": "evidence/git.json",
+      "sha256": "5587f0d4125907c88606826accb40d4ad76e7ffcf5ececebbafb8c2d511b4073"
+    },
+    {
+      "id": "junit",
+      "kind": "test-results",
+      "description": "JUnit test results (reports/junit-e2e.xml), logs and stack traces removed",
+      "path": "evidence/junit-1.xml",
+      "sha256": "1bff26c8b6f93688f2bc969f06fdeb662c30d74538192a07eb3cde5b4c005815"
+    },
+    {
+      "id": "junit-2",
+      "kind": "test-results",
+      "description": "JUnit test results (reports/junit.xml), logs and stack traces removed",
+      "path": "evidence/junit-2.xml",
+      "sha256": "468e034b0716f9534554c2a5b5bff5ab24ef9935b778b883e8feee56a57d0e38"
+    },
+    {
+      "id": "stories",
+      "kind": "stories",
+      "description": "User stories and acceptance criteria (docs/ba/user-stories.md)",
+      "path": "evidence/stories.md",
+      "sha256": "73a7a818a1df55eb3b983c02ef6abe9c6a16bace01bc1936ad4b8845414bce4f"
+    },
+    {
+      "id": "events",
+      "kind": "event-log",
+      "description": "Event log entries in this window, plus every defect event up to collection (docs/evidence/events.jsonl)",
+      "path": "evidence/events.jsonl",
+      "sha256": "b8b03bcaab11e1369304eb0b63f259976461d0ad074126cd5bbab12c554865f4"
+    },
+    {
+      "id": "coverage",
+      "kind": "coverage",
+      "description": "Coverage totals (coverage/coverage-summary.json; per-file entries removed)",
+      "path": "evidence/coverage-summary.json",
+      "sha256": "96a4ab5658eeaf04100e9ef2b04875215c5fc48968e9b2772e5fb1e20b5f405f"
+    },
+    {
+      "id": "ci-runs",
+      "kind": "ci-runs",
+      "description": "GitHub Actions runs for commit 217726c",
+      "path": "evidence/ci-runs.json",
+      "sha256": "282669a6d6077d913921c52146248d7e04d73af21318b49235c74e73b6483408"
+    },
+    {
+      "id": "smoke",
+      "kind": "smoke",
+      "description": "Smoke check of https://mrdrah.github.io/coktail/",
+      "path": "evidence/smoke.json",
+      "sha256": "86b4adca5f0daf041df02f76bcb55f5a3cdba57f9a4bbb026b4c76717277a11e"
+    }
+  ],
+  "missing": [
+    {
+      "metric": "cost.totalTokens",
+      "reason": "no usage export supplied (evidence.mjs collect --usage <file>)"
+    },
+    {
+      "metric": "cost.apiCostUsd",
+      "reason": "no usage export supplied (evidence.mjs collect --usage <file>)"
+    },
+    {
+      "metric": "cost.infrastructureCostUsd",
+      "reason": "no usage export supplied (evidence.mjs collect --usage <file>)"
+    },
+    {
+      "metric": "delivery.releaseRef",
+      "reason": "no tag points at the measured commit"
+    }
+  ],
+  "assessment": {
+    "status": "PASS",
+    "categories": {
+      "functional": "PASS",
+      "intervention": "PASS",
+      "qa": "PASS",
+      "cost": "UNVERIFIED",
+      "recovery": "UNVERIFIED",
+      "delivery": "PASS"
+    },
+    "limitations": [
+      "38 of 38 stories have no AC IDs, so they are counted as one criterion each.",
+      "Intervention, defect and recovery counts come from the project event log and are only as complete as that log.",
+      "Code coverage shows which lines ran during tests; it is not evidence that the code has no defects.",
+      "Development cost is incomplete: no usage export supplied (evidence.mjs collect --usage <file>).",
+      "No controlled recovery test in this window: the absence of recorded failures is not evidence that work can be resumed reliably.",
+      "The live check has no version marker (evidence.smokeMarker), so it shows the site is up, not that it serves this commit."
+    ]
+  }
+}

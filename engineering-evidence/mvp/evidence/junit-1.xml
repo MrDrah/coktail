@@ -1,0 +1,208 @@
+<testsuites id="" name="" tests="90" failures="0" skipped="1" errors="0" time="48.772377">
+<testsuite name="a11y.spec.ts" timestamp="2026-10-24T02:59:09.978Z" tests="12" failures="0" skipped="0" time="54.328" errors="0">
+<testcase name="light theme › landing page" classname="a11y.spec.ts" time="5.812">
+</testcase>
+<testcase name="light theme › results" classname="a11y.spec.ts" time="6.051">
+</testcase>
+<testcase name="light theme › errors and ambiguity chooser" classname="a11y.spec.ts" time="7.211">
+</testcase>
+<testcase name="light theme › fallback and near matches" classname="a11y.spec.ts" time="7.024">
+</testcase>
+<testcase name="light theme › detail dialog" classname="a11y.spec.ts" time="6.192">
+</testcase>
+<testcase name="dark theme › landing page" classname="a11y.spec.ts" time="5.855">
+</testcase>
+<testcase name="dark theme › results" classname="a11y.spec.ts" time="2.116">
+</testcase>
+<testcase name="dark theme › errors and ambiguity chooser" classname="a11y.spec.ts" time="2.583">
+</testcase>
+<testcase name="dark theme › fallback and near matches" classname="a11y.spec.ts" time="2.757">
+</testcase>
+<testcase name="dark theme › detail dialog" classname="a11y.spec.ts" time="2.991">
+</testcase>
+<testcase name="US-NF-02 keyboard-only journey: type, search, open a card, scale, close" classname="a11y.spec.ts" time="3.665">
+</testcase>
+<testcase name="US-E4-05 the result count is announced in a polite live region as &quot;&lt;k&gt; cocktails found&quot;" classname="a11y.spec.ts" time="2.071">
+</testcase>
+</testsuite>
+<testsuite name="fallback.spec.ts" timestamp="2026-10-24T02:59:09.978Z" tests="8" failures="0" skipped="0" time="13.403" errors="0">
+<testcase name="US-E4-01 single result shows &quot;Just one&quot; and no Near Matches" classname="fallback.spec.ts" time="2.388">
+</testcase>
+<testcase name="US-E4-01 results never exceed 6 with 2–4 ingredients" classname="fallback.spec.ts" time="1.591">
+</testcase>
+<testcase name="US-E6-01 zero match shows &quot;No direct matches found&quot; and suggests a common ingredient to add" classname="fallback.spec.ts" time="1.189">
+</testcase>
+<testcase name="US-E6 zero match: notice, best addition, near matches; one tap adds and re-searches" classname="fallback.spec.ts" time="1.567">
+</testcase>
+<testcase name="US-E6-04 near-match &quot;+ Add&quot; on a card adds that ingredient" classname="fallback.spec.ts" time="1.722">
+</testcase>
+<testcase name="US-E6-04 &quot;+ Add&quot; is hidden at 10 ingredients and returns at 9" classname="fallback.spec.ts" time="1.388">
+</testcase>
+<testcase name="US-E6-05 nothing at all: empty state, Start over clears chips" classname="fallback.spec.ts" time="2.124">
+</testcase>
+<testcase name="US-E3-07 collins drinks need soda water" classname="fallback.spec.ts" time="1.434">
+</testcase>
+</testsuite>
+<testsuite name="input.spec.ts" timestamp="2026-10-24T02:59:09.978Z" tests="15" failures="0" skipped="0" time="21.365" errors="0">
+<testcase name="US-E1-03 one ingredient blocks search; two enable it" classname="input.spec.ts" time="1.938">
+</testcase>
+<testcase name="US-E1-04 the 11th ingredient is rejected; 10 + ice + water is fine" classname="input.spec.ts" time="2.444">
+</testcase>
+<testcase name="US-E1-05 only ice and water: counter stays 0 and search is blocked" classname="input.spec.ts" time="1.596">
+</testcase>
+<testcase name="US-E1-06 &quot;soda water&quot; becomes a counted Soda Water chip" classname="input.spec.ts" time="1.216">
+</testcase>
+<testcase name="US-E1-06 &quot;club soda&quot; becomes a counted Soda Water chip" classname="input.spec.ts" time="1.541">
+</testcase>
+<testcase name="US-E1-06 &quot;sparkling water&quot; becomes a counted Soda Water chip" classname="input.spec.ts" time="0.92">
+</testcase>
+<testcase name="US-E1-06 &quot;seltzer&quot; becomes a counted Soda Water chip" classname="input.spec.ts" time="1.263">
+</testcase>
+<testcase name="US-E1-07 synonym duplicates collapse into one chip" classname="input.spec.ts" time="1.091">
+</testcase>
+<testcase name="US-E1-02 Backspace arms then removes the last chip" classname="input.spec.ts" time="1.067">
+</testcase>
+<testcase name="autocomplete: arrow keys and Enter pick a suggestion" classname="input.spec.ts" time="1.547">
+</testcase>
+<testcase name="US-E2-02 typo shows &quot;Did you mean&quot; and the suggestion replaces the chip in place" classname="input.spec.ts" time="1.493">
+</testcase>
+<testcase name="US-E2-04 unparseable input gets a friendly message and can be edited" classname="input.spec.ts" time="1.4">
+</testcase>
+<testcase name="US-E2-04 markup is shown as inert text" classname="input.spec.ts" time="1.02">
+</testcase>
+<testcase name="US-E2-03 ambiguous term: chooser opens, Esc keeps it pending, picking resolves it" classname="input.spec.ts" time="1.138">
+</testcase>
+<testcase name="Clear all removes every chip" classname="input.spec.ts" time="1.691">
+</testcase>
+</testsuite>
+<testsuite name="journey.spec.ts" timestamp="2026-10-24T02:59:09.978Z" tests="9" failures="0" skipped="0" time="21.045" errors="0">
+<testcase name="landing page renders with search disabled" classname="journey.spec.ts" time="0.706">
+</testcase>
+<testcase name="US-E3-02 five ingredients: Mojito first, Daiquiri included, URL updated" classname="journey.spec.ts" time="2.042">
+</testcase>
+<testcase name="US-E4-03 cards show name, short description, taste profile and highlighted ingredients" classname="journey.spec.ts" time="1.391">
+</testcase>
+<testcase name="US-E5 detail dialog: scaling in ml, assumed ice, Esc closes and returns focus" classname="journey.spec.ts" time="3.179">
+</testcase>
+<testcase name="US-E5-01 activating a card opens the full recipe: amounts, optional and assumed rows, method, glass, garnish, history, taste, sources" classname="journey.spec.ts" time="3.587">
+</testcase>
+<testcase name="US-E5-03 close button and backdrop close the dialog" classname="journey.spec.ts" time="3.329">
+</testcase>
+<testcase name="US-NF-04 reloading the URL restores results; back button restores the previous search" classname="journey.spec.ts" time="2.833">
+</testcase>
+<testcase name="stale results: changing chips after a search offers &quot;Update results&quot;" classname="journey.spec.ts" time="2.397">
+</testcase>
+<testcase name="theme toggle switches between light and dark" classname="journey.spec.ts" time="1.581">
+</testcase>
+</testsuite>
+<testsuite name="offline.spec.ts" timestamp="2026-10-24T02:59:09.978Z" tests="1" failures="0" skipped="0" time="3.369" errors="0">
+<testcase name="US-NF-01 after the first load, search and the detail view work offline with no network requests" classname="offline.spec.ts" time="3.369">
+</testcase>
+</testsuite>
+<testsuite name="a11y.spec.ts" timestamp="2026-10-24T02:59:09.978Z" tests="12" failures="0" skipped="1" time="28.54" errors="0">
+<testcase name="light theme › landing page" classname="a11y.spec.ts" time="2.859">
+</testcase>
+<testcase name="light theme › results" classname="a11y.spec.ts" time="3.337">
+</testcase>
+<testcase name="light theme › errors and ambiguity chooser" classname="a11y.spec.ts" time="3.069">
+</testcase>
+<testcase name="light theme › fallback and near matches" classname="a11y.spec.ts" time="2.745">
+</testcase>
+<testcase name="light theme › detail dialog" classname="a11y.spec.ts" time="3.134">
+</testcase>
+<testcase name="dark theme › landing page" classname="a11y.spec.ts" time="2.615">
+</testcase>
+<testcase name="dark theme › results" classname="a11y.spec.ts" time="2.018">
+</testcase>
+<testcase name="dark theme › errors and ambiguity chooser" classname="a11y.spec.ts" time="2.37">
+</testcase>
+<testcase name="dark theme › fallback and near matches" classname="a11y.spec.ts" time="2.389">
+</testcase>
+<testcase name="dark theme › detail dialog" classname="a11y.spec.ts" time="2.458">
+</testcase>
+<testcase name="US-NF-02 keyboard-only journey: type, search, open a card, scale, close" classname="a11y.spec.ts">
+<properties>
+<property name="skip" value="keyboard journey is a desktop check">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="US-E4-05 the result count is announced in a polite live region as &quot;&lt;k&gt; cocktails found&quot;" classname="a11y.spec.ts" time="1.103">
+</testcase>
+</testsuite>
+<testsuite name="fallback.spec.ts" timestamp="2026-10-24T02:59:09.978Z" tests="8" failures="0" skipped="0" time="11.873" errors="0">
+<testcase name="US-E4-01 single result shows &quot;Just one&quot; and no Near Matches" classname="fallback.spec.ts" time="1.156">
+</testcase>
+<testcase name="US-E4-01 results never exceed 6 with 2–4 ingredients" classname="fallback.spec.ts" time="1.323">
+</testcase>
+<testcase name="US-E6-01 zero match shows &quot;No direct matches found&quot; and suggests a common ingredient to add" classname="fallback.spec.ts" time="1.288">
+</testcase>
+<testcase name="US-E6 zero match: notice, best addition, near matches; one tap adds and re-searches" classname="fallback.spec.ts" time="1.661">
+</testcase>
+<testcase name="US-E6-04 near-match &quot;+ Add&quot; on a card adds that ingredient" classname="fallback.spec.ts" time="1.567">
+</testcase>
+<testcase name="US-E6-04 &quot;+ Add&quot; is hidden at 10 ingredients and returns at 9" classname="fallback.spec.ts" time="1.786">
+</testcase>
+<testcase name="US-E6-05 nothing at all: empty state, Start over clears chips" classname="fallback.spec.ts" time="1.913">
+</testcase>
+<testcase name="US-E3-07 collins drinks need soda water" classname="fallback.spec.ts" time="1.179">
+</testcase>
+</testsuite>
+<testsuite name="input.spec.ts" timestamp="2026-10-24T02:59:09.978Z" tests="15" failures="0" skipped="0" time="18.571" errors="0">
+<testcase name="US-E1-03 one ingredient blocks search; two enable it" classname="input.spec.ts" time="1.354">
+</testcase>
+<testcase name="US-E1-04 the 11th ingredient is rejected; 10 + ice + water is fine" classname="input.spec.ts" time="2.305">
+</testcase>
+<testcase name="US-E1-05 only ice and water: counter stays 0 and search is blocked" classname="input.spec.ts" time="0.927">
+</testcase>
+<testcase name="US-E1-06 &quot;soda water&quot; becomes a counted Soda Water chip" classname="input.spec.ts" time="1.064">
+</testcase>
+<testcase name="US-E1-06 &quot;club soda&quot; becomes a counted Soda Water chip" classname="input.spec.ts" time="0.969">
+</testcase>
+<testcase name="US-E1-06 &quot;sparkling water&quot; becomes a counted Soda Water chip" classname="input.spec.ts" time="1.062">
+</testcase>
+<testcase name="US-E1-06 &quot;seltzer&quot; becomes a counted Soda Water chip" classname="input.spec.ts" time="1.167">
+</testcase>
+<testcase name="US-E1-07 synonym duplicates collapse into one chip" classname="input.spec.ts" time="2.02">
+</testcase>
+<testcase name="US-E1-02 Backspace arms then removes the last chip" classname="input.spec.ts" time="1.126">
+</testcase>
+<testcase name="autocomplete: arrow keys and Enter pick a suggestion" classname="input.spec.ts" time="0.953">
+</testcase>
+<testcase name="US-E2-02 typo shows &quot;Did you mean&quot; and the suggestion replaces the chip in place" classname="input.spec.ts" time="1.291">
+</testcase>
+<testcase name="US-E2-04 unparseable input gets a friendly message and can be edited" classname="input.spec.ts" time="1.047">
+</testcase>
+<testcase name="US-E2-04 markup is shown as inert text" classname="input.spec.ts" time="1.121">
+</testcase>
+<testcase name="US-E2-03 ambiguous term: chooser opens, Esc keeps it pending, picking resolves it" classname="input.spec.ts" time="1.058">
+</testcase>
+<testcase name="Clear all removes every chip" classname="input.spec.ts" time="1.107">
+</testcase>
+</testsuite>
+<testsuite name="journey.spec.ts" timestamp="2026-10-24T02:59:09.978Z" tests="9" failures="0" skipped="0" time="15.055" errors="0">
+<testcase name="landing page renders with search disabled" classname="journey.spec.ts" time="0.515">
+</testcase>
+<testcase name="US-E3-02 five ingredients: Mojito first, Daiquiri included, URL updated" classname="journey.spec.ts" time="1.196">
+</testcase>
+<testcase name="US-E4-03 cards show name, short description, taste profile and highlighted ingredients" classname="journey.spec.ts" time="1.165">
+</testcase>
+<testcase name="US-E5 detail dialog: scaling in ml, assumed ice, Esc closes and returns focus" classname="journey.spec.ts" time="2.114">
+</testcase>
+<testcase name="US-E5-01 activating a card opens the full recipe: amounts, optional and assumed rows, method, glass, garnish, history, taste, sources" classname="journey.spec.ts" time="2.322">
+</testcase>
+<testcase name="US-E5-03 close button and backdrop close the dialog" classname="journey.spec.ts" time="2.296">
+</testcase>
+<testcase name="US-NF-04 reloading the URL restores results; back button restores the previous search" classname="journey.spec.ts" time="2.437">
+</testcase>
+<testcase name="stale results: changing chips after a search offers &quot;Update results&quot;" classname="journey.spec.ts" time="1.869">
+</testcase>
+<testcase name="theme toggle switches between light and dark" classname="journey.spec.ts" time="1.141">
+</testcase>
+</testsuite>
+<testsuite name="offline.spec.ts" timestamp="2026-10-24T02:59:09.978Z" tests="1" failures="0" skipped="0" time="2.365" errors="0">
+<testcase name="US-NF-01 after the first load, search and the detail view work offline with no network requests" classname="offline.spec.ts" time="2.365">
+</testcase>
+</testsuite>
+</testsuites>

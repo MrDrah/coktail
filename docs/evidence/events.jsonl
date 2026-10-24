@@ -1,0 +1,6 @@
+{"v":1,"at":"2026-10-24T03:00:00.277Z","type":"approval","summary":"Product owner confirmed the MVP milestone: deployed and passed","by":"product-owner","milestone":"mvp"}
+{"v":1,"at":"2026-10-24T03:00:00.384Z","type":"manual-implementation","summary":"Product owner enabled GitHub Pages (source: GitHub Actions) after the repo move; deploys had failed","by":"product-owner"}
+{"v":1,"at":"2026-10-24T03:01:02.368Z","by":"orchestrator","type":"task-start","task":"metrics-mvp","summary":"Task metrics-mvp dispatched (1 allowed globs)"}
+{"v":1,"at":"2026-10-24T03:02:24.346Z","by":"orchestrator","type":"task-end","task":"metrics-mvp","outcome":"success","summary":"diff-guard: 0 changed files, all allowed"}
+{"v":1,"at":"2026-10-24T03:02:44.611Z","type":"technical-correction","summary":"Metrics findings had the unit and e2e result files swapped in one bullet; corrected before freeze","by":"orchestrator","task":"metrics-mvp"}
+{"v":1,"at":"2026-10-24T03:05:28.912Z","type":"milestone","milestone":"mvp","by":"metrics","summary":"Evidence package mvp frozen (PASS)"}
