@@ -23,7 +23,7 @@
   },
   "stages": {
     "dev": ["preflight", "secrets", "commands", "budget"],
-    "release": ["preflight", "docs", "trace", "secrets", "commands", "budget", "overlap"]
+    "release": ["preflight", "docs", "trace", "secrets", "commands", "budget", "overlap", "evidence"]
   },
   "budgets": [
     { "name": "JS bundle", "glob": "dist/assets/*.js", "maxGzipKb": 400 },
@@ -31,5 +31,21 @@
   ],
   "secrets": { "exclude": ["package-lock.json", "**/*.lock", "**/*.min.js"] },
   "overlap": null,
-  "preflight": { "nodeMajor": 20, "requireRemote": true, "optional": ["gh", "playwright"] }
+  "preflight": { "nodeMajor": 20, "requireRemote": true, "optional": ["gh", "playwright"] },
+  "evidence": {
+    "$comment": "Milestone evidence packages (milestone-evidence skill). Milestone ids are yours to choose; liveUrl and smokeMarker enable the live check.",
+    "project": { "id": "{{PROJECT_ID}}", "name": "{{PROJECT_NAME}}", "repository": null },
+    "milestones": [
+      { "id": "mvp", "label": "MVP" },
+      { "id": "beta-0.5", "label": "Beta 0.5" },
+      { "id": "release-1.0", "label": "Version 1.0" }
+    ],
+    "events": "docs/evidence/events.jsonl",
+    "testResults": ["reports/junit*.xml"],
+    "testCommand": "npx vitest run --coverage --reporter=default --reporter=junit --outputFile.junit=reports/junit.xml",
+    "coverageSummary": "coverage/coverage-summary.json",
+    "billingModel": "unknown",
+    "liveUrl": null,
+    "smokeMarker": null
+  }
 }

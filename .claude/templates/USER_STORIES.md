@@ -2,6 +2,8 @@
 
 Owner: BA · {{DATE}} · Rules: `docs/PLAN.md` §3 · QA traces tests to these IDs (`validate.mjs trace`).
 
+Acceptance criteria are numbered per story: `Scenario: AC1 …` has the full ID `US-E1-01/AC1`. Tests name the full AC ID; milestone evidence counts an AC as verified only when an executed test that names it passed.
+
 Priority: **M**ust / **S**hould / **C**ould / **W**on't (MoSCoW) · Size: S / M / L
 
 ## E1 <Area>
@@ -10,12 +12,12 @@ Priority: **M**ust / **S**hould / **C**ould / **W**on't (MoSCoW) · Size: S / M 
 As a <user> I want <capability> so that <benefit>.
 
 ```gherkin
-Scenario: <happy path>
+Scenario: AC1 <happy path>
   Given <state>
   When <action>
   Then <observable result>
 
-Scenario: <boundary or error>
+Scenario: AC2 <boundary or error>
   Given <state>
   When <action>
   Then <observable result>
@@ -27,13 +29,13 @@ Scenario: <boundary or error>
 As a visitor I want to create an account so that my <saved things> are available on any device.
 
 ```gherkin
-Scenario: Sign up with a magic link
+Scenario: AC1 Sign up with a magic link
   Given I am signed out
   When I enter my email and confirm the link sent to it
   Then I am signed in
   And anything I saved while signed out is offered for import
 
-Scenario: Another user's data is never visible
+Scenario: AC2 Another user's data is never visible
   Given user A has saved items
   When user B is signed in
   Then none of user A's items are listed, readable or editable

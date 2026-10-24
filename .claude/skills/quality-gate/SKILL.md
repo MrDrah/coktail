@@ -21,10 +21,11 @@ node .claude/skills/quality-gate/scripts/validate.mjs <command> [options]
 | `secrets` | regex scan of tracked + untracked files; `.env` files present in git | a likely secret or a non-example `.env` file |
 | `overlap` | each record vs the cached text of its cited sources: **PASS / FAIL / UNVERIFIED** | a copied run ≥ `failAt` words without a documented exception (FAIL); a record with no source URL or no cached source text (UNVERIFIED); an exception without reason/reviewer |
 | `overlap --accept …` | records **one** reviewed exception | the run isn't currently flagged; reason or reviewer missing |
-| `task-start <task> --allow <glob>…` | records the baseline commit and allowed files before an agent starts | — |
-| `diff-guard --task <task>` | every file changed since the baseline (committed **or** uncommitted, plus untracked) matches the allow-list | a file outside the allow-list changed; no baseline given |
+| `task-start <task> --allow <glob>…` | records the baseline commit and allowed files before an agent starts; logs a `task-start` event if the project keeps an event log | — |
+| `diff-guard --task <task>` | every file changed since the baseline (committed **or** uncommitted, plus untracked) matches the allow-list; logs a `task-end` event | a file outside the allow-list changed; no baseline given |
+| `evidence` | every package in `engineering-evidence/` (`milestone-evidence` skill): schema, arithmetic, references, privacy, frozen hashes | a package is invalid, or a frozen package changed |
 | `gate --stage dev` | preflight + secrets + commands + budget | any of them fails |
-| `gate --stage release` (default) | dev + docs + trace + overlap (if configured) | any of them fails |
+| `gate --stage release` (default) | dev + docs + trace + overlap (if configured) + evidence (whenever `engineering-evidence/` exists, even if `stages` doesn't list it) | any of them fails |
 
 Exit code 0 = pass, 1 = fail or unverified, 2 = misconfiguration. CI runs `gate --stage release`.
 

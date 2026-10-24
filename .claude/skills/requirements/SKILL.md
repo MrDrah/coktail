@@ -17,10 +17,10 @@ In `docs/PLAN.md` §1 keep **MVP / v1 / Later**. When something is pushed out of
 ## 3. User stories (`docs/ba/user-stories.md`, template `templates/USER_STORIES.md`)
 - One epic per area (`E1 Input`, `E2 Errors`, … `E7 Accounts` in v1).
 - ID `US-E<epic>-<nn>`, MoSCoW priority, size (S/M/L).
-- *As a … I want … so that …* then ACs in Gherkin:
+- *As a … I want … so that …* then ACs in Gherkin. Number each scenario `AC1`, `AC2`… within its story; its full ID is `US-E1-01/AC1`. Never renumber an AC once tests name it (retire it and add a new number instead).
 
 ```gherkin
-Scenario: Subset match returns a smaller recipe
+Scenario: AC1 Subset match returns a smaller recipe
   Given the user has entered "White Rum", "Lime Juice", "Simple Syrup", "Mint", "Soda Water"
   When the user submits the search
   Then "Daiquiri" appears in the results
@@ -30,6 +30,7 @@ Scenario: Subset match returns a smaller recipe
 - Always cover: happy path, every boundary (min, max, max+1), invalid and hostile input, empty state, fallback state, and what happens on reload/back.
 - Non-functional stories get IDs too (`US-NF-01` performance, `US-NF-02` accessibility…) so they are traced like the rest.
 - QA names tests after story IDs. `validate.mjs trace` fails the gate if a story has no test.
+- Milestone evidence counts **acceptance criteria**: an AC is verified only when an executed test names its full ID (`it('US-E1-01/AC2 rejects an empty list', …)`). A test that names only the story verifies no AC. Stories without AC numbers are counted as one criterion each, and the package says so.
 
 ## 4. Data contract (`docs/ba/data-contract.md`, template `templates/DATA_CONTRACT.md`)
 - For every field: type, required, allowed values, validation rule, example.

@@ -9,6 +9,7 @@
 //
 // Rules:
 //   Edit/Write/MultiEdit/NotebookEdit  - paths listed under "generated" in quality-gate.json
+//                                      - frozen evidence packages and engineering-evidence/index.json
 //                                      - .env files (except .env.example)
 //   Bash                               - git push --force/-f/--force-with-lease, any --no-verify,
 //                                        git config --global
@@ -50,12 +51,26 @@ const rel = (p) => {
   return r;
 };
 let generated = [];
+let evidenceDir = 'engineering-evidence';
 const cfgPath = join(root, 'quality-gate.json');
 if (existsSync(cfgPath)) {
-  try { generated = (JSON.parse(readFileSync(cfgPath, 'utf8')).generated ?? []).map((g) => (typeof g === 'string' ? { path: g } : g)); } catch { /* the gate reports a bad config */ }
+  try {
+    const cfg = JSON.parse(readFileSync(cfgPath, 'utf8'));
+    generated = (cfg.generated ?? []).map((g) => (typeof g === 'string' ? { path: g } : g));
+    evidenceDir = cfg.evidence?.dir ?? evidenceDir;
+  } catch { /* the gate reports a bad config */ }
+}
+// Frozen evidence packages and their index are written only by evidence.mjs, never edited.
+const frozenMsg = 'is part of a frozen evidence package. Frozen packages are never edited; publish a correction with "evidence.mjs collect --milestone <id> --revise --reason …".';
+const indexPath = join(root, evidenceDir, 'index.json');
+if (existsSync(indexPath)) {
+  try {
+    generated.push({ path: `${evidenceDir}/index.json`, msg: 'is written by "evidence.mjs freeze" only.' });
+    for (const p of JSON.parse(readFileSync(indexPath, 'utf8')).packages ?? []) generated.push({ path: `${evidenceDir}/${p.path}/**`, msg: frozenMsg });
+  } catch { /* evidence.mjs validate reports a bad index */ }
 }
 const generatedHit = (r) => generated.find((g) => globToRegExp(g.path).test(r));
-const generatedMsg = (r, g) => `${r} is generated${g.from ? ` from ${g.from}` : ''}. Edit the source and run ${g.by ?? 'its generator'} instead.`;
+const generatedMsg = (r, g) => (g.msg ? `${r} ${g.msg}` : `${r} is generated${g.from ? ` from ${g.from}` : ''}. Edit the source and run ${g.by ?? 'its generator'} instead.`);
 
 if (['Edit', 'Write', 'MultiEdit', 'NotebookEdit'].includes(tool)) {
   const abs = input.file_path ?? input.notebook_path;
